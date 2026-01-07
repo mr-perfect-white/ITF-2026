@@ -1,0 +1,104 @@
+/*
+-------------------------------------------------------------------
+  Theme Name   : Agron
+  Author       : ModinaTheme
+  Author URI   : https://themeforest.net/user/modinatheme/
+  Description  : Agron - Agriculture & Organic Farm HTML Template
+  Version      : 1.0.0
+-------------------------------------------------------------------
+*/
+
+/* ----------------------------------------------------------------
+[Table of Contents]
+
+01. Basic
+    01.1 Mixins
+    01.2 Variables
+    01.3 Buttons
+    01.4 Typography
+
+02. Template Sections
+    02.1 Preloader
+    02.2 Section
+    02.3 Animation
+    02.4 Header
+    02.5 MeanMenu
+    02.6 Hero
+    02.7 Feature
+    02.8 About
+    02.9 Service
+    02.10 Shop
+    02.11 Project
+    02.12 Helping
+    02.13 Team
+    02.14 FAQ
+    02.15 CTA
+    02.16 Testimonial
+    02.17 Brand
+    02.18 News Addons
+    02.19 Blog
+    02.20 Contact
+    02.21 Footer
+
+------------------------------------------------------------------- */
+
+/* --------------------------------------------------------------
+   01. Basic
+-------------------------------------------------------------- */
+
+// 01.1 Mixins
+@import "_mixins";
+// 01.2 Variables	
+@import "_variables";
+// 01.3 Buttons
+@import "_buttons";
+// 01.4 Typography
+@import "_typography";
+
+
+/* --------------------------------------------------------------
+   02. Template Sections
+-------------------------------------------------------------- */
+
+// 02.1 Preloader
+@import "_preloader";
+// 02.2 Section 
+@import "_section";
+// 02.3 Animation
+@import "_animation";
+// 02.4 Header
+@import "_header";
+// 02.5 MeanMenu
+@import "_meanmenu";
+// 02.6 Hero
+@import "_hero";
+// 02.7 Feature
+@import "_feature";
+// 02.8 About
+@import "_about";
+// 02.9 Service
+@import "_service";
+// 02.10 Shop
+@import "_shop";
+// 02.11 Project
+@import "_project";
+// 02.12 Helping
+@import "_helping";
+// 02.13 Team
+@import "_team";
+// 02.14 FAQ
+@import "_faq";
+// 02.15 CTA
+@import "_cta";
+// 02.16 Testimonial
+@import "_testimonial";
+// 02.17 Brand
+@import "_brand";
+// 02.18 News Addons
+@import "_news-addons";
+// 02.19 Blog 
+@import "_blog";
+// 02.20 Contact
+@import "_contact";
+// 02.21 Footer
+@import "_footer";

@@ -1,0 +1,74 @@
+//>>>>> Component Button Here <<<<<//
+.theme-btn {
+    font-size: 16px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    font-weight: 800;
+    text-transform: capitalize;
+    height: 58px;
+    line-height: 58px;
+    background-color: $theme-color;
+    overflow: hidden;
+    display: inline-block;
+    padding: 0 40px;
+    color: $white;
+    border-radius: 82px;
+
+
+    @include breakpoint (max-sm){
+      font-size: 14px;
+      padding: 0 25px;
+      height: 52px;
+      line-height: 52px;
+    }
+
+    &::before {
+        content: "";
+        position: absolute;
+        width: 0;
+        top: -10px;
+        height: 0;
+        background-color: $theme-color-2;
+        border-radius: 50%;
+        transform: translate(-50%, -50%);
+        transition: all 0.8s ease;
+        z-index: -1;
+    }
+
+    i {
+      margin-left: 5px;
+      transform: rotate(-45deg);
+    }
+
+    &:hover {
+        color: $header-color;
+
+        &::before {
+          width: 800px;
+          height: 800px;
+          display: inline-block;
+        }
+    }
+}
+
+//>>>>> Component Button End <<<<<//
+
+.link-btn {
+    font-size: 15px;
+    font-weight: 900;
+    color: $theme-color;
+    text-transform: capitalize;
+    display: inline-block;
+    font-family: "DM Sans";
+    margin-top: 10px;
+
+    &:hover {
+        color: $theme-color-2;
+    }
+
+    i {
+        margin-left: 10px;
+    }
+}
+//>>>>> Component Button End <<<<<//

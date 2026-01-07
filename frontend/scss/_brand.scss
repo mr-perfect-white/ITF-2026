@@ -1,0 +1,32 @@
+.brand-section {
+    .top-text {
+        margin-bottom: 50px;
+
+        p {
+            font-size: 20px;
+            font-weight: 500;
+        }
+    }
+}
+
+.brand-section-3 {
+    margin: 0 48px;
+
+     @include breakpoint (max-xxxl){
+        margin: 0 40px;
+    }
+
+    @include breakpoint (max-xxl){
+        margin: 0 30px;
+    }
+
+     @include breakpoint (max-xl){
+        margin: 0 20px;
+    }
+}
+
+.brand-section-3 {
+    .video-wrapper-3 {
+        height: 220px;
+    }
+}

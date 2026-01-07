@@ -1,0 +1,1037 @@
+.hero-1 {
+    position: relative;
+    margin: 0 20px;
+    border-radius: 33px;
+    margin-top: 20px;
+
+    @include breakpoint (max-md){
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .banner-active {
+        border-radius: 20px;
+    }
+
+    .array-button {
+        display: flex;
+        align-items: center;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 50px;
+        left: 50px;
+        z-index: 99;
+        position: absolute;
+        gap: 12px;
+        justify-content: space-between;
+
+        .array-prev, .array-next {
+           background-color: transparent !important;
+
+            svg path {
+                @include transition;
+            }
+
+            &:hover {
+              svg path {
+                fill: $theme-color-2;
+              }
+            }
+        }
+
+        @include breakpoint (max-xxl){
+            display: none;
+        }
+    }
+    
+    .swiper-slide.swiper-slide-active .hero-content {
+        opacity: 1;
+        transform: translatey(0px);
+        transition: all 2500ms ease;
+    }
+    .swiper-slide.swiper-slide-active .hero-button {
+        opacity: 1;
+        transform: translatey(0px);
+        transition: all 2500ms ease;
+    }
+
+    .hero-height {
+        padding: 180px 0 150px;
+        border-radius: 20px;
+
+        @include breakpoint (max-md){
+            padding: 150px 0 140px;
+        }
+    }
+
+
+    .hero-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: opacity 1500ms ease-in, -webkit-transform 7000ms ease;
+        transition: opacity 1500ms ease-in, -webkit-transform 7000ms ease;
+        transition: transform 9000ms ease, opacity 1500ms ease-in;
+        transition: transform 9000ms ease, opacity 1500ms ease-in, -webkit-transform 9000ms ease;
+        border-radius: 20px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+
+
+    .hero-content {
+        position: relative;
+        opacity: 0;
+        z-index: 3;
+        position: relative;
+        transform: translateY(-150px);
+        text-align: center;
+
+        span {
+            color: $white;
+            font-size: 20px;
+            font-weight: 600;
+
+            @include breakpoint (max-md){
+                font-size: 18px;
+            }
+
+             @include breakpoint (max-sm){
+                font-size: 16px;
+            }
+            
+            img {
+                margin-right: 10px;
+            }
+        }
+
+
+        h1 {
+            color: $white;
+            text-transform: uppercase;
+            margin-top: 20px;
+            font-size: 200px;
+            font-weight: 900;
+
+            @include breakpoint (max-xl){
+                font-size: 160px;
+                margin-bottom: 0;
+            }
+
+            @include breakpoint (max-lg){
+                font-size: 140px;
+            }
+
+             @include breakpoint (max-md){
+                font-size: 110px;
+            }
+
+            @include breakpoint (max-sm){
+                font-size: 80px;
+            }
+
+            @include breakpoint (max-xxs){
+                font-size: 65px;
+            }
+        }
+
+        h2 {
+            font-size: 100px;
+            font-weight: 800;
+            color: $white;
+
+            @include breakpoint (max-xl){
+                font-size: 80px;
+            }
+
+            @include breakpoint (max-lg){
+                font-size: 70px;
+            }
+
+            @include breakpoint (max-md){
+                font-size: 60px;
+            }
+
+            @include breakpoint (max-sm){
+                font-size: 50px;
+            }
+
+            @include breakpoint (max-xxs){
+                font-size: 40px;
+            }
+        }
+       
+    }
+
+    .hero-button {
+        margin-top: 48px;
+        transform: translateY(150px);
+        opacity: 0;
+        position: relative;
+        z-index: 9;
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+
+        @include breakpoint (max-xl){
+            flex-wrap: wrap;
+        }
+
+        @include breakpoint (max-md){
+            margin-top: 30px;
+        }
+
+        .theme-btn {
+            background-color: $theme-color-2;
+            color: $theme-color;
+            @include transition;
+
+            &::before {
+                background-color: $theme-color;
+            }
+
+            &:hover {
+                color: $white
+            }
+            
+            &.style-2 {
+                background: rgba(255, 255, 255, 0.26);
+                border: 1px solid $white;
+                color: $white;
+                @include transition;
+
+                i {
+                    color: $white;
+                }
+
+                &::before {
+                    background-color: $theme-color;
+                }
+
+                &:hover {
+                    color: $white;
+                    border: 1px solid $theme-color;
+
+                    i {
+                        color: $white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.hero-2 {
+    position: relative;
+
+    .container {
+        max-width: 1470px;
+    }
+
+    .shape1 {
+        position: absolute;
+        bottom: 0;
+        left: 93px;
+        z-index: 100;
+
+        @include breakpoint (max-xxl){
+            display: none;
+        }
+    }
+
+    .shape2 {
+        position: absolute;
+        bottom: 0;
+        left: 58%;
+        z-index: 100;
+
+         @include breakpoint (max-xxl){
+            display: none;
+        }
+    }
+
+    .shape3 {
+        position: absolute;
+        bottom: 60px;
+        right: 10%;
+        z-index: 100;
+
+         @include breakpoint (max-xxl){
+            display: none;
+        }
+    }
+
+    .pxl-divider-item {
+        position: absolute;
+        bottom: -32px;
+        left: 0;
+        right: 0;
+        z-index: 99;
+        color: #fff;
+
+        @include breakpoint (max-xl){
+            display: none;
+        }
+    }
+
+    .array-button {
+        display: grid;
+        align-items: center;
+        top: 45%;
+        transform: translateY(-50%);
+        right: 50px;
+        z-index: 99;
+        position: absolute;
+        gap: 12px;
+
+        .array-prev, .array-next {
+            width: 60px;
+            height: 60px;
+            line-height: 60px;
+            text-align: center;
+            border-radius: 50%;
+            color: $header-color;
+            background-color: $theme-color-2;
+            @include transition;
+
+            &:hover {
+                background-color: $theme-color;
+                color: $white;
+            }
+        }
+
+        @include breakpoint (max-xl){
+            display: none;
+        }
+    }
+
+    .swiper-slide.swiper-slide-active .hero-bg {
+        -webkit-transform: scale(1.35);
+        transform: scale(1.35);
+        border-radius: 20px;
+    }
+    
+    .swiper-slide.swiper-slide-active .hero-content {
+        opacity: 1;
+        transform: translatey(0px);
+        transition: all 2500ms ease;
+    }
+    .swiper-slide.swiper-slide-active .hero-button {
+        opacity: 1;
+        transform: translatey(0px);
+        transition: all 2500ms ease;
+    }
+
+    .hero-height {
+        padding: 280px 0 300px;
+        border-radius: 20px;
+
+        @include breakpoint (max-xl){
+            padding: 220px 0 150px;
+        }
+
+        @include breakpoint (max-md){
+            padding: 180px 0 130px;
+        }
+    }
+
+
+    .hero-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: opacity 1500ms ease-in, -webkit-transform 7000ms ease;
+        transition: opacity 1500ms ease-in, -webkit-transform 7000ms ease;
+        transition: transform 9000ms ease, opacity 1500ms ease-in;
+        transition: transform 9000ms ease, opacity 1500ms ease-in, -webkit-transform 9000ms ease;
+    }
+
+
+    .hero-content {
+        position: relative;
+        opacity: 0;
+        z-index: 3;
+        position: relative;
+        transform: translateY(-150px);
+        max-width: 769px;
+
+        @include breakpoint (max-sm){
+            text-align: center;
+        }
+
+
+        h1 {
+            color: $white;
+            text-transform: uppercase;
+            margin-top: 20px;
+            font-size: 100px;
+            font-weight: 800;
+
+            @include breakpoint (max-xl){
+                font-size: 82px;
+            }
+
+             @include breakpoint (max-lg){
+                font-size: 75px;
+            }
+
+             @include breakpoint (max-md){
+                font-size: 68px;
+            }
+
+             @include breakpoint (max-sm){
+                font-size: 55px;
+            }
+
+            @include breakpoint (max-xxs){
+                font-size: 45px;
+            }
+        }
+    }
+
+    .hero-button {
+        margin-top: 48px;
+        transform: translateY(150px);
+        opacity: 0;
+        position: relative;
+        z-index: 9;
+
+        @include breakpoint (max-sm){
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .theme-btn {
+            background-color: $theme-color-2;
+            color: $theme-color;
+            @include transition;
+
+            &::before {
+                background-color: $theme-color;
+            }
+
+            &:hover {
+                color: $white
+            }
+        }
+    }
+}
+
+.hero-3 {
+    padding: 160px 0 0;
+    position: relative;
+    z-index: 9;
+    border-radius: 28px;
+    margin: 0 48px;
+    overflow: hidden;
+
+     @include breakpoint (max-xxxl){
+        margin: 0 40px;
+    }
+
+    @include breakpoint (max-xxl){
+        margin: 0 30px;
+        padding-top: 250px;
+    }
+
+    @include breakpoint (max-xl){
+        margin: 0 20px;
+        padding-top: 180px;
+    }
+
+    @include breakpoint (max-lg){
+        padding-top: 150px;
+    }
+
+    @include breakpoint (max-sm){
+        margin: 0;
+    }
+
+    .hero-line {
+        position: absolute;
+        bottom: -4px;
+        left: 0;
+        right: 0;
+    }
+
+    .hero-shape {
+        position: absolute;
+        bottom: 41%;
+        left: 50%;
+
+         @include breakpoint (max-xl){
+            display: none;
+        }
+    }
+
+    .hero-shape2 {
+        position: absolute;
+        bottom: 20%;
+        left: 41%;
+
+         @include breakpoint (max-xl){
+            display: none;
+        }
+    }
+
+    &::before {
+        @include before;
+        z-index: -1;
+        background: linear-gradient(87.45deg, rgba(5, 29, 1, 0.81) 2.51%, rgba(5, 29, 1, 0.53) 73.44%);
+        border-radius: 28px;
+    }
+
+    .container {
+        max-width: 1665px;
+    }
+
+    .hero-content {
+        @include breakpoint (max-xxl){
+            margin-top: -180px;
+        }
+         @include breakpoint (max-lg){
+           text-align: center;
+           margin-top: 0;
+        }
+
+        h1 {
+            font-weight: 900;
+            color: $white;
+            font-size: 104px;
+           line-height: 97%;
+
+           @include breakpoint (max-xxl){
+            font-size: 80px;
+           }
+
+           @include breakpoint (max-xl){
+                font-size: 62px;
+                line-height: 105%;
+           }
+
+            @include breakpoint (max-lg){
+                font-size: 75px;
+                line-height: 115%;
+           }
+
+           @include breakpoint (max-md){
+                font-size: 60px;
+           }
+
+            @include breakpoint (max-sm){
+                font-size: 45px;
+           }
+        }
+
+        p {
+            color: $white;
+            font-weight: 600;
+            font-size: 20px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.29);
+            padding-bottom: 30px;
+            margin-top: 10px;
+
+             @include breakpoint (max-xl){
+                font-size: 16px;
+                font-weight: 500;
+           }
+        }
+
+        .hero-button {
+            @include flex;
+            margin-top: 40px;
+            gap: 20px;
+
+            @include breakpoint (max-lg){
+                margin-top: 30px;
+                justify-content: center;
+                flex-wrap: wrap;
+           }
+
+            .theme-btn {
+                border: 1px solid transparent;
+
+                &.style-2 {
+                    background-color: transparent;
+                    border: 1px solid $white;
+
+                    &:hover {
+                        border: 1px solid $theme-color-2;
+                    }
+                }
+            }
+        }
+    }
+
+    .hero-image {
+        margin-left: -55px;
+
+        @include breakpoint (max-xxxl){
+            margin-left: -180px;
+        }
+
+        @include breakpoint (max-xxl){
+            margin-left: 0;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.hero-4 {
+    position: relative;
+    z-index: 9;
+
+    .shape-1 {
+        position: absolute;
+        z-index: 999;
+        bottom: 13%;
+        right: 19%;
+
+        @include breakpoint (max-xxxl){
+            display: none;
+        }
+    }
+
+    .shape-2 {
+        position: absolute;
+        z-index: 999;
+        top: 22%;
+        left: 5%;
+
+        @include breakpoint (max-xxxl){
+            display: none;
+        }
+    }
+
+    .array-button {
+        display: grid;
+        align-items: center;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 50px;
+        z-index: 99;
+        position: absolute;
+        gap: 12px;
+
+        .array-prev, .array-next {
+            width: 60px;
+            height: 60px;
+            line-height: 60px;
+            text-align: center;
+            border-radius: 50%;
+            color: $header-color;
+            background-color: rgba(255, 255, 255, 1);
+            @include transition;
+
+            &:hover {
+                background-color: $theme-color-2;
+                color: $header-color;
+            }
+        }
+
+        @include breakpoint (max-xl){
+            display: none;
+        }
+    }
+
+    .swiper-slide.swiper-slide-active .hero-bg {
+        -webkit-transform: scale(1.35);
+        transform: scale(1.35);
+        border-radius: 20px;
+    }
+    
+    .swiper-slide.swiper-slide-active .hero-content {
+        opacity: 1;
+        transform: translatey(0px);
+        transition: all 2500ms ease;
+    }
+    .swiper-slide.swiper-slide-active .hero-button {
+        opacity: 1;
+        transform: translatey(0px);
+        transition: all 2500ms ease;
+    }
+
+    .hero-height {
+        padding: 180px 0 350px;
+        border-radius: 20px;
+
+        @include breakpoint (max-xl){
+            padding: 140px 0 320px;
+        }
+
+        @include breakpoint (max-md){
+            padding: 120px 0 300px;
+        }
+    }
+
+
+    .hero-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: opacity 1500ms ease-in, -webkit-transform 7000ms ease;
+        transition: opacity 1500ms ease-in, -webkit-transform 7000ms ease;
+        transition: transform 9000ms ease, opacity 1500ms ease-in;
+        transition: transform 9000ms ease, opacity 1500ms ease-in, -webkit-transform 9000ms ease;
+
+
+        &::before {
+            @include before;
+            z-index: -1;
+            background: linear-gradient(85.96deg, rgba(10, 40, 3, 0.53) 28.3%, rgba(10, 40, 3, 0) 97.75%);
+        }
+    }
+
+
+    .hero-content {
+        position: relative;
+        opacity: 0;
+        z-index: 3;
+        position: relative;
+        transform: translateY(-150px);
+        max-width: 618px;
+
+        @include breakpoint (max-sm){
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        h1 {
+            color: $white;
+            font-size: 104px;
+            font-weight: 900;
+
+             @include breakpoint (max-xxl){
+            font-size: 80px;
+           }
+
+           @include breakpoint (max-xl){
+                font-size: 62px;
+                line-height: 105%;
+           }
+
+            @include breakpoint (max-lg){
+                font-size: 75px;
+                line-height: 115%;
+           }
+
+           @include breakpoint (max-md){
+                font-size: 60px;
+           }
+
+            @include breakpoint (max-sm){
+                font-size: 45px;
+           }
+        }
+
+        p {
+            font-size: 20px;
+            font-weight: 600;
+            color: $white;
+            margin-top: 10px;
+
+            @include breakpoint (max-xl){
+                font-size: 18px;
+            }
+
+            @include breakpoint (max-lg){
+                font-size: 17px;
+            }
+
+             @include breakpoint (max-md){
+                font-size: 16px;
+            }
+        }
+       
+    }
+
+    .hero-button {
+        margin-top: 48px;
+        transform: translateY(150px);
+       opacity: 0;
+        position: relative;
+        z-index: 9;
+        display: flex;
+        gap: 20px;
+
+        @include breakpoint (max-xl){
+           flex-wrap: wrap;
+        }
+
+         @include breakpoint (max-md){
+            margin-top: 30px;
+        }
+
+        @include breakpoint (max-sm){
+           justify-content: center;
+        }
+
+        .theme-btn {
+            background-color: $theme-color-2;
+            color: $theme-color;
+            @include transition;
+
+            &::before {
+                background-color: $theme-color;
+            }
+
+            &:hover {
+                color: $white
+            }
+            
+            &.style-2 {
+               background-color: transparent;
+                border: 1px solid $white;
+                color: $white;
+                @include transition;
+
+                i {
+                    color: $white;
+                }
+
+                &::before {
+                    background-color: $theme-color;
+                }
+
+                &:hover {
+                    color: $white;
+                    border: 1px solid $theme-color;
+
+                    i {
+                        color: $white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.hero-5 {
+    position: relative;
+    margin: 0 45px;
+    border-radius: 8px;
+    margin-top: 0;
+
+    .swiper-dot2 {
+        position: absolute;
+        bottom: 70px;
+        right: 70px;
+        z-index: 99;
+        @include breakpoint (max-xl){
+            display: none;
+        }
+        .swiper-pagination-bullet {
+            width: 10px;
+            height: 10px;
+            transition: 0.6s;
+            background-color: #fff;
+            opacity: 1;
+            border-radius: 10px;
+            &:not(:last-child){
+            margin-right: 5px;
+            }
+        }
+        .swiper-pagination-bullet.swiper-pagination-bullet-active {
+            background-color: $theme-color-2;
+            transition: 0.6s;
+            position: relative;
+        }
+
+    }
+
+    @include breakpoint (max-xxxl){
+        margin: 0 35px;
+    }
+
+     @include breakpoint (max-xxl){
+        margin: 0 30px;
+    }
+
+     @include breakpoint (max-xl){
+        margin: 0 20px;
+    }
+
+     @include breakpoint (max-sm){
+        margin: 0 0;
+    }
+    
+    .banner-active {
+        border-radius: 8px;
+    }
+
+    .swiper-slide.swiper-slide-active .hero-bg {
+        -webkit-transform: scale(1.35);
+        transform: scale(1.35);
+        border-radius: 20px;
+    }
+    
+    .swiper-slide.swiper-slide-active .hero-content {
+        opacity: 1;
+        transform: translatey(0px);
+        transition: all 2500ms ease;
+    }
+    .swiper-slide.swiper-slide-active .hero-button {
+        opacity: 1;
+        transform: translatey(0px);
+        transition: all 2500ms ease;
+    }
+
+    .hero-height {
+        padding: 260px 0 120px;
+        border-radius: 8px;
+
+        @include breakpoint (max-md){
+            padding: 150px 0 110px;
+        }
+    }
+
+
+    .hero-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: opacity 1500ms ease-in, -webkit-transform 7000ms ease;
+        transition: opacity 1500ms ease-in, -webkit-transform 7000ms ease;
+        transition: transform 9000ms ease, opacity 1500ms ease-in;
+        transition: transform 9000ms ease, opacity 1500ms ease-in, -webkit-transform 9000ms ease;
+        border-radius: 20px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+
+        &::before {
+            @include before;
+             background-color: #00000052;
+        }
+    }
+
+    .container {
+        max-width: 1590px;
+    }
+
+
+    .hero-content {
+        position: relative;
+        opacity: 0;
+        z-index: 99;
+        position: relative;
+        transform: translateY(-150px);
+        
+         @include breakpoint (max-sm){
+           text-align: center;
+        }
+
+        span {
+            color: $white;
+            font-size: 20px;
+            font-weight: 600;
+
+            @include breakpoint (max-lg){
+                font-size: 18px;
+            }
+
+             @include breakpoint (max-sm){
+                font-size: 16px;
+            }
+            
+            i{
+                margin-right: 10px;
+                color: #EDDD5E;
+            }
+        }
+
+
+        h1 {
+            color: $white;
+            text-transform: uppercase;
+            margin-top: 20px;
+            font-size: 134px;
+            font-weight: 900;
+            max-width: 724px;
+
+            @include breakpoint (max-xxl){
+               font-size: 110px;
+            }
+
+             @include breakpoint (max-xl){
+               font-size: 100px;
+            }
+
+            @include breakpoint (max-lg){
+               font-size: 88px;
+            }
+
+            @include breakpoint (max-md){
+               font-size: 72px;
+            }
+
+            @include breakpoint (max-sm){
+               font-size: 68px;
+            }
+
+             @include breakpoint (max-xxs){
+               font-size: 55px;
+            }
+        }
+    }
+
+    .hero-button {
+        margin-top: 48px;
+        transform: translateY(150px);
+        opacity: 0;
+        position: relative;
+        z-index: 99;
+        display: flex;
+        gap: 20px;
+
+         @include breakpoint (max-sm){
+           text-align: center;
+           justify-content: center;
+        }
+
+        .theme-btn {
+            background-color: $theme-color-2;
+            color: $theme-color;
+            @include transition;
+
+            &::before {
+                background-color: $theme-color;
+            }
+
+            &:hover {
+                color: $white
+            }
+        }
+    }
+}
+

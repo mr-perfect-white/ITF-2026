@@ -1,0 +1,235 @@
+.faq-wrapper-2 {
+    .faq-left-items {
+        ul {
+            margin-top: 40px;
+
+            @include breakpoint (max-sm){
+               margin-top: 30px;
+            }
+
+            li {
+                display: flex;
+                align-items: center;
+                gap: 20px;
+
+                h5 {
+                    margin-bottom: 7px;
+
+                    @include breakpoint (max-sm){
+                        margin-bottom: 0;
+                    }
+                }
+
+                p {
+                        color: $header-color;
+                        font-size: 24px;
+                        font-weight: 600;
+
+                        @include breakpoint (max-sm){
+                            font-size: 20px;
+                        }
+                    a {
+                        color: $header-color;
+                        font-size: 24px;
+                        font-weight: 600;
+
+                        @include breakpoint (max-sm){
+                            font-size: 20px;
+                        }
+                    }
+                }
+
+                i {
+                    font-size: 30px;
+                    color: $theme-color;
+                }
+
+
+                &:not(:last-child) {
+                    margin-bottom: 35px;
+
+                     @include breakpoint (max-sm){
+                        margin-bottom: 15px;
+                    }
+                }
+            }
+        }
+    }
+
+    .faq-right-items {
+        .accordion-item {
+            border: 0;
+            background-color: $white;
+            border-radius: 6px;
+            border: 1px solid rgba(60, 60, 60, 0.28);
+            margin-top: 20px;
+            
+        
+            .accordion-header { 
+                border: none;
+                .accordion-button { 
+                    font-size: 18px;
+                    font-weight: 700;
+                    color: $header-color;
+                    border: 0;
+                    border-radius: 0;
+                    box-shadow: none;
+                    background-color: $white;
+                    padding: 22px 22px 0;
+                    text-transform: capitalize;
+        
+                    &::after {
+                        content: "\f078";
+                        background: transparent;
+                        font-family: $fa;
+                        font-weight: 300;
+                        transition: all 0.3s ease-in-out !important;
+                        color: $header-color;
+                        top: 18px;
+                        position: absolute;
+                        right: 22px;
+                    }
+                    &:not(.collapsed)::after {
+                        content: "\f077";
+                        background: transparent;
+                        font-family: $fa;
+                        font-weight: 300;
+                        transform: rotate(0);
+                        color: $theme-color;
+                    }
+        
+                    &.collapsed {
+                        background-color: transparent;
+                        padding: 25px 22px;
+                        color: $header-color;
+                    }
+                
+                }
+            }
+        
+            .accordion-collapse { 
+        
+                .accordion-body {
+                    padding-left: 30px;
+                    padding-top: 15px;
+                    color: #5C6672;
+                    background: $white;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}
+
+.faq-page-items {
+    margin-top: 60px;
+
+     @include breakpoint (max-md){
+            margin-top: 30px;
+        }
+    
+    .accordion-box {
+        position: relative;
+
+        .block {
+            position: relative;
+            background-color: transparent;
+            margin-bottom: 16px;
+            line-height: 1;
+            border: 1px solid rgba(60, 60, 60, 0.28);
+            border-radius: 8px;
+            padding: 22px 30px;
+
+            @include breakpoint (max-sm){
+                padding: 18px;
+            }
+
+            .acc-btn {
+                position: relative;
+                font-size: 18px;
+                color: $header-color;
+                font-weight: 700;
+                font-family: $heading-font;
+                cursor: pointer;
+                -webkit-transition: all 500ms ease;
+                transition: all 500ms ease;
+
+                @include breakpoint (max-sm){
+                    font-size: 17px;
+                    line-height: 1.5;
+                    padding-right: 40px;
+                }
+
+
+                .icon {
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                    height: 35px;
+                    font-size: 18px;
+                    line-height: 18px;
+                    color: $header-color;
+                    -webkit-transition: all 500ms ease;
+                    transition: all 500ms ease;
+                }
+            }
+
+            .acc-content {
+                position: relative;
+                display: none;
+                margin-top: 22px;
+
+                @include breakpoint (max-xxs){
+                    margin-top: 10px;
+                }
+
+                .content {
+                    position: relative;
+
+                    .text {
+                        line-height: 175%;
+                        font-size: 16px;
+                        font-weight: 500;
+                        color: #5C6672;
+                        max-width: 555px;
+
+                        @include breakpoint (max-xl){
+                            font-size: 14px;
+                        }
+
+                        @include breakpoint (max-xxs){
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .accordion-box .block .acc-content.current {
+        display: block;
+    }
+
+    .accordion-box .block .acc-btn.active .icon:before {
+        content: "\f077";
+        font-family: $fa;
+    }
+
+    .accordion-box .block .acc-btn.active {
+        color: $header-color;
+    }
+
+    .accordion-box .block:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.faq-section-5 {
+    position: relative;
+
+    .shape-1 {
+        position: absolute;
+        bottom: 10%;
+        right: 0;
+    }
+}

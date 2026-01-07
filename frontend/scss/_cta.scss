@@ -1,0 +1,606 @@
+.cta-wrapper {
+    border-radius: 30px;
+    position: relative;
+    z-index: 9;
+    padding: 0px 100px;
+
+    @include breakpoint (max-xl){
+        padding: 0 50px;
+    }
+
+    @include breakpoint (max-lg){
+        padding: 0 40px;
+        padding-top: 80px;
+    }
+
+    @include breakpoint (max-md){
+        padding: 0 30px;
+        padding-top: 80px;
+    }
+
+    @include breakpoint (max-sm){
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+
+    &::before {
+        @include before;
+        z-index: -1;
+        border-radius: 30px;
+        background: rgba(36, 79, 11, 0.83)
+    }
+
+    .cta-content {
+        margin-left: 50px;
+
+        @include breakpoint (max-lg){
+            margin-left: 0;
+        }
+
+        .cta-text {
+            margin-top: 25px;
+            color: $white;
+        }
+
+        .cta-bottom-area {
+            margin-top: 30px;
+            display: flex;
+            align-items: center;
+            gap: 40px;
+
+            @include breakpoint (max-lg){
+               flex-wrap: wrap;
+               gap: 20px;
+            }
+
+            @include breakpoint (max-sm){
+                justify-content: center;
+
+                p {
+                    text-align: left;
+                }
+            }
+
+            .theme-btn {
+                background-color: $theme-color-2;
+                color: $theme-color;
+                @include transition;
+
+                &::before {
+                    background-color: $theme-color;
+                }
+
+                &:hover {
+                    color: $white
+                }
+            }
+
+            .phone-box-items {
+                @include flex;
+                gap: 20px;
+
+                .icon {
+                    width: 57px;
+                    height: 57px;
+                    line-height: 57px;
+                    text-align: center;
+                    background-color: $theme-color-2;
+                    border-radius: 50%;
+                    color: $theme-color;
+                    font-size: 20px;
+                }
+
+                .content {
+                    p {
+                        font-weight: 600;
+                        color: $white;
+                    }
+
+                    a {
+                        color: $white;
+                        font-size: 20px;
+                        font-weight: 800;
+                    }
+                }
+            }
+        }
+    }
+
+    .cta-image {
+        margin-top: -55px;
+
+        @include breakpoint (max-lg){
+           margin-top: 0;
+           text-align: center;
+        }
+    }
+}
+
+.cta-best-saller-content {
+    border-radius: 30px;
+    background: $theme-color-2;
+    padding: 60px 45px;
+    margin-top: -180px;
+    position: relative;
+    z-index: 99;
+
+    @include breakpoint (max-xxl){
+        padding: 45px 30px;
+    }
+
+     @include breakpoint (max-xl){
+       margin-top: -140px;
+    }
+
+    .cta-text {
+        margin-top: 25px;
+
+        @include breakpoint (max-xxl){
+            margin-top: 12px;
+            font-size: 14px;
+        }
+    }
+
+    ul {
+        margin-top: 30px;
+
+         @include breakpoint (max-xxl){
+          margin-top: 12px;
+        }
+
+        li {
+            display: flex;
+            gap: 20px;
+            
+            i {
+                color: $theme-color;
+                font-size: 20px;
+            }
+
+            p {
+                color: #0A2803;
+                font-weight: 500;
+
+                @include breakpoint (max-xxl){
+                    font-size: 14px;
+                }
+            }
+
+            &:not(:last-child) {
+                margin-bottom: 25px;
+
+                 @include breakpoint (max-xxl){
+                   margin-bottom: 14px;
+                }
+            }
+        }
+    }
+
+    .theme-btn {
+        margin-top: 40px;
+    }
+}
+
+.cta-best-saller-section-2 {
+    margin-top: 50px;
+    position: relative;
+
+    .cta-best-img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        height: 820px;
+
+         @include breakpoint (max-xxl){
+           height: initial;
+        }
+
+        img {
+            @include imgw;
+            object-fit: cover;
+        }
+    }
+}
+
+.cta-wrapper-2 {
+    border-radius: 30px;
+    position: relative;
+    z-index: 999;
+    padding: 0px 100px;
+    
+    @include breakpoint (max-xl){
+        padding: 0 50px;
+        padding-top: 60px;
+        text-align: center;
+    }
+
+    @include breakpoint (max-sm){
+        padding: 0 20px;
+        padding-top: 50px;
+    }
+
+    &::before {
+        @include before;
+        z-index: -1;
+        border-radius: 30px;
+        background: rgba(91, 140, 81, 0.8);
+    }
+
+    .shape-1 {
+        position: absolute;
+        bottom: 0;
+        left: 45%;
+
+        @include breakpoint (max-xl){
+            display: none;
+        }
+    }
+
+    .shape-2 {
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        @include breakpoint (max-xl){
+            display: none;
+        }
+    }
+
+    .cta-content {
+        margin-left: 50px;
+
+         @include breakpoint (max-xxxl){
+           margin-left: 0;
+        }
+
+        .theme-btn {
+            margin-top: 30px;
+            background-color: $theme-color-2;
+            color: #404A3D;
+            @include transition;
+
+            &::before {
+                background-color: $white;
+            }
+
+            &:hover {
+                color: $theme-color;
+            }
+        }
+    }
+
+    .cta-image {
+        margin-top: -35px;
+
+        @include breakpoint (max-xl){
+            margin-top: 0;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.cta-wrapper-3 {
+    border-radius: 28px;
+    position: relative;
+    z-index: 9;
+    padding: 120px 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @include breakpoint (max-xl){
+        padding: 80px 35px;
+    }
+
+    @include breakpoint (max-lg){
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    @include breakpoint (max-sm){
+        justify-content: center;
+        text-align: center;
+    }
+
+    .shape-1 {
+        position: absolute;
+        bottom: 25px;
+        right: 250px;
+
+        @include breakpoint (max-xl){
+            display: none;
+        }
+    }
+
+    &::before {
+        @include before;
+        z-index: -1;
+        background: rgba(36, 79, 11, 0.62);
+        border-radius: 28px;
+
+    }
+
+    .cta-discount-area {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+
+        @include breakpoint (max-md){
+            flex-wrap: wrap;
+        }
+
+         @include breakpoint (max-sm){
+            justify-content: center;
+        }
+
+        .circle-bg-icon {
+            position: relative;
+            z-index: 9;
+            animation: cir36 20s linear infinite;
+
+            .icon {
+                position: absolute;
+                z-index: 1;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                font-size: 44px;
+                color: #404A3D;
+
+                i {
+                    @include transition;
+                    display: inline-block;
+                }
+            }
+
+            &:hover {
+                .icon {
+                    i {
+                        transform: scaleX(-1) !important;
+                    }
+                }
+            }
+        }
+    }
+
+    .theme-btn {
+        background-color: $theme-color-2;
+        color: #404A3D;
+        @include transition;
+
+        &::before {
+            background-color: $theme-color;
+        }
+
+        &:hover {
+            color: $white
+        }
+    }
+}
+
+.cta-wrapper-4 {
+    border-radius: 28px;
+    position: relative;
+    z-index: 9;
+    padding: 120px 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @include breakpoint (max-xl){
+        padding: 70px 50px;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    @include breakpoint (max-lg){
+        padding: 60px 40px;
+    }
+
+    @include breakpoint (max-lg){
+        padding: 60px 40px;
+    }
+
+     @include breakpoint (max-md){
+        padding: 50px 30px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    &::before {
+        @include before;
+        z-index: -1;
+        background: rgba(36, 79, 11, 0.62);
+        border-radius: 28px;
+
+    }
+
+    .cta-discount-area {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+
+        @include breakpoint (max-md){
+           display: block;
+           text-align: center;
+        }
+
+        .circle-bg-icon {
+            position: relative;
+            z-index: 9;
+
+            @include breakpoint (max-md){
+                margin-bottom: 30px;
+            }
+
+            .circle-icon {
+                animation: cir36 20s linear infinite;
+            }
+
+            .icon {
+                position: absolute;
+                z-index: 1;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                font-size: 44px;
+                color: #404A3D;
+
+                img {
+                    @include transition;
+                    display: inline-block;
+                }
+            }
+
+            &:hover {
+                .icon {
+                    img {
+                        transform: scaleX(-1) !important;
+                    }
+                }
+            }
+        }
+    }
+
+    .theme-btn {
+        background-color: $theme-color-2;
+        color: #404A3D;
+        @include transition;
+
+        &::before {
+            background-color: $theme-color;
+        }
+
+        &:hover {
+            color: $white
+        }
+    }
+}
+
+.cta-banner-5 {
+    padding-top: 380px;
+    padding-bottom: 120px;
+    background-attachment: fixed;
+
+    @include breakpoint (max-xl){
+        padding-top: 220px; 
+    }
+
+    @include breakpoint (max-md){
+        padding-top: 120px; 
+    }
+    
+    h2 {
+        font-size: 72px;
+        color: $white;
+
+        @include breakpoint (max-lg){
+            font-size: 55px;
+        }
+
+        @include breakpoint (max-md){
+            font-size: 48px;
+        }
+
+        @include breakpoint (max-sm){
+            font-size: 40px;
+            text-align: center;
+        }
+    }
+}
+
+.cta-discount-section-4 {
+    position: relative;
+    z-index: 999;
+
+
+    &::before {
+        @include before;
+        z-index: -1;
+        background: #EDF2EC;
+        top: 40%;
+        height: initial;
+    }
+}
+
+.cta-section {
+    position: relative;
+    z-index: 999;
+    padding-top: 55px !important;
+
+    &::before {
+        @include before;
+        z-index: -1;
+        background: #EDF2EC;
+        height: 45%;
+    }
+
+    .bottom-shape {
+        position: absolute;
+        bottom: 50%;
+        left: 0;
+        right: 0;
+
+        @include breakpoint (max-lg){
+            bottom: -53%;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+
+.cta-discount-section-3 {
+    position: relative;
+    z-index: 999;
+
+    &::before {
+        @include before;
+        z-index: -1;
+        background: #FFF9E8;
+        top: 30%;
+        height: initial;
+    }
+
+    .cta-line {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 30%;
+
+        @include breakpoint (max-lg){
+            top: 27%;
+        }
+
+        img {
+            width: 100%;
+            
+        }
+    }
+}
+
+// .cta-best-saller-section-2 {
+//     position: relative;
+
+//     &::before {
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         bottom: 0;
+//         right: 0;
+//         height: 100%;
+//         width: 100%;
+//         mask-image: url(../../assets/img/home-2/mask-1.svg);
+//         -webkit-mask-size: cover;
+//         -webkit-mask-position: top left;
+//         content: "";
+//     }
+// }
