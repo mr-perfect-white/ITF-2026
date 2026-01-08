@@ -3534,8 +3534,9 @@ p {
   transition: all 2500ms ease;
 }
 .hero-1 .hero-height {
-  padding: 329px 0 150px;
+  /* padding: 329px 0 150px; */
   border-radius: 20px;
+  height: 612px;
 }
 @media (max-width: 767px) {
   .hero-1 .hero-height {
@@ -15578,7 +15579,7 @@ p.sticky-label {
     font-size: 20px;
 }
 .about-top-box {
-    background-color: #edf2ec;
+    background-color: #EDDD5E;
     border-radius: 12px;
     border: none;
     
@@ -15597,3 +15598,6 @@ p.sticky-label {
         border: 1px dashed !important;
     }
 
+.section-padding1{
+      padding: 52px 0;
+}
