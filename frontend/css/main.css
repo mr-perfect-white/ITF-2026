@@ -3486,7 +3486,7 @@ p {
   position: relative;
   margin: 0 20px;
   border-radius: 33px;
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 @media (max-width: 767px) {
   .hero-1 {
@@ -3534,7 +3534,7 @@ p {
   transition: all 2500ms ease;
 }
 .hero-1 .hero-height {
-  padding: 283px 0 150px;
+  padding: 329px 0 150px;
   border-radius: 20px;
 }
 @media (max-width: 767px) {
@@ -12797,7 +12797,7 @@ p {
 }
 
 .brand-section-3 .video-wrapper-3 {
-  height: 220px;
+  height: 384px;
 }
 
 .news-box-items {

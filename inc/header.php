@@ -41,22 +41,11 @@
         <div class="animation-preloader">
             <div class="spinner"></div>
             <div class="txt-loading">
-                <span data-text-preloader="A" class="letters-loading">
-                    A
-                </span>
-                <span data-text-preloader="G" class="letters-loading">
-                    G
-                </span>
-                <span data-text-preloader="R" class="letters-loading">
-                    R
-                </span>
-                <span data-text-preloader="O" class="letters-loading">
-                    O
-                </span>
-                <span data-text-preloader="N" class="letters-loading">
-                    N
-                </span>
+                <span class="letters-loading" data-text-preloader="I">I</span>
+                <span class="letters-loading" data-text-preloader="T">T</span>
+                <span class="letters-loading" data-text-preloader="F">F</span>
             </div>
+
             <p class="text-center">Loading</p>
         </div>
         <div class="loader">
@@ -191,7 +180,7 @@
                 <div class="head-right">
                     <div class="flag-wrap">
                         <div class="flag">
-                            <img src="../ITF/frontend/img/flag.png" alt="flag">
+                            <!-- <img src="../ITF/frontend/img/flag.png" alt="flag"> -->
                         </div>
                         <select class="single-select w-100">
                             <option>EN</option>
@@ -340,7 +329,7 @@
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="about.html">
+                                        <a href="about.php">
                                             About ITF
                                         </a>
                                     </li>
