@@ -4,7 +4,7 @@
 
 
   <!-- Service Section Start -->
-        <section class="service-section section-padding section-bg">
+        <section class="service-section section-padding section-bg mb-5">
             <div class="top-shape">
                 <img src="../ITF/frontend/img/home-1/service/top-shape.png" alt="img">
             </div>
