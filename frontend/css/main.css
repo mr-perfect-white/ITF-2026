@@ -15601,3 +15601,11 @@ p.sticky-label {
 .section-padding1{
       padding: 52px 0;
 }
+
+.reduce-img-height {
+    height: 700px;      /* adjust as needed */
+    width: auto;
+    object-fit: contain; /* prevents image cut */
+    padding: 20px;
+    border-radius: 42px !important;
+}

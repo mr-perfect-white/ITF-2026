@@ -190,16 +190,16 @@
                     </div>
                     <div class="line-shape"></div>
                     <div class="social-icon">
-                        <a href="#">
+                        <a href="https://www.facebook.com/MilletsOrganics">
                             <i class="fab fa-facebook-f"></i>
                         </a>
-                        <a href="#">
+                        <a href="https://x.com/organicmillets">
                             <i class="fab fa-twitter"></i>
                         </a>
-                        <a href="#">
-                            <i class="fab fa-dribbble"></i>
+                        <a href="https://www.youtube.com/@organicmilletsitf">
+                            <i class="fab fa-youtube"></i>
                         </a>
-                        <a href="#">
+                        <a href="https://www.instagram.com/organicsmillets2023/">
                             <i class="fab fa-instagram"></i>
                         </a>
                     </div>
@@ -336,24 +336,24 @@
                                     <li class="has-dropdown">
                                         <a href="javascript:void(0)">
                                             Registrations
-                                            <!-- <i class="fas fa-chevron-down"></i> -->
+                                            <i class="fas fa-chevron-down"></i>
                                         </a>
-                                        <!-- <ul class="submenu">
+                                         <ul class="submenu">
                                                 <li class="has-dropdown">
                                                     <a href="javascript:void(0)">
-                                                        Projects
-                                                        <i class="fas fa-angle-right"></i>
+                                                        B2B Registrations
+                                                        <!-- <i class="fas fa-angle-right"></i> -->
                                                     </a>
-                                                    <ul class="submenu">
+                                                    <!-- <ul class="submenu">
                                                         <li>
                                                             <a href="project.html">Our Projects</a>
                                                         </li>
                                                         <li>
                                                             <a href="project-details.html">Project Details</a>
                                                         </li>
-                                                    </ul>
+                                                    </ul> -->
                                                 </li>
-                                                <li class="has-dropdown">
+                                                <!-- <li class="has-dropdown">
                                                     <a href="javascript:void(0)">
                                                         Our Team
                                                         <i class="fas fa-angle-right"></i>
@@ -366,60 +366,60 @@
                                                             <a href="team-details.html">Team Details</a>
                                                         </li>
                                                     </ul>
-                                                </li>
-                                                <li>
+                                                </li> -->
+                                                <!-- <li>
                                                     <a href="pricing.html">Pricing Plan</a>
-                                                </li>
-                                                <li>
+                                                </li> -->
+                                                <!-- <li>
                                                     <a href="gallery.html">Our Gallery</a>
-                                                </li>
-                                                <li>
+                                                </li> -->
+                                                <!-- <li>
                                                     <a href="testimonial.html">Testimonails</a>
-                                                </li>
-                                                <li>
+                                                </li> -->
+                                                <!-- <li>
                                                     <a href="history.html">Our History</a>
+                                                </li> -->
+                                                <li>
+                                                    <a href="faq.html">B2B Seller Registration</a>
                                                 </li>
                                                 <li>
-                                                    <a href="faq.html">Faqs</a>
+                                                    <a href="comming-soon.html">Millet Run Registration</a>
                                                 </li>
                                                 <li>
-                                                    <a href="comming-soon.html">Comming Soon</a>
+                                                    <a href="404.html">Farmer Workshop Registration</a>
                                                 </li>
-                                                <li>
-                                                    <a href="404.html">404 Error</a>
-                                                </li>
-                                            </ul> -->
+                                            </ul> 
                                     </li>
                                     <li>
                                         <a href="javascript:void(0)">
                                             Resources
-                                            <!-- <i class="fas fa-chevron-down"></i> -->
+                                            <i class="fas fa-chevron-down"></i>
                                         </a>
-                                        <!-- <ul class="submenu">
+                                        <ul class="submenu">
                                                 <li>
-                                                    <a href="service.html">Our Services</a>
+                                                    <a href="service.html">Millets and Organics scheme</a>
                                                 </li>
                                                 <li>
-                                                    <a href="service-details.html">Service Details</a>
+                                                    <a href="service-details.html">producesr list</a>
                                                 </li>
-                                            </ul> -->
+                                            </ul>
                                     </li>
                                     <li>
                                         <a href="javascript:void(0)">
                                             Gallery
-                                            <!-- <i class="fas fa-chevron-down"></i> -->
+                                            <i class="fas fa-chevron-down"></i>
                                         </a>
-                                        <!-- <ul class="submenu">
+                                        <ul class="submenu">
                                                 <li>
-                                                    <a href="news-grid.html">News Gird</a>
+                                                    <a href="news-grid.html">Images</a>
                                                 </li>
                                                 <li>
-                                                    <a href="news.html">News Standard</a>
+                                                    <a href="news.html">video</a>
                                                 </li>
                                                 <li>
-                                                    <a href="news-details.html">News Details</a>
+                                                    <a href="news-details.html">Event</a>
                                                 </li>
-                                            </ul> -->
+                                            </ul>
                                     </li>
                                     <li>
                                         <a href="javascript:void(0)">

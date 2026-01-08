@@ -14,8 +14,7 @@
         </div>
         <div class="container">
             <div class="footer-widget-top-5 wow fadeInUp ">
-                <h2>Organics and Millets;
-                    Cultivating Tradition Nourishing future.</h2>
+                <h2>Agriculture beyond cultivation and empowering farmers.</h2>
             </div>
             <div class="footer-widget-wrapper-4">
                 <div class="row">

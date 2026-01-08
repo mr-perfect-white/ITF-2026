@@ -231,7 +231,7 @@
             <div class="row  g-4">
 
                 <!-- RIGHT SIDE CONTENT -->
-                <div class="col-lg-6">
+                <div class="col-lg-7">
                     <div class="choose-us-content">
 
                         <div class="section-title mb-3">
@@ -265,11 +265,12 @@
                     </div>
                 </div>
                 <!-- LEFT SIDE IMAGE -->
-                <div class="col-lg-6">
-                    <div class="choose-us-image-items choose-us-image white-style">
-                        <img src="frontend/img/glimseseng.png" alt="Choose Us Image">
+                <div class="col-lg-5">
+                    <div class=" choose-us-image white-style">
+                        <img src="frontend/img/glimseseng.png" class="reduce-img-height" alt="Choose Us Image">
                     </div>
                 </div>
+
 
             </div>
         </div>
@@ -393,7 +394,7 @@
 <section class="service-section-4 section-padding fix">
     <div class="container">
         <div class="section-title text-center">
-            <!-- <span class="wow fadeInUp"><img src="assets/img/sub-title.svg" alt="img">Our Services</span> -->
+            <span class="wow fadeInUp"><img src="assets/img/sub-title.svg" alt="img">Pre events</span>
             <h2 class="text-anim">Pre events</h2>
 
         </div>
@@ -592,8 +593,9 @@
 <section class="project-section-2 section-padding fix mb-0">
     <div class="container">
         <div class="section-title text-center">
-            <span class="wow fadeInUp"><img src="frontend/img/sub-title.svg" alt="img">Organics & Millets</span>
-            <h2 class="text-anim">Organics & Millets</h2>
+            <span class="wow fadeInUp"><img src="frontend/img/sub-title.svg" alt="img">Agriculture beyond cultivation
+                and empowering farmers</span>
+            <h2 class="text-anim">Agriculture beyond cultivation and empowering farmers</h2>
         </div>
     </div>
     <div class="project-wrapper-2">
@@ -603,7 +605,7 @@
                     <div class="project-image-items-2">
                         <img src="frontend/img/millet1.jpg" alt="img">
                         <div class="content">
-                            <span>Organics & Millets</span>
+                            <span>Agriculture beyond cultivation and empowering farmers</span>
                             <h3><a href="project-details.html">
                                     World Soil Day
                                 </a></h3>
@@ -623,7 +625,7 @@
                     <div class="project-image-items-2">
                         <img src="frontend/img/millet2.jpg" alt="img">
                         <div class="content">
-                            <span>Organics & Millets</span>
+                            <span>Agriculture beyond cultivation and empowering farmers</span>
                             <h3><a href="project-details.html">World Soil Day</a></h3>
                             <p>
                                 Celebration of World Soil Day on 5th December 2024 at Department of
@@ -639,7 +641,7 @@
                     <div class="project-image-items-2">
                         <img src="frontend/img/millet3.jpg" alt="img">
                         <div class="content">
-                            <span>Organics & Millets</span>
+                            <span>Agriculture beyond cultivation and empowering farmers</span>
                             <h3><a href="project-details.html">
                                     Organic World Congress
                                 </a></h3>
@@ -691,7 +693,7 @@
                                     <div class="content">
                                         <div class="text">
 
-                                            MOITF will be from 23th-25th January 2025 .�
+                                            MOITF will be from 23th-25th January 2026 .�
                                             Venue:Triupuravasini,Palace Grounds,Bengaluru
                                         </div>
                                     </div>
