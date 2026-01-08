@@ -2,35 +2,42 @@
 <?php require_once 'inc/header.php'; ?>
 
        
-<!-- Hero Section Start -->
-<section class="hero-section hero-4 fix">
-            <div class="shape-1">
-                <img src="frontend/img/home-4/hero/shape-1.png" alt="img">
-            </div>
-            <div class="shape-2">
-                <img src="frontend/img/home-4/hero/organic-shape.png" alt="img">
-            </div>
-            <div class="array-button">
-               <button class="array-prev">
-                    <i class="fal fa-long-arrow-left"></i>
-                </button>
-                <button class="array-next">
-                   <i class="fal fa-long-arrow-right"></i>
-                </button>
-            </div>
-            <div class="swiper banner-active">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="hero-height">
-                            <div class="hero-bg bg-cover" style="background-image: url('https://itf2025.organics-millets.in/images/page-title/hm-ban-3.jpg');"></div>
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="hero-content">
-                                            <h1>Agricultural and Organic</h1>
-                                            <p>Elders is headquartered in Adelaide, South Australia, where our story began in 1839, but our expansive network.</p>
-                                        </div>
-                                        <!-- <div class="hero-button">
+   <!-- Hero Section Start -->
+    <section class="hero-section hero-1 fix">
+        <div class="array-button">
+            <button class="array-prev">
+                <svg width="55" height="28" viewBox="0 0 55 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M0.363503 12.9368L12.8632 0.436946C13.3122 -0.087371 14.1013 -0.148493 14.6257 0.30063C15.15 0.749646 15.2111 1.53875 14.762 2.06307C14.7201 2.11195 14.6745 2.1576 14.6257 2.19939L4.26339 12.5742H53.7501C54.4403 12.5742 55 13.1339 55 13.8243C55 14.5147 54.4403 15.0742 53.7501 15.0742H4.26339L14.6257 25.4365C15.15 25.8855 15.2111 26.6746 14.762 27.1989C14.3129 27.7232 13.5238 27.7844 12.9995 27.3352C12.9507 27.2933 12.905 27.2478 12.8632 27.1989L0.363396 14.6991C-0.121178 14.2117 -0.121174 13.4243 0.363503 12.9368Z"
+                        fill="white" />
+                </svg>
+            </button>
+            <button class="array-next">
+                <svg width="55" height="28" viewBox="0 0 55 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M54.6365 12.9368L42.1368 0.436946C41.6878 -0.087371 40.8987 -0.148493 40.3743 0.30063C39.85 0.749646 39.7889 1.53875 40.238 2.06307C40.2799 2.11195 40.3255 2.1576 40.3743 2.19939L50.7366 12.5742H1.24994C0.559658 12.5742 0 13.1339 0 13.8243C0 14.5147 0.559658 15.0742 1.24994 15.0742H50.7366L40.3743 25.4365C39.85 25.8855 39.7889 26.6746 40.238 27.1989C40.6871 27.7232 41.4762 27.7844 42.0005 27.3352C42.0493 27.2933 42.095 27.2478 42.1368 27.1989L54.6366 14.6991C55.1212 14.2117 55.1212 13.4243 54.6365 12.9368Z"
+                        fill="white" />
+                </svg>
+            </button>
+        </div>
+        <div class="swiper banner-active">
+            <div class="swiper-wrapper1">
+                <div class="swiper-slide">
+                    <div class="hero-height">
+                        <div class="hero-bg bg-cover"
+                            style=""><img src="../ITF/frontend/img/hm-ban-3.jpg" width="100%"></div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <!-- <div class="hero-content">
+                                            <span>
+                                                <img src="../ITF/frontend/img/home-1/hero/hero-title.svg" alt="img">
+                                                We’re Distributors of Quality 100%
+                                            </span>
+                                            <h1>farming</h1>
+                                            <h2>best agricultural</h2>
+                                        </div> -->
+                                    <!-- <div class="hero-button">
                                             <a href="shop.html" class="theme-btn">
                                                 View Our Products
                                                 <i class="far fa-arrow-right"></i>
@@ -40,187 +47,419 @@
                                                 <i class="far fa-arrow-right"></i>
                                             </a>
                                         </div> -->
-                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                     <div class="swiper-slide">
-                        <div class="hero-height">
-                            <div class="hero-bg bg-cover" style="background-image: url('https://itf2025.organics-millets.in/images/page-title/hm-ban-3.jpg');"></div>
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="hero-content">
-                                            <h1>Agricultural and Organic</h1>
-                                            <p>Elders is headquartered in Adelaide, South Australia, where our story began in 1839, but our expansive network.</p>
-                                        </div>
-                                        <!-- <div class="hero-button">
-                                            <a href="shop.html" class="theme-btn">
-                                                View Our Products
-                                                <i class="far fa-arrow-right"></i>
-                                            </a>
-                                            <a href="service.html" class="theme-btn style-2">
-                                                Our Services
-                                                <i class="far fa-arrow-right"></i>
-                                            </a>
-                                        </div> -->
+                </div>
+              
+            </div>
+        </div>
+    </section>
+
+    <!-- Brand Section Start -->
+    <div class="brand-section-3 mt-5 section-padding pt-0">
+        <div class="row align-items-center g-4 justify-content-between">
+            <div class="col-xxl-6 col-xl-6 col-lg-6">
+                <div class="video-wrapper-3 bg-cover"
+                    style="background-image: url('../ITF/frontend/img/sddefault.webp');">
+                    <a href="https://youtu.be/42NhT56-6gA" class="video-btn video-popup">
+                        <i class="fas fa-play"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-xxl-6 col-xl-6 col-lg-6">
+                <div class="top-text text-center mb-2 wow fadeInUp">
+                    <h4>Agriculture beyond cultivation and empowering farmers</h4>
+                </div>
+                <div class="col-md-6" style="margin-left: 10rem !important;">
+                    <div class="about-right-items">
+                        <div class="about-wrapper about-top-box card wow fadeInUp" data-wow-delay=".3s">
+                            <div class="card-body d-flex flex-column justify-content-center text-center">
+                                <p class="mb-1">Trust By Clients</p>
+
+                                <h2 class="my-3">
+                                    <span class="odometer" data-count="1286644">00</span>+
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+    <!-- Choose Us Section Start -->
+    <section class="choose-us-section-3  fix">
+        <div class="container-fluid">
+            <div class="choose-us-wrapper-3">
+                <div class="row  g-4">
+
+                    <!-- RIGHT SIDE CONTENT -->
+                    <div class="col-lg-6">
+                        <div class="choose-us-content">
+
+                            <div class="section-title mb-3">
+                                <span>
+                                    <img src="frontend/img/sub-title.svg" alt="img">
+                                    Why Choose Us
+                                </span>
+                                <h2>Glimpse of ITF 2026</h2>
+                            </div>
+
+                            <p class="choose-text mb-4">
+                                The Government of Karnataka has implemented various initiatives and interventions to
+                                support organics and millets, including the organisation of annual organic & millet
+                                trade fairs since 2017 to promote millets as a people’s movement, striving to position
+                                Bangalore as the ‘global hub for millets”. Owing to these concerted efforts, once
+                                near-extinct minor millets have experienced a remarkable revival and are now in high
+                                demand as healthy traditional foods. In line with its commitment to supporting farmers
+                                and enhancing market access, the Department of Agriculture, Government of Karnataka, is
+                                once again organising the 6th edition of the “International Trade Fair 2026: Organics &
+                                Millets” on 23, 24, and 25 January 2026 at Tripuravasini, Palace Grounds, Bengaluru.
+                                This event aims to showcase the opportunities and export potential of Karnataka's
+                                organic and millet sectors, with the primary objective of strengthening both global and
+                                domestic market linkages for the state’s produce.
+                            </p>
+
+                            <p>This event offers a valuable platform to foster a conducive knowledge-sharing and market
+                                ecosystem for all stakeholders in the organic and millet sectors, enabling them to
+                                showcase their expertise, strengths, and innovations, or to fulfil their business
+                                requirements.</p>
+
+                        </div>
+                    </div>
+                    <!-- LEFT SIDE IMAGE -->
+                    <div class="col-lg-6">
+                        <div class="choose-us-image-items choose-us-image white-style" >
+                            <img src="frontend/img/glimseseng.png" alt="Choose Us Image">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Brand Section Start -->
+    <div class="brand-section section-padding pt-5" style="background-color: #f7f7f7;">
+        <div class="container">
+            <div class="top-text text-center wow fadeInUp">
+                <h2>International Trade Fair 2026 Highlights</h2>
+            </div>
+            <div class="swiper brand-slide">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="brand-image text-center">
+                            <img src="../ITF/frontend/img/resized_1.png" alt="img">
+                            <p class="brand-text">PRODUCT<br> EXHIBITION</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-image text-center">
+                            <img src="../ITF/frontend/img/resized_2.png" alt="img">
+                            <p class="brand-text">BUYER SELLER </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-image text-center">
+                            <img src="../ITF/frontend/img/resized_3.png" alt="img">
+                            <p class="brand-text">INTERNATIONAL CONFERENCE</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-image text-center">
+                            <img src="../ITF/frontend/img/resized_4.png" alt="img">
+                            <p class="brand-text">CONSUMER<br>CONNECT</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-image text-center">
+                            <img src="../ITF/frontend/img/resized_5.png" alt="img">
+                            <p class="brand-text">FOODCOURT</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-image text-center">
+                            <img src="../ITF/frontend/img/resized_6.png" alt="img">
+                            <p class="brand-text">FARMER'S<br>WORKSHOP</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service Section Start -->
+    <section class="achievements-section-4 section-padding fix section-bg">
+        <div class="shape-1 float-bob-y">
+            <img src="assets/img/home-4/achievement/shape-1.png" alt="img">
+        </div>
+        <div class="shape-2 float-bob-x">
+            <img src="assets/img/home-4/achievement/shape-2.png" alt="img">
+        </div>
+        <div class="container">
+            <div class="achievments-wrapper-4">
+                <div class="row g-4">
+                    <div class="col-xl-5 col-lg-5">
+                        <div class="achievments-content">
+                            <div class="section-title mb-0">
+                                <span class="wow fadeInUp"><img src="../ITF/frontend/img/sub-title.svg" alt="img">weeks
+                                    highlights</span>
+                                <h2 class="text-anim">Agriculture beyond cultivation and empowering farmers</h2>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-7">
+                        <div class="counter-box-area">
+
+                            <!-- Venue -->
+                            <div class="counter-box-items wow fadeInUp" data-wow-delay=".3s">
+                                <div class="icon">
+                                    <i class="fa fa-map-marker"></i>
+                                </div>
+                                <div class="content">
+                                    <h4>Venue</h4>
+                                    <p>Tripuravasini, Bengaluru</p>
+                                </div>
+                            </div>
+
+                            <!-- Date -->
+                            <div class="counter-box-items wow fadeInUp" data-wow-delay=".5s">
+                                <div class="icon">
+                                    <i class="fa fa-calendar"></i>
+                                </div>
+                                <div class="content">
+                                    <h4>Date</h4>
+                                    <p>23rd-25th January 2025</p>
+                                </div>
+                            </div>
+
+                            <!-- Time -->
+                            <div class="counter-box-items wow fadeInUp" data-wow-delay=".7s">
+                                <div class="icon">
+                                   <i class="fa fa-clock"></i>
+                                </div>
+                                <div class="content">
+                                    <h4>Time</h4>
+                                    <p>09:30 AM to 8:00 PM</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Service Section Start -->
+        <section class="service-section-4 section-padding fix">
+            <div class="container">
+                <div class="section-title text-center">
+                    <!-- <span class="wow fadeInUp"><img src="assets/img/sub-title.svg" alt="img">Our Services</span> -->
+                    <h2 class="text-anim">Pre events</h2>
+                   
+                </div>
+            </div>
+            <div class="service-wrapper-4">
+                <div class="swiper service-slide-4">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="service-box-items-4">
+                                <div class="thumb">
+                                    <img src="../ITF/frontend/img/militrun.jpeg" alt="img">
+                                </div>
+                                <div class="service-content-area">
+                                    <div class="icon">
+                                        <i class="flaticon-tomato"></i>
+                                    </div>
+                                    <div class="content">
+                                        <h4><a href="service-details.html">Millet Run </a></h4>
+                                        <!-- <p>
+                                            Lorem ipsum dolor sit amet, porro quisquam est, qui dolorem ipsum quia dolor sit amet.
+                                        </p> -->
+                                        <!-- <a href="service-details.html" class="link-btn"> <i class="far fa-arrow-right"></i></a> -->
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="service-box-items-4">
+                                <div class="thumb">
+                                    <img src="../ITF/frontend/img/pannel.jpeg" alt="img">
+                                </div>
+                                <div class="service-content-area">
+                                    <div class="icon">
+                                        <i class="flaticon-carrots"></i>
+                                    </div>
+                                    <div class="content">
+                                        <h4><a href="service-details.html">Culinary Competition </a></h4>
+                                        <!-- <p>
+                                            Lorem ipsum dolor sit amet, porro quisquam est, qui dolorem ipsum quia dolor sit amet.
+                                        </p> -->
+                                        <!-- <a href="service-details.html" class="link-btn">More Details <i class="far fa-arrow-right"></i></a> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="service-box-items-4">
+                                <div class="thumb">
+                                    <img src="../ITF/frontend/img/culinarynew.jpeg" alt="img">
+                                </div>
+                                <div class="service-content-area">
+                                    <div class="icon">
+                                        <i class="flaticon-apple"></i>
+                                    </div>
+                                    <div class="content">
+                                        <h4><a href="service-details.html">Panel Discussion</a></h4>
+                                        <!-- <p>
+                                            Lorem ipsum dolor sit amet, porro quisquam est, qui dolorem ipsum quia dolor sit amet.
+                                        </p> -->
+                                        <!-- <a href="service-details.html" class="link-btn">More Details <i class="far fa-arrow-right"></i></a> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="swiper-slide">
+                            <div class="service-box-items-4">
+                                <div class="thumb">
+                                    <img src="assets/img/home-4/service/service-04.jpg" alt="img">
+                                </div>
+                                <div class="service-content-area">
+                                    <div class="icon">
+                                        <i class="flaticon-dairy-products"></i>
+                                    </div>
+                                    <div class="content">
+                                        <h4><a href="service-details.html">Dairy Products</a></h4>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, porro quisquam est, qui dolorem ipsum quia dolor sit amet.
+                                        </p>
+                                        <a href="service-details.html" class="link-btn">More Details <i class="far fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="service-box-items-4">
+                                <div class="thumb">
+                                    <img src="assets/img/home-4/service/service-05.jpg" alt="img">
+                                </div>
+                                <div class="service-content-area">
+                                    <div class="icon">
+                                        <i class="flaticon-dairy-products"></i>
+                                    </div>
+                                    <div class="content">
+                                        <h4><a href="service-details.html">Dairy Products</a></h4>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, porro quisquam est, qui dolorem ipsum quia dolor sit amet.
+                                        </p>
+                                        <a href="service-details.html" class="link-btn">More Details <i class="far fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!-- image Section Start -->
+    <section class="product-section-2 section-padding fix pt-0 mb-0">
+            <div class="shape-1 d-none d-xl-block float-bob-y">
+                <img src="frontend/img/home-2/product/shape-01.png" alt="img">
+            </div>
+            <div class="shape-2 d-none d-xl-block float-bob-x">
+                <img src="frontend/img/home-2/product/shape-02.png" alt="img">
+            </div>
+            <div class="shape-3 d-none d-xl-block float-bob-x">
+                <img src="frontend/img/home-2/product/shape-03.png" alt="img">
+            </div>
+            <div class="container">
+                <div class="letter-image">
+                    GO ORGANIC <span>Go MILLET</span>
+                </div>
+                
+            </div>
+        </section>
+    <!-- promotion Section Start -->
+     <section class="news-section section-bg section-padding fix mb-0">
+            <div class="container">
+                <div class="section-title text-center">
+                    <span class="wow fadeInUp"><img src="frontend/img/sub-title.svg" alt="img">Our News</span>
+                    <h2 class="text-anim">Publicity and Promotions</h2>
+                    <p class="mt-2 wow fadeInUp" data-wow-delay=".2s">
+                        Lorem ipsum dolor sit amet, porro quisquam est, qui dolorem ipsum quia dolor sit amet, <br> consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt.
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                        <div class="news-box-items">
+                            <div class="news-image">
+                                <img src="frontend/img/resize-1767790937880522785songlaunch.jpeg" alt="img">
+                                <div class="post-date">
+                                    <h4>23</h4>
+                                    <p>JAN</p>
+                                </div>
+                            </div>
+                            <div class="news-content">
+                                <h3><a href="news-details.html">International Symposium</a></h3>
+                                <p> Participation in ISSF – 2024 on 10-11, November 2024 held at Bhubaneshwar, Odisha.</p>
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
+                        <div class="news-box-items">
+                            <div class="news-image">
+                                <img src="frontend/img/resize-1767790798398807948decpreevent.jpeg" alt="img">
+                                <div class="post-date">
+                                    <h4>30</h4>
+                                    <p>JAN</p>
+                                </div>
+                            </div>
+                            <div class="news-content">
+                                <h3><a href="news-details.html">World Soil Day</a></h3>
+                                <p>
+                                    Celebration of World Soil Day on 5th December 2024 at Department of
+                                    Agriculture Bengaluru.
+                                </p>
+                              
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
+                        <div class="news-box-items">
+                            <div class="news-image">
+                                <img src="frontend/img/nov-pre-event.jpeg" alt="img">
+                                <div class="post-date">
+                                    <h4>12</h4>
+                                    <p>JAN</p>
+                                </div>
+                            </div>
+                            <div class="news-content">
+                            
+                                <h3><a href="news-details.html">Organic World Congress</a></h3>
+                                <p>
+                                    Organic World Congress held in Taiwan from November 29-December 4th 2024.
+                                </p>
+                              
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
-
- <!-- Choose Us Section Start -->
-      <section class="choose-us-section-3 section-padding fix">
-    <div class="container">
-        <div class="choose-us-wrapper-3">
-            <div class="row align-items-center g-4">
-
-                <!-- LEFT SIDE IMAGE -->
-                <div class="col-lg-6">
-                    <div class="choose-us-image-items white-style">
-                        <img src="{{ asset('frontend/img/glimseseng.png') }}" alt="Choose Us Image">
-                    </div>
-                </div>
-
-                <!-- RIGHT SIDE CONTENT -->
-                <div class="col-lg-6">
-                    <div class="choose-us-content">
-
-                        <div class="section-title mb-3">
-                            <span>
-                                <img src="{{ asset('frontend/img/sub-title.svg') }}" alt="img">
-                                Why Choose Us
-                            </span>
-                            <h2>Glimpse of ITF 2025</h2>
-                        </div>
-
-                        <p class="choose-text mb-4">
-                            The Government of Karnataka has implemented various initiatives and interventions to support organics and millets, including the organisation of annual organic & millet trade fairs since 2017 to promote millets as a people’s movement, striving to position Bangalore as the ‘global hub for millets”. Owing to these concerted efforts, once near-extinct minor millets have experienced a remarkable revival and are now in high demand as healthy traditional foods. In line with its commitment to supporting farmers and enhancing market access, the Department of Agriculture, Government of Karnataka, is once again organising the 6th edition of the “International Trade Fair 2025: Organics & Millets” on 23, 24, and 25 January 2025 at Tripuravasini, Palace Grounds, Bengaluru. This event aims to showcase the opportunities and export potential of Karnataka's organic and millet sectors, with the primary objective of strengthening both global and domestic market linkages for the state’s produce.
-                        </p>
-
-                        <p>This event offers a valuable platform to foster a conducive knowledge-sharing and market ecosystem for all stakeholders in the organic and millet sectors, enabling them to showcase their expertise, strengths, and innovations, or to fulfil their business requirements.</p>
-
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-</section>
-
- <!-- Brand Section Start -->
-        <div class="brand-section section-padding pt-0">
-            <div class="container">
-                <div class="top-text text-center wow fadeInUp">
-                    <p>International Trade Fair Organics & Millets 2025 Highlights</p>
-                </div>
-                <div class="swiper brand-slide">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="brand-image text-center">
-                                <img src="http://mcwaredemo.in/ITF/frontend/img/logo/eng-logo.jpeg" alt="ENG Logo">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="brand-image text-center">
-                                 <img src="http://mcwaredemo.in/ITF/frontend/img/logo/eng-logo.jpeg" alt="ENG Logo">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="brand-image text-center">
-                                 <img src="http://mcwaredemo.in/ITF/frontend/img/logo/eng-logo.jpeg" alt="ENG Logo">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="brand-image text-center">
-                                 <img src="http://mcwaredemo.in/ITF/frontend/img/logo/eng-logo.jpeg" alt="ENG Logo">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="brand-image text-center">
-                                <img src="http://mcwaredemo.in/ITF/frontend/img/logo/eng-logo.jpeg" alt="ENG Logo">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="brand-image text-center">
-                                <img src="http://mcwaredemo.in/ITF/frontend/img/logo/eng-logo.jpeg" alt="ENG Logo">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-  <!-- counter Section Start -->
-        <section class="counter-section-3 section-padding fix pt-0 mb-0">
-    <div class="bottom-shape">
-        <img src="frontend/img/home-1/service/bottom-shape.png" alt="img">
-    </div>
-    <div class="container">
-        <div class="counter-wrapper-3">
-            <div class="counter-box-items wow fadeInUp" data-wow-delay=".2s">
-                <div class="icon">
-                    <i class="flaticon-market"></i>
-                </div>
-                <div class="content">
-                    <h2><span class="odometer" data-count="163">00</span>+</h2>
-                    <p>Exhibitors</p>
-                </div>
-            </div>
-            <div class="line"></div>
-            <div class="counter-box-items wow fadeInUp" data-wow-delay=".4s">
-                <div class="icon">
-                    <i class="flaticon-farmer"></i>
-                </div>
-                <div class="content">
-                    <h2><span class="odometer" data-count="68">00</span></h2>
-                    <p>Speakers</p>
-                </div>
-            </div>
-            <div class="line"></div>
-            <div class="counter-box-items wow fadeInUp" data-wow-delay=".6s">
-                <div class="icon">
-                    <i class="flaticon-commodity"></i>
-                </div>
-                <div class="content">
-                    <h2><span class="odometer" data-count="333">00</span></h2>
-                    <p>B2B Connects</p>
-                </div>
-            </div>
-            <div class="line"></div>
-            <div class="counter-box-items wow fadeInUp" data-wow-delay=".8s">
-                <div class="icon">
-                    <i class="flaticon-agriculture-1"></i>
-                </div>
-                <div class="content">
-                    <h2><span class="odometer" data-count="30">00</span>+</h2>
-                    <p>Sessions</p>
-                </div>
-            </div>
-            <div class="line"></div>
-            <div class="counter-box-items wow fadeInUp" data-wow-delay=".8s">
-                <div class="icon">
-                    <i class="flaticon-fruit"></i>
-                </div>
-                <div class="content">
-                    <h2><span class="odometer" data-count="20">00</span>+</h2>
-                    <p>Food Stalls</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-        <!-- promotion Section Start -->
-    <section class="project-section-2 section-padding fix">
+    <!-- gallery Section Start -->
+    <section class="project-section-2 section-padding fix mb-0">
         <div class="container">
             <div class="section-title text-center">
-                <span class="wow fadeInUp"><img src="frontend/img/sub-title.svg" alt="img">Publicity and Promotions</span>
-                <h2 class="text-anim">Our Publicity and Promotions</h2>
+                <span class="wow fadeInUp"><img src="frontend/img/sub-title.svg" alt="img">Organics & Millets</span>
+                <h2 class="text-anim">Organics & Millets</h2>
             </div>
         </div>
         <div class="project-wrapper-2">
@@ -228,9 +467,9 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="project-image-items-2">
-                            <img src="frontend/img/resized_536x658_Culinarysym1.jpg" alt="img">
+                            <img src="frontend/img/millet1.jpg" alt="img">
                             <div class="content">
-                                <span>Publicity and Promotions</span>
+                                <span>Organics & Millets</span>
                                 <h3><a href="project-details.html">
                                         World Soil Day
                                     </a></h3>
@@ -248,9 +487,9 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="project-image-items-2">
-                            <img src="frontend/img/resized_536x658_curtain-raiser-2025.jpeg" alt="img">
+                            <img src="frontend/img/millet2.jpg" alt="img">
                             <div class="content">
-                                <span>Publicity and Promotions</span>
+                                <span>Organics & Millets</span>
                                 <h3><a href="project-details.html">World Soil Day</a></h3>
                                 <p>
                                     Celebration of World Soil Day on 5th December 2024 at Department of
@@ -264,17 +503,14 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="project-image-items-2">
-                            <img src="frontend/img/resized_536x658_songlaunch.jpeg" alt="img">
+                            <img src="frontend/img/millet3.jpg" alt="img">
                             <div class="content">
-                                <span>Publicity and Promotions</span>
+                                <span>Organics & Millets</span>
                                 <h3><a href="project-details.html">
-                                                    Organic World Congress
-                                                </a></h3>
+                                        Organic World Congress
+                                    </a></h3>
                                 <p>
-                                   
-                                                Organic World Congress held in Taiwan from November 29-December 4th 2024
-
-                                            
+                                    Organic World Congress held in Taiwan from November 29-December 4th 2024
                                 </p>
                                 <a href="project-details.html" class="circle-icon">
                                     <i class="far fa-arrow-right"></i>
@@ -282,7 +518,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
                 <div class="swiper-dot">
                     <div class="dot2"></div>
@@ -290,132 +526,39 @@
             </div>
         </div>
     </section>
-    <!-- gallery Section Start -->
-    <div class="gallery-line">
-        <img src="frontend/img/home-3/project-line.png" alt="img">
-    </div>
-    <section class="gallery-section-3 fix section-padding">
-
-        <div class="left-shape d-none d-xl-block float-bob-x">
-            <img src="frontend/img/home-3/gallery/left-shape.png" alt="img">
-        </div>
-        <div class="right-shape d-none d-xl-block float-bob-y">
-            <img src="frontend/img/home-3/gallery/right-shape.png" alt="img">
+<!-- Faq Section Start -->
+    <section class="faq-section-5 section-padding fix mb-0">
+        <div class="shape-1 float-bob-y">
+            <img src="frontend/img/home-5/faq-shape.png" alt="img">
         </div>
         <div class="container">
-            <div class="section-title text-center">
-                <span class="wow fadeInUp"><img src="frontend/img/sub-title.svg" alt="img">Our Gallery Image</span>
-                <h2 class="text-anim">Organics & Millets</h2>
-                
-            </div>
-        </div>
-        <div class="gallery-wrapper-3">
-            <div class="swiper gallery-slide-3">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="gallery-image-box-3">
-                            <img src="frontend/img/image1_536x600.jpg" alt="img">
-                            <div class="content">
-                                <p>Gallery</p>
-                                <h3><a href="project-details.html">Organics & Millets</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="gallery-image-box-3">
-                            <img src="frontend/img/image3_536x674.jpg" alt="img">
-                            <div class="content">
-                                <p>Gallery</p>
-                                <h3><a href="project-details.html">Organics & Millets</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="gallery-image-box-3">
-                            <img src="frontend/img/image2_536x600.jpg" alt="img">
-                            <div class="content">
-                                <p>Gallery</p>
-                                <h3><a href="project-details.html">Organics & Millets</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="gallery-image-box-3">
-                            <img src="frontend/img/image3_536x674.jpg" alt="img">
-                            <div class="content">
-                                <p>Gallery</p>
-                                <h3><a href="project-details.html">Organics & Millets</a></h3>
-                            </div>
-                        </div>
-                    </div>
+            <div class="faq-wrapper-2">
+                <!-- FAQ Heading Centered -->
+                <div class="section-title text-center mb-5" style="padding-top: 0px !important;">
+                    <span class="wow fadeInUp">
+                        <img src="frontend/img/sub-title.svg" alt="img"> Our FAQs
+                    </span>
+                    <h2 class="text-anim">Frequently Asked Questions About Us</h2>
                 </div>
-            </div>
-        </div>
-    </section>
-    <div class="gallery-line2">
-        <img src="frontend/img/home-3/project-line2.png" alt="">
-    </div>
-    <div class="section-animation-shape1-1 animation-infinite-test line-shape-animation animation-infinite rice-flower2"
-        style="background-image: url('frontend/img/home-3/rice-flower2.png');"></div>
 
-<!-- Faq Section Start -->
-        <section class="faq-section-5 section-padding fix">
-            <div class="shape-1 float-bob-y">
-                <img src="frontend/img/home-5/faq-shape.png" alt="img">
-            </div>
-            <div class="container">
-                <div class="faq-wrapper-2">
-                    <div class="row g-4">
-                        <div class="col-lg-5">
-                            <div class="faq-left-items">
-                                <div class="section-title mb-0">
-                                    <span class="wow fadeInUp"><img src="frontend/img/sub-title.svg" alt="img">Our FAQs</span>
-                                    <h2 class="text-anim">Frequently Asked Questions About Us</h2>
-                                </div>
-                                <ul>
-                                    <li class="wow fadeInUp" data-wow-delay=".3s">
-                                        <div class="icon">
-                                            <i class="fas fa-phone-alt"></i>
-                                        </div>
-                                        <div class="content">
-                                            <h5>Call Us</h5>
-                                            <p><a href="tel:+69009494094">080-22074111</a></p>
-                                        </div>
-                                    </li>
-                                    <li class="wow fadeInUp" data-wow-delay=".5s">
-                                        <div class="icon">
-                                            <i class="fas fa-map-marker-alt"></i>
-                                        </div>
-                                        <div class="content">
-                                            <h5>Our Location</h5>
-                                            <p>No. 1, Sheshadri Road, Bangalore, Karnataka-560001</p>
-                                        </div>
-                                    </li>
-                                    <li class="wow fadeInUp" data-wow-delay=".7s">
-                                        <div class="icon">
-                                            <i class="fas fa-envelope"></i>
-                                        </div>
-                                        <div class="content">
-                                            <h5>Mail us</h5>
-                                            <p><a href="mailto:hello@agron.com">itf2025organiccell@gmail.com</a></p>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-7">
-                            <div class="faq-page-items mt-0">
-                             <ul class="accordion-box">
+                <div class="row">
+                    <div class="col-12">
+
+                        <div class="faq-page-items mt-0">
+                            <ul class="accordion-box">
                                 <!--Block-->
                                 <li class="accordion block active-block wow fadeInUp">
                                     <div class="acc-btn active">
-                                       1. What services does your agricultural company offer?
+                                        1.Event and venue Details
+
                                         <div class="icon far fa-chevron-down"></div>
                                     </div>
                                     <div class="acc-content current">
                                         <div class="content">
                                             <div class="text">
-                                               You can place an order through our website by selecting your desired products, adding them to the cart, and checking out.
+
+                                                MOITF will be from 23th-25th January 2025 .�
+                                                Venue:Triupuravasini,Palace Grounds,Bengaluru
                                             </div>
                                         </div>
                                     </div>
@@ -423,73 +566,76 @@
                                 <!--Block-->
                                 <li class="accordion block wow fadeInUp" data-wow-delay=".2s">
                                     <div class="acc-btn">
-                                    2. Do you specialize in organic farming?
+                                        2.Is there any entry fee for visitors?
+
                                         <div class="icon far fa-chevron-down"></div>
                                     </div>
                                     <div class="acc-content">
                                         <div class="content">
-                                        <div class="text">
-                                               You can place an order through our website by selecting your desired products, adding them to the cart, and checking out.
-                                            </div>
+                                            <div class="text">
+                                                MOITF is organised by Karnataka State Agriculture Department and entry for visitors is FREE. </div>
                                         </div>
                                     </div>
                                 </li>
                                 <!--Block-->
                                 <li class="accordion block wow fadeInUp" data-wow-delay=".4s">
                                     <div class="acc-btn">
-                                      3. What types of crops do you grow?
+                                        3.How do Exhibitors/Conference Partipants register for the event?
+
                                         <div class="icon far fa-chevron-down"></div>
                                     </div>
                                     <div class="acc-content">
                                         <div class="content">
                                             <div class="text">
-                                               You can place an order through our website by selecting your desired products, adding them to the cart, and checking out.
-                                            </div>
+                                                Exhibitors who wish to book a stall can visit the official website and navigate to Registrations Menu and seperate links are available for registrationa for various events of MOITF 2025. </div>
                                         </div>
                                     </div>
                                 </li>
                                 <!--Block-->
                                 <li class="accordion block wow fadeInUp" data-wow-delay=".6s">
                                     <div class="acc-btn">
-                                     4. Do you sell seeds and farming equipment?
+                                        4.Is there any offline mode of payment allowed for registrations?
+
                                         <div class="icon far fa-chevron-down"></div>
                                     </div>
                                     <div class="acc-content">
                                         <div class="content">
                                             <div class="text">
-                                               You can place an order through our website by selecting your desired products, adding them to the cart, and checking out.
-                                            </div>
+                                                The registrations for exhibition stall booking, International Conference, Paid Food Stalls need to be completed by making ONLINE payment only . You will receive the confirmation email once you register and make the payment for an event whichever is applicable. </div>
                                         </div>
                                     </div>
                                 </li>
                                 <!--Block-->
                                 <li class="accordion block wow fadeInUp" data-wow-delay=".8s">
                                     <div class="acc-btn">
-                                    5. How can I place an order for your products?
+                                        5.How do exhibitors contact fabricators to setup their stalls in the venue?
+
                                         <div class="icon far fa-chevron-down"></div>
                                     </div>
                                     <div class="acc-content">
                                         <div class="content">
                                             <div class="text">
-                                               You can place an order through our website by selecting your desired products, adding them to the cart, and checking out.
-                                            </div>
+                                                Exhibitors can contact fabricators through the event organizers, who provide a list of approved vendors and setup guidelines. </div>
                                         </div>
                                     </div>
                                 </li>
                             </ul>
                         </div>
-                        </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- brand Section Start -->
-         <div class="brand-section mb-5">
-            <div class="container">
-                <div class="top-text text-center wow fadeInUp">
+        </div>
+    </section>
+    <!-- brand Section Start -->
+<div class="brand-section-3 mt-5 section-padding pt-0 mb-0">
+        <div class="row align-items-center g-4 justify-content-between">
+
+            <div class="col-12">
+
+                <div class="top-text text-center mb-0 wow fadeInUp">
                     <p></p>
                 </div>
-                <div class="swiper brand-slide">
+                <div class="swiper brand-slide3">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="brand-image text-center">
@@ -503,29 +649,30 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="brand-image text-center">
+                                <img src="frontend/img/logo_1_110x110.jpeg" alt="img">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-image text-center">
+                                <img src="frontend/img/logo_2_110x110.jpeg" alt="img">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-image text-center">
                                 <img src="frontend/img/government_karnataka_110x110.jpg" alt="img">
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="brand-image text-center">
-                                <img src="frontend/img/kapp ec_110x110.jpg" alt="img">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="brand-image text-center">
-                                <img src="frontend/img/government_karnataka_110x110.jpg" alt="img">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="brand-image text-center">
-                                <img src="frontend/img/kapp ec_110x110.jpg" alt="img">
+                                <img src="frontend/img/logo_1_110x110.jpeg" alt="img">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
+    </div>
+<!-- Footer Section Start -->
 
 
 <?php require_once 'inc/footer.php'; ?>
