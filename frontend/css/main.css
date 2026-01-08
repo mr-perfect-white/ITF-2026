@@ -7682,8 +7682,8 @@ p {
   display: inline-block;
   border: 1px solid rgba(91, 140, 81, 0.26);
   border-radius: 30px;
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 900;
   line-height: 1;
   padding: 10px 22px;
   background-color: #EDF2EC;
@@ -12825,7 +12825,7 @@ p {
   left: 25px;
   border: 3px solid var(--white);
 }
-.news-box-items .news-image .post-date h4 {
+.news-box-items .news-image .post-date h6 {
   color: var(--theme-color);
   font-size: 22px;
   font-weight: 800;
@@ -15606,6 +15606,7 @@ p.sticky-label {
     height: 700px;      /* adjust as needed */
     width: auto;
     object-fit: contain; /* prevents image cut */
-    padding: 20px;
+    padding: 20px 0 20px 0;
     border-radius: 42px !important;
+    width: 100%;
 }
