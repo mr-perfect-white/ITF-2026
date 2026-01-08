@@ -33,35 +33,35 @@
                 <div class="service-wrapper">
                      <ul class="nav">
                         <li class="nav-item wow fadeInUp" data-wow-delay=".2s">
-                            <a href="#thumb1" data-bs-toggle="tab" class="nav-link active fw-bold">
+                            <a href="#thumb1" data-bs-toggle="tab" class="nav-link active">
                            2017
                             </a>
                         </li>
                         <li class="nav-item wow fadeInUp" data-wow-delay=".4s">
-                            <a href="#thumb2" data-bs-toggle="tab" class="nav-link fw-bold">
+                            <a href="#thumb2" data-bs-toggle="tab" class="nav-link">
                                2018
                             </a>
                         </li>
                         <li class="nav-item wow fadeInUp" data-wow-delay=".6s">
-                            <a href="#thumb3" data-bs-toggle="tab" class="nav-link fw-bold">
+                            <a href="#thumb3" data-bs-toggle="tab" class="nav-link">
                           2019
                             </a>
                         </li>
                         <li class="nav-item wow fadeInUp" data-wow-delay=".8s">
-                            <a href="#thumb4" data-bs-toggle="tab" class="nav-link fw-bold">
+                            <a href="#thumb4" data-bs-toggle="tab" class="nav-link">
                            2023
                             </a>
                         </li>
                         <li class="nav-item wow fadeInUp" data-wow-delay=".8s">
-                            <a href="#thumb5" data-bs-toggle="tab" class="nav-link fw-bold">
+                            <a href="#thumb5" data-bs-toggle="tab" class="nav-link ">
                            2024
                             </a>
                         </li>
-                        <!-- <li class="nav-item wow fadeInUp" data-wow-delay=".8s">
-                            <a href="#thumb4" data-bs-toggle="tab" class="nav-link">
+                         <li class="nav-item wow fadeInUp" data-wow-delay=".8s">
+                            <a href="#thumb6" data-bs-toggle="tab" class="nav-link">
                            2025
                             </a>
-                        </li> -->
+                        </li> 
                     </ul>
                      <div class="tab-content">
                         <div id="thumb1" class="tab-pane fade show active">
@@ -72,7 +72,7 @@
                                             <i class="flaticon-agriculture"></i>
                                         </div>
                                         <div class="content">
-                                            <h3><a href="service-details.html">Agriculture beyond cultivation and empowering farmers</a></h3>
+                                            <h3><a href="service-details.html">Organics and Millets</a></h3>
                                             <p>2017-National Trade Fair during April 28-30, 2017 at Tripuravasini Palace Grounds, Bengaluru.</p>
                                             <!-- <a href="service-details.html" class="theme-btn">
                                                 View Details <i class="far fa-arrow-right"></i>
@@ -95,7 +95,7 @@
                                             <i class="flaticon-agriculture"></i>
                                         </div>
                                         <div class="content">
-                                            <h3><a href="service-details.html">Agriculture beyond cultivation and empowering farmers</a></h3>
+                                            <h3><a href="service-details.html">Organics and Millets</a></h3>
                                             <p>2018 – International Trade Fair during Jan 19-21, 2018 at Tripuravasini Palace Grounds, Bengaluru</p>
                                             <!-- <a href="service-details.html" class="theme-btn">
                                                 View Details <i class="far fa-arrow-right"></i>
@@ -118,7 +118,7 @@
                                             <i class="flaticon-agriculture"></i>
                                         </div>
                                         <div class="content">
-                                            <h3><a href="service-details.html">Agriculture beyond cultivation and empowering farmers</a></h3>
+                                            <h3><a href="service-details.html">Millets and Organics</a></h3>
                                             <p>Wendell Berry said it best when he said that “eating is an agricultural act.” Our mission is to change the food system by providing a healthy, fresh alternative to industrial food.</p>
                                             <!-- <a href="service-details.html" class="theme-btn">
                                                 View Details <i class="far fa-arrow-right"></i>
@@ -141,7 +141,7 @@
                                             <i class="flaticon-agriculture"></i>
                                         </div>
                                         <div class="content">
-                                            <h3><a href="service-details.html">Agriculture beyond cultivation and empowering farmers</a></h3>
+                                            <h3><a href="service-details.html">Millets and Organics</a></h3>
                                            <p>2023- International trade Fair, Jan 18-20, 2023 at Tripuravasini Palace Grounds, Bengaluru.</p>
                                             <!-- <a href="service-details.html" class="theme-btn">
                                                 View Details <i class="far fa-arrow-right"></i>
@@ -165,7 +165,7 @@
                                         </div>
                                         <div class="content">
                                             <h3><a href="service-details.html">Agriculture beyond cultivation and empowering farmers</a></h3>
-                                            <p>2024- International trade Fair, Jan 05-07, 2024 at Tripuravasini Palace Grounds, Bengaluru.</p>
+                                            <p>2025- International trade Fair, Jan 05-07, 2024 at Tripuravasini Palace Grounds, Bengaluru.</p>
                                             <!-- <a href="service-details.html" class="theme-btn">
                                                 View Details <i class="far fa-arrow-right"></i>
                                             </a> -->
@@ -175,6 +175,29 @@
                                 <div class="col-lg-6">
                                     <div class="service-image">
                                         <img src="../ITF/frontend/img/ITF-2024.jpg" alt="img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="thumb6" class="tab-pane fade">
+                            <div class="row align-items-center g-4">
+                                <div class="col-lg-6">
+                                    <div class="service-content-area">
+                                        <div class="icon">
+                                            <i class="flaticon-agriculture"></i>
+                                        </div>
+                                        <div class="content">
+                                            <h3><a href="service-details.html">Agriculture beyond cultivation and empowering farmers</a></h3>
+                                            <p>2024- International trade Fair, Jan 05-07, 2024 at Tripuravasini Palace Grounds, Bengaluru.</p>
+                                            <!-- <a href="service-details.html" class="theme-btn">
+                                                View Details <i class="far fa-arrow-right"></i>
+                                            </a> -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="service-image">
+                                        <img src="../ITF/frontend/img/resize-1767790937880522785songlaunch.jpeg" alt="img">
                                     </div>
                                 </div>
                             </div>
