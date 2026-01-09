@@ -3,6 +3,7 @@
 return [
     
     // <---------- Header Menu start----------->
+    'header_title' => 'ITF – Agriculture beyond cultivation and empowering farmers',
     'home'=> 'Home',
     'about-itf'=> ' About ITF',
     'registrations'=> ' Registrations',
@@ -10,16 +11,19 @@ return [
     'gallery'=> 'Gallery',
     'contact'=> 'Contact',
     'department_login'=> 'Department Login',
+    'B2B Registrations'=> 'B2B Registrations',
 
      //<-------Header Menu End---------------->
 
     //<----------Footer Menu start------------->
-
+    'footer_title'       => 'Agriculture beyond cultivation and empowering farmers',
     'footer_text'=> 'Lorem ipsum dolor sit amet, porro quisquam est, qui dolorem ipsum quia sed dolor sit amet, consectetur',
     'footer_useful_link' => 'Useful Link',
     'foot_email_us' => 'Email us',
     'foot_location' => 'Location',
     'foot_phone' => 'Phone',
+    'foot_reserved'         => '© 2025 ITF. All Rights Reserved',
+    'foot_address'       => 'No. 1, Sheshadri Road, Bangalore, Karnataka-560001',
 
     //<----------Footer Menu End------------->
 
@@ -48,13 +52,89 @@ return [
     'trust_clients' => 'Trust By Clients',
 
    // About page
+   
 
- 'international_trade_fair_2026_highlights'=> 'International Trade Fair 2026 Highlights',
+  'international_trade_fair_2026_highlights' => 'International Trade Fair 2026 Highlights',
+  'ab_aboutus' => 'About Us',
+  'ab_ourtheme' => 'Our Theme',
+  'ab_agriculture' => 'Agriculture beyond cultivation and empowering farmers',
+  'ab_expectedvisitors' => 'Expected Visitors',
+  'ab_empowering' => 'Empowering farmers through technology, awareness, and support to redefine agriculture beyond traditional cultivation',
+  'an_ourinitiatives' => 'Our Initiatives',
+  'ab_promotionalinitiata' => 'Promotional Initiatives of Government of Karnataka',
+  'ab_empoweringkarnataka' => 'Empowering Karnataka’s Agriculture: Managing Diversity, Drought & Growth Potential',
+  'ab_districts' => '31 Districts, 236 Taluks, 850 Hoblies, 5965 Gram Panchayaths & 32499 Villages.',
+  'ab_totalarea' => 'Total area 190.50 lakh ha. Cultivable area 118.05 lakh ha. (64%).',
+  'ab_only' => ' Only 33% area under irrigation. Most Drought Prone state after Rajasthan.',
+  'ab_agroclimaticzones' => '10 Agro-climatic zones with rich crop diversity & 5 major soil types.',
+  'ab_ourachievements' => 'Our Achievements',
+  'ab_achievements1' => 'Our Achievements and Recognitions',
+  'ab_achievements2' => 'View All',
+  'ab_achievements3' => 'MAY 2025',
+  'ab_achievements4' => 'Agricultural',
+  'ab_achievements5' => 'Award By Central Government',
+  'ab_achievements6' => 'More Details',
+  'ab_promotions' => 'The Government of Karnataka, realising the importance of organic agriculture as early as in 2004 brought out a State policy on organic farming and has implemented several schemes and programmes under the policy to promote organic farming in the State.
+
+                             Several programmes were initiated as organic farming addresses sustainable food production, soil health, nature conservation, rural development and mitigation of drought situation.',
+  'ab_promotions1' => 'Market Based Specific Crop Organic Cluster Development Programme was implemented in certified Savayava Bhagya Yojane project areas with a focus on organic market based specific crops or commodity in order to provide bulk & continuous supply to meet the market demand. Further, focus was provided to develop proper linkages between producers and consumers by strengthening the supply chain mechanism on value chain mode by supporting activities related to production, collection, grading, value addition, processing, packing, brand development, whole sale and retail marketing of organic produce. Presently, Karnataka ranks tenth in the country in terms of certified organic area and fourth in terms of total certified organic annual production (APEDA Statistics). Savayava Siri Programme was implemented for the promotion of organic farming. Under the scheme, capacity building in organic farming is provided to the eligible farmers of the state, along with the development of model organic farms and organic seed production farms, desi vegetable seed production and local/forest fruit seeds/seedling production in the state agriculture/ horticultural universities. The Scientific Validation of Zero Budget Natural Farming (ZBNF) System was implemented as experimental trials through the concerned State Agriculture/ Horticulture Universities in 10 Research Stations on Operational Research Project (ORP) mode. Also, Chief Ministers Natural Farming scheme was implemented through State’s Agri/horticultural Universities as farmers participatory research in 1000 acres farmers fields under each of the five Agri/Horticultural UniversitiesPromotional Initiatives by Government of Karnataka',
+
+ 
 
 
    // Contact page
 
+'organic_farming_division_karnataka_state_department_of_agriculture'=> 'Organic Farming Division, Karnataka State Department of Agriculture',
+ 'address_1'=>'No. 1, Sheshadri Road, Bengaluru, Karnataka-560001. Phone: 080-22074111 / 22242746 / 22074101.Email: itf2025organiccell@gmail.com',
+ 'karnataka_state_agricultural_produce_processing_and_export_corporation_ltd'=> 'Karnataka State Agricultural Produce Processing and Export Corporation LTD',
+ 'address_2'=>'No.17, Richmond Road, Bengaluru, Karnataka-560025. Phone: 080-22271194 / 22243082 Email: kappec1996@gmail.com',
+ 
+ 'our_officers'=> 'Our Officers',
+ 'our_officers_title'=> 'Details of Officers to Contact for Online Registration',
+ 
+ 'event1_name'=>'Millet Walkathon',
+ 'event1_contact1'=>'Ms. Mathura Pai, Assistant Director of Agriculture',
+ 'event1_contact1_address' => 'Address: Banashankari, Bengaluru,',
+ 'event1_contact1_phone' => 'Phone: 8277929923',
 
+ 'event1_contact2'=>'Mr. Natesh N, Assistant Director of Agriculture,',
+ 'event1_contact2_address' => 'Address: Banashankari, Bengaluru,',
+ 'event1_contact2_phone' => 'Phone: 8884006719',
+
+ 'event2_name'=>'Exhibition',
+ 'event2_contact1'=>'Mr. Kempegowda H, Joint Director of Agriculture (Fertiliser & PP)',
+ 'event2_contact1_phone'=> 'Phone: 8277929833',
+
+ 'event2_contact2'=>'Mr. H.L. Govardhan, AIF – Consultant',
+ 'event2_contact2_phone'=> 'Phone: 9900759335',
+
+ 'event3_name'=>'International Conference',
+ 'event3_contact1'=>'Ms. Shilpa S.K., Deputy Director (Statistics),',
+ 'event3_contact1_phone'=> 'Phone: 8277929989',
+
+ 'event3_contact2'=>'Ms. Saumya Sudan, Assistant Director of Agriculture,',
+ 'event3_contact2_phone'=> 'Phone: 8277929853',
+
+ 'event4_name'=>'B2B Meet',
+ 'event4_contact1'=>'Mr. Naganagouda Reddy, Deputy Director of Agriculture (Crop Survey) ,',
+ 'event4_contact1_phone'=> 'Phone: 7349092680',
+
+ 'event4_contact2'=>'Mr. Chandrakumar, Assistant Director of Agriculture (KAPPEC)',
+ 'event4_contact2_phone'=> 'Phone: 9480316528',
+
+ 'event5_name'=>'Farmer Workshop',
+ 'event5_contact1'=>'Ms . Bharathamma G.U., Deputy Director of Agriculture (Crop Insurance)',
+ 'event5_contact1_phone'=> 'Phone: 8088008151',
+
+ 'event5_contact2'=>'Mr. Gopala R, First Division Assistant',
+ 'event5_contact2_phone'=> 'Phone: 9844072489',
+
+ 'event6_name'=>'Paid Food Stall',
+ 'event6_contact1'=>'Mr. Yogesh G. H., Deputy Director of Agriculture Micro Irrigation',
+ 'event6_contact1_phone'=> 'Phone: 8277929838',
+
+ 'event6_contact2'=>'Ms. Pramila R. Gangal , Assistant Director of Agriculture Watershed Development Department',
+ 'event6_contact2_phone'=> 'Phone: 6364794902',
 
 
    // Journey page

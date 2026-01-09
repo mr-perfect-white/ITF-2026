@@ -10,7 +10,7 @@
     <meta name="author" content="modinatheme">
     <meta name="description" content="Agron - Agriculture & Organic Farm Html Template">
     <!-- ======== Page title ============ -->
-    <title>ITF - Agriculture beyond cultivation and empowering farmers</title>
+    <title><?= $MSG['header_title']; ?></title>
     <!--<< Favicon >>-->
     <link rel="shortcut icon" href="../ITF/frontend/img/logo/eng-logo.jpeg">
     <!--<< Bootstrap min.css >>-->
@@ -239,7 +239,7 @@
                                 <ul>
                                     <li class="has-dropdown menu-thumb">
                                         <a href="javascript:void(0)">
-                                            Home
+                                           <?= $MSG['home']; ?>
 
                                         </a>
                                         <!-- <ul class="submenu has-homemenu">
@@ -323,9 +323,9 @@
                                     </li>
                                     <li class="has-dropdown active d-xl-none">
                                         <a href="javascript:void(0)" class="border-none">
-                                            Home
+                                           <?= $MSG['home']; ?>
                                         </a>
-                                        <ul class="submenu">
+                                        <!-- <ul class="submenu">
                                             <li>
                                                 <a href="index.html">Home 01</a>
                                             </li>
@@ -341,22 +341,22 @@
                                             <li>
                                                 <a href="index-5.html">Home 05</a>
                                             </li>
-                                        </ul>
+                                        </ul> -->
                                     </li>
                                     <li>
                                         <a href="about.php">
-                                            About ITF
+                                            <?= $MSG['about-itf']; ?>
                                         </a>
                                     </li>
                                     <li class="has-dropdown">
                                         <a href="javascript:void(0)">
-                                            Registrations
+                                            <?= $MSG['registrations']; ?>
                                             <i class="fas fa-chevron-down"></i>
                                         </a>
                                          <ul class="submenu">
                                                 <li class="has-dropdown">
                                                     <a href="javascript:void(0)">
-                                                        B2B Registrations
+                                                        <?= $MSG['B2B Registrations']; ?>
                                                         <!-- <i class="fas fa-angle-right"></i> -->
                                                     </a>
                                                     <!-- <ul class="submenu">
@@ -407,7 +407,7 @@
                                     </li>
                                     <li>
                                         <a href="javascript:void(0)">
-                                            Resources
+                                           <?= $MSG['resources']; ?>
                                             <i class="fas fa-chevron-down"></i>
                                         </a>
                                         <ul class="submenu">
@@ -421,7 +421,7 @@
                                     </li>
                                     <li>
                                         <a href="javascript:void(0)">
-                                            Gallery
+                                          <?= $MSG['gallery']; ?>
                                             <i class="fas fa-chevron-down"></i>
                                         </a>
                                         <ul class="submenu">
@@ -438,7 +438,7 @@
                                     </li>
                                     <li>
                                         <a href="javascript:void(0)">
-                                            Contact
+                                            <?= $MSG['contact']; ?>
                                             <!-- <i class="fas fa-chevron-down"></i> -->
                                         </a>
                                         <!-- <ul class="submenu">

@@ -14,7 +14,7 @@
         </div>
         <div class="container">
             <div class="footer-widget-top-5 wow fadeInUp ">
-                <h2>Agriculture beyond cultivation and empowering farmers.</h2>
+                <h2><?= $MSG['footer_title']; ?></h2>
             </div>
             <div class="footer-widget-wrapper-4">
                 <div class="row">
@@ -26,8 +26,7 @@
                                 </a>
                             </div>
                             <div class="footer-content">
-                                <p>Lorem ipsum dolor sit amet, porro quisquam est, qui dolorem ipsum quia sed dolor sit
-                                    amet, consectetur</p>
+                                <p><?= $MSG['footer_text']; ?></p>
                                 <form action="#">
                                     <input type="email" id="email12" placeholder="Enter your email">
                                     <button class="icon-btn" type="submit"><i class="fas fa-paper-plane"></i></button>
@@ -45,38 +44,38 @@
                         <div class="footer-widget-items">
                             <div class="widget-head">
                                 <h5>
-                                    Useful Link
+                                    <?= $MSG['footer_useful_link']; ?>
                                 </h5>
                             </div>
                             <ul class="list-area">
                                 <li>
                                     <a href="about.html">
-                                        <i class="far fa-chevron-double-right"></i> Home
+                                        <i class="far fa-chevron-double-right"></i> <?= $MSG['home']; ?>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="team.html">
-                                        <i class="far fa-chevron-double-right"></i> About ITF
+                                        <i class="far fa-chevron-double-right"></i> <?= $MSG['about-itf']; ?>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="contact.html">
-                                        <i class="far fa-chevron-double-right"></i> Contact Us
+                                        <i class="far fa-chevron-double-right"></i><?= $MSG['registrations']; ?>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="contact.html">
-                                        <i class="far fa-chevron-double-right"></i> Resources
+                                        <i class="far fa-chevron-double-right"></i> <?= $MSG['resources']; ?>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="faq.html">
-                                        <i class="far fa-chevron-double-right"></i> Our FAQs
+                                        <i class="far fa-chevron-double-right"></i> <?= $MSG['our_faq']; ?>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="pricing.html">
-                                        <i class="far fa-chevron-double-right"></i> Gallery
+                                        <i class="far fa-chevron-double-right"></i> <?= $MSG['gallery']; ?>
                                     </a>
                                 </li>
                             </ul>
@@ -86,7 +85,7 @@
                     <div class="col-xl-4 col-lg-4 col-md-8 ps-xl-5 wow fadeInUp" data-wow-delay=".8s">
                         <div class="footer-widget-items">
                             <div class="widget-head">
-                                <h5>Contact Us</h5>
+                                <h5><?= $MSG['contact']; ?></h5>
                             </div>
                             <ul class="contact-list">
                                 <li>
@@ -94,7 +93,7 @@
                                         <i class="fas fa-envelope"></i>
                                     </div>
                                     <div class="content">
-                                        <h5>Email us:</h5>
+                                        <h5><?= $MSG['foot_email_us']; ?>:</h5>
                                         <p><a href="mailto:agron@gmail.com">itf2025organiccell@gmail.com</a></p>
                                     </div>
                                 </li>
@@ -103,8 +102,8 @@
                                         <i class="fas fa-map-marker-alt"></i>
                                     </div>
                                     <div class="content">
-                                        <h5>Location:</h5>
-                                        <p>No. 1, Sheshadri Road, Bangalore, Karnataka-560001</p>
+                                        <h5><?= $MSG['foot_location']; ?>:</h5>
+                                        <p><?= $MSG['foot_address']; ?></p>
                                     </div>
                                 </li>
                                 <li>
@@ -112,7 +111,7 @@
                                         <i class="fas fa-phone-alt"></i>
                                     </div>
                                     <div class="content">
-                                        <h5>Phone:</h5>
+                                        <h5><?= $MSG['foot_phone']; ?>:</h5>
                                         <p><a href="tel:+69009494094">080-22074111</a></p>
                                     </div>
                                 </li>
@@ -125,7 +124,7 @@
         <div class="footer-bottom">
             <div class="container">
                 <div class="footer-bottom-wrapper">
-                    <p class="text-1 wow fadeInUp">© 2025 ITF. All Rights Reserved</p>
+                    <p class="text-1 wow fadeInUp"><?= $MSG['foot_reserved']; ?></p>
                     <div class="bottom-img wow fadeInUp" data-wow-delay=".4s">
                         <img src="" alt="">
                     </div>

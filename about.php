@@ -93,11 +93,11 @@
     <div class="container">
         <div class="page-heading">
             <ul class="breadcrumb-list wow fadeInUp" style="color: black !important;">
-                <li>Home</li>
-                <li>//</li>
-                <li>About Us</li>
+                <li><?= $MSG['home']; ?></li>
+                <li>/</li>
+                <li><?= $MSG['ab_aboutus']; ?></li>
             </ul>
-            <h1 class="breadcrumb-title text-anim">About Us</h1>
+            <h1 class="breadcrumb-title "><?= $MSG['ab_aboutus']; ?></h1>
         </div>
     </div>
 </section>
@@ -110,8 +110,8 @@
                 <div class="col-lg-7">
                     <div class="about-left-content">
                         <div class="section-title mb-0">
-                            <span class="wow fadeInUp"><img src="frontend/img/sub-title.svg" alt="img">Our Theme</span>
-                            <h2 class="text-anim">Agriculture beyond cultivation and empowering farmers</h2>
+                            <span class="wow fadeInUp"><img src="frontend/img/sub-title.svg" alt="img"><?= $MSG['ab_ourtheme']; ?></span>
+                            <h2><?= $MSG['ab_agriculture']; ?></h2>
                         </div>
                         <div class="shapes-row">
                             <div class="shape-3 d-none d-xxl-block float-bob-x">
@@ -127,10 +127,10 @@
                 <div class="col-lg-5">
                     <div class="about-right-items">
                         <div class="about-top-box wow fadeInUp" data-wow-delay=".3s">
-                            <p>Expected Visitor</p>
+                            <p><?= $MSG['ab_expectedvisitors']; ?></p>
                             <h2><span class="odometer" data-count="200,000">00</span>+</h2>
                             <p class="text">
-                                “Empowering farmers through technology, awareness, and support to redefine agriculture beyond traditional cultivation.” </p>
+                                <?= $MSG['ab_empowering']; ?></p>
                         </div>
                         <div class="about-image wow fadeInUp" data-wow-delay=".5s">
                         </div>
@@ -151,10 +151,10 @@
                     <div class="organic-center-content text-center">
                         <div class="section-title mb-4">
                             <span class="wow fadeInUp">
-                                <img src="frontend/img/sub-title.svg" alt="img"> Our Theme
+                                <img src="frontend/img/sub-title.svg" alt="img"><?= $MSG['an_ourinitiatives']; ?>
                             </span>
-                            <h2 class="text-anim">
-                                Promotional Initiatives of Government of Karnataka
+                            <h2>
+                                <?= $MSG['ab_promotionalinitiata']; ?>
                             </h2>
                         </div>
                     </div>
@@ -166,43 +166,23 @@
                 <div class="col-lg-6">
                     <div class="organic-text-content">
                         <p>
-                            The Government of Karnataka, realising the importance of organic agriculture as early as in 2004 brought out a State policy on organic farming and has implemented several schemes and programmes under the policy to promote organic farming in the State.
-                        </p>
+                            <?= $MSG['ab_promotions']; ?> </p>
 
                         <p>
-                            Several programmes were initiated as organic farming addresses sustainable food production, soil health, nature conservation, rural development and mitigation of drought situation.
-                        </p>
+                            <?= $MSG['ab_promotions']; ?> </p>
                         <p>
-                            The Government of Karnataka, realising the importance of organic agriculture as early as in 2004 brought out a State policy on organic farming and has implemented several schemes and programmes under the policy to promote organic farming in the State.
-                        </p>
+                            <?= $MSG['ab_promotions']; ?> </p>
 
                         <p>
-                            Several programmes were initiated as organic farming addresses sustainable food production, soil health, nature conservation, rural development and mitigation of drought situation.
-                        </p>
-                        <p>
-                            The Government of Karnataka, realising the importance of organic agriculture as early as in 2004 brought out a State policy on organic farming and has implemented several schemes and programmes under the policy to promote organic farming in the State.
-                        </p>
-
-                        <p>
-                            Several programmes were initiated as organic farming addresses sustainable food production, soil health, nature conservation, rural development and mitigation of drought situation.
-                        </p>
-                        <p>The Government of Karnataka, realising the importance of organic agriculture as early as in 2004 brought out a State policy on organic farming.</p>
+                            <?= $MSG['ab_promotions']; ?> </p>
                     </div>
                 </div>
 
                 <div class="col-lg-6">
                     <div class="organic-text-content">
                         <p>
-                            Market Based Specific Crop Organic Cluster Development Programme was implemented in certified Savayava Bhagya Yojane project areas with a focus on organic market based specific crops or commodity in order to provide bulk & continuous supply to meet the market demand. Further, focus was provided to develop proper linkages between producers and consumers by strengthening the supply chain mechanism on value chain mode by supporting activities related to production, collection, grading, value addition, processing, packing, brand development, whole sale and retail marketing of organic produce.
-
-                            Presently, Karnataka ranks tenth in the country in terms of certified organic area and fourth in terms of total certified organic annual production (APEDA Statistics).
-
-                            Savayava Siri Programme was implemented for the promotion of organic farming. Under the scheme, capacity building in organic farming is provided to the eligible farmers of the state, along with the development of model organic farms and organic seed production farms, desi vegetable seed production and local/forest fruit seeds/seedling production in the state agriculture/ horticultural universities.
-
-                            The Scientific Validation of Zero Budget Natural Farming (ZBNF) System was implemented as experimental trials through the concerned State Agriculture/ Horticulture Universities in 10 Research Stations on Operational Research Project (ORP) mode. Also, Chief Ministers Natural Farming scheme was implemented through State’s Agri/horticultural Universities as farmers participatory research in 1000 acres farmer's fields under each of the five Agri/Horticultural Universities </p>
-
-
-
+                            <?= $MSG['ab_promotions1']; ?>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -228,24 +208,28 @@
                     <div class="contact-content">
                         <div class="section-title mb-0">
                             <span class="wow fadeInUp"></span>
-                            <h2 class="text-anim">
-                                “Empowering Karnataka’s Agriculture: Managing Diversity, Drought & Growth Potential”
-                            </h2>
+                            <h2>
+                                <?= $MSG['ab_empoweringkarnataka']; ?> </h2>
                         </div>
                         <p class="agri-text">
-                            <p>31 Districts, 236 Taluks, 850 Hoblies, 5965 Gram Panchayaths & 32499 Villages.</p>
-                            <p>
-                            Total area 190.50 lakh ha. Cultivable area 118.05 lakh ha. (64%).</p>
-                            <p>
-                            Only 33% area under irrigation. Most Drought Prone state after Rajasthan.</p>
-                            <p>
-                            10 Agro-climatic zones with rich crop diversity & 5 major soil types.</p>
+                        <p><?= $MSG['ab_districts']; ?>
+
+                        </p>
+                        <p>
+                            <?= $MSG['ab_totalarea']; ?>
+                        </p>
+                        <p>
+                            <?= $MSG['ab_only']; ?>
+                        </p>
+                        <p>
+                            <?= $MSG['ab_agroclimaticzones']; ?>
+                        </p>
                         </p>
                     </div>
                 </div>
 
                 <div class="col-lg-6 ">
-                    
+
                     <div class="contact-image d-none d-lg-block" style="padding-bottom: 100px;">
                         <img src="frontend/img/aboutkar.png" alt="img">
                     </div>
@@ -267,11 +251,11 @@
     <div class="container">
         <div class="section-title-area">
             <div class="section-title">
-                <span class="wow fadeInUp"><img src="frontend/img/sub-title.svg" alt="img">Our Achievements</span>
-                <h2 class="text-anim">Our Achievements and Recognitions</h2>
+                <span class="wow fadeInUp"><img src="frontend/img/sub-title.svg" alt="img"><?= $MSG['ab_ourachievements']; ?> </span>
+                <h2><?= $MSG['ab_achievements1']; ?> </h2>
             </div>
             <a href="news.html" class="theme-btn wow fadeInUp" data-wow-delay=".2s">
-                View All <i class="far fa-arrow-right"></i>
+               <?= $MSG['ab_achievements2']; ?> <i class="far fa-arrow-right"></i>
             </a>
         </div>
         <div class="row">
@@ -281,18 +265,18 @@
                         <img src="frontend/img/resize-1767866168415690983aboutaward (1).png" alt="img">
                         <div class="post-date">
                             <h4>27</h4>
-                            <p>MAY 2025</p>
+                            <p><?= $MSG['ab_achievements3']; ?></p>
                         </div>
                     </div>
                     <div class="content">
                         <ul class="post-date">
                             <li>
-                                Agricultural
+                               <?= $MSG['ab_achievements4']; ?>
                             </li>
 
                         </ul>
-                        <h3><a href="news-details.html">Award By Central Government.</a></h3>
-                        <a href="news-details.html" class="link-btn">More Details
+                        <h3><a href="news-details.html"><?= $MSG['ab_achievements5']; ?></a></h3>
+                        <a href="news-details.html" class="link-btn"><?= $MSG['ab_achievements6']; ?>
                             <i class="far fa-arrow-right"></i>
                         </a>
                     </div>
@@ -304,18 +288,18 @@
                         <img src="frontend/img/resize-1767866168415690983aboutaward (1).png" alt="img">
                         <div class="post-date">
                             <h4>29</h4>
-                            <p>MAY 2025</p>
+                            <p><?= $MSG['ab_achievements3']; ?></p>
                         </div>
                     </div>
                     <div class="content">
                         <ul class="post-date">
                             <li>
-                                Agricultural
+                                <?= $MSG['ab_achievements4']; ?>
                             </li>
 
                         </ul>
-                        <h3><a href="news-details.html">Award By Central Government?</a></h3>
-                        <a href="news-details.html" class="link-btn">More Details
+                        <h3><a href="news-details.html"><?= $MSG['ab_achievements5']; ?></a></h3>
+                        <a href="news-details.html" class="link-btn"><?= $MSG['ab_achievements6']; ?>
                             <i class="far fa-arrow-right"></i>
                         </a>
                     </div>
