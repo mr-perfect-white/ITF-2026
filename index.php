@@ -1,3 +1,4 @@
+<?php require_once 'lang/lang.php'; ?>
 <?php require_once 'inc/header.php'; ?>
 
 
@@ -237,9 +238,11 @@
                         <div class="section-title mb-3">
                             <span>
                                 <img src="frontend/img/sub-title.svg" alt="img">
-                                Why Choose Us
+                                <!-- Why Choose Us -->
+                               <?= $MSG['why_choose_us']; ?>
                             </span>
-                            <h2>Glimpse of ITF 2026</h2>
+                            <!-- <h2>Glimpse of ITF 2026</h2> -->
+                             <h2><?= $MSG['glimpse_title']; ?></h2>
                         </div>
 
                         <p class="choose-text mb-4">

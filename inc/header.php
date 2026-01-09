@@ -182,11 +182,26 @@
                         <div class="flag">
                             <!-- <img src="../ITF/frontend/img/flag.png" alt="flag"> -->
                         </div>
-                        <select class="single-select w-100">
+                        <!-- <select class="single-select w-100">
                             <option>EN</option>
                             <option>KA</option>
 
-                        </select>
+                        </select> -->
+                        <form method="post" action="set-language.php">
+    <select class="single-select w-100"
+            name="lang"
+            onchange="this.form.submit()">
+
+        <option value="en" <?= ($_SESSION['lang'] ?? 'en') == 'en' ? 'selected' : '' ?>>
+            EN
+        </option>
+
+        <option value="ka" <?= ($_SESSION['lang'] ?? '') == 'ka' ? 'selected' : '' ?>>
+            KA
+        </option>
+
+    </select>
+</form>
                     </div>
                     <div class="line-shape"></div>
                     <div class="social-icon">
