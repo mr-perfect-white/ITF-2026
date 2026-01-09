@@ -1,3 +1,4 @@
+<?php require_once 'lang/lang.php'; ?>
 <?php require_once 'inc/header.php'; ?>
 
 <!-- About Section Start -->

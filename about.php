@@ -1,3 +1,5 @@
+
+<?php require_once 'lang/lang.php'; ?>
 <?php require_once 'inc/header.php'; ?>
 <style>
     .breadcrumb-wrapper::before {

@@ -1,7 +1,25 @@
 <?php
 return [
+
+    // Home page
     'why_choose_us' => 'ನಮ್ಮನ್ನು ಏಕೆ ಆಯ್ಕೆ ಮಾಡಬೇಕು',
     'glimpse_title' => 'ಐಟಿಎಫ್ 2026ರ ಝಲಕ್',
     'agri_title' => 'ಬೆಳೆಗಾರಿಕೆಯನ್ನು ಮೀರಿದ ಕೃಷಿ ಮತ್ತು ರೈತರ ಸಬಲೀಕರಣ',
     'trust_clients' => 'ಗ್ರಾಹಕರ ನಂಬಿಕೆ',
+
+
+   // About page
+
+
+
+
+   // Contact page
+
+
+
+
+   // Journey page
+  
+    
+
 ];
