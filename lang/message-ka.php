@@ -16,7 +16,7 @@ return [
    // Contact page
 
 
-
+'international_trade_fair_2026_highlights'=> '',
 
    // Journey page
   
