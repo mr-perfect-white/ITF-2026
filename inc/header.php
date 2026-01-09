@@ -10,9 +10,9 @@
     <meta name="author" content="modinatheme">
     <meta name="description" content="Agron - Agriculture & Organic Farm Html Template">
     <!-- ======== Page title ============ -->
-    <title>Agron - Agriculture & Organic Farm Html Template</title>
+    <title>ITF - Agriculture beyond cultivation and empowering farmers</title>
     <!--<< Favicon >>-->
-    <link rel="shortcut icon" href="../ITF/frontend/img/favicon.svg">
+    <link rel="shortcut icon" href="../ITF/frontend/img/logo/eng-logo.jpeg">
     <!--<< Bootstrap min.css >>-->
     <link rel="stylesheet" href="../ITF/frontend/css/bootstrap.min.css">
     <!--<< Font Awesome.css >>-->
@@ -80,7 +80,7 @@
                     <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                         <div class="offcanvas__logo">
                             <a href="index.html">
-                                <img src="../ITF/frontend/img/logo/black-logo.svg" alt="logo-img">
+                                <img src="../ITF/frontend/img/logo/eng-logo.jpeg" alt="logo-img">
                             </a>
                         </div>
                         <div class="offcanvas__close">

@@ -327,10 +327,10 @@
 <!-- Service Section Start -->
 <section class="achievements-section-4 section-padding fix section-bg">
     <div class="shape-1 float-bob-y">
-        <img src="assets/img/home-4/achievement/shape-1.png" alt="img">
+        <img src="../ITF/frontend/img/home-4/achievement/shape-1.png" alt="img">
     </div>
     <div class="shape-2 float-bob-x">
-        <img src="assets/img/home-4/achievement/shape-2.png" alt="img">
+        <img src="../ITF/frontend/img/home-4/achievement/shape-2.png" alt="img">
     </div>
     <div class="container">
         <div class="achievments-wrapper-4">
@@ -394,7 +394,7 @@
 <section class="service-section-4 section-padding fix">
     <div class="container">
         <div class="section-title text-center">
-            <span class="wow fadeInUp"><img src="assets/img/sub-title.svg" alt="img">Pre events</span>
+            <span class="wow fadeInUp"><img src="../ITF/frontend/img/sub-title.svg" alt="img">Pre events</span>
             <h2 class="text-anim">Pre events</h2>
 
         </div>
