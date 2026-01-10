@@ -1,4 +1,3 @@
-
 <?php require_once 'lang/lang.php'; ?>
 <?php require_once 'inc/header.php'; ?>
 <style>
@@ -40,47 +39,115 @@
 
     }
 
-    /*karmap section*/
-    /* Increase paragraph size and readability */
-    .agri-text {
-        font-size: 25px;
-        /* Increase text size */
-        line-height: 1.7;
-        /* Better spacing */
-        font-weight: 500;
-        /* Slightly bold */
-        color: #2a2a2a;
-        /* Rich readable color */
+ /* KAR Map SECTION  */
+.karnataka-section {
+    position: relative;
+    background: #f3f7f1;
+    padding: 80px 0;
+    overflow: hidden;
+}
+
+
+.ks-shape {
+    position: absolute;
+    z-index: 1;
+    pointer-events: none;
+    opacity: 0.8;
+}
+
+.ks-shape-1 {
+    top: 5%;
+    left: 2%;
+}
+
+.ks-shape-2 {
+    top: 15%;
+    right: 3%;
+}
+
+.ks-shape-3 {
+    bottom: 8%;
+    left: 10%;
+}
+
+@media (max-width: 767px) {
+    .ks-shape {
+        display: none;
     }
-.contact-content p {
-    font-size: 25px;
+}
+
+.karnataka-container {
+    position: relative;
+    z-index: 2;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+.karnataka-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 50px;
+}
+
+.karnataka-text h2 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #123b1c;
+    margin-bottom: 25px;
+}
+
+.karnataka-text p {
+    font-size: 20px;
     line-height: 1.7;
-}
-    /* Make columns visually balanced */
-    .contact-wrapper-3 .row {
-        align-items: stretch;
-        /* equal visual height feel */
-    }
-
-    /* Make image visible fully and responsive */
-    .contact-image img {
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
-        /* Shows full image without cutting */
-    }
-    .contact-wrapper-3 .row {
-    align-items: stretch;
-    
+    color: #222;
+    margin-bottom: 15px;
 }
 
-/* Force text column to fill height & center text vertically */
-.contact-content {
-    height: 100%;
+.karnataka-image {
     display: flex;
-    flex-direction: column;
-    justify-content: center;   /* middle alignment */
+    align-items: center;
+    justify-content: center;
 }
+
+.karnataka-image img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+}
+
+@media (max-width: 767px) {
+
+    .karnataka-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .karnataka-image {
+        order: -1;
+        margin-bottom: 30px;
+    }
+
+    .karnataka-text h2 {
+        font-size: 26px;
+    }
+
+    .karnataka-text p {
+        font-size: 17px;
+    }
+}
+@keyframes floatY {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(15px); }
+}
+
+.ks-shape {
+    animation: floatY 6s ease-in-out infinite;
+}
+
 </style>
 <!-- Breadcrumb Section Start -->
 <section class="breadcrumb-wrapper bg-cover fix" style="background-image: url(frontend/img/aboutusbanner.jpg);">
@@ -93,11 +160,11 @@
     <div class="container">
         <div class="page-heading">
             <ul class="breadcrumb-list wow fadeInUp" style="color: black !important;">
-                <li><?= $MSG['home']; ?></li>
-                <li>/</li>
-                <li><?= $MSG['ab_aboutus']; ?></li>
+                <li>Home</li>
+                <li>//</li>
+                <li>About Us</li>
             </ul>
-            <h1 class="breadcrumb-title "><?= $MSG['ab_aboutus']; ?></h1>
+            <h1 class="breadcrumb-title text-anim">About Us</h1>
         </div>
     </div>
 </section>
@@ -110,8 +177,8 @@
                 <div class="col-lg-7">
                     <div class="about-left-content">
                         <div class="section-title mb-0">
-                            <span class="wow fadeInUp"><img src="frontend/img/sub-title.svg" alt="img"><?= $MSG['ab_ourtheme']; ?></span>
-                            <h2><?= $MSG['ab_agriculture']; ?></h2>
+                            <span class="wow fadeInUp"><img src="frontend/img/sub-title.svg" alt="img">Our Theme</span>
+                            <h2 class="text-anim">Agriculture beyond cultivation and empowering farmers</h2>
                         </div>
                         <div class="shapes-row">
                             <div class="shape-3 d-none d-xxl-block float-bob-x">
@@ -153,8 +220,8 @@
                             <span class="wow fadeInUp">
                                 <img src="frontend/img/sub-title.svg" alt="img"><?= $MSG['an_ourinitiatives']; ?>
                             </span>
-                            <h2>
-                                <?= $MSG['ab_promotionalinitiata']; ?>
+                            <h2 class="text-anim">
+                                Promotional Initiatives of Government of Karnataka
                             </h2>
                         </div>
                     </div>
@@ -208,38 +275,34 @@
                     <div class="contact-content">
                         <div class="section-title mb-0">
                             <span class="wow fadeInUp"></span>
-                            <h2>
-                                <?= $MSG['ab_empoweringkarnataka']; ?> </h2>
+                            <h2 class="text-anim">
+                                “Empowering Karnataka’s Agriculture: Managing Diversity, Drought & Growth Potential”
+                            </h2>
                         </div>
                         <p class="agri-text">
-                        <p><?= $MSG['ab_districts']; ?>
-
-                        </p>
-                        <p>
-                            <?= $MSG['ab_totalarea']; ?>
-                        </p>
-                        <p>
-                            <?= $MSG['ab_only']; ?>
-                        </p>
-                        <p>
-                            <?= $MSG['ab_agroclimaticzones']; ?>
-                        </p>
+                            <p>31 Districts, 236 Taluks, 850 Hoblies, 5965 Gram Panchayaths & 32499 Villages.</p>
+                            <p>
+                            Total area 190.50 lakh ha. Cultivable area 118.05 lakh ha. (64%).</p>
+                            <p>
+                            Only 33% area under irrigation. Most Drought Prone state after Rajasthan.</p>
+                            <p>
+                            10 Agro-climatic zones with rich crop diversity & 5 major soil types.</p>
                         </p>
                     </div>
                 </div>
 
                 <div class="col-lg-6 ">
-
+                    
                     <div class="contact-image d-none d-lg-block" style="padding-bottom: 100px;">
                         <img src="frontend/img/aboutkar.png" alt="img">
                     </div>
                 </div>
             </div>
+
         </div>
+
     </div>
-
 </section>
-
 <!-- Achievements Section  -->
 <section class="news-section-4 section-padding fix pt-10">
     <div class="news-shape-1 d-none d-xxl-block float-bob-x">
@@ -251,8 +314,8 @@
     <div class="container">
         <div class="section-title-area">
             <div class="section-title">
-                <span class="wow fadeInUp"><img src="frontend/img/sub-title.svg" alt="img"><?= $MSG['ab_ourachievements']; ?> </span>
-                <h2><?= $MSG['ab_achievements1']; ?> </h2>
+                <span class="wow fadeInUp"><img src="frontend/img/sub-title.svg" alt="img">Our Achievements</span>
+                <h2 class="text-anim">Our Achievements and Recognitions</h2>
             </div>
             <a href="news.html" class="theme-btn wow fadeInUp" data-wow-delay=".2s">
                <?= $MSG['ab_achievements2']; ?> <i class="far fa-arrow-right"></i>

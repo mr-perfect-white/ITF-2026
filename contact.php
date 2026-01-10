@@ -1,4 +1,3 @@
-
 <?php require_once 'lang/lang.php'; ?>
 <?php require_once 'inc/header.php'; ?>
 <style>
@@ -97,19 +96,50 @@
 
     .section-title h3 {
         margin-top: 20px;
-        
-    }
-    .shape-right {
-    position: absolute;
-    right: 0;
-     transform: translateY(-50%);
-}
 
-.shape-left {
-    position: absolute;
-    left: 0;
-    transform: translateY(-50%);
-}
+    }
+
+    .shape-right {
+        position: absolute;
+        right: 0;
+        transform: translateY(-50%);
+    }
+
+    .shape-left {
+        position: absolute;
+        left: 0;
+        transform: translateY(-50%);
+    }
+
+
+    .gov-card-body p {
+        font-size: 16px;
+        line-height: 1.6;
+        color: #333;
+        margin-bottom: 15px;
+    }
+
+    .gov-card-body strong {
+        color: #0f3d1f;
+    }
+
+    .gov-card-body a {
+        color: #1b5e20;
+        text-decoration: none;
+    }
+
+    .gov-card-body a:hover {
+        text-decoration: underline;
+    }
+
+    /*MOBILE*/
+    @media (max-width: 600px) {
+
+
+        .gov-card-body p {
+            font-size: 15px;
+        }
+    }
 </style>
 <section class="breadcrumb-wrapper bg-cover fix" style="background-image: url(frontend/img/contactus.jpg);">
     <div class="shape-1 float-bob-y">
@@ -141,16 +171,27 @@
                     </div>
                     <div class="contact-top">
 
-                        <i class="fas fa-map-marker-alt"></i>
-
-                        <h3>ORGANIC FARMING DIVISION, KARNATAKA STATE DEPARTMENT OF AGRICULTURE</h3>
+                        <h3>📍ORGANIC FARMING DIVISION, KARNATAKA STATE DEPARTMENT OF AGRICULTURE</h3>
                     </div>
-                    <p>
-                        No. 1, Sheshadri Road, Bengaluru, Karnataka-560001. <br>
-                        Phone: 080-22074111 / 22242746 / 22074101.<br>
+                    <div class="gov-card-body">
+                        <p>
+                            <strong>Address:</strong>
+                            No. 1, Sheshadri Road,
+                            Bengaluru, Karnataka – 560001
+                        </p>
 
-                        Email: itf2025organiccell@gmail.com
-                    </p>
+                        <p>
+                            <strong>Phone:</strong>
+                            080-22074111 / 22242746 / 22074101
+                        </p>
+
+                        <p>
+                            <strong>Email:</strong>
+                            <a href="mailto:itf2025organiccell@gmail.com">
+                                itf2025organiccell@gmail.com
+                            </a>
+                        </p>
+                    </div>
                 </div>
             </div>
             <div class="col-xl-6 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
@@ -160,20 +201,29 @@
                     </div>
                     <div class="contact-top">
 
-                        <i class="fas fa-map-marker-alt"></i>
-
-                        <h3>KARNTAKA STATE AGRICULTURAL PRODUCE PROCESSING AND EXPORT CORPORATION LTD.</h3>
+                        <h3>📍KARNTAKA STATE AGRICULTURAL PRODUCE PROCESSING AND EXPORT CORPORATION LTD.</h3>
                     </div>
-                    <p>
-                        No.17, Richmond Road, Bengaluru, Karnataka-560025.<br>
-                        Phone: 080-22271194 / 22243082<br>
-                        Email: kappec1996@gmail.com
-                    </p>
+                    <div class="gov-card-body">
+                        <p>
+                            <strong>Address:</strong> No.17, Richmond Road, Bengaluru, Karnataka-560025.
+                        </p>
+                        <p> <strong>Phone:</strong>
+                            080-22271194 / 22243082</p>
+                        <p>
+                            <strong>Email:</strong>
+                            <a href="mailto:kappec1996@gmail.com">
+                                kappec1996@gmail.com
+                            </a>
+
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+
 
 <!-- Contact officers Start -->
 <section class="contact-officers-section section-padding">
@@ -349,11 +399,11 @@
 <section class="service-section-3 section-padding pb-0">
     <div class="shape-right  float-bob-x">
         <img src="frontend/img/home-3/service/shape-1.png" alt="img">
-         <img src="frontend/img/home-3/service/shape-1.png" alt="img">
+        <img src="frontend/img/home-3/service/shape-1.png" alt="img">
     </div>
-     <div class="shape-left float-bob-x">
-      <img src="frontend/img/home-3/delivery/right-shape.png" alt="img">
-            <img src="frontend/img/home-5/footer/shape-4.png" alt="img">
+    <div class="shape-left float-bob-x">
+        <img src="frontend/img/home-3/delivery/right-shape.png" alt="img">
+        <img src="frontend/img/home-5/footer/shape-4.png" alt="img">
     </div>
     <div class="container">
         <div class="section-title text-center">
