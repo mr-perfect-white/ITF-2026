@@ -89,8 +89,8 @@
                             </button>
                         </div>
                     </div>
-                    <h3 class="offcanvas-title">Hello There!</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi natus quasi sunt eum ducimus.</p>
+                    <!-- <h3 class="offcanvas-title">Hello There!</h3> -->
+                    <p class="fw-bold" style="font-size: 22px;"> <?= $MSG['footer_title']; ?></p>
                     <div class="mobile-menu fix mt-15"></div>
                     <div class="social-icon d-flex align-items-center">
                         <a href="javascript:void(0)">
@@ -117,8 +117,8 @@
                                     <p>Call Us</p>
                                     <h4>
                                         <a href="tel:+
-080-22074111">
-                                            080-22074111
+ 080-22271194 / 22243082">
+                                           080-22271194 / 22243082
                                         </a>
                                     </h4>
                                 </div>
@@ -130,14 +130,14 @@
                                 <div class="content">
                                     <p>Send Email</p>
                                     <h4>
-                                        <a href="mailto:yordomain@gmial.com">
-                                            itf2026organiccell@gmail.com
+                                        <a href="mailto:kssc.manager.acct@gmail.com">
+                                          kssc.manager.acct@gmail.com
                                         </a>
                                     </h4>
                                 </div>
                             </li>
                             <li>
-                                <div class="icon">
+                                <div class="icon" style="width:75px">
                                     <i class="fal fa-map-marker-alt"></i>
                                 </div>
                                 <div class="content">
@@ -165,14 +165,14 @@
                 <ul class="header-contact-list">
                     <li>
                         <i class="fal fa-envelope"></i>
-                        <a href="mailto:agron@gmial.com">
-                            itf2026organiccell@gmail.com
+                        <a href="mailto:kssc.manager.acct@gmail.com">
+                           kssc.manager.acct@gmail.com
                         </a>
                     </li>
                     <li>
                         <i class="far fa-phone-alt"></i>
-                        <a href="tel:+080-22074111">
-                            +080-22074111
+                        <a href="tel:+ 080-22271194 / 22243082">
+                            + 080-22271194 / 22243082
                         </a>
                     </li>
                 </ul>
@@ -405,7 +405,7 @@
                                                 </li>
                                             </ul> 
                                     </li>
-                                    <li>
+                                    <!-- <li>
                                         <a href="javascript:void(0)">
                                            <?= $MSG['resources']; ?>
                                             <i class="fas fa-chevron-down"></i>
@@ -418,7 +418,7 @@
                                                     <a href="service-details.html">producesr list</a>
                                                 </li>
                                             </ul>
-                                    </li>
+                                    </li> -->
                                     <li>
                                         <a href="javascript:void(0)">
                                           <?= $MSG['gallery']; ?>

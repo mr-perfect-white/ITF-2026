@@ -3,7 +3,7 @@
 return [
     
     // <---------- Header Menu start----------->
-    'header_title' => 'ITF – Agriculture beyond cultivation and empowering farmers',
+    'header_title' => 'Agriculture beyond Production-"<em>Empowering farmers</em>"',
     'home'=> 'Home',
     'about-itf'=> ' About ITF',
     'registrations'=> ' Registrations',
@@ -16,14 +16,14 @@ return [
      //<-------Header Menu End---------------->
 
     //<----------Footer Menu start------------->
-    'footer_title'       => 'Agriculture beyond cultivation and empowering farmers',
+    'footer_title'       => 'Agriculture beyond Production - "<em>Empowering farmers</em>"',
     'footer_text'=> 'Lorem ipsum dolor sit amet, porro quisquam est, qui dolorem ipsum quia sed dolor sit amet, consectetur',
     'footer_useful_link' => 'Useful Link',
     'foot_email_us' => 'Email us',
     'foot_location' => 'Location',
     'foot_phone' => 'Phone',
     'foot_reserved'         => '© 2025 ITF. All Rights Reserved',
-    'foot_address'       => 'No. 1, Sheshadri Road, Bangalore, Karnataka-560001',
+    'foot_address'       => 'Karnataka State Seeds Corporation Limited (KSSCL)  Beej Bhavan, Bellary Road, Hebbal, Bengaluru-560024, India',
 
     //<----------Footer Menu End------------->
 
@@ -48,8 +48,53 @@ return [
     // Home page
     'why_choose_us' => 'Why Choose Us',
     'glimpse_title' => 'Glimpse of ITF 2026',
-    'agri_title' => 'Agriculture beyond cultivation and empowering farmers',
+    'agri_title' => 'Agriculture beyond Production -"<em>Empowering farmers</em>"',
     'trust_clients' => 'Trust By Clients',
+    'about_content' => 'The Government of Karnataka has implemented various initiatives and interventions to
+    support organics and millets, including the organisation of annual organic & millet
+    trade fairs since 2017 to promote millets as a people’s movement, striving to position
+    Bangalore as the ‘global hub for millets’. Owing to these concerted efforts, once
+    near-extinct minor millets have experienced a remarkable revival and are now in high
+    demand as healthy traditional foods.
+    
+    In order to double the income of farmers in the State, there is a need to provide
+    appropriate platform to establish market linkages to farmers by showcasing
+    value-added products, natural products and other related products under various
+    schemes implemented by the Secondary Agriculture Directorate, the Department of
+    Agriculture and the Watershed Development Department, Karnataka Agro Processing
+    and Export Corporation (KAPPEC), Karnataka State Seeds Corporation (KSSC) and
+    Karnataka Pulses Development Board.
+    
+    The Department of Agriculture, Government of Karnataka, successfully organized
+    Organic and Millets International Trade Fairs in the years 2017, 2018, 2019, 2023,
+    2024 and 2025. These events attracted a large number of stakeholders, generated
+    significant interest and achieved notable success.',
+
+   'about_more_content' => '
+<p><strong>International Trade Fair 2026 Theme:</strong><br>
+<em>“Agriculture beyond Cultivation – Empowering Farmers”</em></p>
+
+<ul>
+    <li><strong>Processing and Value Addition:</strong> Creating awareness among small-scale food processors, farmer groups and SHGs.</li>
+    <li><strong>Agro-Ecology:</strong> Promoting environmentally sustainable farming and processing practices.</li>
+    <li><strong>Branding and Credit Services:</strong> Awareness on branding and output-based credit for FPOs.</li>
+</ul>
+
+<p>
+    The forthcoming Trade Fair will be organized at <strong>Tripuravasini Palace Grounds,
+    Bengaluru</strong> on <strong>06, 07 and 08 February 2026</strong>, in collaboration with
+    the Department of Agriculture, KSSC and KAPPEC.
+</p>
+
+<p>
+    Overall, the objective of the Trade Fair is to provide an appropriate platform to
+    transform the State’s farmers into entrepreneurs through processing and
+    value-addition initiatives.
+</p>',
+
+'read_more' => 'Read More',
+'highlights' => 'Agriculture beyond Production -<br>"<em>Empowering farmers</em>"',
+
 
    // About page
    
@@ -57,7 +102,7 @@ return [
   'international_trade_fair_2026_highlights' => 'International Trade Fair 2026 Highlights',
   'ab_aboutus' => 'About Us',
   'ab_ourtheme' => 'Our Theme',
-  'ab_agriculture' => 'Agriculture beyond cultivation and empowering farmers',
+  'ab_agriculture' => 'Agriculture beyond Production -"<em>Empowering farmers</em>"',
   'ab_expectedvisitors' => 'Expected Visitors',
   'ab_empowering' => 'Empowering farmers through technology, awareness, and support to redefine agriculture beyond traditional cultivation',
   'an_ourinitiatives' => 'Our Initiatives',
@@ -149,7 +194,7 @@ return [
    'itf_journey_2025'=> '2025',
    'organics_and_millets'=> 'Organics and Millets',
    'millets_and_organics'=> 'Millets and Organics',
-   'agriculture_beyond_cultivation_and_empowering_farmers'=> 'Agriculture Beyond Cultivation and Empowering Farmers',
+   'agriculture_beyond_cultivation_and_empowering_farmers'=> 'Agriculture beyond Production -"<em>Empowering farmers</em>"',
    'itf_journey_para'=>'The Sixth edition of Agriculture beyond cultivation and empowering farmers , 
                         2025 – International Trade Fair is organized by the Department of Agriculture,
                         Government Of Karnataka. It will be a platform for farmers, farmer groups, domestic
