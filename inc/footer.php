@@ -98,7 +98,7 @@
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="icon" style="width: 170px;">
+                                    <div class="icon" style="width: 140px;">
                                         <i class="fas fa-map-marker-alt"></i>
                                     </div>
                                     <div class="content">

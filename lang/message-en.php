@@ -71,22 +71,21 @@ return [
     significant interest and achieved notable success.',
 
    'about_more_content' => '
-<p><strong>International Trade Fair 2026 Theme:</strong><br>
-<em>“Agriculture beyond Cultivation – Empowering Farmers”</em></p>
+<strong>International Trade Fair 2026 Theme:</strong><br>
+<em>“Agriculture beyond Cultivation – Empowering Farmers”</em>',
+ 'about_more_content1' => '
+<strong>Processing and Value Addition:</strong> Creating awareness among small-scale food processors, farmer groups and SHGs.',
+    'about_more_content2' => '
+    <strong>Agro-Ecology:</strong> Promoting environmentally sustainable farming and processing practices.',
+    'about_more_content3' => '
+    <strong>Branding and Credit Services:</strong> Awareness on branding and output-based credit for FPOs.',
 
-<ul>
-    <li><strong>Processing and Value Addition:</strong> Creating awareness among small-scale food processors, farmer groups and SHGs.</li>
-    <li><strong>Agro-Ecology:</strong> Promoting environmentally sustainable farming and processing practices.</li>
-    <li><strong>Branding and Credit Services:</strong> Awareness on branding and output-based credit for FPOs.</li>
-</ul>
-
-<p>
+'about_more_content4' => '
     The forthcoming Trade Fair will be organized at <strong>Tripuravasini Palace Grounds,
     Bengaluru</strong> on <strong>06, 07 and 08 February 2026</strong>, in collaboration with
-    the Department of Agriculture, KSSC and KAPPEC.
-</p>
+    the Department of Agriculture, KSSC and KAPPEC.',
 
-<p>
+'about_more_content5' => '
     Overall, the objective of the Trade Fair is to provide an appropriate platform to
     transform the State’s farmers into entrepreneurs through processing and
     value-addition initiatives.

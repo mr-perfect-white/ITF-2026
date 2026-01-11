@@ -1322,7 +1322,7 @@ p {
   position: absolute;
   top: 100%;
   inset-inline-start: 0;
-  min-width: 240px;
+  min-width: 290px;
   background: var(--white);
   padding: 20px 0;
   border-radius: 10px;

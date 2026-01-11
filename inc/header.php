@@ -344,9 +344,39 @@
                                         </ul> -->
                                     </li>
                                     <li>
-                                        <a href="about.php">
-                                            <?= $MSG['about-itf']; ?>
+                                       <a href="javascript:void(0)">
+                                         <?= $MSG['about-itf']; ?>
+                                            <i class="fas fa-chevron-down"></i>
                                         </a>
+                                        <ul class="submenu">
+                                                <li>
+                                                    <a href="news-grid.html">ITF</a>
+                                                </li>
+                                                <li>
+                                                    <a href="news.html">Journey</a>
+                                                </li>
+                                                <li>
+                                                    <a href="news-details.html">Event Schedule</a>
+                                                </li>
+                                                <li>
+                                                    <a href="news-details.html">Farmer Workshop</a>
+                                                </li>
+                                                <li>
+                                                    <a href="news-details.html">International Conference</a>
+                                                </li>
+                                                <li>
+                                                    <a href="news-details.html">Exhibitors</a>
+                                                </li>
+                                                <li>
+                                                    <a href="news-details.html">Karnataka Pavilion Participants</a>
+                                                </li>
+                                                <li>
+                                                    <a href="news-details.html">B2B Buyers & Sellers</a>
+                                                </li>
+                                                <li>
+                                                    <a href="news-details.html">Tour</a>
+                                                </li>
+                                            </ul>
                                     </li>
                                     <li class="has-dropdown">
                                         <a href="javascript:void(0)">
@@ -354,71 +384,34 @@
                                             <i class="fas fa-chevron-down"></i>
                                         </a>
                                          <ul class="submenu">
-                                                <li class="has-dropdown">
-                                                    <a href="javascript:void(0)">
-                                                        <?= $MSG['B2B Registrations']; ?>
-                                                        <!-- <i class="fas fa-angle-right"></i> -->
-                                                    </a>
-                                                    <!-- <ul class="submenu">
-                                                        <li>
-                                                            <a href="project.html">Our Projects</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="project-details.html">Project Details</a>
-                                                        </li>
-                                                    </ul> -->
+                                               
+                                                <li>
+                                                    <a href="faq.html">B2B Buyer Registration</a>
                                                 </li>
-                                                <!-- <li class="has-dropdown">
-                                                    <a href="javascript:void(0)">
-                                                        Our Team
-                                                        <i class="fas fa-angle-right"></i>
-                                                    </a>
-                                                    <ul class="submenu">
-                                                        <li>
-                                                            <a href="team.html">Our Team</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="team-details.html">Team Details</a>
-                                                        </li>
-                                                    </ul>
-                                                </li> -->
-                                                <!-- <li>
-                                                    <a href="pricing.html">Pricing Plan</a>
-                                                </li> -->
-                                                <!-- <li>
-                                                    <a href="gallery.html">Our Gallery</a>
-                                                </li> -->
-                                                <!-- <li>
-                                                    <a href="testimonial.html">Testimonails</a>
-                                                </li> -->
-                                                <!-- <li>
-                                                    <a href="history.html">Our History</a>
-                                                </li> -->
                                                 <li>
                                                     <a href="faq.html">B2B Seller Registration</a>
                                                 </li>
                                                 <li>
-                                                    <a href="comming-soon.html">Millet Run Registration</a>
+                                                    <a href="">Millet Run Registration</a>
                                                 </li>
                                                 <li>
-                                                    <a href="404.html">Farmer Workshop Registration</a>
+                                                    <a href="">Farmer Workshop Registration</a>
+                                                </li>
+                                                <li>
+                                                    <a href="404.html">Public Registration</a>
+                                                </li>
+                                                <li>
+                                                    <a href="404.html">Exhibition Stall Booking</a>
+                                                </li>
+                                                <li>
+                                                    <a href="404.html">International Conference</a>
+                                                </li>
+                                                <li>
+                                                    <a href="404.html">Paid Food stall Booking</a>
                                                 </li>
                                             </ul> 
                                     </li>
-                                    <!-- <li>
-                                        <a href="javascript:void(0)">
-                                           <?= $MSG['resources']; ?>
-                                            <i class="fas fa-chevron-down"></i>
-                                        </a>
-                                        <ul class="submenu">
-                                                <li>
-                                                    <a href="service.html">Millets and Organics scheme</a>
-                                                </li>
-                                                <li>
-                                                    <a href="service-details.html">producesr list</a>
-                                                </li>
-                                            </ul>
-                                    </li> -->
+                                    
                                     <li>
                                         <a href="javascript:void(0)">
                                           <?= $MSG['gallery']; ?>
@@ -430,6 +423,21 @@
                                                 </li>
                                                 <li>
                                                     <a href="news.html">video</a>
+                                                </li>
+                                                <li>
+                                                    <a href="news.html">Media Coverage</a>
+                                                </li>
+                                                <li>
+                                                    <a href="news.html">Culinary Competition</a>
+                                                </li>
+                                                <li>
+                                                    <a href="news.html">Promotional Videos</a>
+                                                </li>
+                                                <li>
+                                                    <a href="news.html">District Activities</a>
+                                                </li>
+                                                <li>
+                                                    <a href="news.html">Publications</a>
                                                 </li>
                                                 <li>
                                                     <a href="news-details.html">Event</a>

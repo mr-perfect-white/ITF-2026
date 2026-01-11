@@ -22,7 +22,7 @@
     </div>
     <div class="swiper banner-active">
         <div class="swiper-wrapper">
-            
+
             <div class="swiper-slide">
                 <div class="hero-height">
                     <div class="hero-bg bg-cover" style=""><img src="../ITF/frontend/img/003.jpg" width="100%">
@@ -275,7 +275,7 @@
                         </div>
 
                         <!-- Default visible paragraph -->
-                        <p class="choose-text mb-4 text-white" >
+                        <p class="choose-text mb-4 text-white">
                             <?= $MSG['about_content']; ?>
                         </p>
 
@@ -285,14 +285,38 @@
 
 
                             <p>
-                                <?= $MSG['about_more_content']; ?>
+                               <?= $MSG['about_more_content']; ?>
                             </p>
+
+                            <ul>
+                                <li>
+                                    <?= $MSG['about_more_content1']; ?>
+                                </li>
+
+                                <li>
+                                    <?= $MSG['about_more_content2']; ?>
+                                </li>
+
+                                <li>
+                                   <?= $MSG['about_more_content3']; ?>
+                                </li>
+                            </ul>
+
+                            <p>
+                                <?= $MSG['about_more_content4']; ?>
+                            </p>
+
+                            <p>
+                                <?= $MSG['about_more_content5']; ?>
+                            </p>
+
+                            
                         </div>
 
                         <!-- Read More Button -->
                         <div>
                             <button class="btn btn-sm btn-brown text-white" id="readMoreBtn" onclick="toggleContent()">
-                              <?= $MSG['read_more']; ?>
+                                <?= $MSG['read_more']; ?>
                             </button>
                         </div>
 
@@ -347,7 +371,7 @@
                 <div class="swiper-slide1">
                     <div class="brand-image text-center">
                         <img src="../ITF/frontend/img/resized_5.png" alt="img">
-                       <p class="brand-text">PRODUCT<br> EXHIBITION</p>
+                        <p class="brand-text">PRODUCT<br> EXHIBITION</p>
                     </div>
                 </div>
                 <!-- <div class="swiper-slide">
@@ -375,7 +399,8 @@
                 <div class="col-xl-5 col-lg-5">
                     <div class="achievments-content">
                         <div class="section-title mb-0">
-                            <span class="wow fadeInUp text-white"><img src="../ITF/frontend/img/sub-title.svg" alt="img">weeks
+                            <span class="wow fadeInUp text-white"><img src="../ITF/frontend/img/sub-title.svg"
+                                    alt="img">weeks
                                 highlights</span>
                             <h2 class="text-anim text-white"> <?= $MSG['highlights']; ?></h2>
                         </div>
@@ -446,7 +471,7 @@
                         </div>
                         <div class="service-content-area">
                             <div class="icon">
-                             <i class="fa fa-trophy"></i>
+                                <i class="fa fa-trophy"></i>
 
 
                             </div>
@@ -467,7 +492,7 @@
                         </div>
                         <div class="service-content-area">
                             <div class="icon">
-                               <i class="fa fa-comments"></i>
+                                <i class="fa fa-comments"></i>
 
                             </div>
                             <div class="content">
@@ -487,7 +512,7 @@
                         </div>
                         <div class="service-content-area">
                             <div class="icon">
-                       <i class="fa fa-shopping-basket"></i>
+                                <i class="fa fa-shopping-basket"></i>
 
 
 
@@ -570,7 +595,7 @@
         <div class="section-title text-center">
             <span class="wow fadeInUp text-white"><img src="frontend/img/sub-title.svg" alt="img">Our News</span>
             <h2 class="text-anim text-white">Publicity and Promotions</h2>
-            
+
         </div>
         <div class="row">
             <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
@@ -583,8 +608,9 @@
                         </div>
                     </div>
                     <div class="news-content text-white">
-                        <h3><a href="news-details.html"  class="text-white">International Symposium</a></h3>
-                        <p class="text-white"> Participation in ISSF – 2024 on 10-11, November 2024 held at Bhubaneshwar, Odisha.</p>
+                        <h3><a href="news-details.html" class="text-white">International Symposium</a></h3>
+                        <p class="text-white"> Participation in ISSF – 2024 on 10-11, November 2024 held at
+                            Bhubaneshwar, Odisha.</p>
 
                     </div>
                 </div>
@@ -599,8 +625,8 @@
                         </div>
                     </div>
                     <div class="news-content">
-                        <h3><a href="news-details.html"  class="text-white">World Soil Day</a></h3>
-                        <p  class="text-white">
+                        <h3><a href="news-details.html" class="text-white">World Soil Day</a></h3>
+                        <p class="text-white">
                             Celebration of World Soil Day on 5th December 2024 at Department of
                             Agriculture Bengaluru.
                         </p>
@@ -619,8 +645,8 @@
                     </div>
                     <div class="news-content">
 
-                        <h3><a href="news-details.html"  class="text-white">Organic World Congress</a></h3>
-                        <p  class="text-white">
+                        <h3><a href="news-details.html" class="text-white">Organic World Congress</a></h3>
+                        <p class="text-white">
                             Organic World Congress held in Taiwan from November 29-December 4th 2024.
                         </p>
 
@@ -634,7 +660,8 @@
 <section class="project-section-2 section-padding1 fix mb-0">
     <div class="container">
         <div class="section-title text-center">
-            <span class="wow fadeInUp"><img src="frontend/img/sub-title.svg" alt="img"> <?= $MSG['footer_title']; ?></span>
+            <span class="wow fadeInUp"><img src="frontend/img/sub-title.svg" alt="img">
+                <?= $MSG['footer_title']; ?></span>
             <h2 class="text-anim"> <?= $MSG['footer_title']; ?></h2>
         </div>
     </div>
@@ -749,7 +776,7 @@
                                 <div class="acc-content">
                                     <div class="content">
                                         <div class="text">
-                                            ITF is organised by Karnataka State  Department of Agriculture and entry for
+                                            ITF is organised by Karnataka State Department of Agriculture and entry for
                                             visitors is FREE. </div>
                                     </div>
                                 </div>
