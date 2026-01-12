@@ -118,15 +118,44 @@ return [
   'ab_achievements4' => 'Agricultural',
   'ab_achievements5' => 'Award By Central Government',
   'ab_achievements6' => 'More Details',
-  'ab_promotions' => 'The Government of Karnataka, realising the importance of organic agriculture as early as in 2004 brought out a State policy on organic farming and has implemented several schemes and programmes under the policy to promote organic farming in the State.
+  
+  'ab_promotions' => 'In order to double the income of farmers in the State, there is a need to provide appropriate platform to establish
+                        market linkages to farmers by showcasing value-added products, natural products and other related products under various schemes
+                            implemented by the Secondary Agriculture Directorate, the Department of Agriculture and the Watershed Development Department, 
+                            Karnataka Agro Processing and Export Corporation (KAPPEC), Karnataka State Seeds Corporation (KSSC) and Karnataka Pulses Development
+                            Board. This initiative will also create awareness among farmers, consumers and other stakeholders, and facilitate access to national
+                            and international markets.',
+  'ab_promotions1' => 'The Department of Agriculture, Government of Karnataka, successfully organized Organic and Millets International Trade
+                        Fairs in the years 2017, 2018, 2019, 2023, 2024 and 2025. These events attracted a large number of stakeholders, generated significant
+                            interest and achieved notable success. The fairs included high-quality exhibitions, international conferences, producer–marketer 
+                            meetings, farmer workshops, organic and millet food courts, and consumer-connect events, all of which contributed to overall sectoral
+                            development.',
 
-                             Several programmes were initiated as organic farming addresses sustainable food production, soil health, nature conservation, rural development and mitigation of drought situation.',
-  'ab_promotions1' => 'Market Based Specific Crop Organic Cluster Development Programme was implemented in certified Savayava Bhagya Yojane project areas with a focus on organic market based specific crops or commodity in order to provide bulk & continuous supply to meet the market demand. Further, focus was provided to develop proper linkages between producers and consumers by strengthening the supply chain mechanism on value chain mode by supporting activities related to production, collection, grading, value addition, processing, packing, brand development, whole sale and retail marketing of organic produce. Presently, Karnataka ranks tenth in the country in terms of certified organic area and fourth in terms of total certified organic annual production (APEDA Statistics). Savayava Siri Programme was implemented for the promotion of organic farming. Under the scheme, capacity building in organic farming is provided to the eligible farmers of the state, along with the development of model organic farms and organic seed production farms, desi vegetable seed production and local/forest fruit seeds/seedling production in the state agriculture/ horticultural universities. The Scientific Validation of Zero Budget Natural Farming (ZBNF) System was implemented as experimental trials through the concerned State Agriculture/ Horticulture Universities in 10 Research Stations on Operational Research Project (ORP) mode. Also, Chief Ministers Natural Farming scheme was implemented through State’s Agri/horticultural Universities as farmers participatory research in 1000 acres farmers fields under each of the five Agri/Horticultural UniversitiesPromotional Initiatives by Government of Karnataka',
+    'ab_promation_subtitle' => 'The ensuing International Trade Fair 2026 will be organized 
+                                    with a new and distinctive concept “Agriculture beyond Cultivation – Empowering Farmers”, supported by
+                                    the following sub-themes:',
 
- 
+     'ab_promation_li_1' => 'Processing and Value Addition: Creating awareness among small-scale food processors, farmer groups and 
+     self-help groups regarding the importance of grading and quality certification, and facilitating linkages with various stakeholders',
 
+     'ab_promation_li_2' => 'Agro-Ecology: Promoting environmentally sustainable farming and processing practices that increase farmers’ income while enhancing positive environmental impacts, and enabling engagement with relevant stakeholders',
+
+     'ab_promation_li_3' => 'Branding and Credit Services: Creating awareness among farmers and Farmer Producer Organizations (FPOs) on the importance of branding and output-based credit for expanding market opportunities, and providing practical linkages with reputable credit institutions.',
+
+    'ab_promation_li_4' => 'The forth coming Trade Fair will be organized at the Tripura vasini Palace Grounds, Bengaluru, on 06, 07 and 08 February 2026 (Friday, Saturday and Sunday), in collaboration with the State Directorate of Secondary Agriculture, Department of Agriculture, KSSC and KAPPEC.',
+
+    'ab_promation_li_5' => 'As part of the pre-event activities, all the districts will organize programmes in alignment with the Trade Fair’s themes',
+
+    'ab_promation_li_6' => 'The list of promotional activities will be finalized, and actions will be initiated to organize press meet, media bytes from Ministers and dignitaries, preparation and launch of  Trade Fair webpage etc',
+
+    'ab_promation_li_7' => 'During the main event dedicated theme-based pavilions will be established for Processing and Value Addition, Agro-Ecology, and Branding and Credit Services.',
+
+    'ab_promation_li_8' => 'The Karnataka Pavilion will showcase the State’s finest Farmer Producer Organizations, regional federations, start-ups and farmer groups, featuring unique and innovative processed and value-added products',
+
+    'ab_promation_last' => 'Overall, the objective of the Trade Fair is to provide an appropriate platform to transform the State’s farmers into entrepreneurs through the promotion of processing and value-addition initiatives.',
 
    // Contact page
+
 
 'organic_farming_division_karnataka_state_department_of_agriculture'=> 'Organic Farming Division, Karnataka State Department of Agriculture',
  'address_1'=>'No. 1, Sheshadri Road, Bengaluru, Karnataka-560001. Phone: 080-22074111 / 22242746 / 22074101.Email: itf2025organiccell@gmail.com',

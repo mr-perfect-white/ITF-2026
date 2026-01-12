@@ -38,6 +38,15 @@
         text-align: justify;
 
     }
+    .organic-text-content ul li {
+    list-style: disc;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+.organic-text-content ul {
+    padding-left: 32px;
+    padding-top: 20px;
+}
 
  /* KAR Map SECTION  */
 .karnataka-section {
@@ -221,7 +230,7 @@
                                 <img src="frontend/img/sub-title.svg" alt="img"><?= $MSG['an_ourinitiatives']; ?>
                             </span>
                             <h2 class="text-anim">
-                                Promotional Initiatives of Government of Karnataka
+                                International Trade Fair -2026
                             </h2>
                         </div>
                     </div>
@@ -230,28 +239,35 @@
 
             <!-- TEXT TWO COLUMNS -->
             <div class="row g-5">
-                <div class="col-lg-6">
+                <div class="col-lg-12">
                     <div class="organic-text-content">
                         <p>
                             <?= $MSG['ab_promotions']; ?> </p>
 
                         <p>
-                            <?= $MSG['ab_promotions']; ?> </p>
+                            <?= $MSG['ab_promotions1']; ?> </p>
                         <p>
-                            <?= $MSG['ab_promotions']; ?> </p>
+                            <?= $MSG['ab_promation_subtitle']; ?> </p>
+                        <ul>
+                            <li> <?= $MSG['ab_promation_li_1']; ?></li>
+                            <li> <?= $MSG['ab_promation_li_2']; ?></li>
+                            <li> <?= $MSG['ab_promation_li_3']; ?></li>
+                            <li> <?= $MSG['ab_promation_li_4']; ?></li>
+                            <li> <?= $MSG['ab_promation_li_5']; ?></li>
+                            <li> <?= $MSG['ab_promation_li_6']; ?></li>
+                            <li> <?= $MSG['ab_promation_li_7']; ?></li>
+                            <li> <?= $MSG['ab_promation_li_8']; ?></li>
+                          
+                            
+                        </ul>
 
-                        <p>
-                            <?= $MSG['ab_promotions']; ?> </p>
+                          <p>
+                           <?= $MSG['ab_promation_last']; ?> </p>
+                        
                     </div>
                 </div>
 
-                <div class="col-lg-6">
-                    <div class="organic-text-content">
-                        <p>
-                            <?= $MSG['ab_promotions1']; ?>
-                        </p>
-                    </div>
-                </div>
+              
             </div>
 
         </div>
