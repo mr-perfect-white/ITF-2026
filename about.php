@@ -258,7 +258,7 @@
     </div>
 </section>
 <!-- karnataka Section  -->
-<section class="contact-section-3 section-padding fix section-bg">
+<section class="contact-section-3 section-padding fix section-map-bg">
     <div class="shape-1 d-none d-xl-block float-bob-y">
         <img src="frontend/img/home-3/contact/shape-1.png" alt="img">
     </div>

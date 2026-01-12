@@ -6718,21 +6718,32 @@ p {
 }
 .about-wrapper .about-right-items .about-top-box {
   border-radius: 12px;
-  background: #EDDD5E;
+  background: #8b5a2b;
   padding: 50px 35px;
   z-index: 9;
   position: relative;
 }
 .about-wrapper .about-right-items .about-top-box p {
   font-weight: 500;
-  color: var(--header);
+  color: #fff;
 }
+.section-map-bg{
+  background-color: #8b5a2b;
+}
+.section-map-bg p{
+  color: #fff;
+}
+.section-map-bg h2.text-anim {
+  color: #fff !important;
+}
+
 .about-wrapper .about-right-items .about-top-box h2 {
-  border-bottom: 1px dashed #3C3C3C;
+  border-bottom: 1px dashed #fff;
   padding-bottom: 10px;
+  color: #fff;
 }
 .about-wrapper .about-right-items .about-top-box .text {
-  color: var(--text);
+  color: #fff;
   margin-top: 20px;
 }
 .about-wrapper .about-right-items .about-image {
@@ -14616,7 +14627,7 @@ p.sticky-label {
 .contact-wrapper-3 .contact-image {
   margin-left: 30px;
   position: absolute;
-  bottom: -120px;
+  bottom: -176px;
 }
 @media (max-width: 1199px) {
   .contact-wrapper-3 .contact-image {

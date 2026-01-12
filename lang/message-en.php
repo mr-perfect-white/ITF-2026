@@ -22,7 +22,7 @@ return [
     'foot_email_us' => 'Email us',
     'foot_location' => 'Location',
     'foot_phone' => 'Phone',
-    'foot_reserved'         => '© 2025 ITF. All Rights Reserved',
+    'foot_reserved'         => '© 2026 ITF. All Rights Reserved',
     'foot_address'       => 'Karnataka State Seeds Corporation Limited (KSSCL)  Beej Bhavan, Bellary Road, Hebbal, Bengaluru-560024, India',
 
     //<----------Footer Menu End------------->

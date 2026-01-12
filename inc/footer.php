@@ -46,13 +46,45 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-xl-2 col-lg-2 col-md-8 col-sm-4 col-6 wow fadeInUp" data-wow-delay=".4s">
-                    <div class="footer-widget-items">
-                        <div class="widget-head">
-                            <h4 class="text-white">
-                                <?= $MSG['footer_useful_link']; ?>
-                            </h4>
+                    <div class="col-xl-2 col-lg-2 col-md-8 col-sm-4 col-6 wow fadeInUp" data-wow-delay=".4s">
+                        <div class="footer-widget-items">
+                            <div class="widget-head">
+                                <h4  class="text-white">
+                                    <?= $MSG['footer_useful_link']; ?>
+                                </h4>
+                            </div>
+                            <ul class="list-area">
+                                <li>
+                                    <a href="home.php" class="text-white">
+                                        <i class="far fa-chevron-double-right theme2"></i> <?= $MSG['home']; ?>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="about.php" class="text-white">
+                                        <i class="far fa-chevron-double-right theme2"></i> <?= $MSG['about-itf']; ?>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-white">
+                                        <i class="far fa-chevron-double-right theme2"></i><?= $MSG['registrations']; ?>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-white">
+                                        <i class="far fa-chevron-double-right theme2"></i> <?= $MSG['resources']; ?>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-white">
+                                        <i class="far fa-chevron-double-right theme2"></i> <?= $MSG['our_faq']; ?>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-white">
+                                        <i class="far fa-chevron-double-right theme2"></i> <?= $MSG['gallery']; ?>
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                         <ul class="list-area">
                             <li>
