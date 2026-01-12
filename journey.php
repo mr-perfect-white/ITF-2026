@@ -2,13 +2,21 @@
 <?php require_once 'inc/header.php'; ?>
 
 <!-- About Section Start -->
-
+<style>
+    .section-journey{
+        background-color:#8b5a2b;
+        margin-top:15px !important;
+    }
+    .section-journey .section-title span,
+    .section-journey h2.text-anim, 
+    .section-journey p.wow.fadeInUp{
+       color:#fff;
+    }
+    
+</style>
 
   <!-- Service Section Start -->
-        <section class="service-section section-padding section-bg mb-5">
-            <div class="top-shape">
-                <img src="../ITF/frontend/img/home-1/service/top-shape.png" alt="img">
-            </div>
+        <section class="service-section section-padding section-journey mb-5">
             <div class="service-left-shape d-none d-xxl-block float-bob-y">
                 <img src="../ITF/frontend/img/home-1/service/left-shape.png" alt="img">
             </div>

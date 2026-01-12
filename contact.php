@@ -6,7 +6,10 @@
     }
 
     .contact-officers-section {
-        background: #f7faf6;
+        background:#8b5a2b;
+    }
+    .contact-officers-section .section-title span, .contact-officers-section  .section-title h2 {
+      color: #f8f9f8;
     }
 
     .forest-title {
