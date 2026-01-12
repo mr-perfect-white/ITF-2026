@@ -37,7 +37,6 @@
     }
 
     .event-name {
-
         font-weight: 600;
         margin-bottom: 20px;
     }
@@ -49,7 +48,6 @@
     }
 
     .forest-card p {
-
         line-height: 1.8;
         color: #555;
     }
