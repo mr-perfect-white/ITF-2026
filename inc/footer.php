@@ -40,7 +40,7 @@
                                         class="fab fa-youtube"></i></a>
                                 <a href="https://www.instagram.com/organicsmillets2023/" class="text-white"><i
                                         class="fab fa-instagram"></i></a>
-                                <a href="javascript:void(0)">
+                                <a href="javascript:void(0)" class="text-white">
                                     <i class="fab fa-linkedin-in"></i>
                                 </a>
                             </div>
@@ -57,32 +57,32 @@
                         <ul class="list-area">
                             <li>
                                 <a href="about.html" class="text-white">
-                                    <i class="far fa-chevron-double-right theme2"></i> <?= $MSG['home']; ?>
+                                    <i class="fa-solid fa-angles-right theme2"></i> <?= $MSG['home']; ?>
                                 </a>
                             </li>
                             <li>
                                 <a href="team.html" class="text-white">
-                                    <i class="far fa-chevron-double-right theme2"></i> <?= $MSG['about-itf']; ?>
+                                    <i class="fa-solid fa-angles-right theme2"></i><?= $MSG['about-itf']; ?>
                                 </a>
                             </li>
                             <li>
                                 <a href="contact.html" class="text-white">
-                                    <i class="far fa-chevron-double-right theme2"></i><?= $MSG['registrations']; ?>
+                                    <i class="fa-solid fa-angles-right theme2"></i><?= $MSG['registrations']; ?>
                                 </a>
                             </li>
                             <li>
                                 <a href="contact.html" class="text-white">
-                                    <i class="far fa-chevron-double-right theme2"></i> <?= $MSG['resources']; ?>
+                                   <i class="fa-solid fa-angles-right theme2"></i> <?= $MSG['resources']; ?>
                                 </a>
                             </li>
                             <li>
                                 <a href="faq.html" class="text-white">
-                                    <i class="far fa-chevron-double-right theme2"></i> <?= $MSG['our_faq']; ?>
+                                    <i class="fa-solid fa-angles-right theme2"></i></i> <?= $MSG['our_faq']; ?>
                                 </a>
                             </li>
                             <li>
                                 <a href="pricing.html" class="text-white">
-                                    <i class="far fa-chevron-double-right theme2"></i> <?= $MSG['gallery']; ?>
+                                    <i class="fa-solid fa-angles-right theme2"></i> <?= $MSG['gallery']; ?>
                                 </a>
                             </li>
                         </ul>
@@ -116,7 +116,7 @@
                             </li>
                             <li>
                                 <div class="icon">
-                                    <i class="fas fa-phone-alt"></i>
+                                    <i class="fa-solid fa-phone"></i>
                                 </div>
                                 <div class="content">
                                     <h5 class="text-white"><?= $MSG['foot_phone']; ?>:</h5>
@@ -154,7 +154,7 @@
                             </li>
                             <li>
                                 <div class="icon">
-                                    <i class="fas fa-phone-alt"></i>
+                                  <i class="fa-solid fa-phone"></i>
                                 </div>
                                 <div class="content">
                                     <h5 class="text-white"><?= $MSG['foot_phone']; ?>:</h5>

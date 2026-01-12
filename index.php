@@ -222,39 +222,52 @@
     <div class="shape-3 d-none d-xl-block float-bob-x">
         <img src="frontend/img/home-2/product/shape-03.png" alt="img">
     </div>
-    <div class="brand-section-3 mt-5  pt-0">
-        <div class="row align-items-center g-4 justify-content-between">
-            <div class="col-xxl-6 col-xl-6 col-lg-6">
-                <div class="video-wrapper-3 bg-cover"
-                    style="background-image: url('../ITF/frontend/img/sddefault.webp');">
-                    <a href="https://youtu.be/42NhT56-6gA" class="video-btn video-popup">
-                        <i class="fas fa-play"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="col-xxl-6 col-xl-6 col-lg-6">
-                <div class="top-text text-center mb-2 wow fadeInUp">
-                    <h3> <?= $MSG['agri_title']; ?></h3>
-                </div>
-                <div class="col-md-6" style="margin-left: 10rem !important;">
-                    <div class="about-right-items">
-                        <div class="about-wrapper about-top-box card wow fadeInUp" data-wow-delay=".3s">
-                            <div class="card-body d-flex flex-column justify-content-center text-center">
-                                <p class="mb-1"> <?= $MSG['trust_clients']; ?></p>
+    <div class="brand-section-3 mt-5 pt-0">
+        <div class="container">
+            <div class="row g-4 align-items-stretch text-center">
 
-                                <h2 class="my-3">
-                                    <span class="odometer" data-count="1286644">00</span>+
-                                </h2>
-                            </div>
-                        </div>
+                <!-- VIDEO 1 -->
+                <div class="col-lg-4 col-md-4">
+                    <div class="video-wrapper-3 bg-cover equal-box"
+                        style="background-image: url('../ITF/frontend/img/sddefault.webp');">
+                        <a href="https://youtu.be/42NhT56-6gA" class="video-btn video-popup">
+                            <i class="fas fa-play"></i>
+                        </a>
                     </div>
                 </div>
 
 
+                <!-- VIDEO 2 -->
+                <div class="col-lg-4 col-md-4">
+                    <div class="video-wrapper-3 bg-cover equal-box"
+                        style="background-image: url('../ITF/frontend/img/sddefault1.jpg');">
+                        <a href="https://www.youtube.com/watch?v=4C4_AlC0OR0" class="video-btn video-popup">
+                            <i class="fas fa-play"></i>
+                        </a>
+                    </div>
+                </div>
+
+
+                <!-- COUNTER -->
+                <div class="col-lg-4 col-md-4">
+                    <div class="top-text mb-3 wow fadeInUp">
+                        <h3><?= $MSG['agri_title']; ?></h3>
+                    </div>
+                    <div class="about-wrapper about-top-box card equal-box wow fadeInUp">
+                        <div class="card-body d-flex flex-column justify-content-center">
+                            <p class="mb-1">Expected Visitors</p>
+                            <h2 class="my-3">
+                                <span class="odometer" data-count="300000">00</span>+
+                            </h2>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </div>
     </div>
+
+
 </section>
 <!-- Choose Us Section Start -->
 <section class="choose-us-section-3  fix">
@@ -285,7 +298,7 @@
 
 
                             <p>
-                               <?= $MSG['about_more_content']; ?>
+                                <?= $MSG['about_more_content']; ?>
                             </p>
 
                             <ul>
@@ -298,7 +311,7 @@
                                 </li>
 
                                 <li>
-                                   <?= $MSG['about_more_content3']; ?>
+                                    <?= $MSG['about_more_content3']; ?>
                                 </li>
                             </ul>
 
@@ -310,7 +323,7 @@
                                 <?= $MSG['about_more_content5']; ?>
                             </p>
 
-                            
+
                         </div>
 
                         <!-- Read More Button -->
@@ -347,31 +360,31 @@
                 <div class="swiper-slide1">
                     <div class="brand-image text-center">
                         <img src="../ITF/frontend/img/resized_1.png" alt="img">
-                        <p class="brand-text">PRODUCT<br> EXHIBITION</p>
+                        <p class="brand-text">CONSUMER <br>CONNECT</p>
                     </div>
                 </div>
                 <div class="swiper-slide1">
                     <div class="brand-image text-center">
                         <img src="../ITF/frontend/img/resized_2.png" alt="img">
-                        <p class="brand-text">BUYER<br> SELLER </p>
+                        <p class="brand-text">FOOD<BR>COURT</p>
                     </div>
                 </div>
                 <div class="swiper-slide1">
                     <div class="brand-image text-center">
-                        <img src="../ITF/frontend/img/resized_3.png" alt="img">
-                        <p class="brand-text">INTERNATIONAL <br>CONFERENCE</p>
+                        <img src="../ITF/frontend/img/resized_6.png" alt="img">
+                        <p class="brand-text">PRODUCT<br> EXHIBITION</p>
                     </div>
                 </div>
                 <div class="swiper-slide1">
                     <div class="brand-image text-center">
                         <img src="../ITF/frontend/img/resized_4.png" alt="img">
-                        <p class="brand-text">CONSUMER<br>CONNECT</p>
+                        <p class="brand-text">INTERNATIONAL <br>CONFERENCE</p>
                     </div>
                 </div>
                 <div class="swiper-slide1">
                     <div class="brand-image text-center">
-                        <img src="../ITF/frontend/img/resized_5.png" alt="img">
-                        <p class="brand-text">PRODUCT<br> EXHIBITION</p>
+                        <img src="../ITF/frontend/img/curtural.jpeg" alt="img">
+                        <p class="brand-text">CULTURAL<br> EVENTS </p>
                     </div>
                 </div>
                 <!-- <div class="swiper-slide">
@@ -457,7 +470,7 @@
     <div class="container">
         <div class="section-title text-center">
             <span class="wow fadeInUp"><img src="../ITF/frontend/img/sub-title.svg" alt="img">Pre events</span>
-            <h2 class="text-anim">Pre events</h2>
+            <h2 class="text-anim">State Level Competition</h2>
 
         </div>
     </div>
@@ -496,7 +509,28 @@
 
                             </div>
                             <div class="content">
-                                <h4><a href="service-details.html">Panel Discussion</a></h4>
+                                <h4><a href="service-details.html">College Conference</a></h4>
+                                <!-- <p>
+                                            Lorem ipsum dolor sit amet, porro quisquam est, qui dolorem ipsum quia dolor sit amet.
+                                        </p> -->
+                                <!-- <a href="service-details.html" class="link-btn">More Details <i class="far fa-arrow-right"></i></a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="service-box-items-4">
+                        <div class="thumb">
+                            <img src="../ITF/frontend/img/pannel.jpeg" alt="img">
+                        </div>
+                        <div class="service-content-area">
+                            <div class="icon">
+                                <i class="fa-solid fa-globe"></i>
+
+
+                            </div>
+                            <div class="content">
+                                <h4><a href="service-details.html">International Conference</a></h4>
                                 <!-- <p>
                                             Lorem ipsum dolor sit amet, porro quisquam est, qui dolorem ipsum quia dolor sit amet.
                                         </p> -->
@@ -584,8 +618,9 @@
     </div>
     <div class="container">
         <div class="letter-image">
-            GO ORGANIC <span>G0 MILLET</span>
+            Agriculture Beyond Production <span>-<em>"Empowering Farmers"</em></span>
         </div>
+        
 
     </div>
 </section>
@@ -593,8 +628,8 @@
 <section class="news-section section-bg section-padding1 fix mb-0">
     <div class="container">
         <div class="section-title text-center">
-            <span class="wow fadeInUp text-white"><img src="frontend/img/sub-title.svg" alt="img">Our News</span>
-            <h2 class="text-anim text-white">Publicity and Promotions</h2>
+            <span class="wow fadeInUp text-white"><img src="frontend/img/sub-title.svg" alt="img">Pre events</span>
+            <h2 class="text-anim text-white">District Level Competition</h2>
 
         </div>
         <div class="row">
@@ -602,13 +637,10 @@
                 <div class="news-box-items">
                     <div class="news-image">
                         <img src="frontend/img/resize-1767790937880522785songlaunch.jpeg" alt="img">
-                        <div class="post-date">
-                            <h4>23</h4>
-                            <p>JAN</p>
-                        </div>
+                        
                     </div>
                     <div class="news-content text-white">
-                        <h3><a href="news-details.html" class="text-white">International Symposium</a></h3>
+                        <h3><a href="news-details.html" class="text-white">Millet Run</a></h3>
                         <p class="text-white"> Participation in ISSF – 2024 on 10-11, November 2024 held at
                             Bhubaneshwar, Odisha.</p>
 
@@ -619,13 +651,10 @@
                 <div class="news-box-items">
                     <div class="news-image">
                         <img src="frontend/img/resize-1767790798398807948decpreevent.jpeg" alt="img">
-                        <div class="post-date">
-                            <h4>30</h4>
-                            <p>JAN</p>
-                        </div>
+                        
                     </div>
                     <div class="news-content">
-                        <h3><a href="news-details.html" class="text-white">World Soil Day</a></h3>
+                        <h3><a href="news-details.html" class="text-white">Culinary Competition</a></h3>
                         <p class="text-white">
                             Celebration of World Soil Day on 5th December 2024 at Department of
                             Agriculture Bengaluru.
@@ -638,14 +667,11 @@
                 <div class="news-box-items">
                     <div class="news-image">
                         <img src="frontend/img/nov-pre-event.jpeg" alt="img">
-                        <div class="post-date">
-                            <h4>12</h4>
-                            <p>JAN</p>
-                        </div>
+                        
                     </div>
                     <div class="news-content">
 
-                        <h3><a href="news-details.html" class="text-white">Organic World Congress</a></h3>
+                        <h3><a href="news-details.html" class="text-white">District-Level Festival </a></h3>
                         <p class="text-white">
                             Organic World Congress held in Taiwan from November 29-December 4th 2024.
                         </p>
@@ -656,8 +682,61 @@
         </div>
     </div>
 </section>
+ <!-- Counter Section Start -->
+        <section class="counter-section-3 section-padding fix pt-3">
+            <!-- <div class="bottom-shape">
+                <img src="..ITF/frontend/img/home-1/service/bottom-shape.png" alt="img">
+            </div> -->
+            <div class="container">
+                <div class="counter-wrapper-3">
+                    <div class="counter-box-items wow fadeInUp" data-wow-delay=".2s">
+                        <div class="icon">
+                           <i class="fa-solid fa-building"></i>
+
+                        </div>
+                        <div class="content">
+                            <h2><span class="odometer" data-count="163">00</span>+</h2>
+                            <p>Exhibitors</p>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="counter-box-items wow fadeInUp" data-wow-delay=".4s">
+                        <div class="icon">
+                            <i class="fa-solid fa-microphone-lines"></i>
+
+                        </div>
+                        <div class="content">
+                            <h2><span class="odometer" data-count="68">00</span>+</h2>
+                            <p>Speakers</p>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="counter-box-items wow fadeInUp" data-wow-delay=".6s">
+                        <div class="icon">
+                            <i class="fa-solid fa-calendar-days"></i>
+
+                        </div>
+                        <div class="content">
+                            <h2><span class="odometer" data-count="30">00</span>+</h2>
+                            <p>Sessions</p>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="counter-box-items wow fadeInUp" data-wow-delay=".8s">
+                        <div class="icon">
+                            <i class="fa-solid fa-utensils"></i>
+
+                        </div>
+                        <div class="content">
+                            <h2><span class="odometer" data-count="20">00</span>+</h2>
+                            <p>Food Stalls</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 <!-- gallery Section Start -->
-<section class="project-section-2 section-padding1 fix mb-0">
+<!-- <section class="project-section-2 section-padding1 fix mb-0">
     <div class="container">
         <div class="section-title text-center">
             <span class="wow fadeInUp"><img src="frontend/img/sub-title.svg" alt="img">
@@ -676,12 +755,7 @@
                             <h3><a href="project-details.html">
                                     World Soil Day
                                 </a></h3>
-                            <!-- <p>
-
-                                Celebration of World Soil Day on 5th December 2024 at Department of
-                                Agriculture Bengaluru
-
-                            </p> -->
+                            
                             <a href="project-details.html" class="circle-icon">
                                 <i class="far fa-arrow-right"></i>
                             </a>
@@ -694,10 +768,7 @@
                         <div class="content">
                             <span>Agriculture beyond cultivation and empowering farmers</span>
                             <h3><a href="project-details.html">World Soil Day</a></h3>
-                            <!-- <p>
-                                Celebration of World Soil Day on 5th December 2024 at Department of
-                                Agriculture Bengaluru.
-                            </p> -->
+                            
                             <a href="project-details.html" class="circle-icon">
                                 <i class="far fa-arrow-right"></i>
                             </a>
@@ -712,9 +783,7 @@
                             <h3><a href="project-details.html">
                                     Organic World Congress
                                 </a></h3>
-                            <!-- <p>
-                                Organic World Congress held in Taiwan from November 29-December 4th 2024
-                            </p> -->
+                            
                             <a href="project-details.html" class="circle-icon">
                                 <i class="far fa-arrow-right"></i>
                             </a>
@@ -728,9 +797,9 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- Faq Section Start -->
-<section class="faq-section-5 fix mb-0">
+<section class="faq-section-5 fix">
     <div class="shape-1 float-bob-y">
         <img src="frontend/img/home-5/faq-shape.png" alt="img">
     </div>
@@ -754,7 +823,9 @@
                                 <div class="acc-btn active">
                                     1.Event and venue Details
 
-                                    <div class="icon far fa-chevron-down"></div>
+                                    
+                                   <div class="icon fa-solid fa-chevron-down"></div>
+
                                 </div>
                                 <div class="acc-content current">
                                     <div class="content">
@@ -771,7 +842,8 @@
                                 <div class="acc-btn">
                                     2.Is there any entry fee for visitors?
 
-                                    <div class="icon far fa-chevron-down"></div>
+                                    
+                                   <div class="icon fa-solid fa-chevron-down"></div>
                                 </div>
                                 <div class="acc-content">
                                     <div class="content">
@@ -786,7 +858,8 @@
                                 <div class="acc-btn">
                                     3.How do Exhibitors/Conference Partipants register for the event?
 
-                                    <div class="icon far fa-chevron-down"></div>
+                                    
+                                   <div class="icon fa-solid fa-chevron-down"></div>
                                 </div>
                                 <div class="acc-content">
                                     <div class="content">
@@ -802,7 +875,8 @@
                                 <div class="acc-btn">
                                     4.Is there any offline mode of payment allowed for registrations?
 
-                                    <div class="icon far fa-chevron-down"></div>
+                                     
+                                   <div class="icon fa-solid fa-chevron-down"></div>
                                 </div>
                                 <div class="acc-content">
                                     <div class="content">
@@ -819,7 +893,9 @@
                                 <div class="acc-btn">
                                     5.How do exhibitors contact fabricators to setup their stalls in the venue?
 
-                                    <div class="icon far fa-chevron-down"></div>
+                                   <div class="icon fa-solid fa-chevron-down"></div>
+
+
                                 </div>
                                 <div class="acc-content">
                                     <div class="content">
@@ -864,7 +940,7 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="brand-image text-center">
-                            <img src="frontend/img/kssc.png" alt="img">
+                            <img src="frontend/img/kssc1.png" alt="img">
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -875,6 +951,11 @@
                     <div class="swiper-slide">
                         <div class="brand-image text-center">
                             <img src="frontend/img/logo_1_110x110.jpeg" alt="img">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-image text-center">
+                            <img src="frontend/img/p-logo-8.jpeg" alt="img">
                         </div>
                     </div>
                 </div>
