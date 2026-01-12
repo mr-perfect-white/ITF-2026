@@ -253,7 +253,7 @@
             <div class="col-lg-4">
                 <div class="forest-card">
                     <h5 class="event-title">Event Name:</h5>
-                    <p class="event-name">Millet Run</p>
+                    <h4 class="event-name fw-bold">Millet Run</h4>
 
                     <h6>Contact Details:</h6>
                     <p>Ms. Mathura Pai,<br>
@@ -275,7 +275,7 @@
             <div class="col-lg-4">
                 <div class="forest-card">
                     <h5 class="event-title">Event Name:</h5>
-                    <p class="event-name">Exhibition</p>
+                    <h4 class="event-name fw-bold">Exhibition</h4>
 
                     <h6>Contact Details:</h6>
                     <p>Mr. Raju H.S.B. ,<br>
@@ -287,7 +287,7 @@
                     <h6>Contact Details:</h6>
                     <p>Mr. Vidhyanand,<br>
                         Joint Director Of Agriculture,<br>
-                        Contact Number: 
+                        Contact Number: 9480611958
                     </p>
                 </div>
             </div>
@@ -296,7 +296,7 @@
             <div class="col-lg-4">
                 <div class="forest-card">
                     <h5 class="event-title">Event Name:</h5>
-                    <p class="event-name">International Conference</p>
+                    <h4 class="event-name fw-bold">International Conference</h4>
 
                     <h6>Contact Details:</h6>
                     <p>Ms. Shilpa S.K.,<br>
@@ -325,7 +325,7 @@
             <div class="col-lg-4">
                 <div class="forest-card">
                     <h5 class="event-title">Event Name:</h5>
-                    <p class="event-name"> Public Registration</p>
+                    <h4 class="event-name fw-bold"> Public Registration</h4>
 
                     <h6>Contact Details:</h6>
                     <p>Mr. Raju H.S.B. ,<br>
@@ -367,7 +367,7 @@
             <div class="col-lg-4">
                 <div class="forest-card">
                     <h5 class="event-title">Event Name:</h5>
-                    <p class="event-name">Paid Food Stall</p>
+                    <h4 class="event-name fw-bold">Paid Food Stall</h4>
 
                     <h6>Contact Details:</h6>
                     <p>Mr. Yogesh G. H. ,<br>

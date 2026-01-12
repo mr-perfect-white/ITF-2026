@@ -10,7 +10,7 @@
     <meta name="author" content="modinatheme">
     <meta name="description" content="Agron - Agriculture & Organic Farm Html Template">
     <!-- ======== Page title ============ -->
-    <title>Agriculture beyond Production-"Empowering farmers</title>
+    <title>Agriculture beyond Production-"Empowering farmers"</title>
     <!--<< Favicon >>-->
     <link rel="shortcut icon" href="../ITF/frontend/img/logo/eng-logo.jpeg">
     <!--<< Bootstrap min.css >>-->
@@ -32,6 +32,7 @@
     <!--<< Main.css >>-->
     <link rel="stylesheet" href="../ITF/frontend/css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 
    
 
@@ -69,7 +70,8 @@
     </div>
     <!-- Back To Top Start -->
     <button id="back-top" class="back-to-top">
-        <i class="far fa-arrow-up"></i>
+        <i class="fa-solid fa-arrow-up"></i>
+
     </button>
     <!-- MouseCursor Start -->
     <div class="mouseCursor cursor-outer"></div>
@@ -104,6 +106,11 @@
                         <a href="javascript:void(0)">
                             <i class="fab fa-youtube"></i>
                         </a>
+                        <a href="javascript:void(0)">
+                           <i class="fa-brands fa-instagram"></i>
+
+
+                        </a>
                         
                         <a href="javascript:void(0)">
                             <i class="fab fa-linkedin-in"></i>
@@ -114,34 +121,36 @@
                         <ul class="contact-list">
                             <li>
                                 <div class="icon">
-                                    <i class="far fa-phone-alt"></i>
+                                   <i class="fa-solid fa-phone"></i>
+
                                 </div>
                                 <div class="content">
                                     <p>Call Us</p>
                                     <h4>
-                                        <a href="tel:+
- 080-22271194 / 22243082">
-                                           080-22271194 / 22243082
+                                        <a href="tel:+080-22074111">
+                                         080-22074111
                                         </a>
                                     </h4>
                                 </div>
                             </li>
                             <li>
                                 <div class="icon">
-                                    <i class="fal fa-envelope"></i>
+                                  <i class="fa-solid fa-envelope"></i>
+
                                 </div>
                                 <div class="content">
                                     <p>Send Email</p>
                                     <h4>
-                                        <a href="mailto:kssc.manager.acct@gmail.com">
-                                          kssc.manager.acct@gmail.com
+                                        <a href="mailto:organiccell@gmail.com">
+                                         organiccell@gmail.com
                                         </a>
                                     </h4>
                                 </div>
                             </li>
                             <li>
-                                <div class="icon" style="width:75px">
-                                    <i class="fal fa-map-marker-alt"></i>
+                                <div class="icon" style="width: 84px;">
+                                   <i class="fa-solid fa-location-dot"></i>
+
                                 </div>
                                 <div class="content">
                                     <p>Location</p>
@@ -154,7 +163,8 @@
                     </div>
                     <a href="contact.php" class="theme-btn">
                         Let’s Talk
-                        <i class="far fa-arrow-right"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+
                     </a>
                 </div>
             </div>
@@ -167,15 +177,17 @@
             <div class="header-top-wrapper">
                 <ul class="header-contact-list">
                     <li>
-                        <i class="fal fa-envelope"></i>
-                        <a href="mailto:kssc.manager.acct@gmail.com">
-                           kssc.manager.acct@gmail.com
+                        <i class="fa-solid fa-envelope theme2"></i>
+
+                        <a href="mailto:organiccell@gmail.com">
+                          organiccell@gmail.com
                         </a>
                     </li>
                     <li>
-                        <i class="far fa-phone-alt"></i>
-                        <a href="tel:+ 080-22271194 / 22243082">
-                            + 080-22271194 / 22243082
+                        <i class="fa-solid fa-phone theme2" ></i>
+
+                        <a href="tel:+ 080-22074111">
+                            + 080-22074111
                         </a>
                     </li>
                 </ul>
@@ -212,13 +224,16 @@
                             <i class="fab fa-facebook-f"></i>
                         </a>
                         <a href="https://x.com/organicmillets">
-                            <i class="fab fa-twitter"></i>
+                            <i class="fa-brands fa-x-twitter"></i>
                         </a>
                         <a href="https://www.youtube.com/@organicmilletsitf">
                             <i class="fab fa-youtube"></i>
                         </a>
                         <a href="https://www.instagram.com/organicsmillets2023/">
                             <i class="fab fa-instagram"></i>
+                        </a>
+                         <a href="javascript:void(0)">
+                            <i class="fab fa-linkedin-in"></i>
                         </a>
                     </div>
                 </div>
@@ -263,24 +278,24 @@
                                                 <li>
                                                     <a href="journey.php">Journey</a>
                                                 </li>
-                                                <li>
+                                                <!-- <li>
                                                     <a href="#">Event Schedule</a>
-                                                </li>
-                                                <li>
+                                                </li> -->
+                                                <!-- <li>
                                                     <a href="#">Farmer Workshop</a>
-                                                </li>
-                                                <li>
+                                                </li> -->
+                                                <!-- <li>
                                                     <a href="#">International Conference</a>
-                                                </li>
-                                                <li>
+                                                </li> -->
+                                                <!-- <li>
                                                     <a href="#">Exhibitors</a>
-                                                </li>
-                                                <li>
+                                                </li> -->
+                                                <!-- <li>
                                                     <a href="#">Karnataka Pavilion Participants</a>
-                                                </li>
-                                                <li>
+                                                </li> -->
+                                                <!-- <li>
                                                     <a href="#">B2B Buyers & Sellers</a>
-                                                </li>
+                                                </li> -->
                                                 <li>
                                                     <a href="#">Tour</a>
                                                 </li>
@@ -293,18 +308,18 @@
                                         </a>
                                          <ul class="submenu">
                                                
-                                                <li>
+                                                <!-- <li>
                                                     <a href="#">B2B Buyer Registration</a>
-                                                </li>
-                                                <li>
+                                                </li> -->
+                                                <!-- <li>
                                                     <a href="#">B2B Seller Registration</a>
-                                                </li>
-                                                <li>
+                                                </li> -->
+                                                <!-- <li>
                                                     <a href="#">Millet Run Registration</a>
-                                                </li>
-                                                <li>
+                                                </li> -->
+                                                <!-- <li>
                                                     <a href="#">Farmer Workshop Registration</a>
-                                                </li>
+                                                </li> -->
                                                 <li>
                                                     <a href="#">Public Registration</a>
                                                 </li>
@@ -379,7 +394,8 @@
                     <div class="header-right d-flex justify-content-end align-items-center">
                         <a href="contact.php" class="theme-btn">
                             Department Login
-                            <i class="far fa-arrow-right"></i>
+                            <i class="fa-solid fa-arrow-right"></i>
+
                         </a>
                         <div class="header__hamburger my-auto">
                             <div class="sidebar__toggle">
