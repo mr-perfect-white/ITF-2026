@@ -197,7 +197,7 @@
                                 <img src="frontend/img/home-5/footer/shape-4.png" alt="img">
                             </div>
                         </div>
-
+                        
                     </div>
                 </div>
                 <div class="col-lg-5">
