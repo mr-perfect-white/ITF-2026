@@ -105,20 +105,27 @@ return [
   'ab_expectedvisitors' => 'Expected Visitors',
   'ab_empowering' => 'Empowering farmers through technology, awareness, and support to redefine agriculture beyond traditional cultivation',
   'an_ourinitiatives' => 'Our Initiatives',
-  'ab_promotionalinitiata' => 'Promotional Initiatives of Government of Karnataka',
+  'ab_promotionalinitiata' => 'International Trade Fair -2026',
   'ab_empoweringkarnataka' => 'Empowering Karnataka’s Agriculture: Managing Diversity, Drought & Growth Potential',
   'ab_districts' => '31 Districts, 236 Taluks, 850 Hoblies, 5965 Gram Panchayaths & 32499 Villages.',
   'ab_totalarea' => 'Total area 190.50 lakh ha. Cultivable area 118.05 lakh ha. (64%).',
   'ab_only' => ' Only 33% area under irrigation. Most Drought Prone state after Rajasthan.',
   'ab_agroclimaticzones' => '10 Agro-climatic zones with rich crop diversity & 5 major soil types.',
   'ab_ourachievements' => 'Our Achievements',
-  'ab_achievements1' => 'Our Achievements and Recognitions',
+  'ab_achievements1' => 'Awards received by Dept. Of Agriculture',
   'ab_achievements2' => 'View All',
   'ab_achievements3' => 'MAY 2025',
   'ab_achievements4' => 'Agricultural',
-  'ab_achievements5' => 'Award By Central Government',
+
+  'ab_achievements_title_1' => '3 rd Best Performing State Award under Agri Infrastructure Fund- For a
+total sanction of 1094 projects worth Rs.543.83 crores followed by
+Madhya Pradesh(5258 Projects) and Andhra Pradesh(2828 Projects)',
+  'ab_achievements_title_2' => 'Poshak Aanaj 2022 Award- Best State for Promotion of Millets.',
+  'ab_achievements_title_3' => 'Jaivik India Awards-2022- Best State for contribution to the organic
+sector',
+
   'ab_achievements6' => 'More Details',
-  
+
   'ab_promotions' => 'In order to double the income of farmers in the State, there is a need to provide appropriate platform to establish
                         market linkages to farmers by showcasing value-added products, natural products and other related products under various schemes
                             implemented by the Secondary Agriculture Directorate, the Department of Agriculture and the Watershed Development Department, 
