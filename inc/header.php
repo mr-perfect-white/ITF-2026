@@ -255,7 +255,7 @@
                                         </a>
                                         <ul class="submenu">
                                                 <li>
-                                                    <a href="#">ITF</a>
+                                                    <a href="about.php">ITF</a>
                                                 </li>
                                                 <li>
                                                     <a href="journey.php">Journey</a>
