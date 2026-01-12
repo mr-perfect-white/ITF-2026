@@ -24,7 +24,7 @@
         padding: 30px 25px;
         height: 100%;
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
-        border-left: 5px solid #2f6f4e;
+        border-left: 5px solid #8b5a2b;
     }
 
     .event-title {
@@ -171,7 +171,7 @@
                     </div>
                     <div class="contact-top">
 
-                        <h3>📍ORGANIC FARMING DIVISION, KARNATAKA STATE DEPARTMENT OF AGRICULTURE</h3>
+                        <h3>ORGANIC FARMING DIVISION, KARNATAKA STATE DEPARTMENT OF AGRICULTURE</h3>
                     </div>
                     <div class="gov-card-body">
                         <p>
@@ -201,18 +201,18 @@
                     </div>
                     <div class="contact-top">
 
-                        <h3>📍KARNTAKA STATE AGRICULTURAL PRODUCE PROCESSING AND EXPORT CORPORATION LTD.</h3>
+                        <h3>KARNTAKA STATE SEEDS CORPORATION LIMITED(KSSCL)</h3>
                     </div>
                     <div class="gov-card-body">
                         <p>
-                            <strong>Address:</strong> No.17, Richmond Road, Bengaluru, Karnataka-560025.
+                            <strong>Address:</strong> Karnataka State Seeds Corporation Limited (KSSCL) Beej Bhavan, Bellary Road, Hebbal, Bengaluru-560024, India.
                         </p>
                         <p> <strong>Phone:</strong>
-                            080-22271194 / 22243082</p>
+                             080-22271194 / 22243082</p>
                         <p>
                             <strong>Email:</strong>
                             <a href="mailto:kappec1996@gmail.com">
-                                kappec1996@gmail.com
+                               kssc.manager.acct@gmail.com
                             </a>
 
                         </p>
@@ -252,7 +252,7 @@
             <div class="col-lg-4">
                 <div class="forest-card">
                     <h5 class="event-title">Event Name:</h5>
-                    <p class="event-name">Millet Walkathon</p>
+                    <p class="event-name">Millet Run</p>
 
                     <h6>Contact Details:</h6>
                     <p>Ms. Mathura Pai,<br>
@@ -277,15 +277,16 @@
                     <p class="event-name">Exhibition</p>
 
                     <h6>Contact Details:</h6>
-                    <p>Mr. Kempegowda H,<br>
-                        Joint Director of Agriculture (Fertiliser & PP),<br>
-                        Contact Number: 8277929833
+                    <p>Mr. Raju H.S.B. ,<br>
+                        ITF - Consultant,<br>
+
+                        Contact Number: 9845999859
                     </p>
 
                     <h6>Contact Details:</h6>
-                    <p>Mr. H.L. Govardhan,<br>
-                        AIF – Consultant,<br>
-                        Contact Number: 9900759335
+                    <p>Mr. Vidhyanand,<br>
+                        Joint Director Of Agriculture,<br>
+                        Contact Number: 
                     </p>
                 </div>
             </div>
@@ -323,26 +324,26 @@
             <div class="col-lg-4">
                 <div class="forest-card">
                     <h5 class="event-title">Event Name:</h5>
-                    <p class="event-name">B2B Meet</p>
+                    <p class="event-name"> Public Registration</p>
 
                     <h6>Contact Details:</h6>
-                    <p>Mr. Naganagouda Reddy ,<br>
-                        Deputy Director of Agriculture (Crop Survey) ,<br>
+                    <p>Mr. Raju H.S.B. ,<br>
+                        ITF - Consultant,<br>
 
-                        Contact Number: 7349092680
+                        Contact Number: 9845999859
                     </p>
 
                     <h6>Contact Details:</h6>
-                    <p>Mr. Chandrakumar,<br>
-                        Assistant Director of Agriculture (KAPPEC),<br>
+                    <p>Mr. Bhanuprakash C. ,<br>
+                        First Division Assistant,<br>
 
-                        Contact Number: 9480316528
+                        Contact Number: 7795627445
                     </p>
                 </div>
             </div>
 
             <!-- COLUMN 2 -->
-            <div class="col-lg-4">
+            <!-- <div class="col-lg-4">
                 <div class="forest-card">
                     <h5 class="event-title">Event Name:</h5>
                     <p class="event-name">Farmer Workshop</p>
@@ -354,12 +355,12 @@
                     </p>
 
                     <h6>Contact Details:</h6>
-                    <p>Mr. Gopala R ,<br>
-                        First Division Assistant ,<br>
-                        Contact Number: 9844072489
+                    <p>Smt.Anis slma,<br>
+                       Deputy Director Of Agriculture ,<br>
+                        Contact Number: 
                     </p>
                 </div>
-            </div>
+            </div> -->
 
             <!-- COLUMN 3 -->
             <div class="col-lg-4">
@@ -391,7 +392,7 @@
 <!-- Contact Map Section Start -->
 <div class="map-section-contact">
     <div class="google-map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6678.7619084840835!2d144.9618311901502!3d-37.81450084255415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642b4758afc1d%3A0x3119cc820fdfc62e!2sEnvato!5e0!3m2!1sen!2sbd!4v1641984054261!5m2!1sen!2sbd" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.388090641313!2d77.5815229735898!3d13.010940214017547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae17d4309c27e9%3A0x174c852910f84fcf!2sTripura%20Vasini%20Fabricana!5e0!3m2!1sen!2sin!4v1768204535796!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 </div>
 
@@ -408,10 +409,67 @@
     <div class="container">
         <div class="section-title text-center">
             <span class="wow fadeInUp"></span>
-            <h2 class="text-anim">#AFITF2026</h2>
+            <h2 class="text-anim">#ITF2026</h2>
             <h3 class="text-anim">
-                Agriculture beyond cultivation and empowering Farmers International Trade Fair 2026
+                Agriculture beyond Production- <em>"empowering Farmers:</em> International Trade Fair 2026
             </h3>
+            <div class="row g-4">
+            <div class="col-xl-6 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
+                <div>
+                    <div class="shape-1">
+                        <img src="frontend/img/inner-page/contact-shape.png" alt="img">
+                    </div>
+                    <div class="contact-top">
+
+                        <h3>ORGANIC FARMING DIVISION, KARNATAKA STATE DEPARTMENT OF AGRICULTURE</h3>
+                    </div>
+                    <div>
+                        <p>
+                            <strong>Address:</strong>
+                            No. 1, Sheshadri Road,
+                            Bengaluru, Karnataka – 560001
+                        </p>
+
+                        <p>
+                            <strong>Phone:</strong>
+                            080-22074111 / 22242746 / 22074101
+                        </p>
+
+                        <p>
+                            <strong>Email:</strong>
+                            <a href="mailto:itf2025organiccell@gmail.com">
+                                itf2025organiccell@gmail.com
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
+                <div>
+                    <div class="shape-1">
+                        <img src="frontend/img/inner-page/contact-shape.png" alt="img">
+                    </div>
+                    <div class="contact-top">
+
+                        <h3>KARNTAKA STATE SEEDS CORPORATION LIMITED(KSSCL)</h3>
+                    </div>
+                    <div >
+                        <p>
+                            <strong>Address:</strong> Karnataka State Seeds Corporation Limited (KSSCL) Beej Bhavan, Bellary Road, Hebbal, Bengaluru-560024, India.
+                        </p>
+                        <p> <strong>Phone:</strong>
+                             080-22271194 / 22243082</p>
+                        <p>
+                            <strong>Email:</strong>
+                            <a href="mailto:kappec1996@gmail.com">
+                               kssc.manager.acct@gmail.com
+                            </a>
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
         </div>
 
     </div>
