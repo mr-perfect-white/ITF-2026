@@ -353,13 +353,13 @@
                 <div class="swiper-slide1">
                     <div class="brand-image text-center">
                         <img src="../ITF/frontend/img/resized_2.png" alt="img">
-                        <p class="brand-text">BUYER SELLER </p>
+                        <p class="brand-text">BUYER<br> SELLER </p>
                     </div>
                 </div>
                 <div class="swiper-slide1">
                     <div class="brand-image text-center">
                         <img src="../ITF/frontend/img/resized_3.png" alt="img">
-                        <p class="brand-text">INTERNATIONAL CONFERENCE</p>
+                        <p class="brand-text">INTERNATIONAL <br>CONFERENCE</p>
                     </div>
                 </div>
                 <div class="swiper-slide1">

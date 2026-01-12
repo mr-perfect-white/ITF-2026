@@ -15687,6 +15687,9 @@ p.sticky-label {
 .theme1{
   color: #eddd5e !important;
 }
+.theme2{
+  color: #8b5a2b !important;
+}
 /* Accordion Header Background */
 .accordion-box .acc-btn {
     background-color: #8b5a2b; /* change to your required color */

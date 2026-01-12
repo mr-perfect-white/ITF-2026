@@ -10,7 +10,7 @@
     <meta name="author" content="modinatheme">
     <meta name="description" content="Agron - Agriculture & Organic Farm Html Template">
     <!-- ======== Page title ============ -->
-    <title><?= $MSG['header_title']; ?></title>
+    <title>Agriculture beyond Production-"Empowering farmers</title>
     <!--<< Favicon >>-->
     <link rel="shortcut icon" href="../ITF/frontend/img/logo/eng-logo.jpeg">
     <!--<< Bootstrap min.css >>-->
