@@ -7698,10 +7698,10 @@ p {
   line-height: 1;
   padding: 10px 22px;
   background-color: #EDF2EC;
-  color: var(--theme-color);
+  color:#8b5a2b ;
 }
 .service-section .nav .nav-item .nav-link.active {
-  background-color: var(--theme-color);
+  background-color: #8b5a2b !important;
   color: var(--white);
 }
 

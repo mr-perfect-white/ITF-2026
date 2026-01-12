@@ -31,6 +31,8 @@
     <link rel="stylesheet" href="../ITF/frontend/css/nice-select.css">
     <!--<< Main.css >>-->
     <link rel="stylesheet" href="../ITF/frontend/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
    
 
 </head>
@@ -97,11 +99,12 @@
                             <i class="fab fa-facebook-f"></i>
                         </a>
                         <a href="javascript:void(0)">
-                            <i class="fab fa-twitter"></i>
+                            <i class="fa-brands fa-x-twitter"></i>
                         </a>
                         <a href="javascript:void(0)">
                             <i class="fab fa-youtube"></i>
                         </a>
+                        
                         <a href="javascript:void(0)">
                             <i class="fab fa-linkedin-in"></i>
                         </a>

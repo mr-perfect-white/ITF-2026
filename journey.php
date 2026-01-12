@@ -28,7 +28,7 @@
                     <span class="wow fadeInUp"><img src="../ITF/frontend/img/sub-title.svg" alt="img"> Our journey</span>
                     <h2 class="text-anim">ITF Journey</h2>
                     <p class="wow fadeInUp" data-wow-delay=".2s">
-                      The Sixth edition of Agriculture beyond cultivation and empowering farmers , 2025 – International Trade Fair is organized by
+                      The Seventh edition of Agriculture beyond Production-<em>"Empowering Farmers"</em>, 2026 – International Trade Fair is organized by
                             the Department of Agriculture, Government Of Karnataka. It will be a platform for farmers,
                             farmer groups, domestic and international companies, central and state institutions in the
                             organic and millet sector to connect and explore opportunities ain Agri-horticulture,
@@ -36,7 +36,7 @@
 
                             The Government of Karnataka has been a leader in the promotion of organics and millets with
                             the First Organics and Millets trade fair being held in 2017, and subsequently the second,
-                            third and fourth editions in 2018, 2019 ,2023 and 2024 respectively in Bengaluru.
+                            third and fourth editions in 2018, 2019 ,2023 ,2024 and 2025 respectively in Bengaluru.
                     </p>
                 </div>
                 <div class="service-wrapper">
@@ -127,8 +127,8 @@
                                             <i class="flaticon-agriculture"></i>
                                         </div>
                                         <div class="content">
-                                            <h3><a href="service-details.html">Millets and Organics</a></h3>
-                                            <p>Wendell Berry said it best when he said that “eating is an agricultural act.” Our mission is to change the food system by providing a healthy, fresh alternative to industrial food.</p>
+                                            <h3><a href="service-details.html">Organics and Millets</a></h3>
+                                            <p>2019- International trade Fair, Jan 18-20, 2019 at Bangalore Palace.</p>
                                             <!-- <a href="service-details.html" class="theme-btn">
                                                 View Details <i class="far fa-arrow-right"></i>
                                             </a> -->
@@ -173,8 +173,8 @@
                                             <i class="flaticon-agriculture"></i>
                                         </div>
                                         <div class="content">
-                                            <h3><a href="service-details.html">Agriculture beyond cultivation and empowering farmers</a></h3>
-                                            <p>2025- International trade Fair, Jan 05-07, 2024 at Tripuravasini Palace Grounds, Bengaluru.</p>
+                                            <h3><a href="service-details.html">Millets and Organics</a></h3>
+                                            <p>2024- International trade Fair, Jan 05-07, 2024 at Tripuravasini Palace Grounds, Bengaluru.</p>
                                             <!-- <a href="service-details.html" class="theme-btn">
                                                 View Details <i class="far fa-arrow-right"></i>
                                             </a> -->
@@ -196,8 +196,8 @@
                                             <i class="flaticon-agriculture"></i>
                                         </div>
                                         <div class="content">
-                                            <h3><a href="service-details.html">Agriculture beyond cultivation and empowering farmers</a></h3>
-                                            <p>2024- International trade Fair, Jan 05-07, 2024 at Tripuravasini Palace Grounds, Bengaluru.</p>
+                                            <h3><a href="service-details.html"> Organics and Millets  </a></h3>
+                                            <p>2025- International trade Fair, Jan 23-25, 2025 at Tripuravasini Palace Grounds, Bengaluru.</p>
                                             <!-- <a href="service-details.html" class="theme-btn">
                                                 View Details <i class="far fa-arrow-right"></i>
                                             </a> -->
