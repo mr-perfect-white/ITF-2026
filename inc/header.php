@@ -79,7 +79,7 @@
                 <div class="offcanvas__content">
                     <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                         <div class="offcanvas__logo">
-                            <a href="index.html">
+                            <a href="index.php">
                                 <img src="../ITF/frontend/img/logo/eng-logo.jpeg" alt="logo-img">
                             </a>
                         </div>
@@ -149,7 +149,7 @@
                             </li>
                         </ul>
                     </div>
-                    <a href="contact.html" class="theme-btn">
+                    <a href="contact.php" class="theme-btn">
                         Let’s Talk
                         <i class="far fa-arrow-right"></i>
                     </a>
@@ -227,10 +227,10 @@
         <div class="container">
             <div class="mega-menu-wrapper">
                 <div class="header-main">
-                    <a href="index.html" class="top-logo">
+                    <a href="index.php" class="top-logo">
                         <img src="../ITF/frontend/img/logo/eng-logo.jpeg" alt="img">
                     </a>
-                    <!-- <a href="index.html" class="header-logo">
+                    <!-- <a href="index.php" class="header-logo">
                             <img src="../ITF/frontend/img/logo/black-logo.svg" alt="img">
                         </a> -->
                     <div class="mean__menu-wrapper">
@@ -238,110 +238,15 @@
                             <nav id="mobile-menu">
                                 <ul>
                                     <li class="has-dropdown menu-thumb">
-                                        <a href="javascript:void(0)">
+                                        <a href="home.php">
                                            <?= $MSG['home']; ?>
 
                                         </a>
-                                        <!-- <ul class="submenu has-homemenu">
-                                                <li>
-                                                    <div class="homemenu-items">
-                                                        <div class="row row-cols-xl-5 row-cols-md-2 row-cols-2">
-                                                            <div class="col homemenu">
-                                                                <div class="homemenu-thumb">
-                                                                    <a href="index.html">
-                                                                        <img src="../ITF/frontend/img/header/home-1.jpg" alt="img">
-                                                                    </a>
-                                                                </div>
-                                                                <div class="homemenu-content text-center">
-                                                                    <h4 class="homemenu-title">
-                                                                        <a href="index.html">
-                                                                            Home 01
-                                                                        </a>
-                                                                    </h4>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col homemenu">
-                                                                <div class="homemenu-thumb mb-15">
-                                                                    <a href="index-2.html">
-                                                                        <img src="../ITF/frontend/img/header/home-2.jpg" alt="img">
-                                                                    </a>
-                                                                </div>
-                                                                <div class="homemenu-content text-center">
-                                                                    <h4 class="homemenu-title">
-                                                                        <a href="index-2.html">
-                                                                            Home 02
-                                                                        </a>
-                                                                    </h4>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col homemenu">
-                                                                <div class="homemenu-thumb mb-15">
-                                                                    <a href="index-3.html">
-                                                                        <img src="../ITF/frontend/img/header/home-3.jpg" alt="img">
-                                                                    </a>
-                                                                </div>
-                                                                <div class="homemenu-content text-center">
-                                                                    <h4 class="homemenu-title">
-                                                                        <a href="index-3.html">
-                                                                            Home 03
-                                                                        </a>
-                                                                    </h4>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col homemenu">
-                                                                <div class="homemenu-thumb mb-15">
-                                                                    <a href="index-4.html">
-                                                                        <img src="../ITF/frontend/img/header/home-4.jpg" alt="img">
-                                                                    </a>
-                                                                </div>
-                                                                <div class="homemenu-content text-center">
-                                                                    <h4 class="homemenu-title">
-                                                                        <a href="index-4.html">
-                                                                            Home 04
-                                                                        </a>
-                                                                    </h4>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col homemenu">
-                                                                <div class="homemenu-thumb mb-15">
-                                                                    <a href="index-5.html">
-                                                                        <img src="../ITF/frontend/img/header/home-5.jpg" alt="img">
-                                                                    </a>
-                                                                </div>
-                                                                <div class="homemenu-content text-center">
-                                                                    <h4 class="homemenu-title">
-                                                                        <a href="index-5.html">
-                                                                            Home 05
-                                                                        </a>
-                                                                    </h4>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                            </ul> -->
                                     </li>
                                     <li class="has-dropdown active d-xl-none">
-                                        <a href="javascript:void(0)" class="border-none">
+                                        <a href="home.php" class="border-none">
                                            <?= $MSG['home']; ?>
                                         </a>
-                                        <!-- <ul class="submenu">
-                                            <li>
-                                                <a href="index.html">Home 01</a>
-                                            </li>
-                                            <li>
-                                                <a href="index-2.html">Home 02</a>
-                                            </li>
-                                            <li>
-                                                <a href="index-3.html">Home 03</a>
-                                            </li>
-                                            <li>
-                                                <a href="index-4.html">Home 04</a>
-                                            </li>
-                                            <li>
-                                                <a href="index-5.html">Home 05</a>
-                                            </li>
-                                        </ul> -->
                                     </li>
                                     <li>
                                        <a href="javascript:void(0)">
@@ -350,31 +255,31 @@
                                         </a>
                                         <ul class="submenu">
                                                 <li>
-                                                    <a href="news-grid.html">ITF</a>
+                                                    <a href="#">ITF</a>
                                                 </li>
                                                 <li>
-                                                    <a href="news.html">Journey</a>
+                                                    <a href="journey.php">Journey</a>
                                                 </li>
                                                 <li>
-                                                    <a href="news-details.html">Event Schedule</a>
+                                                    <a href="#">Event Schedule</a>
                                                 </li>
                                                 <li>
-                                                    <a href="news-details.html">Farmer Workshop</a>
+                                                    <a href="#">Farmer Workshop</a>
                                                 </li>
                                                 <li>
-                                                    <a href="news-details.html">International Conference</a>
+                                                    <a href="#">International Conference</a>
                                                 </li>
                                                 <li>
-                                                    <a href="news-details.html">Exhibitors</a>
+                                                    <a href="#">Exhibitors</a>
                                                 </li>
                                                 <li>
-                                                    <a href="news-details.html">Karnataka Pavilion Participants</a>
+                                                    <a href="#">Karnataka Pavilion Participants</a>
                                                 </li>
                                                 <li>
-                                                    <a href="news-details.html">B2B Buyers & Sellers</a>
+                                                    <a href="#">B2B Buyers & Sellers</a>
                                                 </li>
                                                 <li>
-                                                    <a href="news-details.html">Tour</a>
+                                                    <a href="#">Tour</a>
                                                 </li>
                                             </ul>
                                     </li>
@@ -386,28 +291,28 @@
                                          <ul class="submenu">
                                                
                                                 <li>
-                                                    <a href="faq.html">B2B Buyer Registration</a>
+                                                    <a href="#">B2B Buyer Registration</a>
                                                 </li>
                                                 <li>
-                                                    <a href="faq.html">B2B Seller Registration</a>
+                                                    <a href="#">B2B Seller Registration</a>
                                                 </li>
                                                 <li>
-                                                    <a href="">Millet Run Registration</a>
+                                                    <a href="#">Millet Run Registration</a>
                                                 </li>
                                                 <li>
-                                                    <a href="">Farmer Workshop Registration</a>
+                                                    <a href="#">Farmer Workshop Registration</a>
                                                 </li>
                                                 <li>
-                                                    <a href="404.html">Public Registration</a>
+                                                    <a href="#">Public Registration</a>
                                                 </li>
                                                 <li>
-                                                    <a href="404.html">Exhibition Stall Booking</a>
+                                                    <a href="#">Exhibition Stall Booking</a>
                                                 </li>
                                                 <li>
-                                                    <a href="404.html">International Conference</a>
+                                                    <a href="#">International Conference</a>
                                                 </li>
                                                 <li>
-                                                    <a href="404.html">Paid Food stall Booking</a>
+                                                    <a href="#">Paid Food stall Booking</a>
                                                 </li>
                                             </ul> 
                                     </li>
@@ -419,48 +324,48 @@
                                         </a>
                                         <ul class="submenu">
                                                 <li>
-                                                    <a href="news-grid.html">Images</a>
+                                                    <a href="#">Images</a>
                                                 </li>
                                                 <li>
-                                                    <a href="news.html">video</a>
+                                                    <a href="#">video</a>
                                                 </li>
                                                 <li>
-                                                    <a href="news.html">Media Coverage</a>
+                                                    <a href="#">Media Coverage</a>
                                                 </li>
                                                 <li>
-                                                    <a href="news.html">Culinary Competition</a>
+                                                    <a href="#">Culinary Competition</a>
                                                 </li>
                                                 <li>
-                                                    <a href="news.html">Promotional Videos</a>
+                                                    <a href="#">Promotional Videos</a>
                                                 </li>
                                                 <li>
-                                                    <a href="news.html">District Activities</a>
+                                                    <a href="#">District Activities</a>
                                                 </li>
                                                 <li>
-                                                    <a href="news.html">Publications</a>
+                                                    <a href="#">Publications</a>
                                                 </li>
                                                 <li>
-                                                    <a href="news-details.html">Event</a>
+                                                    <a href="#">Event</a>
                                                 </li>
                                             </ul>
                                     </li>
                                     <li>
-                                        <a href="javascript:void(0)">
+                                        <a href="contact.php">
                                             <?= $MSG['contact']; ?>
                                             <!-- <i class="fas fa-chevron-down"></i> -->
                                         </a>
                                         <!-- <ul class="submenu">
                                                 <li>
-                                                    <a href="shop.html">Shop Page</a>
+                                                    <a href="shop.php">Shop Page</a>
                                                 </li>
                                                 <li>
-                                                    <a href="shop-details.html">Shop Details</a>
+                                                    <a href="shop-details.php">Shop Details</a>
                                                 </li>
                                                 <li>
-                                                    <a href="shop-cart.html">Shop Cart</a>
+                                                    <a href="shop-cart.php">Shop Cart</a>
                                                 </li>
                                                 <li>
-                                                    <a href="checkout.html">CheckOut</a>
+                                                    <a href="checkout.php">CheckOut</a>
                                                 </li>
                                             </ul> -->
                                     </li>
@@ -469,7 +374,7 @@
                         </div>
                     </div>
                     <div class="header-right d-flex justify-content-end align-items-center">
-                        <a href="contact.html" class="theme-btn">
+                        <a href="contact.php" class="theme-btn">
                             Department Login
                             <i class="far fa-arrow-right"></i>
                         </a>
