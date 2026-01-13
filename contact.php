@@ -412,7 +412,7 @@
             <span class="wow fadeInUp"></span>
             <h2 class="text-anim">#ITF2026</h2>
             <h3 class="text-anim">
-                Agriculture beyond Production- <em>"empowering Farmers:</em> International Trade Fair 2026
+                Agriculture beyond Production- <em>"Empowering Farmers:</em> International Trade Fair 2026
             </h3>
             <div class="row g-4">
             <div class="col-xl-6 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">

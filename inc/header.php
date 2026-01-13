@@ -298,6 +298,10 @@
                                                 </li> -->
                                                 <li>
                                                     <a href="#">Tour</a>
+                                                     <ul class="submenu">
+                                                        <li><a href="https://karnatakatourism.org/en/">Explore Karnataka</a></li>
+                                                        <li><a href="https://karnatakatourism.org/en/destinations/bengaluru/">Explore Bengaluru</a></li>
+                                                    </ul>
                                                 </li>
                                             </ul>
                                     </li>
@@ -314,9 +318,9 @@
                                                 <!-- <li>
                                                     <a href="#">B2B Seller Registration</a>
                                                 </li> -->
-                                                <!-- <li>
+                                                <li>
                                                     <a href="#">Millet Run Registration</a>
-                                                </li> -->
+                                                </li>
                                                 <!-- <li>
                                                     <a href="#">Farmer Workshop Registration</a>
                                                 </li> -->
@@ -338,9 +342,9 @@
                                     <li>
                                         <a href="javascript:void(0)">
                                           <?= $MSG['gallery']; ?>
-                                            <i class="fas fa-chevron-down"></i>
+                                            <!-- <i class="fas fa-chevron-down"></i> -->
                                         </a>
-                                        <ul class="submenu">
+                                        <!-- <ul class="submenu">
                                                 <li>
                                                     <a href="#">Images</a>
                                                 </li>
@@ -365,7 +369,7 @@
                                                 <li>
                                                     <a href="#">Event</a>
                                                 </li>
-                                            </ul>
+                                            </ul> -->
                                     </li>
                                     <li>
                                         <a href="contact.php">

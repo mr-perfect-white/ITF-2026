@@ -620,8 +620,8 @@
                     </div>
                     <div class="news-content text-white">
                         <h3><a href="news-details.html" class="text-white">Millet Run</a></h3>
-                        <p class="text-white"> Participation in ISSF – 2024 on 10-11, November 2024 held at
-                            Bhubaneshwar, Odisha.</p>
+                        <!-- <p class="text-white"> Participation in ISSF – 2024 on 10-11, November 2024 held at
+                            Bhubaneshwar, Odisha.</p> -->
 
                     </div>
                 </div>
@@ -634,10 +634,10 @@
                     </div>
                     <div class="news-content">
                         <h3><a href="news-details.html" class="text-white">Culinary Competition</a></h3>
-                        <p class="text-white">
+                        <!-- <p class="text-white">
                             Celebration of World Soil Day on 5th December 2024 at Department of
                             Agriculture Bengaluru.
-                        </p>
+                        </p> -->
 
                     </div>
                 </div>
@@ -651,9 +651,9 @@
                     <div class="news-content">
 
                         <h3><a href="news-details.html" class="text-white">District-Level Festival </a></h3>
-                        <p class="text-white">
+                        <!-- <p class="text-white">
                             Organic World Congress held in Taiwan from November 29-December 4th 2024.
-                        </p>
+                        </p> -->
 
                     </div>
                 </div>
@@ -662,58 +662,59 @@
     </div>
 </section>
 <!-- Counter Section Start -->
-<section class="counter-section-3 section-padding fix pt-3">
-    <!-- <div class="bottom-shape">
-                <img src="..ITF/frontend/img/home-1/service/bottom-shape.png" alt="img">
-            </div> -->
-    <div class="container">
-        <div class="counter-wrapper-3">
-            <div class="counter-box-items wow fadeInUp" data-wow-delay=".2s">
-                <div class="icon">
-                    <i class="fa-solid fa-building"></i>
 
-                </div>
-                <div class="content">
-                    <h2><span class="odometer" data-count="163">00</span>+</h2>
-                    <p>Exhibitors</p>
+
+<section class="counter-section   pt-5">
+           
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".2s">
+                        <div class="counter-box-items-area">
+                            <div class="icon">
+                                  <i class="fa-solid fa-building"></i>
+                            </div>
+                            <div class="content">
+                                <h2><span class="odometer" data-count="163">00</span>+</h2>
+                                <p>Exhibitors</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".4s">
+                        <div class="counter-box-items-area">
+                            <div class="icon">
+                                <i class="fa-solid fa-microphone-lines"></i>
+                            </div>
+                            <div class="content">
+                                <h2><span class="odometer" data-count="68">00</span>+</h2>
+                                <p>Speakers</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".6s">
+                        <div class="counter-box-items-area">
+                            <div class="icon">
+                               <i class="fa-solid fa-calendar-days"></i>
+                            </div>
+                            <div class="content">
+                                <h2><span class="odometer" data-count="30">00</span>+</h2>
+                                <p>Sessions</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".8s">
+                        <div class="counter-box-items-area">
+                            <div class="icon">
+                                <i class="fa-solid fa-utensils"></i>
+                            </div>
+                            <div class="content">
+                                <h2><span class="odometer" data-count="20">00</span>+</h2>
+                                <p>Food Stalls</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="line"></div>
-            <div class="counter-box-items wow fadeInUp" data-wow-delay=".4s">
-                <div class="icon">
-                    <i class="fa-solid fa-microphone-lines"></i>
-
-                </div>
-                <div class="content">
-                    <h2><span class="odometer" data-count="68">00</span>+</h2>
-                    <p>Speakers</p>
-                </div>
-            </div>
-            <div class="line"></div>
-            <div class="counter-box-items wow fadeInUp" data-wow-delay=".6s">
-                <div class="icon">
-                    <i class="fa-solid fa-calendar-days"></i>
-
-                </div>
-                <div class="content">
-                    <h2><span class="odometer" data-count="30">00</span>+</h2>
-                    <p>Sessions</p>
-                </div>
-            </div>
-            <div class="line"></div>
-            <div class="counter-box-items wow fadeInUp" data-wow-delay=".8s">
-                <div class="icon">
-                    <i class="fa-solid fa-utensils"></i>
-
-                </div>
-                <div class="content">
-                    <h2><span class="odometer" data-count="20">00</span>+</h2>
-                    <p>Food Stalls</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+        </section>
 <!-- gallery Section Start -->
 <!-- <section class="project-section-2 section-padding1 fix mb-0">
     <div class="container">
