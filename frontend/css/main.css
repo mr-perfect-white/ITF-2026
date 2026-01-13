@@ -313,7 +313,7 @@ p {
   }
 }
 .preloader .animation-preloader .txt-loading .letters-loading {
-  color: var(--theme-color);
+  color: #8b5a2b;
   position: relative;
 }
 .preloader .animation-preloader .txt-loading .letters-loading:nth-child(2):before {
@@ -4594,7 +4594,7 @@ p {
 }
 .counter-box-items-area .icon {
   font-size: 47px;
-  color: var(--theme-color);
+  color: #8b5a2b;
   max-width: 102px;
   width: 100%;
   height: 102px;
@@ -5328,10 +5328,12 @@ p {
 
 .counter-wrapper-3 {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  gap: 85px;   
   text-align: center;
   border: 1px dashed rgba(36, 79, 11, 0.49);
-  padding: 45px;
+ padding: 14px 0px;   
   border-radius: 28px;
   background-color: var(--white);
 }
@@ -5360,9 +5362,9 @@ p {
   }
 }
 .counter-wrapper-3 .counter-box-items .icon {
-  width: 102px;
-  height: 102px;
-  line-height: 120px;
+  width: 98px;
+    height: 80px;
+    line-height: 80px;
   text-align: center;
   background-color: #8b5a2b;
   color: var(--white);
@@ -7691,7 +7693,7 @@ p {
 }
 .service-section .nav .nav-item .nav-link {
   display: inline-block;
-  border: 1px solid rgba(91, 140, 81, 0.26);
+  border: 3px solid rgba(251, 252, 251, 0.934);
   border-radius: 30px;
   font-size: 20px;
   font-weight: 900;

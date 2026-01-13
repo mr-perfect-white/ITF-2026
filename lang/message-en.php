@@ -92,7 +92,7 @@ return [
 </p>',
 
 'read_more' => 'Read More',
-'highlights' => 'Agriculture beyond Production -<br>"<em>Empowering farmers</em>"',
+'highlights' => 'Agriculture beyond Production-<br>"<em>Empowering Farmers</em>"',
 
 
    // About page
@@ -101,7 +101,7 @@ return [
   'international_trade_fair_2026_highlights' => 'International Trade Fair 2026 Highlights',
   'ab_aboutus' => 'About Us',
   'ab_ourtheme' => 'Our Theme',
-  'ab_agriculture' => 'Agriculture beyond Production -"<em>Empowering farmers</em>"',
+  'ab_agriculture' => 'Agriculture beyond Production -"<em>Empowering Farmers</em>"',
   'ab_expectedvisitors' => 'Expected Visitors',
   'ab_empowering' => 'Empowering farmers through technology, awareness, and support to redefine agriculture beyond traditional cultivation',
   'an_ourinitiatives' => 'Our Initiatives',
