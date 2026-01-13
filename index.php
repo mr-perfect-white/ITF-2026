@@ -590,65 +590,65 @@
 </section>
 
 <!-- Counter Section Start -->
-<section class="counter-section section-bg  pt-5">
-           
-           <div class="container">
-  <div class="row g-4 justify-content-center">
+<section class="counter-section  sectionbg pt-5">
 
-    <div class="col wow fadeInUp" data-wow-delay=".2s">
-      <div class="counter-box-items-area text-center">
-        <div class="icon"><i class="fa-solid fa-building"></i></div>
-        <div class="content">
-          <h2><span class="odometer" data-count="300">00</span>+</h2>
-          <p class="fw-bold fs-5">Exhibitors</p>
+    <div class="container">
+        <div class="row g-4 justify-content-center">
+
+            <div class="col wow fadeInUp" data-wow-delay=".2s">
+                <div class="counter-box-items-area text-center">
+                    <div class="icon"><i class="fa-solid fa-building section1"></i></div>
+                    <div class="content">
+                        <h2 class="text-white"><span class="odometer text-white" data-count="300">00</span>+</h2>
+                        <p class="fw-bold fs-5 text-white">Exhibitors</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col wow fadeInUp" data-wow-delay=".4s">
+                <div class="counter-box-items-area text-center">
+                    <div class="icon"><i class="fa-solid fa-industry section1"></i></i></div>
+                    <div class="content">
+                        <h2 class="text-white"><span class="odometer text-white" data-count="68">00</span>+</h2>
+                        <p class="fw-bold fs-5 text-white">Value Addition</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col wow fadeInUp" data-wow-delay=".6s">
+                <div class="counter-box-items-area text-center">
+                    <div class="icon"><i class="fa-solid fa-seedling section1"></i></div>
+                    <div class="content">
+                        <h2 class="text-white"><span class="odometer text-white" data-count="30">00</span>+</h2>
+                        <p class="fw-bold fs-5 text-white">Agro Ecology</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col wow fadeInUp" data-wow-delay=".6s">
+                <div class="counter-box-items-area text-center">
+                    <div class="icon"><i class="fa-solid fa-bullhorn section1"></i></div>
+                    <div class="content">
+                        <h2 class="text-white"><span class="odometer text-white" data-count="30">00</span>+</h2>
+                        <p class="fw-bold fs-5 text-white">Branding</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col wow fadeInUp" data-wow-delay=".8s">
+                <div class="counter-box-items-area text-center">
+                    <div class="icon"><i class="fa-solid fa-utensils section1"></i></div>
+                    <div class="content">
+                        <h2 class="text-white"><span class="odometer text-white" data-count="20">00</span>+</h2>
+                        <p class="fw-bold fs-5 text-white">Food Stalls</p>
+                    </div>
+                </div>
+            </div>
+
         </div>
-      </div>
     </div>
 
-    <div class="col wow fadeInUp" data-wow-delay=".4s">
-      <div class="counter-box-items-area text-center">
-        <div class="icon"><i class="fa-solid fa-industry"></i></i></div>
-        <div class="content">
-          <h2><span class="odometer" data-count="68">00</span>+</h2>
-          <p class="fw-bold fs-5">Value Addition</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="col wow fadeInUp" data-wow-delay=".6s">
-      <div class="counter-box-items-area text-center">
-        <div class="icon"><i class="fa-solid fa-seedling"></i></div>
-        <div class="content">
-          <h2><span class="odometer" data-count="30">00</span>+</h2>
-          <p class="fw-bold fs-5">Agro Ecology</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="col wow fadeInUp" data-wow-delay=".6s">
-      <div class="counter-box-items-area text-center">
-        <div class="icon"><i class="fa-solid fa-bullhorn"></i></div>
-        <div class="content">
-          <h2><span class="odometer" data-count="30">00</span>+</h2>
-          <p class="fw-bold fs-5">Branding</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="col wow fadeInUp" data-wow-delay=".8s">
-      <div class="counter-box-items-area text-center">
-        <div class="icon"><i class="fa-solid fa-utensils"></i></div>
-        <div class="content">
-          <h2><span class="odometer" data-count="20">00</span>+</h2>
-          <p class="fw-bold fs-5">Food Stalls</p>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</div>
-
-        </section>
+</section>
 
 
 <!-- image Section Start -->
