@@ -329,6 +329,7 @@
     <div class="news-shape-2 d-none d-xxl-block float-bob-y">
         <img src="frontend/img/home-4/news/shape-2.png" alt="img">
     </div>
+    
     <div class="container">
         <div class="section-title-area">
             <div class="section-title">
