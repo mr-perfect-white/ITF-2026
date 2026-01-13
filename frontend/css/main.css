@@ -14667,17 +14667,17 @@ p.sticky-label {
   border-radius: 12px;
   padding: 40px;
   position: relative;
-  height: 300px;
+  height: 350px;
 }
 @media (max-width: 1199px) {
   .contact-info-box {
-    padding: 30px;
+    padding: 24px;
   }
 }
 @media (max-width: 575px) {
   .contact-info-box {
     text-align: center;
-    padding: 30px;
+    padding: 20px;
   }
 }
 .contact-info-box .shape-1 {

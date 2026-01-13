@@ -256,7 +256,7 @@
                             <nav id="mobile-menu">
                                 <ul>
                                     <li class="has-dropdown menu-thumb">
-                                        <a href="home.php">
+                                        <a href="index.php">
                                            <?= $MSG['home']; ?>
 
                                         </a>
