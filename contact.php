@@ -189,7 +189,7 @@
                         <p>
                             <strong>Email:</strong>
                             <a href="mailto:itf2025organiccell@gmail.com">
-                                itf2025organiccell@gmail.com
+                                organiccell@gmail.com
                             </a>
                         </p>
                     </div>
@@ -376,9 +376,9 @@
                     </p>
 
                     <h6>Contact Details:</h6>
-                    <p>Ms. Pramila R. Gangal ,<br>
-                        Assistant Director of Agriculture Watershed Development Department ,<br>
-                        Contact Number: 6364794902
+                    <p>Ms. Latha ,<br>
+                         Agriculture Officier,Department of Agriculture ,<br>
+                        Contact Number: 8277929852
                     </p>
                 </div>
             </div>

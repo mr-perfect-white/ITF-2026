@@ -150,7 +150,7 @@
                                             <i class="flaticon-agriculture"></i>
                                         </div>
                                         <div class="content">
-                                            <h3><a href="service-details.html">Millets and Organics</a></h3>
+                                            <h3><a href="https://itf2023.organics-millets.in/">Millets and Organics</a></h3>
                                            <p>2023- International trade Fair, Jan 18-20, 2023 at Tripuravasini Palace Grounds, Bengaluru.</p>
                                             <!-- <a href="service-details.html" class="theme-btn">
                                                 View Details <i class="far fa-arrow-right"></i>
@@ -173,7 +173,7 @@
                                             <i class="flaticon-agriculture"></i>
                                         </div>
                                         <div class="content">
-                                            <h3><a href="service-details.html">Millets and Organics</a></h3>
+                                            <h3><a href="https://itf2024.organics-millets.in/">Millets and Organics</a></h3>
                                             <p>2024- International trade Fair, Jan 05-07, 2024 at Tripuravasini Palace Grounds, Bengaluru.</p>
                                             <!-- <a href="service-details.html" class="theme-btn">
                                                 View Details <i class="far fa-arrow-right"></i>

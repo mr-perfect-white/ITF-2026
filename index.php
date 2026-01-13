@@ -378,7 +378,7 @@
                 <div class="swiper-slide1">
                     <div class="brand-image text-center">
                         <img src="../ITF/frontend/img/resized_4.png" alt="img">
-                        <p class="brand-text">INTERNATIONAL <br>CONFERENCE</p>
+                        <p class="brand-text">Value Addition<br>& Processing</p>
                     </div>
                 </div>
                 <div class="swiper-slide1">
@@ -387,12 +387,18 @@
                         <p class="brand-text">CULTURAL<br> EVENTS </p>
                     </div>
                 </div>
-                <!-- <div class="swiper-slide">
+                <div class="swiper-slide1">
                     <div class="brand-image text-center">
                         <img src="../ITF/frontend/img/resized_6.png" alt="img">
-                        <p class="brand-text">FARMER'S<br>WORKSHOP</p>
+                        <p class="brand-text">Agro Ecology &<br>Sustainable Farming</p>
                     </div>
-                </div> -->
+                </div>
+                <div class="swiper-slide1">
+                    <div class="brand-image text-center">
+                        <img src="../ITF/frontend/img/resized_6.png" alt="img">
+                        <p class="brand-text">Branding, Marketing &<br>Credit Services</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -409,18 +415,18 @@
     <div class="container">
         <div class="achievments-wrapper-4">
             <div class="row g-4">
-                <div class="col-xl-5 col-lg-5">
+                <div class="col-xl-6 col-lg-6">
                     <div class="achievments-content">
                         <div class="section-title mb-0">
-                            <span class="wow fadeInUp text-white"><img src="../ITF/frontend/img/sub-title.svg"
+                            <!-- <span class="wow fadeInUp text-white"><img src="../ITF/frontend/img/sub-title.svg"
                                     alt="img">weeks
-                                highlights</span>
+                                highlights</span> -->
                             <h2 class="text-anim text-white"> <?= $MSG['highlights']; ?></h2>
                         </div>
 
                     </div>
                 </div>
-                <div class="col-xl-7 col-lg-7">
+                <div class="col-xl-6 col-lg-6">
                     <div class="counter-box-area">
 
                         <!-- Venue -->
@@ -469,8 +475,8 @@
 <section class="service-section-4 section-padding fix">
     <div class="container">
         <div class="section-title text-center">
-            <span class="wow fadeInUp"><img src="../ITF/frontend/img/sub-title.svg" alt="img">Pre events</span>
-            <h2 class="text-anim">State Level Competition</h2>
+            <span class="wow fadeInUp"><img src="../ITF/frontend/img/sub-title.svg" alt="img">Pre-Events</span>
+            <h2 class="text-anim">Pre-Events : State </h2>
 
         </div>
     </div>
@@ -583,6 +589,67 @@
     </div>
 </section>
 
+<!-- Counter Section Start -->
+<section class="counter-section section-bg  pt-5">
+           
+           <div class="container">
+  <div class="row g-4 justify-content-center">
+
+    <div class="col wow fadeInUp" data-wow-delay=".2s">
+      <div class="counter-box-items-area text-center">
+        <div class="icon"><i class="fa-solid fa-building"></i></div>
+        <div class="content">
+          <h2><span class="odometer" data-count="300">00</span>+</h2>
+          <p class="fw-bold fs-5">Exhibitors</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col wow fadeInUp" data-wow-delay=".4s">
+      <div class="counter-box-items-area text-center">
+        <div class="icon"><i class="fa-solid fa-industry"></i></i></div>
+        <div class="content">
+          <h2><span class="odometer" data-count="68">00</span>+</h2>
+          <p class="fw-bold fs-5">Value Addition</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col wow fadeInUp" data-wow-delay=".6s">
+      <div class="counter-box-items-area text-center">
+        <div class="icon"><i class="fa-solid fa-seedling"></i></div>
+        <div class="content">
+          <h2><span class="odometer" data-count="30">00</span>+</h2>
+          <p class="fw-bold fs-5">Agro Ecology</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col wow fadeInUp" data-wow-delay=".6s">
+      <div class="counter-box-items-area text-center">
+        <div class="icon"><i class="fa-solid fa-bullhorn"></i></div>
+        <div class="content">
+          <h2><span class="odometer" data-count="30">00</span>+</h2>
+          <p class="fw-bold fs-5">Branding</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col wow fadeInUp" data-wow-delay=".8s">
+      <div class="counter-box-items-area text-center">
+        <div class="icon"><i class="fa-solid fa-utensils"></i></div>
+        <div class="content">
+          <h2><span class="odometer" data-count="20">00</span>+</h2>
+          <p class="fw-bold fs-5">Food Stalls</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+        </section>
+
 
 <!-- image Section Start -->
 <section class="product-section-2 section-padding fix pt-0 mb-0">
@@ -607,8 +674,8 @@
 <section class="news-section section-bg section-padding1 fix mb-0">
     <div class="container">
         <div class="section-title text-center">
-            <span class="wow fadeInUp text-white"><img src="frontend/img/sub-title.svg" alt="img">Pre events</span>
-            <h2 class="text-anim text-white">District Level Competition</h2>
+            <span class="wow fadeInUp text-white"><img src="frontend/img/sub-title.svg" alt="img">Pre-Events</span>
+            <h2 class="text-anim text-white">Pre-Events : District </h2>
 
         </div>
         <div class="row">
@@ -661,60 +728,7 @@
         </div>
     </div>
 </section>
-<!-- Counter Section Start -->
 
-
-<section class="counter-section   pt-5">
-           
-            <div class="container">
-                <div class="row g-4">
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".2s">
-                        <div class="counter-box-items-area">
-                            <div class="icon">
-                                  <i class="fa-solid fa-building"></i>
-                            </div>
-                            <div class="content">
-                                <h2><span class="odometer" data-count="163">00</span>+</h2>
-                                <p>Exhibitors</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".4s">
-                        <div class="counter-box-items-area">
-                            <div class="icon">
-                                <i class="fa-solid fa-microphone-lines"></i>
-                            </div>
-                            <div class="content">
-                                <h2><span class="odometer" data-count="68">00</span>+</h2>
-                                <p>Speakers</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".6s">
-                        <div class="counter-box-items-area">
-                            <div class="icon">
-                               <i class="fa-solid fa-calendar-days"></i>
-                            </div>
-                            <div class="content">
-                                <h2><span class="odometer" data-count="30">00</span>+</h2>
-                                <p>Sessions</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".8s">
-                        <div class="counter-box-items-area">
-                            <div class="icon">
-                                <i class="fa-solid fa-utensils"></i>
-                            </div>
-                            <div class="content">
-                                <h2><span class="odometer" data-count="20">00</span>+</h2>
-                                <p>Food Stalls</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
 <!-- gallery Section Start -->
 <!-- <section class="project-section-2 section-padding1 fix mb-0">
     <div class="container">
