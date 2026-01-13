@@ -187,7 +187,7 @@
                     <div class="about-left-content">
                         <div class="section-title mb-0">
                             <span class="wow fadeInUp"><img src="frontend/img/sub-title.svg" alt="img">Our Theme</span>
-                            <h2 class="text-anim">Agriculture beyond cultivation and empowering farmers</h2>
+                            <h2 class="text-anim">Agriculture beyond Production-<em>"Empowering farmers"</em></h2>
                         </div>
                         <div class="shapes-row">
                             <div class="shape-3 d-none d-xxl-block float-bob-x">
@@ -204,7 +204,7 @@
                     <div class="about-right-items">
                         <div class="about-top-box wow fadeInUp" data-wow-delay=".3s">
                             <p><?= $MSG['ab_expectedvisitors']; ?></p>
-                            <h2><span class="odometer" data-count="200,000">00</span>+</h2>
+                            <h2><span class="odometer" data-count="300,000">00</span>+</h2>
                             <p class="text">
                                 <?= $MSG['ab_empowering']; ?></p>
                         </div>
@@ -334,7 +334,8 @@
                 <h2 class=""><?= $MSG['ab_achievements1']; ?> </h2>
             </div>
             <a href="news.html" class="theme-btn wow fadeInUp" data-wow-delay=".2s">
-               <?= $MSG['ab_achievements2']; ?> <i class="far fa-arrow-right"></i>
+               <?= $MSG['ab_achievements2']; ?>  <i class="fa-solid fa-arrow-right"></i>
+
             </a>
         </div>
         <div class="row">
@@ -356,7 +357,7 @@
                         </ul>
                         <p><a href="#"><?= $MSG['ab_achievements_title_1']; ?></a></p>
                         <a href="news-details.html" class="link-btn"><?= $MSG['ab_achievements6']; ?>
-                            <i class="far fa-arrow-right"></i>
+                             <i class="fa-solid fa-arrow-right"></i>
                         </a>
                     </div>
                 </div>
@@ -379,7 +380,7 @@
                         </ul>
                         <p><a href="#"><?= $MSG['ab_achievements_title_2']; ?></a></p>
                         <a href="news-details.html" class="link-btn"><?= $MSG['ab_achievements6']; ?>
-                            <i class="far fa-arrow-right"></i>
+                             <i class="fa-solid fa-arrow-right"></i>
                         </a>
                     </div>
                 </div>
@@ -402,7 +403,7 @@
                         </ul>
                         <p><a href="#"><?= $MSG['ab_achievements_title_3']; ?></a></p>
                         <a href="news-details.html" class="link-btn"><?= $MSG['ab_achievements6']; ?>
-                            <i class="far fa-arrow-right"></i>
+                             <i class="fa-solid fa-arrow-right"></i>
                         </a>
                     </div>
                 </div>

@@ -539,29 +539,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide">
-                    <div class="service-box-items-4">
-                        <div class="thumb">
-                            <img src="../ITF/frontend/img/culinarynew.jpeg" alt="img">
-                        </div>
-                        <div class="service-content-area">
-                            <div class="icon">
-                                <i class="fa fa-shopping-basket"></i>
-
-
-
-
-                            </div>
-                            <div class="content">
-                                <h4><a href="service-details.html">Culinary Competition </a></h4>
-                                <!-- <p>
-                                            Lorem ipsum dolor sit amet, porro quisquam est, qui dolorem ipsum quia dolor sit amet.
-                                        </p> -->
-                                <!-- <a href="service-details.html" class="link-btn">More Details <i class="far fa-arrow-right"></i></a> -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
+               
                 <!-- <div class="swiper-slide">
                             <div class="service-box-items-4">
                                 <div class="thumb">

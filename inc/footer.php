@@ -56,32 +56,32 @@
                         </div>
                         <ul class="list-area">
                             <li>
-                                <a href="about.html" class="text-white">
+                                <a href="index.php" class="text-white">
                                     <i class="fa-solid fa-angles-right theme2"></i> <?= $MSG['home']; ?>
                                 </a>
                             </li>
                             <li>
-                                <a href="team.html" class="text-white">
+                                <a href="about.php" class="text-white">
                                     <i class="fa-solid fa-angles-right theme2"></i><?= $MSG['about-itf']; ?>
                                 </a>
                             </li>
                             <li>
-                                <a href="contact.html" class="text-white">
+                                <a href="" class="text-white">
                                     <i class="fa-solid fa-angles-right theme2"></i><?= $MSG['registrations']; ?>
                                 </a>
                             </li>
-                            <li>
-                                <a href="contact.html" class="text-white">
+                            <!-- <li>
+                                <a href="" class="text-white">
                                    <i class="fa-solid fa-angles-right theme2"></i> <?= $MSG['resources']; ?>
                                 </a>
-                            </li>
+                            </li> -->
                             <li>
-                                <a href="faq.html" class="text-white">
+                                <a href="" class="text-white">
                                     <i class="fa-solid fa-angles-right theme2"></i></i> <?= $MSG['our_faq']; ?>
                                 </a>
                             </li>
                             <li>
-                                <a href="pricing.html" class="text-white">
+                                <a href="" class="text-white">
                                     <i class="fa-solid fa-angles-right theme2"></i> <?= $MSG['gallery']; ?>
                                 </a>
                             </li>
