@@ -112,7 +112,7 @@ return [
   'ab_only' => ' Only 33% area under irrigation. Most Drought Prone state after Rajasthan.',
   'ab_agroclimaticzones' => '10 Agro-climatic zones with rich crop diversity & 5 major soil types.',
   'ab_ourachievements' => 'Our Achievements',
-  'ab_achievements1' => 'Awards received by Dept. Of Agriculture',
+  'ab_achievements1' => 'Awards received by Department Of Agriculture',
   'ab_achievements2' => 'View All',
   'ab_achievements3' => 'MAY 2025',
   'ab_achievements4' => 'Agricultural',
