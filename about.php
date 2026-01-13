@@ -34,14 +34,16 @@
 
     .organic-text-content p {
         font-size: 18px;
-        line-height: 1.9;
         text-align: justify;
+         line-height: 30px;
 
     }
     .organic-text-content ul li {
     list-style: disc;
     line-height: 30px;
     margin-bottom: 15px;
+    font-size: 18px;
+     text-align: justify;
 }
 .organic-text-content ul {
     padding-left: 32px;

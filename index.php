@@ -480,7 +480,7 @@
                 <div class="swiper-slide">
                     <div class="service-box-items-4">
                         <div class="thumb">
-                            <img src="../ITF/frontend/img/militrun.jpeg" alt="img">
+                            <img src="../ITF/frontend/img/milletrn.png" alt="img">
                         </div>
                         <div class="service-content-area">
                             <div class="icon">
@@ -521,7 +521,7 @@
                 <div class="swiper-slide">
                     <div class="service-box-items-4">
                         <div class="thumb">
-                            <img src="../ITF/frontend/img/pannel.jpeg" alt="img">
+                            <img src="../ITF/frontend/img/Conference.png" alt="img">
                         </div>
                         <div class="service-content-area">
                             <div class="icon">
@@ -539,7 +539,7 @@
                         </div>
                     </div>
                 </div>
-               
+
                 <!-- <div class="swiper-slide">
                             <div class="service-box-items-4">
                                 <div class="thumb">
@@ -583,6 +583,7 @@
     </div>
 </section>
 
+
 <!-- image Section Start -->
 <section class="product-section-2 section-padding fix pt-0 mb-0">
     <div class="shape-1 d-none d-xl-block float-bob-y">
@@ -598,7 +599,7 @@
         <div class="letter-image">
             Agriculture Beyond Production <span>-<em>"Empowering Farmers"</em></span>
         </div>
-        
+
 
     </div>
 </section>
@@ -615,7 +616,7 @@
                 <div class="news-box-items">
                     <div class="news-image">
                         <img src="frontend/img/resize-1767790937880522785songlaunch.jpeg" alt="img">
-                        
+
                     </div>
                     <div class="news-content text-white">
                         <h3><a href="news-details.html" class="text-white">Millet Run</a></h3>
@@ -628,8 +629,8 @@
             <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
                 <div class="news-box-items">
                     <div class="news-image">
-                        <img src="frontend/img/resize-1767790798398807948decpreevent.jpeg" alt="img">
-                        
+                        <img src="frontend/img/culinaryimage.png" alt="img">
+
                     </div>
                     <div class="news-content">
                         <h3><a href="news-details.html" class="text-white">Culinary Competition</a></h3>
@@ -645,7 +646,7 @@
                 <div class="news-box-items">
                     <div class="news-image">
                         <img src="frontend/img/nov-pre-event.jpeg" alt="img">
-                        
+
                     </div>
                     <div class="news-content">
 
@@ -660,59 +661,59 @@
         </div>
     </div>
 </section>
- <!-- Counter Section Start -->
-        <section class="counter-section-3 section-padding fix pt-3">
-            <!-- <div class="bottom-shape">
+<!-- Counter Section Start -->
+<section class="counter-section-3 section-padding fix pt-3">
+    <!-- <div class="bottom-shape">
                 <img src="..ITF/frontend/img/home-1/service/bottom-shape.png" alt="img">
             </div> -->
-            <div class="container">
-                <div class="counter-wrapper-3">
-                    <div class="counter-box-items wow fadeInUp" data-wow-delay=".2s">
-                        <div class="icon">
-                           <i class="fa-solid fa-building"></i>
+    <div class="container">
+        <div class="counter-wrapper-3">
+            <div class="counter-box-items wow fadeInUp" data-wow-delay=".2s">
+                <div class="icon">
+                    <i class="fa-solid fa-building"></i>
 
-                        </div>
-                        <div class="content">
-                            <h2><span class="odometer" data-count="163">00</span>+</h2>
-                            <p>Exhibitors</p>
-                        </div>
-                    </div>
-                    <div class="line"></div>
-                    <div class="counter-box-items wow fadeInUp" data-wow-delay=".4s">
-                        <div class="icon">
-                            <i class="fa-solid fa-microphone-lines"></i>
-
-                        </div>
-                        <div class="content">
-                            <h2><span class="odometer" data-count="68">00</span>+</h2>
-                            <p>Speakers</p>
-                        </div>
-                    </div>
-                    <div class="line"></div>
-                    <div class="counter-box-items wow fadeInUp" data-wow-delay=".6s">
-                        <div class="icon">
-                            <i class="fa-solid fa-calendar-days"></i>
-
-                        </div>
-                        <div class="content">
-                            <h2><span class="odometer" data-count="30">00</span>+</h2>
-                            <p>Sessions</p>
-                        </div>
-                    </div>
-                    <div class="line"></div>
-                    <div class="counter-box-items wow fadeInUp" data-wow-delay=".8s">
-                        <div class="icon">
-                            <i class="fa-solid fa-utensils"></i>
-
-                        </div>
-                        <div class="content">
-                            <h2><span class="odometer" data-count="20">00</span>+</h2>
-                            <p>Food Stalls</p>
-                        </div>
-                    </div>
+                </div>
+                <div class="content">
+                    <h2><span class="odometer" data-count="163">00</span>+</h2>
+                    <p>Exhibitors</p>
                 </div>
             </div>
-        </section>
+            <div class="line"></div>
+            <div class="counter-box-items wow fadeInUp" data-wow-delay=".4s">
+                <div class="icon">
+                    <i class="fa-solid fa-microphone-lines"></i>
+
+                </div>
+                <div class="content">
+                    <h2><span class="odometer" data-count="68">00</span>+</h2>
+                    <p>Speakers</p>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="counter-box-items wow fadeInUp" data-wow-delay=".6s">
+                <div class="icon">
+                    <i class="fa-solid fa-calendar-days"></i>
+
+                </div>
+                <div class="content">
+                    <h2><span class="odometer" data-count="30">00</span>+</h2>
+                    <p>Sessions</p>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="counter-box-items wow fadeInUp" data-wow-delay=".8s">
+                <div class="icon">
+                    <i class="fa-solid fa-utensils"></i>
+
+                </div>
+                <div class="content">
+                    <h2><span class="odometer" data-count="20">00</span>+</h2>
+                    <p>Food Stalls</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <!-- gallery Section Start -->
 <!-- <section class="project-section-2 section-padding1 fix mb-0">
     <div class="container">
@@ -801,8 +802,8 @@
                                 <div class="acc-btn active">
                                     1.Event and venue Details
 
-                                    
-                                   <div class="icon fa-solid fa-chevron-down"></div>
+
+                                    <div class="icon fa-solid fa-chevron-down"></div>
 
                                 </div>
                                 <div class="acc-content current">
@@ -820,8 +821,8 @@
                                 <div class="acc-btn">
                                     2.Is there any entry fee for visitors?
 
-                                    
-                                   <div class="icon fa-solid fa-chevron-down"></div>
+
+                                    <div class="icon fa-solid fa-chevron-down"></div>
                                 </div>
                                 <div class="acc-content">
                                     <div class="content">
@@ -836,8 +837,8 @@
                                 <div class="acc-btn">
                                     3.How do Exhibitors/Conference Partipants register for the event?
 
-                                    
-                                   <div class="icon fa-solid fa-chevron-down"></div>
+
+                                    <div class="icon fa-solid fa-chevron-down"></div>
                                 </div>
                                 <div class="acc-content">
                                     <div class="content">
@@ -853,8 +854,8 @@
                                 <div class="acc-btn">
                                     4.Is there any offline mode of payment allowed for registrations?
 
-                                     
-                                   <div class="icon fa-solid fa-chevron-down"></div>
+
+                                    <div class="icon fa-solid fa-chevron-down"></div>
                                 </div>
                                 <div class="acc-content">
                                     <div class="content">
@@ -871,7 +872,7 @@
                                 <div class="acc-btn">
                                     5.How do exhibitors contact fabricators to setup their stalls in the venue?
 
-                                   <div class="icon fa-solid fa-chevron-down"></div>
+                                    <div class="icon fa-solid fa-chevron-down"></div>
 
 
                                 </div>
@@ -955,6 +956,7 @@ function toggleContent() {
     }
 }
 </script>
+
 
 <!-- Footer Section Start -->
 
