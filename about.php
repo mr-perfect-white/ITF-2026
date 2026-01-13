@@ -189,7 +189,7 @@
                     <div class="about-left-content">
                         <div class="section-title mb-0">
                             <span class="wow fadeInUp"><img src="frontend/img/sub-title.svg" alt="img">Our Theme</span>
-                            <h2 class="text-anim">Agriculture beyond Production-<em>"Empowering farmers"</em></h2>
+                            <h2 class="text-anim">Agriculture beyond Production-<em>"Empowering Farmers"</em></h2>
                         </div>
                         <div class="shapes-row">
                             <div class="shape-3 d-none d-xxl-block float-bob-x">
