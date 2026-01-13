@@ -335,78 +335,53 @@
                 <span class="wow fadeInUp"><img src="frontend/img/sub-title.svg" alt="img">Our Achievements</span>
                 <h2 class=""><?= $MSG['ab_achievements1']; ?> </h2>
             </div>
-            <a href="news.html" class="theme-btn wow fadeInUp" data-wow-delay=".2s">
-               <?= $MSG['ab_achievements2']; ?>  <i class="fa-solid fa-arrow-right"></i>
-
-            </a>
+           
         </div>
         <div class="row">
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                 <div class="news-image-box-items-4">
                     <div class="news-image">
-                        <img src="frontend/img/resize-1767866168415690983aboutaward (1).png" alt="img">
-                        <div class="post-date">
-                            <h4>27</h4>
-                            <p><?= $MSG['ab_achievements3']; ?></p>
-                        </div>
+                        <img src="frontend/img/awd-1.jpg" alt="img">
+                        
                     </div>
                     <div class="content">
                         <ul class="post-date">
-                            <li>
-                               <?= $MSG['ab_achievements4']; ?>
-                            </li>
+                            
 
                         </ul>
                         <p><a href="#"><?= $MSG['ab_achievements_title_1']; ?></a></p>
-                        <a href="news-details.html" class="link-btn"><?= $MSG['ab_achievements6']; ?>
-                             <i class="fa-solid fa-arrow-right"></i>
-                        </a>
+                        
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".5s">
                 <div class="news-image-box-items-4">
                     <div class="news-image">
-                        <img src="frontend/img/resize-1767866168415690983aboutaward (1).png" alt="img">
-                        <div class="post-date">
-                            <h4>29</h4>
-                            <p><?= $MSG['ab_achievements3']; ?></p>
-                        </div>
+                        <img src="frontend/img/awd-2.png" alt="img">
+                       
                     </div>
                     <div class="content">
                         <ul class="post-date">
-                            <li>
-                                <?= $MSG['ab_achievements4']; ?>
-                            </li>
+                          
 
                         </ul>
                         <p><a href="#"><?= $MSG['ab_achievements_title_2']; ?></a></p>
-                        <a href="news-details.html" class="link-btn"><?= $MSG['ab_achievements6']; ?>
-                             <i class="fa-solid fa-arrow-right"></i>
-                        </a>
+                       
                     </div>
                 </div>
             </div>
              <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".5s">
                 <div class="news-image-box-items-4">
                     <div class="news-image">
-                        <img src="frontend/img/resize-1767866168415690983aboutaward (1).png" alt="img">
-                        <div class="post-date">
-                            <h4>29</h4>
-                            <p><?= $MSG['ab_achievements3']; ?></p>
-                        </div>
+                        <img src="frontend/img/awd-3.png" alt="img">
+                       
                     </div>
                     <div class="content">
                         <ul class="post-date">
-                            <li>
-                                <?= $MSG['ab_achievements4']; ?>
-                            </li>
-
+                            
                         </ul>
                         <p><a href="#"><?= $MSG['ab_achievements_title_3']; ?></a></p>
-                        <a href="news-details.html" class="link-btn"><?= $MSG['ab_achievements6']; ?>
-                             <i class="fa-solid fa-arrow-right"></i>
-                        </a>
+                       
                     </div>
                 </div>
             </div>
