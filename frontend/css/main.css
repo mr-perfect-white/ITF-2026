@@ -372,7 +372,7 @@ p {
   padding: 0px;
 }
 .preloader .loader .loader-section .bg {
-  background-color: #8b5a2b;
+  background-color: var(--white);
   height: 100%;
   left: 0;
   width: 100%;
