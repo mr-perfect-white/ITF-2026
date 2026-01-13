@@ -339,7 +339,7 @@ p {
 }
 .preloader .animation-preloader .txt-loading .letters-loading::before {
   animation: letters-loading 4s infinite;
-  color: var(--header);
+  color: #8b5a2b;
   content: attr(data-text-preloader);
   left: 0;
   opacity: 0;
@@ -353,7 +353,7 @@ p {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 8px;
-  color: var(--theme-color);
+  color: #8b5a2b;
 }
 .preloader .loader {
   position: fixed;
@@ -372,7 +372,7 @@ p {
   padding: 0px;
 }
 .preloader .loader .loader-section .bg {
-  background-color: var(--white);
+  background-color: #8b5a2b;
   height: 100%;
   left: 0;
   width: 100%;
