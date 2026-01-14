@@ -1,4 +1,18 @@
 <!-- Footer Section Start -->
+<style>
+    i.fa-solid.fa-phone {
+    padding: 10px;
+    color: #ffffff;
+}
+.content.pl-4 {
+    margin-left: -6px !important;
+}
+.icon.mail_icon {
+    padding: 11px 16px 12px 17px;
+    line-height: 28px !important;
+}
+</style>
+
 <footer class="footer-section-5 section-padding section-bg pb-0 pt-5">
     <div class="shape-1 d-none d-xxl-block float-bob-x">
         <img src="frontend/img/home-5/footer/shape-1.png" alt="img">
@@ -26,7 +40,7 @@
                             </a>
                         </div>
                         <div class="footer-content text-white fw-bold">
-                            <p><?= $MSG['footer_title']; ?></p>
+                            <p>Useful Link</p>
                             <!-- <form action="#">
                                     <input type="email" id="email12" placeholder="Enter your email">
                                     <button class="icon-btn" type="submit"><i class="fas fa-paper-plane"></i></button>
@@ -51,38 +65,34 @@
                     <div class="footer-widget-items">
                         <div class="widget-head">
                             <h4 class="text-white">
-                                <?= $MSG['footer_useful_link']; ?>
+                               
                             </h4>
                         </div>
                         <ul class="list-area">
                             <li>
                                 <a href="index.php" class="text-white">
-                                    <i class="fa-solid fa-angles-right theme2"></i> <?= $MSG['home']; ?>
+                                    <i class="fa-solid fa-angles-right theme2"></i> Home
                                 </a>
                             </li>
                             <li>
                                 <a href="about.php" class="text-white">
-                                    <i class="fa-solid fa-angles-right theme2"></i><?= $MSG['about-itf']; ?>
+                                    <i class="fa-solid fa-angles-right theme2"></i>About ITF
                                 </a>
                             </li>
                             <li>
                                 <a href="" class="text-white">
-                                    <i class="fa-solid fa-angles-right theme2"></i><?= $MSG['registrations']; ?>
+                                    <i class="fa-solid fa-angles-right theme2"></i> Registrations
                                 </a>
                             </li>
-                            <!-- <li>
-                                <a href="" class="text-white">
-                                   <i class="fa-solid fa-angles-right theme2"></i> <?= $MSG['resources']; ?>
-                                </a>
-                            </li> -->
+                            
                             <li>
                                 <a href="" class="text-white">
-                                    <i class="fa-solid fa-angles-right theme2"></i></i> <?= $MSG['our_faq']; ?>
+                                    <i class="fa-solid fa-angles-right theme2"></i></i>  Our FAQs
                                 </a>
                             </li>
                             <li>
                                 <a href="" class="text-white">
-                                    <i class="fa-solid fa-angles-right theme2"></i> <?= $MSG['gallery']; ?>
+                                    <i class="fa-solid fa-angles-right theme2"></i> Gallery
                                 </a>
                             </li>
                         </ul>
@@ -99,19 +109,19 @@
                                 <div class="icon">
                                     <i class="fas fa-envelope"></i>
                                 </div>
-                                <div class="content">
-                                    <h5 class="text-white"><?= $MSG['foot_email_us']; ?>:</h5>
+                                <div class="content pl-4">
+                                    <h5 class="text-white">Email us::</h5>
                                     <p><a href="mailto:kssc.manager.acct@gmail.com"
                                             class="text-white">kssc.manager.acct@gmail.com</a></p>
                                 </div>
                             </li>
                             <li>
-                                <div class="icon" style="width: 140px;">
+                                <div class="icon" style="width:88px;">
                                     <i class="fas fa-map-marker-alt"></i>
                                 </div>
                                 <div class="content">
-                                    <h5 class="text-white"><?= $MSG['foot_location']; ?>:</h5>
-                                    <p class="text-white"><?= $MSG['foot_address']; ?></p>
+                                    <h5 class="text-white">Location:</h5>
+                                    <p class="text-white">No. 1, Sheshadri Road, Bangalore, Karnataka-560001</p>
                                 </div>
                             </li>
                             <li>
@@ -119,7 +129,7 @@
                                     <i class="fa-solid fa-phone"></i>
                                 </div>
                                 <div class="content">
-                                    <h5 class="text-white"><?= $MSG['foot_phone']; ?>:</h5>
+                                    <h5 class="text-white">Phone:</h5>
                                     <p><a href="tel:+ 080-22271194 / 22243082" class="text-white"> 080-22271194 /
                                             22243082</a></p>
                                 </div>
@@ -130,26 +140,26 @@
                 <div class="col-xl-3 col-lg-3 col-md-8 ps-xl-5 wow fadeInUp" data-wow-delay=".8s">
                     <div class="footer-widget-items">
                         <div class="widget-head">
-                            <h5 class="text-white"><?= $MSG['contact']; ?></h5>
+                            <h5 class="text-white">Contact</h5>
                         </div>
                         <ul class="contact-list">
                             <li>
-                                <div class="icon">
+                                <div class="icon mail_icon">
                                     <i class="fas fa-envelope"></i>
                                 </div>
-                                <div class="content">
-                                    <h5 class="text-white"><?= $MSG['foot_email_us']; ?>:</h5>
+                                <div class="content email_pl-4">
+                                    <h5 class="text-white">Email:</h5>
                                     <p><a href="mailto:kssc.manager.acct@gmail.com"
                                             class="text-white">organiccell@gmail.com</a></p>
                                 </div>
                             </li>
                             <li>
-                                <div class="icon" style="width:100px">
+                                <div class="icon" style="width:137px">
                                     <i class="fas fa-map-marker-alt"></i>
                                 </div>
                                 <div class="content">
-                                    <h5 class="text-white"><?= $MSG['foot_location']; ?>:</h5>
-                                    <p class="text-white"> <?= $MSG['foot_addressitf']; ?></p>
+                                    <h5 class="text-white">Location:</h5>
+                                    <p class="text-white">No. 1, Sheshadri Road, Bangalore, Karnataka-560001</p>
                                 </div>
                             </li>
                             <li>
@@ -157,7 +167,7 @@
                                   <i class="fa-solid fa-phone"></i>
                                 </div>
                                 <div class="content">
-                                    <h5 class="text-white"><?= $MSG['foot_phone']; ?>:</h5>
+                                    <h5 class="text-white">Phone:</h5>
                                     <p><a href="tel:+ 080-22271194 / 22243082" class="text-white">080-22074111</a></p>
                                 </div>
                             </li>
@@ -170,7 +180,7 @@
     <div class="footer-bottom">
         <div class="container">
             <div class="footer-bottom-wrapper">
-                <p class="text-1 wow fadeInUp"><?= $MSG['foot_reserved']; ?></p>
+                <p class="text-1 wow fadeInUp">© 2026 ITF. All Rights Reserved</p>
                 <div class="bottom-img wow fadeInUp" data-wow-delay=".4s">
                     <img src="" alt="">
                 </div>
