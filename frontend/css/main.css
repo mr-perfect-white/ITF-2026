@@ -1518,6 +1518,7 @@ p {
 }
 .header-top-section .header-top-wrapper .top-logo {
   margin-left: -115px;
+
 }
 .header-top-section .header-top-wrapper .header-contact-list {
   display: flex;
@@ -3536,7 +3537,7 @@ p {
 .hero-1 .hero-height {
   /* padding: 329px 0 150px; */
   border-radius: 20px;
-  height: 612px;
+  height: 622px;
 }
 @media (max-width: 767px) {
   .hero-1 .hero-height {
@@ -15823,5 +15824,11 @@ p.sticky-label {
 .sectionbg{
   background-color: #6F4E37!important ;
   height: 300px;
+}
+.top-logo  img{
+  height: 85px;
+}
+.footer-logo img{
+  height: 85px;
 }
 

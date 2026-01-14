@@ -25,29 +25,12 @@
 
             <div class="swiper-slide">
                 <div class="hero-height">
-                    <div class="hero-bg bg-cover" style=""><img src="../ITF/frontend/img/003.jpg" width="100%">
+                    <div class="hero-bg bg-cover" style=""><img src="../ITF/frontend/img/banner4.png" width="100%">
                     </div>
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-12">
-                                <!-- <div class="hero-content">
-                                            <span>
-                                                <img src="../ITF/frontend/img/home-1/hero/hero-title.svg" alt="img">
-                                                We’re Distributors of Quality 100%
-                                            </span>
-                                            <h1>farming</h1>
-                                            <h2>best agricultural</h2>
-                                        </div> -->
-                                <!-- <div class="hero-button">
-                                            <a href="shop.html" class="theme-btn">
-                                                View Our Products
-                                                <i class="far fa-arrow-right"></i>
-                                            </a>
-                                            <a href="service.html" class="theme-btn style-2">
-                                                Our Services
-                                                <i class="far fa-arrow-right"></i>
-                                            </a>
-                                        </div> -->
+                              
                             </div>
                         </div>
                     </div>
@@ -55,124 +38,56 @@
             </div>
             <div class="swiper-slide">
                 <div class="hero-height">
-                    <div class="hero-bg bg-cover" style=""><img src="../ITF/frontend/img/004.jpg" width="100%">
+                    <div class="hero-bg bg-cover" style=""><img src="../ITF/frontend/img/banner5.png" width="100%">
                     </div>
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-12">
-                                <!-- <div class="hero-content">
-                                            <span>
-                                                <img src="../ITF/frontend/img/home-1/hero/hero-title.svg" alt="img">
-                                                We’re Distributors of Quality 100%
-                                            </span>
-                                            <h1>farming</h1>
-                                            <h2>best agricultural</h2>
-                                        </div> -->
-                                <!-- <div class="hero-button">
-                                            <a href="shop.html" class="theme-btn">
-                                                View Our Products
-                                                <i class="far fa-arrow-right"></i>
-                                            </a>
-                                            <a href="service.html" class="theme-btn style-2">
-                                                Our Services
-                                                <i class="far fa-arrow-right"></i>
-                                            </a>
-                                        </div> -->
+                                
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="swiper-slide">
+            <!-- <div class="swiper-slide">
                 <div class="hero-height">
                     <div class="hero-bg bg-cover" style=""><img src="../ITF/frontend/img/005.jpg" width="100%">
                     </div>
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-12">
-                                <!-- <div class="hero-content">
-                                            <span>
-                                                <img src="../ITF/frontend/img/home-1/hero/hero-title.svg" alt="img">
-                                                We’re Distributors of Quality 100%
-                                            </span>
-                                            <h1>farming</h1>
-                                            <h2>best agricultural</h2>
-                                        </div> -->
-                                <!-- <div class="hero-button">
-                                            <a href="shop.html" class="theme-btn">
-                                                View Our Products
-                                                <i class="far fa-arrow-right"></i>
-                                            </a>
-                                            <a href="service.html" class="theme-btn style-2">
-                                                Our Services
-                                                <i class="far fa-arrow-right"></i>
-                                            </a>
-                                        </div> -->
+                                
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="swiper-slide">
+            </div> -->
+            <!-- <div class="swiper-slide">
                 <div class="hero-height">
                     <div class="hero-bg bg-cover" style=""><img src="../ITF/frontend/img/006.jpg" width="100%">
                     </div>
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-12">
-                                <!-- <div class="hero-content">
-                                            <span>
-                                                <img src="../ITF/frontend/img/home-1/hero/hero-title.svg" alt="img">
-                                                We’re Distributors of Quality 100%
-                                            </span>
-                                            <h1>farming</h1>
-                                            <h2>best agricultural</h2>
-                                        </div> -->
-                                <!-- <div class="hero-button">
-                                            <a href="shop.html" class="theme-btn">
-                                                View Our Products
-                                                <i class="far fa-arrow-right"></i>
-                                            </a>
-                                            <a href="service.html" class="theme-btn style-2">
-                                                Our Services
-                                                <i class="far fa-arrow-right"></i>
-                                            </a>
-                                        </div> -->
+                                
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="swiper-slide">
+            </div> -->
+            <!-- <div class="swiper-slide">
                 <div class="hero-height">
                     <div class="hero-bg bg-cover" style=""><img src="../ITF/frontend/img/007.jpg" width="100%">
                     </div>
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-12">
-                                <!-- <div class="hero-content">
-                                            <span>
-                                                <img src="../ITF/frontend/img/home-1/hero/hero-title.svg" alt="img">
-                                                We’re Distributors of Quality 100%
-                                            </span>
-                                            <h1>farming</h1>
-                                            <h2>best agricultural</h2>
-                                        </div> -->
-                                <!-- <div class="hero-button">
-                                            <a href="shop.html" class="theme-btn">
-                                                View Our Products
-                                                <i class="far fa-arrow-right"></i>
-                                            </a>
-                                            <a href="service.html" class="theme-btn style-2">
-                                                Our Services
-                                                <i class="far fa-arrow-right"></i>
-                                            </a>
-                                        </div> -->
+                                
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
         </div>
     </div>
@@ -357,18 +272,8 @@
         </div>
         <div class="swiper brand-slide">
             <div class="swiper-wrapper">
-                <div class="swiper-slide1">
-                    <div class="brand-image text-center">
-                        <img src="../ITF/frontend/img/resized_1.png" alt="img">
-                        <p class="brand-text"><?= $MSG['consumer_connect']; ?></p>
-                    </div>
-                </div>
-                <div class="swiper-slide1">
-                    <div class="brand-image text-center">
-                        <img src="../ITF/frontend/img/resized_2.png" alt="img">
-                        <p class="brand-text"><?= $MSG['food_court']; ?></p>
-                    </div>
-                </div>
+               
+                
                 <div class="swiper-slide1">
                     <div class="brand-image text-center">
                         <img src="../ITF/frontend/img/resized_6.png" alt="img">
@@ -377,7 +282,7 @@
                 </div>
                 <div class="swiper-slide1">
                     <div class="brand-image text-center">
-                        <img src="../ITF/frontend/img/resized_4.png" alt="img">
+                        <img src="../ITF/frontend/img/value addition.png" alt="img">
                         <p class="brand-text"><?= $MSG['value_addition']; ?></p>
                     </div>
                 </div>
@@ -389,14 +294,27 @@
                 </div>
                 <div class="swiper-slide1">
                     <div class="brand-image text-center">
-                        <img src="../ITF/frontend/img/resized_6.png" alt="img">
+                        <img src="../ITF/frontend/img/agro ecologuy.png" alt="img">
                         <p class="brand-text"><?= $MSG['agro_ecology']; ?></p>
+                    </div>
+
+                </div>
+                <div class="swiper-slide1">
+                    <div class="brand-image text-center">
+                        <img src="../ITF/frontend/img/resized_2.png" alt="img">
+                        <p class="brand-text"><?= $MSG['food_court']; ?></p>
                     </div>
                 </div>
                 <div class="swiper-slide1">
                     <div class="brand-image text-center">
-                        <img src="../ITF/frontend/img/resized_6.png" alt="img">
+                        <img src="../ITF/frontend/img/branding.png" alt="img">
                         <p class="brand-text"><?= $MSG['branding_marketing']; ?></p>
+                    </div>
+                </div>
+                 <div class="swiper-slide1">
+                    <div class="brand-image text-center">
+                        <img src="../ITF/frontend/img/resized_1.png" alt="img">
+                        <p class="brand-text"><?= $MSG['consumer_connect']; ?></p>
                     </div>
                 </div>
             </div>

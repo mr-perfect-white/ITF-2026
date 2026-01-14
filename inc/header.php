@@ -12,7 +12,7 @@
     <!-- ======== Page title ============ -->
     <title>Agriculture beyond Production-"Empowering farmers"</title>
     <!--<< Favicon >>-->
-    <link rel="shortcut icon" href="../ITF/frontend/img/logo/eng-logo.jpeg">
+    <link rel="shortcut icon" href="../ITF/frontend/img/logo/logoitf.png">
     <!--<< Bootstrap min.css >>-->
     <link rel="stylesheet" href="../ITF/frontend/css/bootstrap.min.css">
     <!--<< Font Awesome.css >>-->
@@ -84,7 +84,7 @@
                     <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                         <div class="offcanvas__logo">
                             <a href="index.php">
-                                <img src="../ITF/frontend/img/logo/eng-logo.jpeg" alt="logo-img">
+                                <img src="../ITF/frontend/img/logo/logoitf.png" alt="logo-img">
                             </a>
                         </div>
                         <div class="offcanvas__close">
@@ -246,7 +246,7 @@
             <div class="mega-menu-wrapper">
                 <div class="header-main">
                     <a href="index.php" class="top-logo">
-                        <img src="../ITF/frontend/img/logo/eng-logo.jpeg" alt="img">
+                        <img src="../ITF/frontend/img/logo/logoitf.png" alt="img">
                     </a>
                     <!-- <a href="index.php" class="header-logo">
                             <img src="../ITF/frontend/img/logo/black-logo.svg" alt="img">

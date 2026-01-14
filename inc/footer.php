@@ -22,7 +22,7 @@
                     <div class="footer-widget-items">
                         <div class="widget-head">
                             <a href="index.html" class="footer-logo">
-                                <img src="frontend/img/logo/eng-logo.jpeg" alt="img">
+                                <img src="frontend/img/logo/logoitf.png" alt="img">
                             </a>
                         </div>
                         <div class="footer-content text-white fw-bold">
@@ -77,7 +77,7 @@
                             </li> -->
                             <li>
                                 <a href="" class="text-white">
-                                    <i class="fa-solid fa-angles-right theme2"></i></i> <?= $MSG['our_faq']; ?>
+                                    <i class="fa-solid fa-angles-right theme2"></i></i> <?= $MSG['faq_title']; ?>
                                 </a>
                             </li>
                             <li>
