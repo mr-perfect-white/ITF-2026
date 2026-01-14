@@ -255,7 +255,7 @@
                     </div>
                     <div class="about-wrapper about-top-box card equal-box wow fadeInUp">
                         <div class="card-body d-flex flex-column justify-content-center">
-                            <p class="mb-1">Expected Visitors</p>
+                            <p class="mb-1"><?= $MSG['trust_clients']; ?></p>
                             <h2 class="my-3">
                                 <span class="odometer" data-count="300000">00</span>+
                             </h2>
@@ -353,50 +353,50 @@
 <div class="brand-section section-padding pt-5" style="background-color: #f7f7f7;">
     <div class="container">
         <div class="top-text text-center wow fadeInUp">
-            <h2>International Trade Fair 2026 Highlights</h2>
+            <h2> <?= $MSG['highlights_content']; ?></h2>
         </div>
         <div class="swiper brand-slide">
             <div class="swiper-wrapper">
                 <div class="swiper-slide1">
                     <div class="brand-image text-center">
                         <img src="../ITF/frontend/img/resized_1.png" alt="img">
-                        <p class="brand-text">CONSUMER <br>CONNECT</p>
+                        <p class="brand-text"><?= $MSG['consumer_connect']; ?></p>
                     </div>
                 </div>
                 <div class="swiper-slide1">
                     <div class="brand-image text-center">
                         <img src="../ITF/frontend/img/resized_2.png" alt="img">
-                        <p class="brand-text">FOOD<BR>COURT</p>
+                        <p class="brand-text"><?= $MSG['food_court']; ?></p>
                     </div>
                 </div>
                 <div class="swiper-slide1">
                     <div class="brand-image text-center">
                         <img src="../ITF/frontend/img/resized_6.png" alt="img">
-                        <p class="brand-text">PRODUCT<br> EXHIBITION</p>
+                        <p class="brand-text"><?= $MSG['product_exhibition']; ?></p>
                     </div>
                 </div>
                 <div class="swiper-slide1">
                     <div class="brand-image text-center">
                         <img src="../ITF/frontend/img/resized_4.png" alt="img">
-                        <p class="brand-text">Value Addition<br>& Processing</p>
+                        <p class="brand-text"><?= $MSG['value_addition']; ?></p>
                     </div>
                 </div>
                 <div class="swiper-slide1">
                     <div class="brand-image text-center">
                         <img src="../ITF/frontend/img/curtural.jpeg" alt="img">
-                        <p class="brand-text">CULTURAL<br> EVENTS </p>
+                        <p class="brand-text"><?= $MSG['cultural_events']; ?></p>
                     </div>
                 </div>
                 <div class="swiper-slide1">
                     <div class="brand-image text-center">
                         <img src="../ITF/frontend/img/resized_6.png" alt="img">
-                        <p class="brand-text">Agro Ecology &<br>Sustainable Farming</p>
+                        <p class="brand-text"><?= $MSG['agro_ecology']; ?></p>
                     </div>
                 </div>
                 <div class="swiper-slide1">
                     <div class="brand-image text-center">
                         <img src="../ITF/frontend/img/resized_6.png" alt="img">
-                        <p class="brand-text">Branding, Marketing &<br>Credit Services</p>
+                        <p class="brand-text"><?= $MSG['branding_marketing']; ?></p>
                     </div>
                 </div>
             </div>
@@ -421,7 +421,7 @@
                             <!-- <span class="wow fadeInUp text-white"><img src="../ITF/frontend/img/sub-title.svg"
                                     alt="img">weeks
                                 highlights</span> -->
-                            <h2 class="text-anim text-white"> <?= $MSG['highlights']; ?></h2>
+                            <h2 class=" text-white"> <?= $MSG['agri_title']; ?></h2>
                         </div>
 
                     </div>
@@ -435,8 +435,8 @@
                                 <i class="fa fa-map-marker theme1"></i>
                             </div>
                             <div class="content text-white">
-                                <h4 class="text-white">Venue</h4>
-                                <p class="text-white">Tripuravasini, Bengaluru</p>
+                                <h4 class="text-white"><?= $MSG['venue_location']; ?></h4>
+                                <p class="text-white"><?= $MSG['venue_address']; ?></p>
                             </div>
                         </div>
 
@@ -446,8 +446,8 @@
                                 <i class="fa fa-calendar theme1"></i>
                             </div>
                             <div class="content text-white">
-                                <h4 class="text-white">Date</h4>
-                                <p class="text-white">6th-8th February, 2026</p>
+                                <h4 class="text-white"><?= $MSG['venue_date']; ?></h4>
+                                <p class="text-white"><?= $MSG['venue_event_date']; ?></p>
                             </div>
                         </div>
 
@@ -457,7 +457,7 @@
                                 <i class="fa fa-clock theme1"></i>
                             </div>
                             <div class="content text-white">
-                                <h4 class="text-white">Time</h4>
+                                <h4 class="text-white"><?= $MSG['venue_time']; ?></h4>
                                 <p class="text-white">09:30 AM to 8:00 PM</p>
                             </div>
                         </div>
@@ -475,8 +475,8 @@
 <section class="service-section-4 section-padding fix">
     <div class="container">
         <div class="section-title text-center">
-            <span class="wow fadeInUp"><img src="../ITF/frontend/img/sub-title.svg" alt="img">Pre-Events</span>
-            <h2 class="text-anim">Pre-Events : State </h2>
+            <span class="wow fadeInUp"><img src="../ITF/frontend/img/sub-title.svg" alt="img"><?= $MSG['pre_events']; ?></span>
+            <h2><?= $MSG['pre_events_state']; ?></h2>
 
         </div>
     </div>
@@ -507,7 +507,7 @@
                 <div class="swiper-slide">
                     <div class="service-box-items-4">
                         <div class="thumb">
-                            <img src="../ITF/frontend/img/pannel.jpeg" alt="img">
+                            <img src="../ITF/frontend/img/panel.png" alt="img">
                         </div>
                         <div class="service-content-area">
                             <div class="icon">
@@ -515,7 +515,7 @@
 
                             </div>
                             <div class="content">
-                                <h4><a href="service-details.html">College Conference</a></h4>
+                                <h4><a href="service-details.html">Pannel Discussion </a></h4>
                                 <!-- <p>
                                             Lorem ipsum dolor sit amet, porro quisquam est, qui dolorem ipsum quia dolor sit amet.
                                         </p> -->
@@ -593,14 +593,14 @@
 <section class="counter-section  sectionbg pt-5">
 
     <div class="container">
-        <div class="row g-4 justify-content-center">
+        <div class="row g-4 justify-content-center " style="padding: 2.5rem 0 1.5rem 0;">
 
             <div class="col wow fadeInUp" data-wow-delay=".2s">
                 <div class="counter-box-items-area text-center">
                     <div class="icon"><i class="fa-solid fa-building section1"></i></div>
                     <div class="content">
                         <h2 class="text-white"><span class="odometer text-white" data-count="300">00</span>+</h2>
-                        <p class="fw-bold fs-5 text-white">Exhibitors</p>
+                        <p class="fw-bold fs-5 text-white"><?= $MSG['counter1_title']; ?></p>
                     </div>
                 </div>
             </div>
@@ -610,7 +610,7 @@
                     <div class="icon"><i class="fa-solid fa-industry section1"></i></i></div>
                     <div class="content">
                         <h2 class="text-white"><span class="odometer text-white" data-count="68">00</span>+</h2>
-                        <p class="fw-bold fs-5 text-white">Value Addition</p>
+                        <p class="fw-bold fs-5 text-white"><?= $MSG['counter2_title']; ?></p>
                     </div>
                 </div>
             </div>
@@ -620,7 +620,7 @@
                     <div class="icon"><i class="fa-solid fa-seedling section1"></i></div>
                     <div class="content">
                         <h2 class="text-white"><span class="odometer text-white" data-count="30">00</span>+</h2>
-                        <p class="fw-bold fs-5 text-white">Agro Ecology</p>
+                        <p class="fw-bold fs-5 text-white"><?= $MSG['counter3_title']; ?></p>
                     </div>
                 </div>
             </div>
@@ -630,7 +630,7 @@
                     <div class="icon"><i class="fa-solid fa-bullhorn section1"></i></div>
                     <div class="content">
                         <h2 class="text-white"><span class="odometer text-white" data-count="30">00</span>+</h2>
-                        <p class="fw-bold fs-5 text-white">Branding</p>
+                        <p class="fw-bold fs-5 text-white"><?= $MSG['counter4_title']; ?></p>
                     </div>
                 </div>
             </div>
@@ -640,7 +640,7 @@
                     <div class="icon"><i class="fa-solid fa-utensils section1"></i></div>
                     <div class="content">
                         <h2 class="text-white"><span class="odometer text-white" data-count="20">00</span>+</h2>
-                        <p class="fw-bold fs-5 text-white">Food Stalls</p>
+                        <p class="fw-bold fs-5 text-white"><?= $MSG['counter5_title']; ?></p>
                     </div>
                 </div>
             </div>
@@ -664,35 +664,22 @@
     </div>
     <div class="container">
         <div class="letter-image">
-            Agriculture Beyond Production <span>-<em>"Empowering Farmers"</em></span>
+           <?= $MSG['header_title']; ?></em></span>
         </div>
 
 
     </div>
 </section>
 <!-- promotion Section Start -->
-<section class="news-section section-bg section-padding1 fix mb-0">
+<section class="news-section section-bg section-padding1 fix mb-5">
     <div class="container">
         <div class="section-title text-center">
-            <span class="wow fadeInUp text-white"><img src="frontend/img/sub-title.svg" alt="img">Pre-Events</span>
-            <h2 class="text-anim text-white">Pre-Events : District </h2>
+            <span class="wow fadeInUp text-white"><img src="frontend/img/sub-title.svg" alt="img"><?= $MSG['pre_events']; ?></span>
+            <h2 class=" text-white"><?= $MSG['pre_events_district']; ?></h2>
 
         </div>
         <div class="row">
-            <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                <div class="news-box-items">
-                    <div class="news-image">
-                        <img src="frontend/img/resize-1767790937880522785songlaunch.jpeg" alt="img">
-
-                    </div>
-                    <div class="news-content text-white">
-                        <h3><a href="news-details.html" class="text-white">Millet Run</a></h3>
-                        <!-- <p class="text-white"> Participation in ISSF – 2024 on 10-11, November 2024 held at
-                            Bhubaneshwar, Odisha.</p> -->
-
-                    </div>
-                </div>
-            </div>
+            
             <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
                 <div class="news-box-items">
                     <div class="news-image">
@@ -709,10 +696,24 @@
                     </div>
                 </div>
             </div>
+            <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                <div class="news-box-items">
+                    <div class="news-image">
+                        <img src="frontend/img/milletdistrict.png" alt="img">
+
+                    </div>
+                    <div class="news-content text-white">
+                        <h3><a href="news-details.html" class="text-white">Millet Run</a></h3>
+                        <!-- <p class="text-white"> Participation in ISSF – 2024 on 10-11, November 2024 held at
+                            Bhubaneshwar, Odisha.</p> -->
+
+                    </div>
+                </div>
+            </div>
             <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
                 <div class="news-box-items">
                     <div class="news-image">
-                        <img src="frontend/img/nov-pre-event.jpeg" alt="img">
+                        <img src="frontend/img/festivaldisrict.png" alt="img">
 
                     </div>
                     <div class="news-content">
@@ -798,113 +799,101 @@
         <img src="frontend/img/home-5/faq-shape.png" alt="img">
     </div>
     <div class="container">
-        <div class="faq-wrapper-2">
-            <!-- FAQ Heading Centered -->
-            <div class="section-title text-center mb-5" style="padding-top: 0px !important;">
-                <span class="wow fadeInUp">
-                    <img src="frontend/img/sub-title.svg" alt="img"> Our FAQs
-                </span>
-                <h2 class="text-anim">Frequently Asked Questions About Us</h2>
-            </div>
+    <div class="faq-wrapper-2">
+        <!-- FAQ Heading Centered -->
+        <div class="section-title text-center mb-5" style="padding-top: 0 !important;">
+            <span class="wow fadeInUp">
+                <img src="frontend/img/sub-title.svg" alt="Sub Title"> <?= $MSG['faq_title']; ?>
+            </span>
+            <h2><?= $MSG['faq_subtitle']; ?></h2>
+        </div>
 
-            <div class="row">
-                <div class="col-12">
-
-                    <div class="faq-page-items mt-0">
-                        <ul class="accordion-box">
-                            <!--Block-->
-                            <li class="accordion block active-block wow fadeInUp">
-                                <div class="acc-btn active">
-                                    1.Event and venue Details
-
-
-                                    <div class="icon fa-solid fa-chevron-down"></div>
-
-                                </div>
-                                <div class="acc-content current">
-                                    <div class="content">
-                                        <div class="text">
-
-                                            ITF will be from 06th-08th February 2026 .
-                                            Venue:Triupuravasini,Palace Grounds,Bengaluru
-                                        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="faq-page-items mt-0">
+                    <ul class="accordion-box">
+                        <!-- FAQ Block 1 -->
+                        <li class="accordion block active-block wow fadeInUp">
+                            <div class="acc-btn active">
+                                <?= $MSG['faq_q1']; ?>
+                                <div class="icon fa-solid fa-chevron-down"></div>
+                            </div>
+                            <div class="acc-content current">
+                                <div class="content">
+                                    <div class="text">
+                                        <?= $MSG['faq_a1']; ?>
                                     </div>
                                 </div>
-                            </li>
-                            <!--Block-->
-                            <li class="accordion block wow fadeInUp" data-wow-delay=".2s">
-                                <div class="acc-btn">
-                                    2.Is there any entry fee for visitors?
+                            </div>
+                        </li>
 
-
-                                    <div class="icon fa-solid fa-chevron-down"></div>
-                                </div>
-                                <div class="acc-content">
-                                    <div class="content">
-                                        <div class="text">
-                                            ITF is organised by Karnataka State Department of Agriculture and entry for
-                                            visitors is FREE. </div>
+                        <!-- FAQ Block 2 -->
+                        <li class="accordion block wow fadeInUp" data-wow-delay=".2s">
+                            <div class="acc-btn">
+                                <?= $MSG['faq_q2']; ?>
+                                <div class="icon fa-solid fa-chevron-down"></div>
+                            </div>
+                            <div class="acc-content">
+                                <div class="content">
+                                    <div class="text">
+                                        <?= $MSG['faq_a2']; ?>
                                     </div>
                                 </div>
-                            </li>
-                            <!--Block-->
-                            <li class="accordion block wow fadeInUp" data-wow-delay=".4s">
-                                <div class="acc-btn">
-                                    3.How do Exhibitors/Conference Partipants register for the event?
+                            </div>
+                        </li>
 
-
-                                    <div class="icon fa-solid fa-chevron-down"></div>
-                                </div>
-                                <div class="acc-content">
-                                    <div class="content">
-                                        <div class="text">
-                                            Exhibitors who wish to book a stall can visit the official website and
-                                            navigate to Registrations Menu and seperate links are available for
-                                            registrationa for various events of ITF 2026. </div>
+                        <!-- FAQ Block 3 -->
+                        <li class="accordion block wow fadeInUp" data-wow-delay=".4s">
+                            <div class="acc-btn">
+                                <?= $MSG['faq_q3']; ?>
+                                <div class="icon fa-solid fa-chevron-down"></div>
+                            </div>
+                            <div class="acc-content">
+                                <div class="content">
+                                    <div class="text">
+                                        <?= $MSG['faq_a3']; ?>
                                     </div>
                                 </div>
-                            </li>
-                            <!--Block-->
-                            <li class="accordion block wow fadeInUp" data-wow-delay=".6s">
-                                <div class="acc-btn">
-                                    4.Is there any offline mode of payment allowed for registrations?
+                            </div>
+                        </li>
 
-
-                                    <div class="icon fa-solid fa-chevron-down"></div>
-                                </div>
-                                <div class="acc-content">
-                                    <div class="content">
-                                        <div class="text">
-                                            The registrations for exhibition stall booking, International Conference,
-                                            Paid Food Stalls need to be completed by making ONLINE payment only . You
-                                            will receive the confirmation email once you register and make the payment
-                                            for an event whichever is applicable. </div>
+                        <!-- FAQ Block 4 -->
+                        <li class="accordion block wow fadeInUp" data-wow-delay=".6s">
+                            <div class="acc-btn">
+                                <?= $MSG['faq_q4']; ?>
+                                <div class="icon fa-solid fa-chevron-down"></div>
+                            </div>
+                            <div class="acc-content">
+                                <div class="content">
+                                    <div class="text">
+                                        <?= $MSG['faq_a4']; ?>
                                     </div>
                                 </div>
-                            </li>
-                            <!--Block-->
-                            <li class="accordion block wow fadeInUp" data-wow-delay=".8s">
-                                <div class="acc-btn">
-                                    5.How do exhibitors contact fabricators to setup their stalls in the venue?
+                            </div>
+                        </li>
 
-                                    <div class="icon fa-solid fa-chevron-down"></div>
-
-
-                                </div>
-                                <div class="acc-content">
-                                    <div class="content">
-                                        <div class="text">
-                                            Exhibitors can contact fabricators through the event organizers, who provide
-                                            a list of approved vendors and setup guidelines. </div>
+                        <!-- FAQ Block 5 -->
+                        <li class="accordion block wow fadeInUp" data-wow-delay=".8s">
+                            <div class="acc-btn">
+                                <?= $MSG['faq_q5']; ?>
+                                <div class="icon fa-solid fa-chevron-down"></div>
+                            </div>
+                            <div class="acc-content">
+                                <div class="content">
+                                    <div class="text">
+                                        <?= $MSG['faq_a5']; ?>
                                     </div>
                                 </div>
-                            </li>
-                        </ul>
-                    </div>
+                            </div>
+                        </li>
+
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
+</div>
+
 </section>
 <!-- brand Section Start -->
 <div class="brand-section-3 mt-5 section-padding pt-0 mb-0">

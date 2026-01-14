@@ -149,7 +149,7 @@
                                 </div>
                                 <div class="content">
                                     <h5 class="text-white"><?= $MSG['foot_location']; ?>:</h5>
-                                    <p class="text-white">No. 1, Sheshadri Road, Bangalore, Karnataka-560001</p>
+                                    <p class="text-white"> <?= $MSG['foot_addressitf']; ?></p>
                                 </div>
                             </li>
                             <li>

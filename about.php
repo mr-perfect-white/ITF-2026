@@ -188,8 +188,8 @@
                 <div class="col-lg-7">
                     <div class="about-left-content">
                         <div class="section-title mb-0">
-                            <span class="wow fadeInUp"><img src="frontend/img/sub-title.svg" alt="img">Our Theme</span>
-                            <h2 class="text-anim">Agriculture beyond Production-<em>"Empowering Farmers"</em></h2>
+                            <!-- <span class="wow fadeInUp"><img src="frontend/img/sub-title.svg" alt="img">Our Theme</span> -->
+                            <h2><?= $MSG['header_title']; ?></em></h2>
                         </div>
                         <div class="shapes-row">
                             <div class="shape-3 d-none d-xxl-block float-bob-x">
@@ -293,18 +293,18 @@
                     <div class="contact-content">
                         <div class="section-title mb-0">
                             <span class="wow fadeInUp"></span>
-                            <h2 class="text-anim">
-                                “Empowering Karnataka’s Agriculture: Managing Diversity, Drought & Growth Potential”
+                            <h2 class="text-white">
+                               <?= $MSG['agri_title1']; ?>
                             </h2>
                         </div>
                         <p class="agri-text">
-                            <p>31 Districts, 236 Taluks, 850 Hoblies, 5965 Gram Panchayaths & 32499 Villages.</p>
+                            <p><?= $MSG['agri_stats']; ?></p>
                             <p>
-                            Total area 190.50 lakh ha. Cultivable area 118.05 lakh ha. (64%).</p>
+                           <?= $MSG['agri_area']; ?></p>
                             <p>
-                            Only 33% area under irrigation. Most Drought Prone state after Rajasthan.</p>
+                            <?= $MSG['agri_irrigation']; ?></p>
                             <p>
-                            10 Agro-climatic zones with rich crop diversity & 5 major soil types.</p>
+                            <?= $MSG['agri_climate']; ?></p>
                         </p>
                     </div>
                 </div>

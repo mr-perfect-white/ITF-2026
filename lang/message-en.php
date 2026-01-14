@@ -12,6 +12,18 @@ return [
     'contact'=> 'Contact',
     'department_login'=> 'Department Login',
     'B2B Registrations'=> 'B2B Registrations',
+    'journey'=>'Journey',
+    'tour'=>'tour',
+    'itf'=>'ITF',
+    'explorebengaluru'=>'Explore Bengaluru',
+    'explorekarnataka'=>'Explore Karnataka',
+    'milletrunregistration'      => 'Millet Run Registration',
+     'publicregistration'        => 'Public Registration',
+     'exhibitionstallbooking'    => 'Exhibition Stall Booking',
+    'internationalconference'   => 'International Conference',
+    'paidfoodstallbooking'      => 'Paid Food Stall Booking',
+    'departmentlogin'         => 'Department Login',
+
 
      //<-------Header Menu End---------------->
 
@@ -24,23 +36,38 @@ return [
     'foot_phone' => 'Phone',
     'foot_reserved'         => '© 2026 ITF. All Rights Reserved',
     'foot_address'       => 'Karnataka State Seeds Corporation Limited (KSSCL)  Beej Bhavan, Bellary Road, Hebbal, Bengaluru-560024, India',
+    'foot_addressitf'=>' No. 1, Sheshadri Road, Bangalore, Karnataka-560001',
 
     //<----------Footer Menu End------------->
 
     //<----------FAQ Section start------------->
 
-    'our_faq'=> 'Our FAQs',
-    'faq_title' => 'Frequently Asked Questions About Us',
-    'faq_ques_1' => '1.Event and venue Details',
-    'faq_ans_1' => 'MOITF will be from 23th-25th January 2026 .� Venue:Triupuravasini,Palace Grounds,Bengaluru',
-    'faq_ques_2' => '2.Is there any entry fee for visitors?',
-    'faq_ans_2' => 'MOITF is organised by Karnataka State Agriculture Department and entry for visitors is FREE.',
-    'faq_ques_3' => '3.How do Exhibitors/Conference Partipants register for the event?',
-    'faq_ans_3' => 'Exhibitors who wish to book a stall can visit the official website and navigate to Registrations Menu and seperate links are available for registrationa for various events of MOITF 2025.',
-    'faq_ques_4' => '4.Is there any offline mode of payment allowed for registrations?',
-    'faq_ans_4' => 'The registrations for exhibition stall booking, International Conference, Paid Food Stalls need to be completed by making ONLINE payment only . You will receive the confirmation email once you register and make the payment for an event whichever is applicable.',
-    'faq_ques_5' => '5.How do exhibitors contact fabricators to setup their stalls in the venue?',
-    'faq_ans_5' => 'Exhibitors can contact fabricators through the event organizers, who provide a list of approved vendors and setup guidelines.',
+
+    'faq_title'    => 'Our FAQs',
+    'faq_subtitle' => 'Frequently Asked Questions About Us',
+
+    'faq_q1' => '1. Event and Venue Details',
+    'faq_a1' => 'ITF will be held from 06th–08th February 2026.<br>
+                 Venue: Tripuravasini, Palace Grounds, Bengaluru.',
+
+    'faq_q2' => '2. Is there any entry fee for visitors?',
+    'faq_a2' => 'ITF is organised by the Karnataka State Department of Agriculture and
+                 entry for visitors is FREE.',
+
+    'faq_q3' => '3. How do Exhibitors / Conference Participants register for the event?',
+    'faq_a3' => 'Exhibitors who wish to book a stall can visit the official website and
+                 navigate to the Registrations menu. Separate links are available for
+                 registration for various events of ITF 2026.',
+
+    'faq_q4' => '4. Is there any offline mode of payment allowed for registrations?',
+    'faq_a4' => 'Registrations for Exhibition Stall Booking, International Conference,
+                 and Paid Food Stalls must be completed through ONLINE payment only.
+                 A confirmation email will be sent after successful registration and payment.',
+
+    'faq_q5' => '5. How do exhibitors contact fabricators to set up their stalls at the venue?',
+    'faq_a5' => 'Exhibitors can contact fabricators through the event organisers, who provide
+                 a list of approved vendors along with setup guidelines.',
+
 
     //<----------FAQ Section end------------->
 
@@ -49,7 +76,7 @@ return [
     'why_choose_us' => 'Why Choose Us',
     'glimpse_title' => 'Glimpse of ITF 2026',
     'agri_title' => 'Agriculture beyond Production -"<em>Empowering farmers</em>"',
-    'trust_clients' => 'Trust By Clients',
+    'trust_clients' => 'Expected Visitors',
     'about_content' => 'The Government of Karnataka has implemented various initiatives and interventions to
     support organics and millets, including the organisation of annual organic & millet
     trade fairs since 2017 to promote millets as a people’s movement, striving to position
@@ -93,6 +120,28 @@ return [
 
 'read_more' => 'Read More',
 'highlights' => 'Agriculture beyond Production-<br>"<em>Empowering Farmers</em>"',
+'highlights_content' => 'International Trade Fair 2026 Highlights',
+'consumer_connect'        => 'CONSUMER<br>CONNECT',
+'food_court'              => 'FOOD<br>COURT',
+'product_exhibition'      => 'PRODUCT<br>EXHIBITION',
+'value_addition'          => 'Value Addition<br>& Processing',
+'cultural_events'         => 'CULTURAL<br>EVENTS',
+'agro_ecology'            => 'Agro Ecology &<br>Sustainable Farming',
+'branding_marketing'      => 'Branding, Marketing &<br>Credit Services',
+'venue_location' => 'Venue ',
+'venue_address' => 'Tripuravasini , Bengaluru',
+'venue_date' => 'Date ',
+'venue_event_date' => '06, 07 and 08 February 2026',
+'venue_time' => 'Time ',
+'pre_events' => 'Pre-Events',
+'pre_events_state' => 'Pre-Events: State ',
+'pre_events_district' => 'Pre-Events: District',
+'counter1_title' => 'Exhibitors',
+'counter2_title'=> 'Value Addition',
+'counter3_title' => 'Agro Ecology',
+'counter4_title' => 'Branding',
+'counter5_title' => 'Food Stalls',
+
 
 
    // About page
@@ -160,6 +209,18 @@ sector',
     'ab_promation_li_8' => 'The Karnataka Pavilion will showcase the State’s finest Farmer Producer Organizations, regional federations, start-ups and farmer groups, featuring unique and innovative processed and value-added products',
 
     'ab_promation_last' => 'Overall, the objective of the Trade Fair is to provide an appropriate platform to transform the State’s farmers into entrepreneurs through the promotion of processing and value-addition initiatives.',
+
+    
+    'agri_title1' => "Empowering Karnataka's Agriculture: Managing Diversity, Drought & Growth Potential",
+
+    'agri_stats' => "31 Districts, 236 Taluks, 850 Hoblies, 5965 Gram Panchayaths & 32499 Villages.",
+
+    'agri_area' => "Total area: 190.50 lakh ha. Cultivable area: 118.05 lakh ha. (64%).",
+
+    'agri_irrigation' => "Only 33% area under irrigation. Most Drought Prone state after Rajasthan.",
+
+    'agri_climate' => "10 Agro-climatic zones with rich crop diversity & 5 major soil types.",
+
 
    // Contact page
 

@@ -25,50 +25,41 @@
             </div>
             <div class="container">
                 <div class="section-title text-center">
-                    <span class="wow fadeInUp"><img src="../ITF/frontend/img/sub-title.svg" alt="img"> Our journey</span>
-                    <h2 class="text-anim">ITF Journey</h2>
+                    <span class="wow fadeInUp"><img src="../ITF/frontend/img/sub-title.svg" alt="img"> <?= $MSG['our_journey']; ?></span>
+                    <h2 class="text-white"><?= $MSG['itf_journey']; ?></h2>
                     <p class="wow fadeInUp" data-wow-delay=".2s">
-                      The Seventh edition of Agriculture beyond Production-<em>"Empowering Farmers"</em>, 2026 – International Trade Fair is organized by
-                            the Department of Agriculture, Government Of Karnataka. It will be a platform for farmers,
-                            farmer groups, domestic and international companies, central and state institutions in the
-                            organic and millet sector to connect and explore opportunities ain Agri-horticulture,
-                            processing, machinery and Agri-technology.
-
-                            The Government of Karnataka has been a leader in the promotion of organics and millets with
-                            the First Organics and Millets trade fair being held in 2017, and subsequently the second,
-                            third and fourth editions in 2018, 2019 ,2023 ,2024 and 2025 respectively in Bengaluru.
-                    </p>
+                      <?= $MSG['itf_journey_para']; ?></p>
                 </div>
                 <div class="service-wrapper">
                      <ul class="nav">
                         <li class="nav-item wow fadeInUp" data-wow-delay=".2s">
                             <a href="#thumb1" data-bs-toggle="tab" class="nav-link active">
-                           2017
+                           <?= $MSG['itf_journey_2017']; ?>
                             </a>
                         </li>
                         <li class="nav-item wow fadeInUp" data-wow-delay=".4s">
                             <a href="#thumb2" data-bs-toggle="tab" class="nav-link">
-                               2018
+                               <?= $MSG['itf_journey_2018']; ?>
                             </a>
                         </li>
                         <li class="nav-item wow fadeInUp" data-wow-delay=".6s">
                             <a href="#thumb3" data-bs-toggle="tab" class="nav-link">
-                          2019
+                          <?= $MSG['itf_journey_2019']; ?>
                             </a>
                         </li>
                         <li class="nav-item wow fadeInUp" data-wow-delay=".8s">
                             <a href="#thumb4" data-bs-toggle="tab" class="nav-link">
-                           2023
+                           <?= $MSG['itf_journey_2023']; ?>
                             </a>
                         </li>
                         <li class="nav-item wow fadeInUp" data-wow-delay=".8s">
                             <a href="#thumb5" data-bs-toggle="tab" class="nav-link ">
-                           2024
+                           <?= $MSG['itf_journey_2024']; ?>
                             </a>
                         </li>
                          <li class="nav-item wow fadeInUp" data-wow-delay=".8s">
                             <a href="#thumb6" data-bs-toggle="tab" class="nav-link">
-                           2025
+                           <?= $MSG['itf_journey_2025']; ?>
                             </a>
                         </li> 
                     </ul>
@@ -81,8 +72,8 @@
                                             <i class="flaticon-agriculture"></i>
                                         </div>
                                         <div class="content">
-                                            <h3><a href="service-details.html">Organics and Millets</a></h3>
-                                            <p>2017-National Trade Fair during April 28-30, 2017 at Tripuravasini Palace Grounds, Bengaluru.</p>
+                                            <h3><a href="service-details.html"><?= $MSG['organics_and_millets']; ?></a></h3>
+                                            <p><?= $MSG['itf_journey_2017_content']; ?></p>
                                             <!-- <a href="service-details.html" class="theme-btn">
                                                 View Details <i class="far fa-arrow-right"></i>
                                             </a> -->
@@ -104,8 +95,8 @@
                                             <i class="flaticon-agriculture"></i>
                                         </div>
                                         <div class="content">
-                                            <h3><a href="service-details.html">Organics and Millets</a></h3>
-                                            <p>2018 – International Trade Fair during Jan 19-21, 2018 at Tripuravasini Palace Grounds, Bengaluru</p>
+                                            <h3><a href="service-details.html"><?= $MSG['organics_and_millets']; ?></a></h3>
+                                            <p><?= $MSG['itf_journey_2018_content']; ?></p>
                                             <!-- <a href="service-details.html" class="theme-btn">
                                                 View Details <i class="far fa-arrow-right"></i>
                                             </a> -->
@@ -127,8 +118,8 @@
                                             <i class="flaticon-agriculture"></i>
                                         </div>
                                         <div class="content">
-                                            <h3><a href="service-details.html">Organics and Millets</a></h3>
-                                            <p>2019- International trade Fair, Jan 18-20, 2019 at Bangalore Palace.</p>
+                                            <h3><a href="service-details.html"><?= $MSG['organics_and_millets']; ?></a></h3>
+                                            <p><?= $MSG['itf_journey_2019_content']; ?></p>
                                             <!-- <a href="service-details.html" class="theme-btn">
                                                 View Details <i class="far fa-arrow-right"></i>
                                             </a> -->
@@ -150,8 +141,8 @@
                                             <i class="flaticon-agriculture"></i>
                                         </div>
                                         <div class="content">
-                                            <h3><a href="https://itf2023.organics-millets.in/">Millets and Organics</a></h3>
-                                           <p>2023- International trade Fair, Jan 18-20, 2023 at Tripuravasini Palace Grounds, Bengaluru.</p>
+                                            <h3><a href="https://itf2023.organics-millets.in/"><?= $MSG['millets_and_organics']; ?></a></h3>
+                                           <p><?= $MSG['itf_journey_2023_content']; ?></p>
                                             <!-- <a href="service-details.html" class="theme-btn">
                                                 View Details <i class="far fa-arrow-right"></i>
                                             </a> -->
@@ -173,8 +164,8 @@
                                             <i class="flaticon-agriculture"></i>
                                         </div>
                                         <div class="content">
-                                            <h3><a href="https://itf2024.organics-millets.in/">Millets and Organics</a></h3>
-                                            <p>2024- International trade Fair, Jan 05-07, 2024 at Tripuravasini Palace Grounds, Bengaluru.</p>
+                                            <h3><a href="https://itf2024.organics-millets.in/"><?= $MSG['millets_and_organics']; ?></a></h3>
+                                            <p><?= $MSG['itf_journey_2024_content']; ?></p>
                                             <!-- <a href="service-details.html" class="theme-btn">
                                                 View Details <i class="far fa-arrow-right"></i>
                                             </a> -->
@@ -196,8 +187,8 @@
                                             <i class="flaticon-agriculture"></i>
                                         </div>
                                         <div class="content">
-                                            <h3><a href="service-details.html"> Organics and Millets  </a></h3>
-                                            <p>2025- International trade Fair, Jan 23-25, 2025 at Tripuravasini Palace Grounds, Bengaluru.</p>
+                                            <h3><a href="service-details.html"><?= $MSG['organics_and_millets']; ?></a></h3>
+                                            <p><?= $MSG['itf_journey_2025_content']; ?></p>
                                             <!-- <a href="service-details.html" class="theme-btn">
                                                 View Details <i class="far fa-arrow-right"></i>
                                             </a> -->

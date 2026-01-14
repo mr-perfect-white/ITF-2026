@@ -117,7 +117,7 @@
                         </a>
                     </div>
                     <div class="offcanvas__contact">
-                        <h3>Contact Us</h3>
+                        <h3><?= $MSG['contact']; ?></h3>
                         <ul class="contact-list">
                             <li>
                                 <div class="icon">
@@ -125,7 +125,7 @@
 
                                 </div>
                                 <div class="content">
-                                    <p>Call Us</p>
+                                    <p><?= $MSG['foot_phone']; ?></p>
                                     <h4>
                                         <a href="tel:+080-22074111">
                                          080-22074111
@@ -139,7 +139,7 @@
 
                                 </div>
                                 <div class="content">
-                                    <p>Send Email</p>
+                                    <p><?= $MSG['foot_email_us']; ?></p>
                                     <h4>
                                         <a href="mailto:organiccell@gmail.com">
                                          organiccell@gmail.com
@@ -153,16 +153,16 @@
 
                                 </div>
                                 <div class="content">
-                                    <p>Location</p>
+                                    <p><?= $MSG['foot_location']; ?></p>
                                     <h4>
-                                        No. 1, Sheshadri Road, Bangalore, Karnataka-560001
+                                       <?= $MSG['foot_addressitf']; ?>
                                     </h4>
                                 </div>
                             </li>
                         </ul>
                     </div>
                     <a href="contact.php" class="theme-btn">
-                        Let’s Talk
+                         <?= $MSG['departmentlogin']; ?>
                         <i class="fa-solid fa-arrow-right"></i>
 
                     </a>
@@ -273,10 +273,10 @@
                                         </a>
                                         <ul class="submenu">
                                                 <li>
-                                                    <a href="about.php">ITF</a>
+                                                    <a href="about.php"> <?= $MSG['itf']; ?></a>
                                                 </li>
                                                 <li>
-                                                    <a href="journey.php">Journey</a>
+                                                    <a href="journey.php"> <?= $MSG['journey']; ?></a>
                                                 </li>
                                                 <!-- <li>
                                                     <a href="#">Event Schedule</a>
@@ -297,10 +297,10 @@
                                                     <a href="#">B2B Buyers & Sellers</a>
                                                 </li> -->
                                                 <li>
-                                                    <a href="#">Tour</a>
+                                                    <a href="#"> <?= $MSG['tour']; ?></a>
                                                      <ul class="submenu">
-                                                        <li><a href="https://karnatakatourism.org/en/">Explore Karnataka</a></li>
-                                                        <li><a href="https://karnatakatourism.org/en/destinations/bengaluru/">Explore Bengaluru</a></li>
+                                                        <li><a href="https://karnatakatourism.org/en/"> <?= $MSG['explorekarnataka']; ?></a></li>
+                                                        <li><a href="https://karnatakatourism.org/en/destinations/bengaluru/"> <?= $MSG['explorebengaluru']; ?></a></li>
                                                     </ul>
                                                 </li>
                                             </ul>
@@ -319,22 +319,22 @@
                                                     <a href="#">B2B Seller Registration</a>
                                                 </li> -->
                                                 <li>
-                                                    <a href="#">Millet Run Registration</a>
+                                                    <a href="#"><?= $MSG['milletrunregistration']; ?></a>
                                                 </li>
                                                 <!-- <li>
                                                     <a href="#">Farmer Workshop Registration</a>
                                                 </li> -->
                                                 <li>
-                                                    <a href="#">Public Registration</a>
+                                                    <a href="#"><?= $MSG['publicregistration']; ?></a></a>
                                                 </li>
                                                 <li>
-                                                    <a href="#">Exhibition Stall Booking</a>
+                                                    <a href="#"><?= $MSG['exhibitionstallbooking']; ?></a></a>
                                                 </li>
                                                 <li>
-                                                    <a href="#">International Conference</a>
+                                                    <a href="#"><?= $MSG['internationalconference']; ?></a></a>
                                                 </li>
                                                 <li>
-                                                    <a href="#">Paid Food stall Booking</a>
+                                                    <a href="#"><?= $MSG['paidfoodstallbooking']; ?></a></a>
                                                 </li>
                                             </ul> 
                                     </li>
@@ -397,8 +397,8 @@
                     </div>
                     <div class="header-right d-flex justify-content-end align-items-center">
                         <a href="contact.php" class="theme-btn">
-                            Department Login
-                            <i class="fa-solid fa-arrow-right"></i>
+                            <?= $MSG['departmentlogin']; ?><i class="fa-solid fa-arrow-right"></i></a>
+                            
 
                         </a>
                         <div class="header__hamburger my-auto">
