@@ -331,7 +331,7 @@
     </div>
     
     <div class="container">
-        <div class="section-title-area">
+        <div class="organic-center-content text-center">
             <div class="section-title">
                 <span class="wow fadeInUp"><img src="frontend/img/sub-title.svg" alt="img">Our Achievements</span>
                 <h2 class=""><?= $MSG['ab_achievements1']; ?> </h2>
@@ -350,7 +350,7 @@
                             
 
                         </ul>
-                        <p><a href="#"><?= $MSG['ab_achievements_title_1']; ?></a></p>
+                        <p class="fw-bold fs-5"><a href="#"><?= $MSG['ab_achievements_title_1']; ?></a></p>
                         
                     </div>
                 </div>
@@ -366,7 +366,7 @@
                           
 
                         </ul>
-                        <p><a href="#"><?= $MSG['ab_achievements_title_2']; ?></a></p>
+                        <p class="fw-bold fs-5"><a href="#"><?= $MSG['ab_achievements_title_2']; ?></a></p>
                        
                     </div>
                 </div>
@@ -381,7 +381,7 @@
                         <ul class="post-date">
                             
                         </ul>
-                        <p><a href="#"><?= $MSG['ab_achievements_title_3']; ?></a></p>
+                        <p class="fw-bold fs-5"><a href="#"><?= $MSG['ab_achievements_title_3']; ?></a></p>
                        
                     </div>
                 </div>

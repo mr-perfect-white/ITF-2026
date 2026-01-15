@@ -30,7 +30,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-12">
-                              
+
                             </div>
                         </div>
                     </div>
@@ -43,7 +43,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-12">
-                                
+
                             </div>
                         </div>
                     </div>
@@ -145,9 +145,10 @@
                 <div class="col-lg-4 col-md-4">
                     <div class="video-wrapper-3 bg-cover equal-box"
                         style="background-image: url('../ITF/frontend/img/sddefault.webp');">
-                        <a href="https://youtu.be/42NhT56-6gA" class="video-btn video-popup">
+                        <a href="https://www.youtube.com/watch?v=42NhT56-6gA" class="video-btn video-popup">
                             <i class="fas fa-play"></i>
                         </a>
+
                     </div>
                 </div>
 
@@ -191,11 +192,11 @@
             <div class="row  g-4">
 
                 <!-- RIGHT SIDE CONTENT -->
-                <div class="col-lg-7">
+                <div class="col-lg-12">
                     <div class="choose-us-content">
 
                         <div class="section-title mb-3">
-                            <span class="text-white">
+                            <span class="text-white text">
                                 <img src="frontend/img/sub-title.svg" alt="img">
                                 <?= $MSG['why_choose_us']; ?>
                             </span>
@@ -203,13 +204,39 @@
                         </div>
 
                         <!-- Default visible paragraph -->
-                        <p class="choose-text mb-4 text-white">
-                            <?= $MSG['about_content']; ?>
-                        </p>
+                        <div class="row">
+
+                            <!-- COLUMN 1 -->
+                            <div class="col-lg-6 col-md-6">
+                                <p class="choose-text mb-4 text-white">
+                                    <?= $MSG['about_content']; ?>
+                                </p>
+                            </div>
+
+                            <!-- COLUMN 2 -->
+                            <div class="col-lg-6 col-md-6">
+                                <div class="choose-text mb-4 text-white">
+
+                                    <p><?= $MSG['about_more_content']; ?></p>
+
+                                    <ul>
+                                        <li><?= $MSG['about_more_content1']; ?></li>
+                                        <li><?= $MSG['about_more_content2']; ?></li>
+                                        <li><?= $MSG['about_more_content3']; ?></li>
+                                    </ul>
+
+                                    <p><?= $MSG['about_more_content4']; ?></p>
+                                    <p><?= $MSG['about_more_content5']; ?></p>
+
+                                </div>
+                            </div>
+
+                        </div>
+
 
 
                         <!-- Hidden Content -->
-                        <div class="more-content text-white" id="moreContent">
+                        <!-- <div class="more-content text-white" >
 
 
                             <p>
@@ -239,24 +266,24 @@
                             </p>
 
 
-                        </div>
+                        </div> -->
 
                         <!-- Read More Button -->
-                        <div>
+                        <!-- <div>
                             <button class="btn btn-sm btn-brown text-white" id="readMoreBtn" onclick="toggleContent()">
                                 <?= $MSG['read_more']; ?>
                             </button>
-                        </div>
+                        </div> -->
 
 
                     </div>
                 </div>
 
                 <!-- LEFT SIDE IMAGE -->
-                <div class="col-lg-5">
-                    <div class=" choose-us-image white-style">
+                <div class="col-lg-6">
+                    <!-- <div class=" choose-us-image white-style">
                         <img src="frontend/img/glimseseng.png" class="reduce-img-height" alt="Choose Us Image">
-                    </div>
+                    </div> -->
                 </div>
 
 
@@ -272,8 +299,8 @@
         </div>
         <div class="swiper brand-slide">
             <div class="swiper-wrapper">
-               
-                
+
+
                 <div class="swiper-slide1">
                     <div class="brand-image text-center">
                         <img src="../ITF/frontend/img/resized_6.png" alt="img">
@@ -286,18 +313,20 @@
                         <p class="brand-text"><?= $MSG['value_addition']; ?></p>
                     </div>
                 </div>
-                <div class="swiper-slide1">
-                    <div class="brand-image text-center">
-                        <img src="../ITF/frontend/img/curtural.jpeg" alt="img">
-                        <p class="brand-text"><?= $MSG['cultural_events']; ?></p>
-                    </div>
-                </div>
+
                 <div class="swiper-slide1">
                     <div class="brand-image text-center">
                         <img src="../ITF/frontend/img/agro ecologuy.png" alt="img">
                         <p class="brand-text"><?= $MSG['agro_ecology']; ?></p>
                     </div>
 
+                </div>
+
+                <div class="swiper-slide1">
+                    <div class="brand-image text-center">
+                        <img src="../ITF/frontend/img/branding.png" alt="img">
+                        <p class="brand-text"><?= $MSG['branding_marketing']; ?></p>
+                    </div>
                 </div>
                 <div class="swiper-slide1">
                     <div class="brand-image text-center">
@@ -307,14 +336,14 @@
                 </div>
                 <div class="swiper-slide1">
                     <div class="brand-image text-center">
-                        <img src="../ITF/frontend/img/branding.png" alt="img">
-                        <p class="brand-text"><?= $MSG['branding_marketing']; ?></p>
-                    </div>
-                </div>
-                 <div class="swiper-slide1">
-                    <div class="brand-image text-center">
                         <img src="../ITF/frontend/img/resized_1.png" alt="img">
                         <p class="brand-text"><?= $MSG['consumer_connect']; ?></p>
+                    </div>
+                </div>
+                <div class="swiper-slide1">
+                    <div class="brand-image text-center">
+                        <img src="../ITF/frontend/img/curtural.jpeg" alt="img">
+                        <p class="brand-text"><?= $MSG['cultural_events']; ?></p>
                     </div>
                 </div>
             </div>
@@ -339,7 +368,7 @@
                             <!-- <span class="wow fadeInUp text-white"><img src="../ITF/frontend/img/sub-title.svg"
                                     alt="img">weeks
                                 highlights</span> -->
-                            <h2 class=" text-white"> <?= $MSG['agri_title']; ?></h2>
+                            <h2 class=" text-white"> <?= $MSG['header_title']; ?></h2>
                         </div>
 
                     </div>
@@ -348,15 +377,20 @@
                     <div class="counter-box-area">
 
                         <!-- Venue -->
-                        <div class="counter-box-items wow fadeInUp" data-wow-delay=".3s">
+                        <a href="https://maps.app.goo.gl/PqLBGASUjp1fEJPk7" target="_blank"
+                            class="counter-box-items wow fadeInUp text-white" data-wow-delay=".3s"
+                            style="display:block; text-decoration:none;">
+
                             <div class="icon">
                                 <i class="fa fa-map-marker theme1"></i>
                             </div>
-                            <div class="content text-white">
+
+                            <div class="content">
                                 <h4 class="text-white"><?= $MSG['venue_location']; ?></h4>
                                 <p class="text-white"><?= $MSG['venue_address']; ?></p>
                             </div>
-                        </div>
+                        </a>
+
 
                         <!-- Date -->
                         <div class="counter-box-items wow fadeInUp" data-wow-delay=".5s">
@@ -393,7 +427,8 @@
 <section class="service-section-4 section-padding fix">
     <div class="container">
         <div class="section-title text-center">
-            <span class="wow fadeInUp"><img src="../ITF/frontend/img/sub-title.svg" alt="img"><?= $MSG['pre_events']; ?></span>
+            <span class="wow fadeInUp"><img src="../ITF/frontend/img/sub-title.svg"
+                    alt="img"><?= $MSG['pre_events']; ?></span>
             <h2><?= $MSG['pre_events_state']; ?></h2>
 
         </div>
@@ -401,6 +436,7 @@
     <div class="service-wrapper-4">
         <div class="swiper service-slide-4">
             <div class="swiper-wrapper">
+                
                 <div class="swiper-slide">
                     <div class="service-box-items-4">
                         <div class="thumb">
@@ -413,7 +449,7 @@
 
                             </div>
                             <div class="content">
-                                <h4><a href="service-details.html">Millet Run </a></h4>
+                                <h4><a href="service-details.html">AgriRun </a></h4>
                                 <!-- <p>
                                             Lorem ipsum dolor sit amet, porro quisquam est, qui dolorem ipsum quia dolor sit amet.
                                         </p> -->
@@ -422,26 +458,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide">
-                    <div class="service-box-items-4">
-                        <div class="thumb">
-                            <img src="../ITF/frontend/img/panel.png" alt="img">
-                        </div>
-                        <div class="service-content-area">
-                            <div class="icon">
-                                <i class="fa fa-comments"></i>
-
-                            </div>
-                            <div class="content">
-                                <h4><a href="service-details.html">Pannel Discussion </a></h4>
-                                <!-- <p>
-                                            Lorem ipsum dolor sit amet, porro quisquam est, qui dolorem ipsum quia dolor sit amet.
-                                        </p> -->
-                                <!-- <a href="service-details.html" class="link-btn">More Details <i class="far fa-arrow-right"></i></a> -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
+               
                 <div class="swiper-slide">
                     <div class="service-box-items-4">
                         <div class="thumb">
@@ -463,6 +480,27 @@
                         </div>
                     </div>
                 </div>
+                 <div class="swiper-slide">
+                    <div class="service-box-items-4">
+                        <div class="thumb">
+                            <img src="../ITF/frontend/img/panel.png" alt="img">
+                        </div>
+                        <div class="service-content-area">
+                            <div class="icon">
+                                <i class="fa fa-comments"></i>
+
+                            </div>
+                            <div class="content">
+                                <h4><a href="service-details.html">Pannel Discussion </a></h4>
+                                <!-- <p>
+                                            Lorem ipsum dolor sit amet, porro quisquam est, qui dolorem ipsum quia dolor sit amet.
+                                        </p> -->
+                                <!-- <a href="service-details.html" class="link-btn">More Details <i class="far fa-arrow-right"></i></a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
 
                 <!-- <div class="swiper-slide">
                             <div class="service-box-items-4">
@@ -508,12 +546,13 @@
 </section>
 
 <!-- Counter Section Start -->
-<section class="counter-section  sectionbg pt-5">
+<section class="counter-section  sectionbg pt-5 fix">
 
     <div class="container">
         <div class="row g-4 justify-content-center " style="padding: 2.5rem 0 1.5rem 0;">
 
-            <div class="col wow fadeInUp" data-wow-delay=".2s">
+          <div class="col-xl col-lg col-md-6 col-12 wow fadeInUp"data-wow-delay=".2s">
+
                 <div class="counter-box-items-area text-center">
                     <div class="icon"><i class="fa-solid fa-building section1"></i></div>
                     <div class="content">
@@ -523,7 +562,8 @@
                 </div>
             </div>
 
-            <div class="col wow fadeInUp" data-wow-delay=".4s">
+          <div class="col-xl col-lg col-md-6 col-12 wow fadeInUp" data-wow-delay=".4s">
+
                 <div class="counter-box-items-area text-center">
                     <div class="icon"><i class="fa-solid fa-industry section1"></i></i></div>
                     <div class="content">
@@ -533,7 +573,8 @@
                 </div>
             </div>
 
-            <div class="col wow fadeInUp" data-wow-delay=".6s">
+            <div class="col-xl col-lg col-md-6 col-12 wow fadeInUp"  data-wow-delay=".6s">
+
                 <div class="counter-box-items-area text-center">
                     <div class="icon"><i class="fa-solid fa-seedling section1"></i></div>
                     <div class="content">
@@ -543,7 +584,8 @@
                 </div>
             </div>
 
-            <div class="col wow fadeInUp" data-wow-delay=".6s">
+            <div class="col-xl col-lg col-md-6 col-12 wow fadeInUp" data-wow-delay=".8s">
+
                 <div class="counter-box-items-area text-center">
                     <div class="icon"><i class="fa-solid fa-bullhorn section1"></i></div>
                     <div class="content">
@@ -553,7 +595,8 @@
                 </div>
             </div>
 
-            <div class="col wow fadeInUp" data-wow-delay=".8s">
+            <div class="col-xl col-lg col-md-6 col-12 wow fadeInUp" data-wow-delay=".10s">
+
                 <div class="counter-box-items-area text-center">
                     <div class="icon"><i class="fa-solid fa-utensils section1"></i></div>
                     <div class="content">
@@ -582,7 +625,7 @@
     </div>
     <div class="container">
         <div class="letter-image">
-           <?= $MSG['header_title']; ?></em></span>
+            <?= $MSG['header_title']; ?></em></span>
         </div>
 
 
@@ -592,12 +635,13 @@
 <section class="news-section section-bg section-padding1 fix mb-5">
     <div class="container">
         <div class="section-title text-center">
-            <span class="wow fadeInUp text-white"><img src="frontend/img/sub-title.svg" alt="img"><?= $MSG['pre_events']; ?></span>
+            <span class="wow fadeInUp text-white"><img src="frontend/img/sub-title.svg"
+                    alt="img"><?= $MSG['pre_events']; ?></span>
             <h2 class=" text-white"><?= $MSG['pre_events_district']; ?></h2>
 
         </div>
         <div class="row">
-            
+
             <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
                 <div class="news-box-items">
                     <div class="news-image">
@@ -621,7 +665,7 @@
 
                     </div>
                     <div class="news-content text-white">
-                        <h3><a href="news-details.html" class="text-white">Millet Run</a></h3>
+                        <h3><a href="news-details.html" class="text-white"> AgriRun</a></h3>
                         <!-- <p class="text-white"> Participation in ISSF – 2024 on 10-11, November 2024 held at
                             Bhubaneshwar, Odisha.</p> -->
 
@@ -717,100 +761,100 @@
         <img src="frontend/img/home-5/faq-shape.png" alt="img">
     </div>
     <div class="container">
-    <div class="faq-wrapper-2">
-        <!-- FAQ Heading Centered -->
-        <div class="section-title text-center mb-5" style="padding-top: 0 !important;">
-            <span class="wow fadeInUp">
-                <img src="frontend/img/sub-title.svg" alt="Sub Title"> <?= $MSG['faq_title']; ?>
-            </span>
-            <h2><?= $MSG['faq_subtitle']; ?></h2>
-        </div>
+        <div class="faq-wrapper-2">
+            <!-- FAQ Heading Centered -->
+            <div class="section-title text-center mb-5" style="padding-top: 0 !important;">
+                <span class="wow fadeInUp">
+                    <img src="frontend/img/sub-title.svg" alt="Sub Title"> <?= $MSG['faq_title']; ?>
+                </span>
+                <h2><?= $MSG['faq_subtitle']; ?></h2>
+            </div>
 
-        <div class="row">
-            <div class="col-12">
-                <div class="faq-page-items mt-0">
-                    <ul class="accordion-box">
-                        <!-- FAQ Block 1 -->
-                        <li class="accordion block active-block wow fadeInUp">
-                            <div class="acc-btn active">
-                                <?= $MSG['faq_q1']; ?>
-                                <div class="icon fa-solid fa-chevron-down"></div>
-                            </div>
-                            <div class="acc-content current">
-                                <div class="content">
-                                    <div class="text">
-                                        <?= $MSG['faq_a1']; ?>
+            <div class="row">
+                <div class="col-12">
+                    <div class="faq-page-items mt-0">
+                        <ul class="accordion-box">
+                            <!-- FAQ Block 1 -->
+                            <li class="accordion block active-block wow fadeInUp">
+                                <div class="acc-btn active">
+                                    <?= $MSG['faq_q1']; ?>
+                                    <div class="icon fa-solid fa-chevron-down"></div>
+                                </div>
+                                <div class="acc-content current">
+                                    <div class="content">
+                                        <div class="text">
+                                            <?= $MSG['faq_a1']; ?>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </li>
+                            </li>
 
-                        <!-- FAQ Block 2 -->
-                        <li class="accordion block wow fadeInUp" data-wow-delay=".2s">
-                            <div class="acc-btn">
-                                <?= $MSG['faq_q2']; ?>
-                                <div class="icon fa-solid fa-chevron-down"></div>
-                            </div>
-                            <div class="acc-content">
-                                <div class="content">
-                                    <div class="text">
-                                        <?= $MSG['faq_a2']; ?>
+                            <!-- FAQ Block 2 -->
+                            <li class="accordion block wow fadeInUp" data-wow-delay=".2s">
+                                <div class="acc-btn">
+                                    <?= $MSG['faq_q2']; ?>
+                                    <div class="icon fa-solid fa-chevron-down"></div>
+                                </div>
+                                <div class="acc-content">
+                                    <div class="content">
+                                        <div class="text">
+                                            <?= $MSG['faq_a2']; ?>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </li>
+                            </li>
 
-                        <!-- FAQ Block 3 -->
-                        <li class="accordion block wow fadeInUp" data-wow-delay=".4s">
-                            <div class="acc-btn">
-                                <?= $MSG['faq_q3']; ?>
-                                <div class="icon fa-solid fa-chevron-down"></div>
-                            </div>
-                            <div class="acc-content">
-                                <div class="content">
-                                    <div class="text">
-                                        <?= $MSG['faq_a3']; ?>
+                            <!-- FAQ Block 3 -->
+                            <li class="accordion block wow fadeInUp" data-wow-delay=".4s">
+                                <div class="acc-btn">
+                                    <?= $MSG['faq_q3']; ?>
+                                    <div class="icon fa-solid fa-chevron-down"></div>
+                                </div>
+                                <div class="acc-content">
+                                    <div class="content">
+                                        <div class="text">
+                                            <?= $MSG['faq_a3']; ?>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </li>
+                            </li>
 
-                        <!-- FAQ Block 4 -->
-                        <li class="accordion block wow fadeInUp" data-wow-delay=".6s">
-                            <div class="acc-btn">
-                                <?= $MSG['faq_q4']; ?>
-                                <div class="icon fa-solid fa-chevron-down"></div>
-                            </div>
-                            <div class="acc-content">
-                                <div class="content">
-                                    <div class="text">
-                                        <?= $MSG['faq_a4']; ?>
+                            <!-- FAQ Block 4 -->
+                            <li class="accordion block wow fadeInUp" data-wow-delay=".6s">
+                                <div class="acc-btn">
+                                    <?= $MSG['faq_q4']; ?>
+                                    <div class="icon fa-solid fa-chevron-down"></div>
+                                </div>
+                                <div class="acc-content">
+                                    <div class="content">
+                                        <div class="text">
+                                            <?= $MSG['faq_a4']; ?>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </li>
+                            </li>
 
-                        <!-- FAQ Block 5 -->
-                        <li class="accordion block wow fadeInUp" data-wow-delay=".8s">
-                            <div class="acc-btn">
-                                <?= $MSG['faq_q5']; ?>
-                                <div class="icon fa-solid fa-chevron-down"></div>
-                            </div>
-                            <div class="acc-content">
-                                <div class="content">
-                                    <div class="text">
-                                        <?= $MSG['faq_a5']; ?>
+                            <!-- FAQ Block 5 -->
+                            <li class="accordion block wow fadeInUp" data-wow-delay=".8s">
+                                <div class="acc-btn">
+                                    <?= $MSG['faq_q5']; ?>
+                                    <div class="icon fa-solid fa-chevron-down"></div>
+                                </div>
+                                <div class="acc-content">
+                                    <div class="content">
+                                        <div class="text">
+                                            <?= $MSG['faq_a5']; ?>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </li>
+                            </li>
 
-                    </ul>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
 </section>
 <!-- brand Section Start -->
@@ -824,6 +868,11 @@
             </div>
             <div class="swiper brand-slide3">
                 <div class="swiper-wrapper">
+                     <div class="swiper-slide">
+                        <div class="brand-image text-center">
+                            <img src="frontend/img/p-logo-2.jpeg" alt="img">
+                        </div>
+                    </div>
                     <div class="swiper-slide">
                         <div class="brand-image text-center">
                             <img src="frontend/img/government_karnataka_110x110.jpg" alt="img">
@@ -836,7 +885,7 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="brand-image text-center">
-                            <img src="frontend/img/logo_1_110x110.jpeg" alt="img">
+                            <img src="frontend/img/secondary.jpeg" alt="img">
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -846,19 +895,20 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="brand-image text-center">
-                            <img src="frontend/img/government_karnataka_110x110.jpg" alt="img">
+                            <img src="frontend/img/kappec.jpg" alt="img">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brand-image text-center">
-                            <img src="frontend/img/logo_1_110x110.jpeg" alt="img">
+                            <img src="frontend/img/nfsm.png" alt="img">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brand-image text-center">
-                            <img src="frontend/img/p-logo-8.jpeg" alt="img">
+                            <img src="frontend/img/giz.jpeg" alt="img">
                         </div>
                     </div>
+                   
                 </div>
             </div>
         </div>
@@ -878,6 +928,23 @@ function toggleContent() {
     }
 }
 </script>
+<script>
+$('.video-popup').magnificPopup({
+    type: 'iframe',
+    iframe: {
+        patterns: {
+            youtube: {
+                index: 'youtube.com/',
+                id: 'v=',
+                src: 'https://www.youtube.com/embed/%id%?autoplay=1'
+            }
+        }
+    }
+});
+</script>
+
+
+
 
 
 <!-- Footer Section Start -->

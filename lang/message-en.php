@@ -3,7 +3,7 @@
 return [
     
     // <---------- Header Menu start----------->
-    'header_title' => 'Agriculture beyond Production-"<em>Empowering farmers</em>"',
+    'header_title' => 'Agriculture beyond Production <br>"<em>Empowering Farmers</em>"',
     'home'=> 'Home',
     'about-itf'=> ' About ITF',
     'registrations'=> ' Registrations',
@@ -17,7 +17,7 @@ return [
     'itf'=>'ITF',
     'explorebengaluru'=>'Explore Bengaluru',
     'explorekarnataka'=>'Explore Karnataka',
-    'milletrunregistration'      => 'Millet Run Registration',
+    'milletrunregistration'      => 'AgriRun Registration',
      'publicregistration'        => 'Public Registration',
      'exhibitionstallbooking'    => 'Exhibition Stall Booking',
     'internationalconference'   => 'International Conference',
@@ -28,8 +28,8 @@ return [
      //<-------Header Menu End---------------->
 
     //<----------Footer Menu start------------->
-    'footer_title'       => 'Agriculture beyond Production - "<em>Empowering farmers</em>"',
-    'footer_text'=> 'Lorem ipsum dolor sit amet, porro quisquam est, qui dolorem ipsum quia sed dolor sit amet, consectetur',
+    'footer_title'       => 'Agriculture beyond Production <br>"<em>Empowering Farmers</em>"',
+
     'footer_useful_link' => 'Useful Link',
     'foot_email_us' => 'Email us',
     'foot_location' => 'Location',
@@ -44,7 +44,7 @@ return [
 
 
     'faq_title'    => 'Our FAQs',
-    'faq_subtitle' => 'Frequently Asked Questions About Us',
+    'faq_subtitle' => 'Frequently Asked Questions',
 
     'faq_q1' => '1. Event and Venue Details',
     'faq_a1' => 'ITF will be held from 06th–08th February 2026.<br>
@@ -75,7 +75,7 @@ return [
     // Home page
     'why_choose_us' => 'Why Choose Us',
     'glimpse_title' => 'Glimpse of ITF 2026',
-    'agri_title' => 'Agriculture beyond Production -"<em>Empowering farmers</em>"',
+    'agri_title' => 'Agriculture beyond Production <br>"<em>Empowering Farmers</em>"',
     'trust_clients' => 'Expected Visitors',
     'about_content' => 'The Government of Karnataka has implemented various initiatives and interventions to
     support organics and millets, including the organisation of annual organic & millet
@@ -94,10 +94,10 @@ return [
     
     The Department of Agriculture, Government of Karnataka, successfully organized
     Organic and Millets International Trade Fairs in the years 2017, 2018, 2019, 2023,
-    2024 and 2025. These events attracted a large number of stakeholders, generated
-    significant interest and achieved notable success.',
+    2024 and 2025. ',
 
-   'about_more_content' => '
+   'about_more_content' => 'These events attracted a large number of stakeholders, generated
+    significant interest and achieved notable success.<br>
 <strong>International Trade Fair 2026 Theme:</strong><br>
 <em>“Agriculture beyond Cultivation – Empowering Farmers”</em>',
  'about_more_content1' => '
@@ -119,19 +119,19 @@ return [
 </p>',
 
 'read_more' => 'Read More',
-'highlights' => 'Agriculture beyond Production-<br>"<em>Empowering Farmers</em>"',
+'highlights' => 'Agriculture beyond Production<br>"<em>Empowering Farmers</em>"',
 'highlights_content' => 'International Trade Fair 2026 Highlights',
 'consumer_connect'        => 'CONSUMER<br>CONNECT',
 'food_court'              => 'FOOD<br>COURT',
 'product_exhibition'      => 'PRODUCT<br>EXHIBITION',
-'value_addition'          => 'Value Addition',
+'value_addition'          => 'Value <br>Addition',
 'cultural_events'         => 'CULTURAL<br>EVENTS',
-'agro_ecology'            => 'Agro Ecology',
-'branding_marketing'      => 'Branding',
+'agro_ecology'            => 'Agro <br>Ecology',
+'branding_marketing'      => 'Branding and <br>Credits',
 'venue_location' => 'Venue ',
 'venue_address' => 'Tripuravasini , Bengaluru',
 'venue_date' => 'Date ',
-'venue_event_date' => '06, 07 and 08 February 2026',
+'venue_event_date' => '06th-08th February 2026',
 'venue_time' => 'Time ',
 'pre_events' => 'Pre-Events',
 'pre_events_state' => 'Pre-Events: State ',
@@ -139,7 +139,7 @@ return [
 'counter1_title' => 'Exhibitors',
 'counter2_title'=> 'Value Addition',
 'counter3_title' => 'Agro Ecology',
-'counter4_title' => 'Branding',
+'counter4_title' => 'Branding &<br>Credits',
 'counter5_title' => 'Food Stalls',
 
 
@@ -150,7 +150,7 @@ return [
   'international_trade_fair_2026_highlights' => 'International Trade Fair 2026 Highlights',
   'ab_aboutus' => 'About Us',
   'ab_ourtheme' => 'Our Theme',
-  'ab_agriculture' => 'Agriculture beyond Production -"<em>Empowering Farmers</em>"',
+  'ab_agriculture' => 'Agriculture beyond Production <br>"<em>Empowering Farmers</em>"',
   'ab_expectedvisitors' => 'Expected Visitors',
   'ab_empowering' => 'Empowering farmers through technology, awareness, and support to redefine agriculture beyond traditional cultivation',
   'an_ourinitiatives' => 'Our Initiatives',
@@ -161,14 +161,12 @@ return [
   'ab_only' => ' Only 33% area under irrigation. Most Drought Prone state after Rajasthan.',
   'ab_agroclimaticzones' => '10 Agro-climatic zones with rich crop diversity & 5 major soil types.',
   'ab_ourachievements' => 'Our Achievements',
-  'ab_achievements1' => 'Awards received by Department Of Agriculture',
+  'ab_achievements1' => 'Awards Received by Department Of Agriculture',
   'ab_achievements2' => 'View All',
   'ab_achievements3' => 'MAY 2025',
   'ab_achievements4' => 'Agricultural',
 
-  'ab_achievements_title_1' => '3 rd Best Performing State Award under Agri Infrastructure Fund- For a
-total sanction of 1094 projects worth Rs.543.83 crores followed by
-Madhya Pradesh(5258 Projects) and Andhra Pradesh(2828 Projects)',
+  'ab_achievements_title_1' => '3 rd Best Performing State Award under Agri Infrastructure Fund',
   'ab_achievements_title_2' => 'Poshak Aanaj 2022 Award- Best State for Promotion of Millets.',
   'ab_achievements_title_3' => 'Jaivik India Awards-2022- Best State for contribution to the organic
 sector',
@@ -191,12 +189,12 @@ sector',
                                     with a new and distinctive concept “Agriculture beyond Cultivation – Empowering Farmers”, supported by
                                     the following sub-themes:',
 
-     'ab_promation_li_1' => 'Processing and Value Addition: Creating awareness among small-scale food processors, farmer groups and 
+     'ab_promation_li_1' => '<b>Processing and Value Addition</b>: Creating awareness among small-scale food processors, farmer groups and 
      self-help groups regarding the importance of grading and quality certification, and facilitating linkages with various stakeholders',
 
-     'ab_promation_li_2' => 'Agro-Ecology: Promoting environmentally sustainable farming and processing practices that increase farmers’ income while enhancing positive environmental impacts, and enabling engagement with relevant stakeholders',
+     'ab_promation_li_2' => '<b>Agro-Ecology</b>: Promoting environmentally sustainable farming and processing practices that increase farmers’ income while enhancing positive environmental impacts, and enabling engagement with relevant stakeholders',
 
-     'ab_promation_li_3' => 'Branding and Credit Services: Creating awareness among farmers and Farmer Producer Organizations (FPOs) on the importance of branding and output-based credit for expanding market opportunities, and providing practical linkages with reputable credit institutions.',
+     'ab_promation_li_3' => '<b>Branding and Credit Services</b>: Creating awareness among farmers and Farmer Producer Organizations (FPOs) on the importance of branding and output-based credit for expanding market opportunities, and providing practical linkages with reputable credit institutions.',
 
     'ab_promation_li_4' => 'The forth coming Trade Fair will be organized at the Tripura vasini Palace Grounds, Bengaluru, on 06, 07 and 08 February 2026 (Friday, Saturday and Sunday), in collaboration with the State Directorate of Secondary Agriculture, Department of Agriculture, KSSC and KAPPEC.',
 
@@ -211,7 +209,7 @@ sector',
     'ab_promation_last' => 'Overall, the objective of the Trade Fair is to provide an appropriate platform to transform the State’s farmers into entrepreneurs through the promotion of processing and value-addition initiatives.',
 
     
-    'agri_title1' => "Empowering Karnataka's Agriculture: Managing Diversity, Drought & Growth Potential",
+    'agri_title1' => "<b>Empowering Karnataka's Agriculture</b>: Managing Diversity, Drought & Growth Potential",
 
     'agri_stats' => "31 Districts, 236 Taluks, 850 Hoblies, 5965 Gram Panchayaths & 32499 Villages.",
 
@@ -224,58 +222,60 @@ sector',
 
    // Contact page
 
+    /* ================= SECTION ================= */
+    'our_officers' => 'Our Officers',
+    'officers_subtitle' => 'Details of Officers to Contact for Online Registration',
 
-'organic_farming_division_karnataka_state_department_of_agriculture'=> 'Organic Farming Division, Karnataka State Department of Agriculture',
- 'address_1'=>'No. 1, Sheshadri Road, Bengaluru, Karnataka-560001. Phone: 080-22074111 / 22242746 / 22074101.Email: itf2025organiccell@gmail.com',
- 'karnataka_state_agricultural_produce_processing_and_export_corporation_ltd'=> 'Karnataka State Agricultural Produce Processing and Export Corporation LTD',
- 'address_2'=>'No.17, Richmond Road, Bengaluru, Karnataka-560025. Phone: 080-22271194 / 22243082 Email: kappec1996@gmail.com',
- 
- 'our_officers'=> 'Our Officers',
- 'our_officers_title'=> 'Details of Officers to Contact for Online Registration',
- 
- 'event1_name'=>'Millet Walkathon',
- 'event1_contact1'=>'Ms. Mathura Pai, Assistant Director of Agriculture',
- 'event1_contact1_address' => 'Address: Banashankari, Bengaluru,',
- 'event1_contact1_phone' => 'Phone: 8277929923',
+    /* ================= COMMON ================= */
+    'event_name' => 'Event Name',
+    'contact_details' => 'Contact Details',
+    'contact_number' => 'Contact Number',
+    'address' => 'Address',
 
- 'event1_contact2'=>'Mr. Natesh N, Assistant Director of Agriculture,',
- 'event1_contact2_address' => 'Address: Banashankari, Bengaluru,',
- 'event1_contact2_phone' => 'Phone: 8884006719',
+    /* ================= EVENTS ================= */
+    'event_millet_run' => 'Millet Run',
+    'event_exhibition' => 'Exhibition',
+    'event_conference' => 'International Conference',
+    'event_public_registration' => 'Public Registration',
+    'event_paid_food_stall' => 'Paid Food Stall',
 
- 'event2_name'=>'Exhibition',
- 'event2_contact1'=>'Mr. Kempegowda H, Joint Director of Agriculture (Fertiliser & PP)',
- 'event2_contact1_phone'=> 'Phone: 8277929833',
+    /* ================= DESIGNATIONS ================= */
+    'assistant_director_agri' => 'Assistant Director of Agriculture',
+    'joint_director_agri' => 'Joint Director of Agriculture',
+    'deputy_director_statistics' => 'Deputy Director (Statistics)',
+    'itf_consultant' => 'ITF - Consultant',
+    'first_division_assistant' => 'First Division Assistant',
+    'deputy_director_micro_irrigation' => 'Deputy Director of Agriculture (Micro Irrigation)',
+    'agriculture_officer' => 'Agriculture Officer, Department of Agriculture',
 
- 'event2_contact2'=>'Mr. H.L. Govardhan, AIF – Consultant',
- 'event2_contact2_phone'=> 'Phone: 9900759335',
+    /* ================= LOCATIONS ================= */
+    'banashankari_bangalore' => 'Banashankari, Bengaluru',
 
- 'event3_name'=>'International Conference',
- 'event3_contact1'=>'Ms. Shilpa S.K., Deputy Director (Statistics),',
- 'event3_contact1_phone'=> 'Phone: 8277929989',
+    /* ================= NAMES ================= */
+    'name_mathura_pai' => 'Ms. Mathura Pai',
+    'name_natesh_n' => 'Mr. Natesh N',
+    'name_raju_hsb' => 'Mr. Raju H.S.B.',
+    'name_vidhyanand' => 'Mr. Vidhyanand',
+    'name_shilpa_sk' => 'Ms. Shilpa S.K.',
+    'name_saumya_sudan' => 'Ms. Saumya Sudan',
+    'name_bhanuprakash_c' => 'Mr. Bhanuprakash C.',
+    'name_yogesh_gh' => 'Mr. Yogesh G. H.',
+    'name_latha' => 'Ms. Latha',
 
- 'event3_contact2'=>'Ms. Saumya Sudan, Assistant Director of Agriculture,',
- 'event3_contact2_phone'=> 'Phone: 8277929853',
 
- 'event4_name'=>'B2B Meet',
- 'event4_contact1'=>'Mr. Naganagouda Reddy, Deputy Director of Agriculture (Crop Survey) ,',
- 'event4_contact1_phone'=> 'Phone: 7349092680',
 
- 'event4_contact2'=>'Mr. Chandrakumar, Assistant Director of Agriculture (KAPPEC)',
- 'event4_contact2_phone'=> 'Phone: 9480316528',
+    /* ===== ORGANIC FARMING CONTACT ===== */
+    'organic_farming_division' =>
+        'ORGANIC FARMING DIVISION, KARNATAKA STATE DEPARTMENT OF AGRICULTURE',
 
- 'event5_name'=>'Farmer Workshop',
- 'event5_contact1'=>'Ms . Bharathamma G.U., Deputy Director of Agriculture (Crop Insurance)',
- 'event5_contact1_phone'=> 'Phone: 8088008151',
+    'address_label' => 'Address',
+    'phone_label'   => 'Phone',
+    'email_label'   => 'Email',
 
- 'event5_contact2'=>'Mr. Gopala R, First Division Assistant',
- 'event5_contact2_phone'=> 'Phone: 9844072489',
+    'organic_address' =>
+        'No. 1, Sheshadri Road, Bengaluru, Karnataka – 560001',
 
- 'event6_name'=>'Paid Food Stall',
- 'event6_contact1'=>'Mr. Yogesh G. H., Deputy Director of Agriculture Micro Irrigation',
- 'event6_contact1_phone'=> 'Phone: 8277929838',
 
- 'event6_contact2'=>'Ms. Pramila R. Gangal , Assistant Director of Agriculture Watershed Development Department',
- 'event6_contact2_phone'=> 'Phone: 6364794902',
 
 
    // Journey page
@@ -290,15 +290,15 @@ sector',
    'itf_journey_2025'=> '2025',
    'organics_and_millets'=> 'Organics and Millets',
    'millets_and_organics'=> 'Millets and Organics',
-   'agriculture_beyond_cultivation_and_empowering_farmers'=> 'Agriculture beyond Production -"<em>Empowering farmers</em>"',
-   'itf_journey_para'=>'The Sixth edition of Agriculture beyond cultivation and empowering farmers , 
+   'agriculture_beyond_cultivation_and_empowering_farmers'=> 'Agriculture beyond Production <br>"<em>Empowering Farmers</em>"',
+   'itf_journey_para'=>'The Seventh edition of Agriculture beyond cultivation and empowering farmers , 
                         2025 – International Trade Fair is organized by the Department of Agriculture,
                         Government Of Karnataka. It will be a platform for farmers, farmer groups, domestic
                         and international companies, central and state institutions in the organic and millet
                         sector to connect and explore opportunities ain Agri-horticulture, processing, machinery a
                         nd Agri-technology. The Government of Karnataka has been a leader in the promotion of
                         organics and millets with the First Organics and Millets trade fair being held in 2017,
-                        and subsequently the second, third and fourth editions in 2018, 2019 ,2023 and 2024 respectively in Bengaluru.',
+                        and subsequently the second, third and fourth editions in 2018, 2019 ,2023 ,2024 and 2025 respectively in Bengaluru.',
    'itf_journey_2017_content'=> '2017-National Trade Fair during April 28-30, 2017 at Tripuravasini Palace Grounds, Bengaluru.',
    'itf_journey_2018_content'=> '2018-International Trade Fair during Jan 19-21, 2018 at Tripuravasini Palace Grounds, Bengaluru.',
    'itf_journey_2019_content'=> 'Wendell Berry said it best when he said that “eating is an agricultural act.” Our mission is to change the food system 

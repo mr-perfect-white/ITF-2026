@@ -22,7 +22,7 @@
                     <div class="footer-widget-items">
                         <div class="widget-head">
                             <a href="index.html" class="footer-logo">
-                                <img src="frontend/img/logo/logoitf.png" alt="img">
+                               <img class="brand-logo" src="../ITF/frontend/img/logo/english_itf_logo.png" alt="img">
                             </a>
                         </div>
                         <div class="footer-content text-white fw-bold">
@@ -66,7 +66,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="" class="text-white">
+                                <a href="#" class="text-white">
                                     <i class="fa-solid fa-angles-right theme2"></i><?= $MSG['registrations']; ?>
                                 </a>
                             </li>
@@ -75,14 +75,15 @@
                                    <i class="fa-solid fa-angles-right theme2"></i> <?= $MSG['resources']; ?>
                                 </a>
                             </li> -->
+                            
                             <li>
-                                <a href="" class="text-white">
-                                    <i class="fa-solid fa-angles-right theme2"></i></i> <?= $MSG['faq_title']; ?>
+                                <a href="#" class="text-white">
+                                    <i class="fa-solid fa-angles-right theme2"></i> <?= $MSG['gallery']; ?>
                                 </a>
                             </li>
                             <li>
-                                <a href="" class="text-white">
-                                    <i class="fa-solid fa-angles-right theme2"></i> <?= $MSG['gallery']; ?>
+                                <a href="contact.php" class="text-white">
+                                    <i class="fa-solid fa-angles-right theme2"></i></i> <?= $MSG['contact']; ?>
                                 </a>
                             </li>
                         </ul>

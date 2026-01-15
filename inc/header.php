@@ -34,7 +34,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
 
-   
+
 
 </head>
 
@@ -84,8 +84,10 @@
                     <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                         <div class="offcanvas__logo">
                             <a href="index.php">
-                                <img src="../ITF/frontend/img/logo/logoitf.png" alt="logo-img">
+                                <img class="brand-logo" src="../ITF/frontend/img/logo/english_itf_logo.png"
+                                    alt="img" style="width: 200px;">
                             </a>
+
                         </div>
                         <div class="offcanvas__close">
                             <button>
@@ -107,11 +109,11 @@
                             <i class="fab fa-youtube"></i>
                         </a>
                         <a href="javascript:void(0)">
-                           <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-instagram"></i>
 
 
                         </a>
-                        
+
                         <a href="javascript:void(0)">
                             <i class="fab fa-linkedin-in"></i>
                         </a>
@@ -121,48 +123,48 @@
                         <ul class="contact-list">
                             <li>
                                 <div class="icon">
-                                   <i class="fa-solid fa-phone"></i>
+                                    <i class="fa-solid fa-phone"></i>
 
                                 </div>
                                 <div class="content">
                                     <p><?= $MSG['foot_phone']; ?></p>
                                     <h4>
                                         <a href="tel:+080-22074111">
-                                         080-22074111
+                                            080-22074111
                                         </a>
                                     </h4>
                                 </div>
                             </li>
                             <li>
                                 <div class="icon">
-                                  <i class="fa-solid fa-envelope"></i>
+                                    <i class="fa-solid fa-envelope"></i>
 
                                 </div>
                                 <div class="content">
                                     <p><?= $MSG['foot_email_us']; ?></p>
                                     <h4>
                                         <a href="mailto:organiccell@gmail.com">
-                                         organiccell@gmail.com
+                                            organiccell@gmail.com
                                         </a>
                                     </h4>
                                 </div>
                             </li>
                             <li>
                                 <div class="icon" style="width: 84px;">
-                                   <i class="fa-solid fa-location-dot"></i>
+                                    <i class="fa-solid fa-location-dot"></i>
 
                                 </div>
                                 <div class="content">
                                     <p><?= $MSG['foot_location']; ?></p>
                                     <h4>
-                                       <?= $MSG['foot_addressitf']; ?>
+                                        <?= $MSG['foot_addressitf']; ?>
                                     </h4>
                                 </div>
                             </li>
                         </ul>
                     </div>
                     <a href="contact.php" class="theme-btn">
-                         <?= $MSG['departmentlogin']; ?>
+                        <?= $MSG['departmentlogin']; ?>
                         <i class="fa-solid fa-arrow-right"></i>
 
                     </a>
@@ -180,11 +182,11 @@
                         <i class="fa-solid fa-envelope theme2"></i>
 
                         <a href="mailto:organiccell@gmail.com">
-                          organiccell@gmail.com
+                            organiccell@gmail.com
                         </a>
                     </li>
                     <li>
-                        <i class="fa-solid fa-phone theme2" ></i>
+                        <i class="fa-solid fa-phone theme2"></i>
 
                         <a href="tel:+ 080-22074111">
                             + 080-22074111
@@ -203,20 +205,18 @@
 
                         </select> -->
                         <form method="post" action="set-language.php">
-    <select class="single-select w-100"
-            name="lang"
-            onchange="this.form.submit()">
+                            <select class="single-select w-100" name="lang" onchange="this.form.submit()">
 
-        <option value="en" <?= ($_SESSION['lang'] ?? 'en') == 'en' ? 'selected' : '' ?>>
-            EN
-        </option>
+                                <option value="en" <?= ($_SESSION['lang'] ?? 'en') == 'en' ? 'selected' : '' ?>>
+                                    EN
+                                </option>
 
-        <option value="ka" <?= ($_SESSION['lang'] ?? '') == 'ka' ? 'selected' : '' ?>>
-            KA
-        </option>
+                                <option value="ka" <?= ($_SESSION['lang'] ?? '') == 'ka' ? 'selected' : '' ?>>
+                                    KA
+                                </option>
 
-    </select>
-</form>
+                            </select>
+                        </form>
                     </div>
                     <div class="line-shape"></div>
                     <div class="social-icon">
@@ -232,7 +232,7 @@
                         <a href="https://www.instagram.com/organicsmillets2023/">
                             <i class="fab fa-instagram"></i>
                         </a>
-                         <a href="javascript:void(0)">
+                        <a href="javascript:void(0)">
                             <i class="fab fa-linkedin-in"></i>
                         </a>
                     </div>
@@ -246,7 +246,7 @@
             <div class="mega-menu-wrapper">
                 <div class="header-main">
                     <a href="index.php" class="top-logo">
-                        <img src="../ITF/frontend/img/logo/logoitf.png" alt="img">
+                         <img class="brand-logo" src="../ITF/frontend/img/logo/english_itf_logo.png" alt="img">
                     </a>
                     <!-- <a href="index.php" class="header-logo">
                             <img src="../ITF/frontend/img/logo/black-logo.svg" alt="img">
@@ -257,91 +257,94 @@
                                 <ul>
                                     <li class="has-dropdown menu-thumb">
                                         <a href="index.php">
-                                           <?= $MSG['home']; ?>
+                                            <?= $MSG['home']; ?>
 
                                         </a>
                                     </li>
                                     <li class="has-dropdown active d-xl-none">
                                         <a href="home.php" class="border-none">
-                                           <?= $MSG['home']; ?>
+                                            <?= $MSG['home']; ?>
                                         </a>
                                     </li>
                                     <li>
-                                       <a href="javascript:void(0)">
-                                         <?= $MSG['about-itf']; ?>
+                                        <a href="javascript:void(0)">
+                                            <?= $MSG['about-itf']; ?>
                                             <i class="fas fa-chevron-down"></i>
                                         </a>
                                         <ul class="submenu">
-                                                <li>
-                                                    <a href="about.php"> <?= $MSG['itf']; ?></a>
-                                                </li>
-                                                <li>
-                                                    <a href="journey.php"> <?= $MSG['journey']; ?></a>
-                                                </li>
-                                                <!-- <li>
+                                            <li>
+                                                <a href="about.php"> <?= $MSG['itf']; ?></a>
+                                            </li>
+                                            <li>
+                                                <a href="journey.php"> <?= $MSG['journey']; ?></a>
+                                            </li>
+                                            <!-- <li>
                                                     <a href="#">Event Schedule</a>
                                                 </li> -->
-                                                <!-- <li>
+                                            <!-- <li>
                                                     <a href="#">Farmer Workshop</a>
                                                 </li> -->
-                                                <!-- <li>
+                                            <!-- <li>
                                                     <a href="#">International Conference</a>
                                                 </li> -->
-                                                <!-- <li>
+                                            <!-- <li>
                                                     <a href="#">Exhibitors</a>
                                                 </li> -->
-                                                <!-- <li>
+                                            <!-- <li>
                                                     <a href="#">Karnataka Pavilion Participants</a>
                                                 </li> -->
-                                                <!-- <li>
+                                            <!-- <li>
                                                     <a href="#">B2B Buyers & Sellers</a>
                                                 </li> -->
-                                                <li>
-                                                    <a href="#"> <?= $MSG['tour']; ?></a>
-                                                     <ul class="submenu">
-                                                        <li><a href="https://karnatakatourism.org/en/"> <?= $MSG['explorekarnataka']; ?></a></li>
-                                                        <li><a href="https://karnatakatourism.org/en/destinations/bengaluru/"> <?= $MSG['explorebengaluru']; ?></a></li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
+                                            <li>
+                                                <a href="#"> <?= $MSG['tour']; ?></a>
+                                                <ul class="submenu">
+                                                    <li><a href="https://karnatakatourism.org/en/">
+                                                            <?= $MSG['explorekarnataka']; ?></a></li>
+                                                    <li><a
+                                                            href="https://karnatakatourism.org/en/destinations/bengaluru/">
+                                                            <?= $MSG['explorebengaluru']; ?></a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
                                     </li>
                                     <li class="has-dropdown">
                                         <a href="javascript:void(0)">
                                             <?= $MSG['registrations']; ?>
                                             <i class="fas fa-chevron-down"></i>
                                         </a>
-                                         <ul class="submenu">
-                                               
-                                                <!-- <li>
+                                        <ul class="submenu">
+
+                                            <!-- <li>
                                                     <a href="#">B2B Buyer Registration</a>
                                                 </li> -->
-                                                <!-- <li>
+                                            <!-- <li>
                                                     <a href="#">B2B Seller Registration</a>
                                                 </li> -->
-                                                <li>
-                                                    <a href="#"><?= $MSG['milletrunregistration']; ?></a>
-                                                </li>
-                                                <!-- <li>
+                                            <li>
+                                                <a href="#"><?= $MSG['milletrunregistration']; ?></a>
+                                            </li>
+                                            <!-- <li>
                                                     <a href="#">Farmer Workshop Registration</a>
                                                 </li> -->
-                                                <li>
-                                                    <a href="#"><?= $MSG['publicregistration']; ?></a></a>
-                                                </li>
-                                                <li>
-                                                    <a href="#"><?= $MSG['exhibitionstallbooking']; ?></a></a>
-                                                </li>
-                                                <li>
-                                                    <a href="#"><?= $MSG['internationalconference']; ?></a></a>
-                                                </li>
-                                                <li>
-                                                    <a href="#"><?= $MSG['paidfoodstallbooking']; ?></a></a>
-                                                </li>
-                                            </ul> 
+                                            <li>
+                                                <a href="#"><?= $MSG['publicregistration']; ?></a></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><?= $MSG['exhibitionstallbooking']; ?></a></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><?= $MSG['internationalconference']; ?></a></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><?= $MSG['paidfoodstallbooking']; ?></a></a>
+                                            </li>
+                                        </ul>
                                     </li>
-                                    
+
                                     <li>
                                         <a href="javascript:void(0)">
-                                          <?= $MSG['gallery']; ?>
+                                            <?= $MSG['gallery']; ?>
                                             <!-- <i class="fas fa-chevron-down"></i> -->
                                         </a>
                                         <!-- <ul class="submenu">
@@ -398,7 +401,7 @@
                     <div class="header-right d-flex justify-content-end align-items-center">
                         <a href="contact.php" class="theme-btn">
                             <?= $MSG['departmentlogin']; ?><i class="fa-solid fa-arrow-right"></i></a>
-                            
+
 
                         </a>
                         <div class="header__hamburger my-auto">
