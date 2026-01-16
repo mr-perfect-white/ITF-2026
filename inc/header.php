@@ -35,6 +35,9 @@
 
 
 <style>
+    .mb_btn{
+        display:none;
+    }
 
     @media (max-width: 575px) {
 
@@ -42,6 +45,9 @@
     display: block !important;
             z-index: 999;
 }
+ .mb_btn{
+        display:block !important;
+    }
 .offcanvas__logo {
     margin-left: -23px;
 }
@@ -124,7 +130,7 @@
                             </a>
 
                         </div>
-                        <div class="offcanvas__logo">
+                        <div class="offcanvas__logo   mb_btn">
                             
                                 <form method="post" action="set-language.php">
                                     <select class="single-select w-100" name="lang" onchange="this.form.submit()">
@@ -303,7 +309,7 @@
                          <img class="brand-logo" src="../ITF/frontend/img/logo/english_itf_logo.png" alt="img">
                     </a>
                     <div>
-                        <form method="post" action="set-language.php">
+                        <form method="post" class="mb_btn" action="set-language.php">
                                 <select class="single-select w-100" name="lang" onchange="this.form.submit()" style="display: none;">
 
                                         <option value="en" selected="">
