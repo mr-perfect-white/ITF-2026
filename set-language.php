@@ -7,3 +7,4 @@ if (isset($_POST['lang'])) {
 
 header("Location: " . $_SERVER['HTTP_REFERER']);
 exit;
+
