@@ -40,6 +40,59 @@
 
 </head>
 
+<style>
+
+.flag-wrap {
+    display: none;
+}
+    .brand-logo {
+    width: 200px;
+    height: auto;
+}
+    .mb_btn{
+        display:none;
+    }
+
+    @media (max-width: 575px) {
+
+      .nice-select.single-select.w-100 {
+    display: block !important;
+            z-index: 999;
+}
+ .mb_btn{
+        display:block !important;
+    }
+.offcanvas__logo {
+    margin-left: -23px;
+}
+.nice-select:after {
+    border-bottom: 2px solid #6E6E6E;
+    border-right: 2px solid #6E6E6E;
+    content: '';
+    display: block;
+    height: 6px;
+    margin-top: -20px;
+    pointer-events: none;
+    position: absolute;
+    right: 16px;
+    top: 48%;
+    -webkit-transform-origin: 66% 66%;
+    -ms-transform-origin: 66% 66%;
+    transform-origin: 66% 66%;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+    width: 6px;
+}
+   
+
+
+}
+  
+</style>
+
 <body>
     <!-- Preloader Start -->
     <div id="preloader" class="preloader">
@@ -86,7 +139,7 @@
                     <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                         <div class="offcanvas__logo">
                             <a href="index.php">
-                                <img src="https://itf2025.organics-millets.in/itf-2026-dev/frontend/img/logo/eng-logo.jpeg" alt="logo-img">
+                                <img  class="brand-logo" src="https://itf2025.organics-millets.in/itf-2026-dev/frontend/img/logo/english_itf_logo.png" alt="logo-img">
                             </a>
                         </div>
                         <div class="offcanvas__close">
@@ -244,11 +297,11 @@
     </div>
     <!-- Header Section Start -->
     <header id="header-sticky" class="header-1">
-        <div class="container">
+        <div class="container"> 
             <div class="mega-menu-wrapper">
                 <div class="header-main">
                     <a href="index.php" class="top-logo">
-                        <img src="https://itf2025.organics-millets.in/itf-2026-dev/frontend/img/logo/eng-logo.jpeg" alt="img">
+                        <img  class="brand-logo" src="frontend/img/logo/english_itf_logo.png" alt="img">
                     </a>
                     <!-- <a href="index.php" class="header-logo">
                             <img src="https://itf2025.organics-millets.in/itf-2026-dev/frontend/img/logo/black-logo.svg" alt="img">
