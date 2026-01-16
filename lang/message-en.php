@@ -77,45 +77,29 @@ return [
     'glimpse_title' => 'Glimpse of ITF 2026',
     'agri_title' => 'Agriculture beyond Production <br>"<em>Empowering Farmers</em>"',
     'trust_clients' => 'Expected Visitors',
-    'about_content' => 'The Government of Karnataka has implemented various initiatives and interventions to
-    support organics and millets, including the organisation of annual organic & millet
-    trade fairs since 2017 to promote millets as a people’s movement, striving to position
-    Bangalore as the ‘global hub for millets’. Owing to these concerted efforts, once
-    near-extinct minor millets have experienced a remarkable revival and are now in high
-    demand as healthy traditional foods.
-    
-    In order to double the income of farmers in the State, there is a need to provide
-    appropriate platform to establish market linkages to farmers by showcasing
-    value-added products, natural products and other related products under various
-    schemes implemented by the Secondary Agriculture Directorate, the Department of
-    Agriculture and the Watershed Development Department, Karnataka Agro Processing
-    and Export Corporation (KAPPEC), Karnataka State Seeds Corporation (KSSC) and
-    Karnataka Pulses Development Board.
-    
-    The Department of Agriculture, Government of Karnataka, successfully organized
-    Organic and Millets International Trade Fairs in the years 2017, 2018, 2019, 2023,
-    2024 and 2025. ',
+    'about_content' => 'In order to double the income of farmers in the State, there is a need to provide appropriate platform to establish market linkages to farmers by showcasing value-added products, natural products and other related products under various schemes implemented by the Secondary Agriculture Directorate, the Department of Agriculture and the Watershed Development Department, Karnataka Agro Products Processing and Export Corporation (KAPPEC), Karnataka State Seeds Corporation Limited (KSSC) and Karnataka Pulses Development Corporation. This initiative will also create awareness among farmers, consumers and other stakeholders, and facilitate access to national and international markets.
+The Department of Agriculture, Government of Karnataka, successfully organized Organic and Millets International Trade Fairs in 2017, 2018, 2019, 2023, 2024 and 2025. These events attracted a large number of stakeholders, generated significant interest and achieved notable success.The fairs included high-quality exhibitions, international conferences, producer–marketer meetings, farmer workshops, organic and millet food courts, and consumer-connect events, all of which contributed to overall sectoral development.
+ ',
 
-   'about_more_content' => 'These events attracted a large number of stakeholders, generated
-    significant interest and achieved notable success.<br>
-<strong>International Trade Fair 2026 Theme:</strong><br>
-<em>“Agriculture beyond Cultivation – Empowering Farmers”</em>',
+   'about_more_content' => '
+The ensuing <strong>International Trade Fair 2026</strong> will be organized with a new and distinctive concept <strong>“Agriculture beyond Production – <em>Empowering Farmers<em>”</strong>, supported by the following sub-themes:',
  'about_more_content1' => '
-<strong>Processing and Value Addition:</strong> Creating awareness among small-scale food processors, farmer groups and SHGs.',
+<strong>Processing and Value Addition:</strong> Creating awareness among small-scale food processors, farmer groups and self-help groups regarding the importance of grading and quality, certification, and facilitating linkages with various stakeholders.',
     'about_more_content2' => '
-    <strong>Agro-Ecology:</strong> Promoting environmentally sustainable farming and processing practices.',
+    <strong>Agro-Ecology:</strong> Promoting environmentally sustainable farming and processing practices that increase farmers’ income while enhancing positive environmental impacts, and enabling engagement with relevant stakeholders.',
     'about_more_content3' => '
-    <strong>Branding and Credit Services:</strong> Awareness on branding and output-based credit for FPOs.',
+    <strong>Branding and Credit Services:</strong> Creating awareness among farmers and Farmer Producer Organizations (FPOs) on the importance of branding and output-based credit for expanding market opportunities, and providing practical linkages with reputable credit institutions.',
 
 'about_more_content4' => '
-    The forthcoming Trade Fair will be organized at <strong>Tripuravasini Palace Grounds,
-    Bengaluru</strong> on <strong>06, 07 and 08 February 2026</strong>, in collaboration with
-    the Department of Agriculture, KSSC and KAPPEC.',
+    As part of the pre-event activities, all the districts will organize programmes in alignment with the Trade Fair’s themes.
+    The list of promotional activities will be finalized, and actions will be initiated to organize press meet, media bytes from Ministers, Celebrities and dignitaries, preparation and launch of  Trade Fair webpage etc.',
 
 'about_more_content5' => '
-    Overall, the objective of the Trade Fair is to provide an appropriate platform to
-    transform the State’s farmers into entrepreneurs through processing and
-    value-addition initiatives.
+    During the main event dedicated theme-based pavilions will be established for Processing and Value Addition, Seed Production, Agro-Ecology, and Branding and Credit Services.
+    The Karnataka Pavilion will showcase the State’s finest Farmer Producer Organizations, regional federations, start-ups and farmer groups, featuring unique and innovative processed and value-added products.
+   <strong> Overall, the objective of the Trade Fair is to provide an appropriate platform to transform the State’s farmers into entrepreneurs through the promotion of processing and value-addition initiatives.</strong>
+
+
 </p>',
 
 'read_more' => 'Read More',
@@ -189,12 +173,12 @@ sector',
                                     with a new and distinctive concept “Agriculture beyond Cultivation – Empowering Farmers”, supported by
                                     the following sub-themes:',
 
-     'ab_promation_li_1' => '<b>Processing and Value Addition</b>: Creating awareness among small-scale food processors, farmer groups and 
+     'ab_promation_li_1' => '<strong>Processing and Value Addition</strong>: Creating awareness among small-scale food processors, farmer groups and 
      self-help groups regarding the importance of grading and quality certification, and facilitating linkages with various stakeholders',
 
-     'ab_promation_li_2' => '<b>Agro-Ecology</b>: Promoting environmentally sustainable farming and processing practices that increase farmers’ income while enhancing positive environmental impacts, and enabling engagement with relevant stakeholders',
+     'ab_promation_li_2' => '<strong>Agro-Ecology</strong>: Promoting environmentally sustainable farming and processing practices that increase farmers’ income while enhancing positive environmental impacts, and enabling engagement with relevant stakeholders',
 
-     'ab_promation_li_3' => '<b>Branding and Credit Services</b>: Creating awareness among farmers and Farmer Producer Organizations (FPOs) on the importance of branding and output-based credit for expanding market opportunities, and providing practical linkages with reputable credit institutions.',
+     'ab_promation_li_3' => '<strong>Branding and Credit Services</strong>: Creating awareness among farmers and Farmer Producer Organizations (FPOs) on the importance of branding and output-based credit for expanding market opportunities, and providing practical linkages with reputable credit institutions.',
 
     'ab_promation_li_4' => 'The forth coming Trade Fair will be organized at the Tripura vasini Palace Grounds, Bengaluru, on 06, 07 and 08 February 2026 (Friday, Saturday and Sunday), in collaboration with the State Directorate of Secondary Agriculture, Department of Agriculture, KSSC and KAPPEC.',
 

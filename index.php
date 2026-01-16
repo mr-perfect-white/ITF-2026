@@ -307,12 +307,7 @@
                         <p class="brand-text"><?= $MSG['product_exhibition']; ?></p>
                     </div>
                 </div>
-                <div class="swiper-slide1">
-                    <div class="brand-image text-center">
-                        <img src="../ITF/frontend/img/value addition.png" alt="img">
-                        <p class="brand-text"><?= $MSG['value_addition']; ?></p>
-                    </div>
-                </div>
+               
 
                 <div class="swiper-slide1">
                     <div class="brand-image text-center">
@@ -321,6 +316,13 @@
                     </div>
 
                 </div>
+                 <div class="swiper-slide1">
+                    <div class="brand-image text-center">
+                        <img src="../ITF/frontend/img/value addition.png" alt="img">
+                        <p class="brand-text"><?= $MSG['value_addition']; ?></p>
+                    </div>
+                </div>
+
 
                 <div class="swiper-slide1">
                     <div class="brand-image text-center">
@@ -440,7 +442,7 @@
                 <div class="swiper-slide">
                     <div class="service-box-items-4">
                         <div class="thumb">
-                            <img src="../ITF/frontend/img/milletrn.png" alt="img">
+                            <img src="../ITF/frontend/img/agri.png" alt="img">
                         </div>
                         <div class="service-content-area">
                             <div class="icon">
@@ -462,7 +464,7 @@
                 <div class="swiper-slide">
                     <div class="service-box-items-4">
                         <div class="thumb">
-                            <img src="../ITF/frontend/img/Conference.png" alt="img">
+                            <img src="../ITF/frontend/img/internatinal.png" alt="img">
                         </div>
                         <div class="service-content-area">
                             <div class="icon">
@@ -483,7 +485,7 @@
                  <div class="swiper-slide">
                     <div class="service-box-items-4">
                         <div class="thumb">
-                            <img src="../ITF/frontend/img/panel.png" alt="img">
+                            <img src="../ITF/frontend/img/panel1.png" alt="img">
                         </div>
                         <div class="service-content-area">
                             <div class="icon">
@@ -645,7 +647,7 @@
             <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
                 <div class="news-box-items">
                     <div class="news-image">
-                        <img src="frontend/img/culinaryimage.png" alt="img">
+                        <img src="frontend/img/2.png" alt="img">
 
                     </div>
                     <div class="news-content">
@@ -661,7 +663,7 @@
             <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                 <div class="news-box-items">
                     <div class="news-image">
-                        <img src="frontend/img/milletdistrict.png" alt="img">
+                        <img src="frontend/img/5.png" alt="img">
 
                     </div>
                     <div class="news-content text-white">
@@ -675,7 +677,7 @@
             <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
                 <div class="news-box-items">
                     <div class="news-image">
-                        <img src="frontend/img/festivaldisrict.png" alt="img">
+                        <img src="frontend/img/3.png" alt="img">
 
                     </div>
                     <div class="news-content">
