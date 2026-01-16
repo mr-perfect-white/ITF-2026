@@ -159,7 +159,7 @@
     </div>
     <div class="container">
         <div class="page-heading">
-            <ul class="breadcrumb-list wow fadeInUp">
+            <ul class="breadcrumb-list wow fadeInUp tex">
                 <li><?= $MSG['home']; ?></li>
                 <li>//</li>
                 <li><?= $MSG['contact']; ?></li>

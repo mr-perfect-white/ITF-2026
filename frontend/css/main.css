@@ -3160,13 +3160,13 @@ p {
   justify-content: center;
 }
 .breadcrumb-wrapper .page-heading .breadcrumb-list li {
-  font-weight: 500;
-  color: var(--white);
+  font-weight: 800;
+  color: #8b5a2b;
 }
 .breadcrumb-wrapper .page-heading .breadcrumb-title {
   font-size: 62px;
   font-weight: 800;
-  color: var(--white);
+  color:#8b5a2b !important;
 }
 @media (max-width: 767px) {
   .breadcrumb-wrapper .page-heading .breadcrumb-title {
