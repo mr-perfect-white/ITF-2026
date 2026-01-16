@@ -1,5 +1,5 @@
 <?php require_once 'lang/lang.php'; ?>
-<?php require_once 'inc/header.php'; ?>
+<?php require_once 'inc/header_temp.php'; ?>
 
 
 <style>
@@ -871,4 +871,4 @@
 <!-- Footer Section Start -->
 
 
-<?php require_once 'inc/footer.php'; ?>
+<?php require_once 'inc/footer_temp.php'; ?>

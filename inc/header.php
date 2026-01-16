@@ -35,6 +35,10 @@
 
 
 <style>
+
+    .flag-wrap {
+    display: none;
+}
     .mb_btn{
         display:none;
     }
