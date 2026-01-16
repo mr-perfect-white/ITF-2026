@@ -95,12 +95,13 @@ The ensuing <strong>International Trade Fair 2026</strong> will be organized wit
     <strong>Branding and Credit Services:</strong> Creating awareness among farmers and Farmer Producer Organizations (FPOs) on the importance of branding and output-based credit for expanding market opportunities, and providing practical linkages with reputable credit institutions.',
 
 'about_more_content4' => '
+  The Proposed Trade Fair will be organized at the Tripura vasini Palace Grounds, Bengaluru, on 06, 07 and 08 February 2026 (Friday, Saturday and Sunday), in collaboration with the State Directorate of Secondary Agriculture, Department of Agriculture, KSSC and KAPPEC.
     As part of the pre-event activities, all the districts will organize programmes in alignment with the Trade Fair’s themes.
     The list of promotional activities will be finalized, and actions will be initiated to organize press meet, media bytes from Ministers, Celebrities and dignitaries, preparation and launch of  Trade Fair webpage etc.',
 
 'about_more_content5' => '
     During the main event dedicated theme-based pavilions will be established for Processing and Value Addition, Seed Production, Agro-Ecology, and Branding and Credit Services.
-    The Karnataka Pavilion will showcase the State’s finest Farmer Producer Organizations, regional federations, start-ups and farmer groups, featuring unique and innovative processed and value-added products.
+    The Karnataka Pavilion will showcase the State’s finest Farmer Producer Organizations, regional federations, start-ups and farmer groups, featuring unique and innovative processed and value-added products.<br>
    <strong> Overall, the objective of the Trade Fair is to provide an appropriate platform to transform the State’s farmers into entrepreneurs through the promotion of processing and value-addition initiatives.</strong>
 
 
@@ -129,6 +130,12 @@ The ensuing <strong>International Trade Fair 2026</strong> will be organized wit
 'counter3_title' => 'Agro Ecology',
 'counter4_title' => 'Branding &<br>Credits',
 'counter5_title' => 'Food Stalls',
+'pre_events1' => 'Panel Discussion',
+'pre_events2' => 'International Conference',
+'pre_events3' => 'Millet Run',
+'pre_events4' => 'AgriWalk -for Farmers Empowerment',
+'pre_events5' => 'Culinary Competition',
+'pre_events6' => 'District-Level Farmers Festival',
 
 
 
@@ -221,7 +228,7 @@ sector',
     'address' => 'Address',
 
     /* ================= EVENTS ================= */
-    'event_millet_run' => 'Millet Run',
+    'event_millet_run' => 'AgriWalk',
     'event_exhibition' => 'Exhibition',
     'event_conference' => 'International Conference',
     'event_public_registration' => 'Public Registration',
@@ -286,7 +293,7 @@ sector',
                         sector to connect and explore opportunities ain Agri-horticulture, processing, machinery a
                         nd Agri-technology. The Government of Karnataka has been a leader in the promotion of
                         organics and millets with the First Organics and Millets trade fair being held in 2017,
-                        and subsequently the second, third and fourth editions in 2018, 2019 ,2023 ,2024 and 2025 respectively in Bengaluru.',
+                        and subsequently the second, third, fourth, fifth and sixth editions in 2018, 2019 ,2023 ,2024 and 2025 respectively in Bengaluru.',
    'itf_journey_2017_content'=> '2017-National Trade Fair during April 28-30, 2017 at Tripuravasini Palace Grounds, Bengaluru.',
    'itf_journey_2018_content'=> '2018-International Trade Fair during Jan 19-21, 2018 at Tripuravasini Palace Grounds, Bengaluru.',
    'itf_journey_2019_content'=> 'Wendell Berry said it best when he said that “eating is an agricultural act.” Our mission is to change the food system 

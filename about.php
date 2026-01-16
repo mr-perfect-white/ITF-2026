@@ -293,9 +293,9 @@
                     <div class="contact-content">
                         <div class="section-title mb-0">
                             <span class="wow fadeInUp"></span>
-                            <h2 class="text-white">
+                            <!-- <h2 class="text-white">
                                <?= $MSG['agri_title1']; ?>
-                            </h2>
+                            </h2> -->
                         </div>
                         <p class="agri-text">
                             <p><?= $MSG['agri_stats']; ?></p>

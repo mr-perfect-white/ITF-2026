@@ -451,7 +451,7 @@
 
                             </div>
                             <div class="content">
-                                <h4><a href="service-details.html">Agri Walk </a></h4>
+                                <h4><a href="service-details.html"><?= $MSG['pre_events4']; ?></a></h4>
                                 <!-- <p>
                                             Lorem ipsum dolor sit amet, porro quisquam est, qui dolorem ipsum quia dolor sit amet.
                                         </p> -->
@@ -473,7 +473,7 @@
 
                             </div>
                             <div class="content">
-                                <h4><a href="service-details.html">International Conference</a></h4>
+                                <h4><a href="service-details.html"><?= $MSG['pre_events2']; ?></a></h4>
                                 <!-- <p>
                                             Lorem ipsum dolor sit amet, porro quisquam est, qui dolorem ipsum quia dolor sit amet.
                                         </p> -->
@@ -493,7 +493,7 @@
 
                             </div>
                             <div class="content">
-                                <h4><a href="service-details.html">Pannel Discussion </a></h4>
+                                <h4><a href="service-details.html"><?= $MSG['pre_events1']; ?></a></h4>
                                 <!-- <p>
                                             Lorem ipsum dolor sit amet, porro quisquam est, qui dolorem ipsum quia dolor sit amet.
                                         </p> -->
@@ -651,7 +651,7 @@
 
                     </div>
                     <div class="news-content">
-                        <h3><a href="news-details.html" class="text-white">Culinary Competition</a></h3>
+                        <h3><a href="news-details.html" class="text-white"><?= $MSG['pre_events5']; ?></a></h3>
                         <!-- <p class="text-white">
                             Celebration of World Soil Day on 5th December 2024 at Department of
                             Agriculture Bengaluru.
@@ -667,7 +667,7 @@
 
                     </div>
                     <div class="news-content text-white">
-                        <h3><a href="news-details.html" class="text-white">Millet Run</a></h3>
+                        <h3><a href="news-details.html" class="text-white"><?= $MSG['pre_events3']; ?></a></h3>
                         <!-- <p class="text-white"> Participation in ISSF – 2024 on 10-11, November 2024 held at
                             Bhubaneshwar, Odisha.</p> -->
 
@@ -682,7 +682,7 @@
                     </div>
                     <div class="news-content">
 
-                        <h3><a href="news-details.html" class="text-white">District-Level Festival </a></h3>
+                        <h3><a href="news-details.html" class="text-white"><?= $MSG['pre_events6']; ?></a></h3>
                         <!-- <p class="text-white">
                             Organic World Congress held in Taiwan from November 29-December 4th 2024.
                         </p> -->

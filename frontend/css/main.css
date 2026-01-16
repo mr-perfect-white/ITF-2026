@@ -8694,7 +8694,7 @@ p {
   background-size: 125% auto;
   font-size: 95px;
   font-weight: 900;
-  line-height: 1;
+  line-height: 1.5 !important;
   letter-spacing: -9.6px;
   animation-duration: 1500ms;
   -webkit-animation-duration: 1500ms;
