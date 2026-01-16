@@ -215,7 +215,7 @@
 
                             <!-- COLUMN 2 -->
                             <div class="col-lg-6 col-md-6">
-                                <div class="choose-text mb-4 text-white">
+                                <div class="choose-text mb-3 text-white">
 
                                     <p><?= $MSG['about_more_content']; ?></p>
 
