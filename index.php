@@ -49,7 +49,7 @@
                     </div>
                 </div>
             </div>
-            <div class="swiper-slide">
+            <!-- <div class="swiper-slide">
                 <div class="hero-height">
                     <div class="hero-bg bg-cover" style=""><img src="../ITF/frontend/img/ba3.jpeg" width="100%">
                     </div>
@@ -61,7 +61,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <!-- <div class="swiper-slide">
                 <div class="hero-height">
                     <div class="hero-bg bg-cover" style=""><img src="../ITF/frontend/img/006.jpg" width="100%">
@@ -442,7 +442,7 @@
                 <div class="swiper-slide">
                     <div class="service-box-items-4">
                         <div class="thumb">
-                            <img src="../ITF/frontend/img/agri.png" alt="img">
+                            <img src="../ITF/frontend/img/walk.png" alt="img">
                         </div>
                         <div class="service-content-area">
                             <div class="icon">
@@ -451,7 +451,7 @@
 
                             </div>
                             <div class="content">
-                                <h4><a href="service-details.html">AgriRun </a></h4>
+                                <h4><a href="service-details.html">Agri Walk </a></h4>
                                 <!-- <p>
                                             Lorem ipsum dolor sit amet, porro quisquam est, qui dolorem ipsum quia dolor sit amet.
                                         </p> -->
@@ -667,7 +667,7 @@
 
                     </div>
                     <div class="news-content text-white">
-                        <h3><a href="news-details.html" class="text-white"> AgriRun</a></h3>
+                        <h3><a href="news-details.html" class="text-white">Millet Run</a></h3>
                         <!-- <p class="text-white"> Participation in ISSF – 2024 on 10-11, November 2024 held at
                             Bhubaneshwar, Odisha.</p> -->
 
