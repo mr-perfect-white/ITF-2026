@@ -40,6 +40,7 @@
 
       .nice-select.single-select.w-100 {
     display: block !important;
+            z-index: 999;
 }
 .offcanvas__logo {
     margin-left: -23px;
@@ -301,6 +302,21 @@
                     <a href="index.php" class="top-logo">
                          <img class="brand-logo" src="../ITF/frontend/img/logo/english_itf_logo.png" alt="img">
                     </a>
+                    <div>
+                        <form method="post" action="set-language.php">
+                                <select class="single-select w-100" name="lang" onchange="this.form.submit()" style="display: none;">
+
+                                        <option value="en" selected="">
+                                            EN
+                                        </option>
+
+                                        <option value="ka">
+                                            KA
+                                        </option>
+
+                                    </select>
+                                </form>
+                    </div>
                     <!-- <a href="index.php" class="header-logo">
                             <img src="../ITF/frontend/img/logo/black-logo.svg" alt="img">
                         </a> -->
