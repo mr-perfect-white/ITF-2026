@@ -12,6 +12,9 @@
     .section-journey p.wow.fadeInUp{
        color:#fff;
     }
+    .jour_con{
+      text-align: justify !important;
+    }
     
 </style>
 
@@ -27,7 +30,7 @@
                 <div class="section-title text-center">
                     <span class="wow fadeInUp"><img src="../ITF/frontend/img/sub-title.svg" alt="img"> <?= $MSG['our_journey']; ?></span>
                     <h2 class="text-white"><?= $MSG['itf_journey']; ?></h2>
-                    <p class="wow fadeInUp more-cont" data-wow-delay=".2s" >
+                    <p class="wow fadeInUp more-cont  jour_con" data-wow-delay=".2s" >
                       <?= $MSG['itf_journey_para']; ?></p>
                 </div>
                 <div class="service-wrapper">

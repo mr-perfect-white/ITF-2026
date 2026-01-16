@@ -304,8 +304,8 @@ sector',
    'itf_journey_2019_content'=> 'Wendell Berry said it best when he said that “eating is an agricultural act.” Our mission is to change the food system 
                                  by providing a healthy, fresh alternative to industrial food.',
    'itf_journey_2023_content'=> '2023- International trade Fair, Jan 18-20, 2023 at Tripuravasini Palace Grounds, Bengaluru.',
-   'itf_journey_2024_content'=> '2025- International trade Fair, Jan 05-07, 2024 at Tripuravasini Palace Grounds, Bengaluru.',
-   'itf_journey_2025_content'=> '2024- International trade Fair, Jan 05-07, 2024 at Tripuravasini Palace Grounds, Bengaluru.',
+   'itf_journey_2025_content'=> '2025- International trade Fair, Jan 05-07, 2024 at Tripuravasini Palace Grounds, Bengaluru.',
+   'itf_journey_2024_content'=> '2024- International trade Fair, Jan 05-07, 2024 at Tripuravasini Palace Grounds, Bengaluru.',
 
 
 ];

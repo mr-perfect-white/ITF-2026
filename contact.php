@@ -143,6 +143,12 @@
         font-size: 15px;
     }
 }
+
+@media (max-width: 575px) {
+    br {
+        display: block;
+    }
+}
 </style>
 <section class="breadcrumb-wrapper bg-cover fix" style="background-image: url(frontend/img/contactus.jpg);">
     <div class="shape-1 float-bob-y">

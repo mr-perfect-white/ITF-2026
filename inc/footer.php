@@ -1,4 +1,17 @@
 <!-- Footer Section Start -->
+
+<style>
+    @media (max-width: 575px) {
+    .mobile_res{
+        width: 75px !important;
+    }
+    .mobile_loc{
+        width: 165px !important;
+    }
+}
+</style>
+
+
 <footer class="footer-section-5 section-padding section-bg pb-0 pt-5">
     <div class="shape-1 d-none d-xxl-block float-bob-x">
         <img src="frontend/img/home-5/footer/shape-1.png" alt="img">
@@ -107,7 +120,7 @@
                                 </div>
                             </li>
                             <li>
-                                <div class="icon" style="width: 140px;">
+                                <div class="icon mobile_loc" style="width: 140px;">
                                     <i class="fas fa-map-marker-alt"></i>
                                 </div>
                                 <div class="content">
@@ -145,7 +158,7 @@
                                 </div>
                             </li>
                             <li>
-                                <div class="icon" style="width:100px">
+                                <div class="icon  mobile_res" style="width:100px">
                                     <i class="fas fa-map-marker-alt"></i>
                                 </div>
                                 <div class="content">
