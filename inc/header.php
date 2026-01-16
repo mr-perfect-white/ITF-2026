@@ -34,7 +34,41 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
 
+<style>
 
+    @media (max-width: 575px) {
+
+      .nice-select.single-select.w-100 {
+    display: block !important;
+}
+.offcanvas__logo {
+    margin-left: -23px;
+}
+.nice-select:after {
+    border-bottom: 2px solid #6E6E6E;
+    border-right: 2px solid #6E6E6E;
+    content: '';
+    display: block;
+    height: 6px;
+    margin-top: -20px;
+    pointer-events: none;
+    position: absolute;
+    right: 16px;
+    top: 48%;
+    -webkit-transform-origin: 66% 66%;
+    -ms-transform-origin: 66% 66%;
+    transform-origin: 66% 66%;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+    width: 6px;
+}
+   
+}
+  
+</style>
 
 </head>
 
@@ -89,12 +123,31 @@
                             </a>
 
                         </div>
+                        <div class="offcanvas__logo">
+                            
+                                <form method="post" action="set-language.php">
+                                    <select class="single-select w-100" name="lang" onchange="this.form.submit()">
+
+                                        <option value="en" selected="">
+                                            EN
+                                        </option>
+
+                                        <option value="ka">
+                                            KA
+                                        </option>
+
+                                    </select>
+                                </form>
+                            
+                        </div>
+                       
                         <div class="offcanvas__close">
                             <button>
                                 <i class="fas fa-times"></i>
                             </button>
                         </div>
                     </div>
+                    
                     <!-- <h3 class="offcanvas-title">Hello There!</h3> -->
                     <p class="fw-bold" style="font-size: 22px;"> <?= $MSG['footer_title']; ?></p>
                     <div class="mobile-menu fix mt-15"></div>
