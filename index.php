@@ -25,7 +25,7 @@
 
             <div class="swiper-slide">
                 <div class="hero-height">
-                    <div class="hero-bg bg-cover" style=""><img src="../ITF/frontend/img/ban2.jpeg" width="100%">
+                    <div class="hero-bg bg-cover" style=""><img src="../ITF/frontend/img/ba1.jpeg" width="100%">
                     </div>
                     <div class="container">
                         <div class="row">
@@ -38,7 +38,7 @@
             </div>
             <div class="swiper-slide">
                 <div class="hero-height">
-                    <div class="hero-bg bg-cover" style=""><img src="../ITF/frontend/img/ban3.jpeg" width="100%">
+                    <div class="hero-bg bg-cover" style=""><img src="../ITF/frontend/img/ba2.jpeg" width="100%">
                     </div>
                     <div class="container">
                         <div class="row">
@@ -51,7 +51,7 @@
             </div>
             <div class="swiper-slide">
                 <div class="hero-height">
-                    <div class="hero-bg bg-cover" style=""><img src="../ITF/frontend/img/ban4.jpeg" width="100%">
+                    <div class="hero-bg bg-cover" style=""><img src="../ITF/frontend/img/ba3.jpeg" width="100%">
                     </div>
                     <div class="container">
                         <div class="row">

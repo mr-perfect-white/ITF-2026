@@ -3103,6 +3103,7 @@ p {
   position: relative;
   margin: 0 30px;
   border-radius: 8px;
+  height: 472px;
 }
 @media (max-width: 1199px) {
   .breadcrumb-wrapper {

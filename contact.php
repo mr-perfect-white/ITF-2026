@@ -150,7 +150,7 @@
     }
 }
 </style>
-<section class="breadcrumb-wrapper bg-cover fix" style="background-image: url(frontend/img/contactus.jpg);">
+<section class="breadcrumb-wrapper bg-cover fix hero-height" style="background-image: url(frontend/img/commonbanner.jpeg);">
     <div class="shape-1 float-bob-y">
         <img src="frontend/img/inner-page/shape-1.png" alt="img">
     </div>
