@@ -217,10 +217,10 @@
                             <div class="col-lg-6 col-md-6">
                                 <div class="choose-text mb-3 text-white">
 
-                                    <p><?= $MSG['about_more_content']; ?></p>
+                                    <!-- <p><?= $MSG['about_more_content']; ?></p> -->
 
                                     <ul>
-                                        <li><?= $MSG['about_more_content1']; ?></li>
+                                        <!-- <li><?= $MSG['about_more_content1']; ?></li> -->
                                         <li><?= $MSG['about_more_content2']; ?></li>
                                         <li><?= $MSG['about_more_content3']; ?></li>
                                     </ul>
