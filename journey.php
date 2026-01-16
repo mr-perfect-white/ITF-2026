@@ -200,7 +200,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="service-image">
-                                        <img src="../ITF/frontend/img/resize-1767790937880522785songlaunch.jpeg" alt="img">
+                                        <img src="../ITF/frontend/img/day1img.png" alt="img">
                                     </div>
                                 </div>
                             </div>
