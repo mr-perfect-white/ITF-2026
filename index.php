@@ -2,6 +2,7 @@
 <?php require_once 'inc/header.php'; ?>
 
 
+
 <!-- Hero Section Start -->
 <section class="hero-section hero-1 fix">
     <div class="array-button">
@@ -25,7 +26,7 @@
 
             <div class="swiper-slide">
                 <div class="hero-height">
-                    <div class="hero-bg bg-cover" style=""><img src="../ITF/frontend/img/ba1.jpeg" width="100%">
+                    <div class="hero-bg bg-cover" style=""><img src="<?= $MSG['banner_1']; ?>" alt="Banner 1" width="100%">
                     </div>
                     <div class="container">
                         <div class="row">
@@ -38,7 +39,7 @@
             </div>
             <div class="swiper-slide">
                 <div class="hero-height">
-                    <div class="hero-bg bg-cover" style=""><img src="../ITF/frontend/img/ba2.jpeg" width="100%">
+                    <div class="hero-bg bg-cover" style=""><img src="<?= $MSG['banner_2']; ?>" alt="Banner 2" width="100%">
                     </div>
                     <div class="container">
                         <div class="row">
@@ -92,7 +93,11 @@
         </div>
     </div>
 </section>
-
+<div class="announcement-banner">
+    <div class="scrolling-text">
+        📢 Online registrations are open until 2nd February 
+    </div>
+</div>
 <!-- Brand Section Start -->
 <!-- <div class="brand-section-3 mt-5 section-padding pt-0">
     <div class="row align-items-center g-4 justify-content-between">
@@ -232,6 +237,7 @@
                             </div>
 
                         </div>
+                        </div>
 
 
 
@@ -303,7 +309,7 @@
 
                 <div class="swiper-slide1">
                     <div class="brand-image text-center">
-                        <img src="../ITF/frontend/img/resized_6.png" alt="img">
+                        <img src="<?= $MSG['product']; ?>" alt="img">
                         <p class="brand-text"><?= $MSG['product_exhibition']; ?></p>
                     </div>
                 </div>
@@ -311,14 +317,14 @@
 
                 <div class="swiper-slide1">
                     <div class="brand-image text-center">
-                        <img src="../ITF/frontend/img/agro ecologuy.png" alt="img">
+                        <img src="<?= $MSG['agro_ecolog']; ?>" alt="img">
                         <p class="brand-text"><?= $MSG['agro_ecology']; ?></p>
                     </div>
 
                 </div>
                  <div class="swiper-slide1">
                     <div class="brand-image text-center">
-                        <img src="../ITF/frontend/img/value addition.png" alt="img">
+                        <img src="<?= $MSG['value_addition1']; ?>" alt="img">
                         <p class="brand-text"><?= $MSG['value_addition']; ?></p>
                     </div>
                 </div>
@@ -326,25 +332,25 @@
 
                 <div class="swiper-slide1">
                     <div class="brand-image text-center">
-                        <img src="../ITF/frontend/img/branding.png" alt="img">
+                        <img src="<?= $MSG['branding']; ?>" alt="img">
                         <p class="brand-text"><?= $MSG['branding_marketing']; ?></p>
                     </div>
                 </div>
                 <div class="swiper-slide1">
                     <div class="brand-image text-center">
-                        <img src="../ITF/frontend/img/resized_2.png" alt="img">
+                        <img src="<?= $MSG['food']; ?>" alt="img">
                         <p class="brand-text"><?= $MSG['food_court']; ?></p>
                     </div>
                 </div>
                 <div class="swiper-slide1">
                     <div class="brand-image text-center">
-                        <img src="../ITF/frontend/img/resized_1.png" alt="img">
+                        <img src="<?= $MSG['consumer']; ?>" alt="img">
                         <p class="brand-text"><?= $MSG['consumer_connect']; ?></p>
                     </div>
                 </div>
                 <div class="swiper-slide1">
                     <div class="brand-image text-center">
-                        <img src="../ITF/frontend/img/curtural.jpeg" alt="img">
+                        <img src="<?= $MSG['cultural']; ?>" alt="img">
                         <p class="brand-text"><?= $MSG['cultural_events']; ?></p>
                     </div>
                 </div>
@@ -945,6 +951,41 @@ $('.video-popup').magnificPopup({
 });
 </script>
 
+<script>
+var swiper = new Swiper(".brand-slide", {
+    loop: true,
+    spaceBetween: 20,
+
+    speed: 3000,                 
+    autoplay: {
+        delay: 0,                
+        disableOnInteraction: false,
+        pauseOnMouseEnter: false
+    },
+
+    allowTouchMove: true,        
+    freeMode: true,              
+    freeModeMomentum: false,
+
+    breakpoints: {
+        320: {
+            slidesPerView: 1.5,
+            spaceBetween: 15,
+        },
+        576: {
+            slidesPerView: 2.5,
+        },
+        768: {
+            slidesPerView: 3.5,
+            autoplay: false      
+        },
+        992: {
+            slidesPerView: 5,
+            autoplay: false      
+        }
+    }
+});
+</script>
 
 
 

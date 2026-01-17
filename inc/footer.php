@@ -35,7 +35,7 @@
                     <div class="footer-widget-items">
                         <div class="widget-head">
                             <a href="index.html" class="footer-logo">
-                               <img class="brand-logo" src="../ITF/frontend/img/logo/english_itf_logo.png" alt="img">
+                               <img class="brand-logo" src="<?= $MSG['itf_Banner']; ?>" alt="img">
                             </a>
                         </div>
                         <div class="footer-content text-white fw-bold">

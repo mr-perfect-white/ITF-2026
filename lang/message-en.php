@@ -303,4 +303,54 @@ sector',
    'itf_journey_2024_content'=> '2024- International trade Fair, Jan 05-07, 2024 at Tripuravasini Palace Grounds, Bengaluru.',
 
 
+
+   //images
+   
+
+    'itf_Banner' => '../ITF/frontend/img/logo/logofinal.jpeg',
+  
+
+    /* ===== BANNERS ===== */
+    'banner_1' => '../ITF/frontend/img/ba1.jpeg',
+    'banner_2' => '../ITF/frontend/img/ba2.jpeg',
+    'banner_3' => '../ITF/frontend/img/ba3.jpeg',
+
+    /* ===== SECTION IMAGES ===== */
+    'section_006' => '../ITF/frontend/img/sddefault.webp',
+    'section_007' => '../ITF/frontend/img/sddefault1.jpg',
+
+
+   /* ===== AGRI / SERVICES ===== */
+'product'          => '../ITF/frontend/img/resized_6.png',
+'agro_ecolog'    => '../ITF/frontend/img/agro_ecologuy.png',
+'value_addition1'  => '../ITF/frontend/img/value_addition.png',
+'branding'         => '../ITF/frontend/img/branding.png',
+'food'             => '../ITF/frontend/img/resized_2.png',
+'consumer'         => '../ITF/frontend/img/resized_1.png',
+'cultural'         => '../ITF/frontend/img/curtural.jpeg',
+
+
+
+    /* ===== NEWS IMAGES ===== */
+    'news_2' => 'frontend/img/2.png',
+    'news_5' => 'frontend/img/5.png',
+    'news_3' => 'frontend/img/3.png',
+
+    /* ===== SERVICE / EVENTS ===== */
+    'walk'        => '../ITF/frontend/img/walk.png',
+    'international'=> '../ITF/frontend/img/internatinal.png',
+    'panel'       => '../ITF/frontend/img/panel1.png',
+
+
+    /* ===== PARTNERS / LOGOS ===== */
+    'govt_kar' => 'frontend/img/government_karnataka_110x110.jpg',
+    'ksda'     => 'frontend/img/ksda.png',
+    'kappec'   => 'frontend/img/kappec.jpg',
+    'nfsm'     => 'frontend/img/nfsm.png',
+    'giz'      => 'frontend/img/giz.jpeg',
+
+
+
+
+
 ];

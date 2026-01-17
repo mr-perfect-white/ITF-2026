@@ -12,7 +12,7 @@
     <!-- ======== Page title ============ -->
     <title>Agriculture beyond Production-"Empowering farmers"</title>
     <!--<< Favicon >>-->
-    <link rel="shortcut icon" href="../ITF/frontend/img/logo/logoitf.png">
+    <link rel="shortcut icon" href="<?= $MSG['itf_Banner']; ?>">
     <!--<< Bootstrap min.css >>-->
     <link rel="stylesheet" href="../ITF/frontend/css/bootstrap.min.css">
     <!--<< Font Awesome.css >>-->
@@ -34,52 +34,50 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
 
-<style>
-
-    .flag-wrap {
-    display: none;
-}
-    .mb_btn{
-        display:none;
+    <style>
+    .mb_btn {
+        display: none;
     }
 
     @media (max-width: 575px) {
 
-      .nice-select.single-select.w-100 {
-    display: block !important;
+        .nice-select.single-select.w-100 {
+            display: block !important;
             z-index: 999;
-}
- .mb_btn{
-        display:block !important;
+        }
+
+        .mb_btn {
+            display: block !important;
+        }
+
+        .offcanvas__logo {
+            margin-left: -23px;
+        }
+
+        .nice-select:after {
+            border-bottom: 2px solid #6E6E6E;
+            border-right: 2px solid #6E6E6E;
+            content: '';
+            display: block;
+            height: 6px;
+            margin-top: -20px;
+            pointer-events: none;
+            position: absolute;
+            right: 16px;
+            top: 48%;
+            -webkit-transform-origin: 66% 66%;
+            -ms-transform-origin: 66% 66%;
+            transform-origin: 66% 66%;
+            -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+            -webkit-transition: all 0.15s ease-in-out;
+            transition: all 0.15s ease-in-out;
+            width: 6px;
+        }
+
     }
-.offcanvas__logo {
-    margin-left: -23px;
-}
-.nice-select:after {
-    border-bottom: 2px solid #6E6E6E;
-    border-right: 2px solid #6E6E6E;
-    content: '';
-    display: block;
-    height: 6px;
-    margin-top: -20px;
-    pointer-events: none;
-    position: absolute;
-    right: 16px;
-    top: 48%;
-    -webkit-transform-origin: 66% 66%;
-    -ms-transform-origin: 66% 66%;
-    transform-origin: 66% 66%;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-    -webkit-transition: all 0.15s ease-in-out;
-    transition: all 0.15s ease-in-out;
-    width: 6px;
-}
-   
-}
-  
-</style>
+    </style>
 
 </head>
 
@@ -129,36 +127,44 @@
                     <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                         <div class="offcanvas__logo">
                             <a href="index.php">
-                                <img class="brand-logo" src="../ITF/frontend/img/logo/english_itf_logo.png"
-                                    alt="img" style="width: 200px;">
+                                <img class="brand-logo" src="<?= $MSG['itf_Banner']; ?>" alt="img"
+                                    style="width: 200px;">
                             </a>
 
                         </div>
                         <div class="offcanvas__logo   mb_btn">
-                            
-                                <form method="post" action="set-language.php">
-                                    <select class="single-select w-100" name="lang" onchange="this.form.submit()">
 
-                                        <option value="en" selected="">
-                                            EN
-                                        </option>
+                            <!-- <form method="post" action="set-language.php">
+    <?php
+    $currentLang = $_SESSION['lang'] ?? 'en';
 
-                                        <option value="ka">
-                                            KA
-                                        </option>
+    if ($currentLang === 'en') {
+        $nextLang = 'ka';
+        $btnText  = 'ಕನ್ನಡ';
+    } else {
+        $nextLang = 'en';
+        $btnText  = 'English';
+    }
+    ?>
 
-                                    </select>
-                                </form>
-                            
+    <button type="submit"
+            name="lang"
+            value="<?= $nextLang ?>"
+            class="lang-btn">
+        <?= $btnText ?>
+    </button>
+</form> -->
+
+
                         </div>
-                       
+
                         <div class="offcanvas__close">
                             <button>
                                 <i class="fas fa-times"></i>
                             </button>
                         </div>
                     </div>
-                    
+
                     <!-- <h3 class="offcanvas-title">Hello There!</h3> -->
                     <p class="fw-bold" style="font-size: 22px;"> <?= $MSG['footer_title']; ?></p>
                     <div class="mobile-menu fix mt-15"></div>
@@ -260,27 +266,32 @@
 
                 <div class="head-right">
                     <div class="flag-wrap">
-                        <div class="flag">
-                            <!-- <img src="../ITF/frontend/img/flag.png" alt="flag"> -->
-                        </div>
-                        <!-- <select class="single-select w-100">
-                            <option>EN</option>
-                            <option>KA</option>
 
-                        </select> -->
-                        <form method="post" action="set-language.php">
-                            <select class="single-select w-100" name="lang" onchange="this.form.submit()">
+                        <!-- <select class="single-select w-100">-->
+                        <!--    <option>EN</option>-->
+                        <!--    <option>KA</option>-->
 
-                                <option value="en" <?= ($_SESSION['lang'] ?? 'en') == 'en' ? 'selected' : '' ?>>
-                                    EN
-                                </option>
-
-                                <option value="ka" <?= ($_SESSION['lang'] ?? '') == 'ka' ? 'selected' : '' ?>>
-                                    KA
-                                </option>
-
-                            </select>
+                        <!--</select>-->
+                        <form method="post" action="set-language.php" class="lang-form">
+                            <?php
+    // Current language from session
+    $currentLang = $_SESSION['lang'] ?? 'en';
+    
+    // Determine which language to switch to
+    if ($currentLang == 'en') {
+        $toggleLang = 'ka';
+        $buttonText = 'ಕನ್ನಡ'; // Kannada text
+    } else {
+        $toggleLang = 'en';
+        $buttonText = 'English'; // English text
+    }
+    ?>
+                            <button type="submit" name="lang" value="<?= $toggleLang ?>" class="lang-toggle-btn">
+                                <?= $buttonText ?>
+                            </button>
                         </form>
+
+
                     </div>
                     <div class="line-shape"></div>
                     <div class="social-icon">
@@ -305,30 +316,48 @@
         </div>
     </div>
 
-    
+
     <!-- Header Section Start -->
     <header id="header-sticky" class="header-1">
         <div class="container">
             <div class="mega-menu-wrapper">
                 <div class="header-main">
                     <a href="index.php" class="top-logo">
-                         <img class="brand-logo" src="../ITF/frontend/img/logo/english_itf_logo.png" alt="img">
+                        <img class="brand-logo" src="<?= $MSG['itf_Banner']; ?>" alt="img">
                     </a>
-                    <div>
-                        <form method="post" class="mb_btn" action="set-language.php">
-                                <select class="single-select w-100" name="lang" onchange="this.form.submit()" style="display: none;">
 
-                                        <option value="en" selected="">
-                                            EN
-                                        </option>
+                    <form method="post" action="set-language.php" class="lang-sticky-btn">
+                        <?php
+    $currentLang = $_SESSION['lang'] ?? 'en';
 
-                                        <option value="ka">
-                                            KA
-                                        </option>
+    if ($currentLang === 'en') {
+        $nextLang = 'ka';
+        $btnText  = 'ಕನ್ನಡ';
+    } else {
+        $nextLang = 'en';
+        $btnText  = 'English';
+    }
+    ?>
+                        <button type="submit" name="lang" value="<?= $nextLang ?>">
+                            <?= $btnText ?>
+                        </button>
+                    </form>
 
-                                    </select>
-                                </form>
-                    </div>
+                    <!--<div>-->
+                    <!--    <form method="post" class="mb_btn" action="set-language.php">-->
+                    <!--            <select class="single-select w-100" name="lang" onchange="this.form.submit()" style="display: none;">-->
+
+                    <!--                    <option value="en" selected="">-->
+                    <!--                        EN-->
+                    <!--                    </option>-->
+
+                    <!--                    <option value="ka">-->
+                    <!--                        KA-->
+                    <!--                    </option>-->
+
+                    <!--                </select>-->
+                    <!--            </form>-->
+                    <!--</div>-->
                     <!-- <a href="index.php" class="header-logo">
                             <img src="../ITF/frontend/img/logo/black-logo.svg" alt="img">
                         </a> -->
@@ -402,24 +431,25 @@
                                             <!-- <li>
                                                     <a href="#">B2B Seller Registration</a>
                                                 </li> -->
-                                            <li>
-                                                <a href="#"><?= $MSG['milletrunregistration']; ?></a>
-                                            </li>
+                                            <!--<li>-->
+                                            <!--    <a href="#"><?= $MSG['milletrunregistration']; ?></a>-->
+                                            <!--</li>-->
                                             <!-- <li>
                                                     <a href="#">Farmer Workshop Registration</a>
                                                 </li> -->
+                                            <!--<li>-->
+                                            <!--    <a href="#"><?= $MSG['publicregistration']; ?></a></a>-->
+                                            <!--</li>-->
                                             <li>
-                                                <a href="#"><?= $MSG['publicregistration']; ?></a></a>
+                                                <a
+                                                    href="https://itf2026.organics-millets.in/Exhibitionform.php"><?= $MSG['exhibitionstallbooking']; ?></a></a>
                                             </li>
-                                            <li>
-                                                <a href="#"><?= $MSG['exhibitionstallbooking']; ?></a></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><?= $MSG['internationalconference']; ?></a></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><?= $MSG['paidfoodstallbooking']; ?></a></a>
-                                            </li>
+                                            <!--<li>-->
+                                            <!--    <a href="#"><?= $MSG['internationalconference']; ?></a></a>-->
+                                            <!--</li>-->
+                                            <!--<li>-->
+                                            <!--    <a href="#"><?= $MSG['paidfoodstallbooking']; ?></a></a>-->
+                                            <!--</li>-->
                                         </ul>
                                     </li>
 

@@ -316,4 +316,54 @@ return [
   'itf_journey_2025_content' => '೨೦೨೫ – ಜನವರಿ 0೫ ರಿಂದ 0೭, ೨೦೨೫ರ ಅವಧಿಯಲ್ಲಿ ಬೆಂಗಳೂರು ತ್ರಿಪುರವಾಸಿನಿ ಅರಮನೆ ಮೈದಾನದಲ್ಲಿ ನಡೆದ ಅಂತಾರಾಷ್ಟ್ರೀಯ ವಾಣಿಜ್ಯ  ಮೇಳ.',
     
 
+
+  //images
+
+
+      'itf_Banner' => '../ITF/frontend/img/logo/logofinal_KA.jpeg',
+
+
+
+    /* ===== BANNERS ===== */
+    'banner_1' => '../ITF/frontend/img/ba1_KA.jpeg',
+    'banner_2' => '../ITF/frontend/img/ba2_KA.jpeg',
+    'banner_3' => '../ITF/frontend/img/ba3_KA.jpeg',
+
+    /* ===== SECTION IMAGES ===== */
+    'section_006' => '../ITF/frontend/img/sddefault_KA.webp',
+    'section_007' => '../ITF/frontend/img/sddefault1_KA.jpg',
+
+   /* ===== AGRI / SERVICES ===== */
+'product'          => '../ITF/frontend/img/resized_6_KA.png',
+'agro_ecolog'    => '../ITF/frontend/img/agro_ecologuy_KA.png',
+'value_addition1'  => '../ITF/frontend/img/value_addition_KA.png',
+'branding'         => '../ITF/frontend/img/branding_KA.png',
+'food'             => '../ITF/frontend/img/resized_2_KA.png',
+'consumer'         => '../ITF/frontend/img/resized_1_KA.png',
+'cultural'         => '../ITF/frontend/img/curtural_KA.jpeg',
+
+
+
+    /* ===== NEWS IMAGES ===== */
+    'news_2' => 'frontend/img/2_KA.png',
+    'news_5' => 'frontend/img/5_KA.png',
+    'news_3' => 'frontend/img/3_KA.png',
+
+    /* ===== SERVICE / EVENTS ===== */
+    'walk'        => '../ITF/frontend/img/walk_KA.png',
+    'international'=> '../ITF/frontend/img/internatinal_KA.png',
+    'panel'       => '../ITF/frontend/img/panel1_KA.png',
+
+
+
+    /* ===== PARTNERS / LOGOS ===== */
+    'govt_kar' => 'frontend/img/government_karnataka_110x110_KA.jpg',
+    'ksda'     => 'frontend/img/ksda_KA.png',
+    'kappec'   => 'frontend/img/kappec_KA.jpg',
+    'nfsm'     => 'frontend/img/nfsm_KA.png',
+    'giz'      => 'frontend/img/giz_KA.jpeg',
+
+
+
+
 ];
