@@ -1,9 +1,7 @@
 <?php require_once 'lang/lang.php'; ?>
 <?php require_once 'inc/header.php'; ?>
 <style>
-    .breadcrumb-wrapper::before {
-        background: none;
-    }
+  
 
     .shapes-row {
         display: flex;
@@ -161,7 +159,7 @@
 
 </style>
 <!-- Breadcrumb Section Start -->
-<section class="breadcrumb-wrapper bg-cover fix hero-height" style="background-image: url(frontend/img/commonbanner.jpeg);">
+<section class="breadcrumb-wrapper bg-cover fix hero-height" style="background-image: url(<?= $MSG['common_banner']; ?>);">
     <div class="shape-1 float-bob-y">
         <img src="frontend/img/inner-page/shape-1.png" alt="img">
     </div>
@@ -171,11 +169,11 @@
     <div class="container">
         <div class="page-heading">
             <ul class="breadcrumb-list wow fadeInUp" style="color: black !important;">
-                <li>Home</li>
+                <li><?= $MSG['home']; ?></li>
                 <li>//</li>
-                <li>About Us</li>
+                <li><?= $MSG['about-itf']; ?></li>
             </ul>
-            <h1 class="breadcrumb-title text-anim">About Us</h1>
+            <h1 class="breadcrumb-title "><?= $MSG['about-itf']; ?></h1>
         </div>
     </div>
 </section>

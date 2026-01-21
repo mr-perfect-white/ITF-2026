@@ -1,9 +1,7 @@
 <?php require_once 'lang/lang.php'; ?>
 <?php require_once 'inc/header.php'; ?>
 <style>
-.breadcrumb-wrapper::before {
-    background: none;
-}
+
 
 .contact-officers-section {
     background: #8b5a2b;
@@ -150,7 +148,7 @@
     }
 }
 </style>
-<section class="breadcrumb-wrapper bg-cover fix hero-height" style="background-image: url(frontend/img/commonbanner.jpeg);">
+<section class="breadcrumb-wrapper bg-cover fix hero-height" style="background-image: url(<?= $MSG['common_banner']; ?>);">
     <div class="shape-1 float-bob-y">
         <img src="frontend/img/inner-page/shape-1.png" alt="img">
     </div>

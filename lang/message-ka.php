@@ -155,6 +155,7 @@ return [
 'pre_events4'=> 'ಕೃಷಿನಡಿಗೆ – ರೈತರ ಸಶಕ್ತಿಕರಣಕ್ಕಾಗಿ  ',
 'pre_events5'=> 'ಪಾಕ ಸ್ಪರ್ಧೆ  ',
 'pre_events6'=> ' ರೈತರ ಹಬ್ಬ',
+'pre_event'=> ' ರೈತರ ಹಬ್ಬ',
 
 
 
@@ -325,22 +326,18 @@ return [
 
 
     /* ===== BANNERS ===== */
-    'banner_1' => '../ITF/frontend/img/ba1_KA.jpeg',
-    'banner_2' => '../ITF/frontend/img/ba2_KA.jpeg',
-    'banner_3' => '../ITF/frontend/img/ba3_KA.jpeg',
-
-    /* ===== SECTION IMAGES ===== */
-    'section_006' => '../ITF/frontend/img/sddefault_KA.webp',
-    'section_007' => '../ITF/frontend/img/sddefault1_KA.jpg',
-
+    'banner_1' => '../ITF/frontend/img/ba1_KA.png',
+    'banner_2' => '../ITF/frontend/img/ba2_KA.png',
+    'banner_3' => '../ITF/frontend/img/ba3.jpeg',
+    'common_banner'=>'frontend/img/commonbanner_KA.png',
    /* ===== AGRI / SERVICES ===== */
-'product'          => '../ITF/frontend/img/resized_6_KA.png',
-'agro_ecolog'    => '../ITF/frontend/img/agro_ecologuy_KA.png',
-'value_addition1'  => '../ITF/frontend/img/value_addition_KA.png',
-'branding'         => '../ITF/frontend/img/branding_KA.png',
-'food'             => '../ITF/frontend/img/resized_2_KA.png',
-'consumer'         => '../ITF/frontend/img/resized_1_KA.png',
-'cultural'         => '../ITF/frontend/img/curtural_KA.jpeg',
+'product'          => '../ITF/frontend/img/resized_6.png',
+'agro_ecolog'    => '../ITF/frontend/img/agro_ecologuy.png',
+'value_addition1'  => '../ITF/frontend/img/value_addition.png',
+'branding'         => '../ITF/frontend/img/branding.png',
+'food'             => '../ITF/frontend/img/resized_2.png',
+'consumer'         => '../ITF/frontend/img/resized_1.png',
+'cultural'         => '../ITF/frontend/img/curtural.jpeg',
 
 
 
@@ -356,12 +353,53 @@ return [
 
 
 
-    /* ===== PARTNERS / LOGOS ===== */
-    'govt_kar' => 'frontend/img/government_karnataka_110x110_KA.jpg',
-    'ksda'     => 'frontend/img/ksda_KA.png',
-    'kappec'   => 'frontend/img/kappec_KA.jpg',
-    'nfsm'     => 'frontend/img/nfsm_KA.png',
-    'giz'      => 'frontend/img/giz_KA.jpeg',
+
+   
+
+    /* ===== PARTNER / LOGOS (KANNADA) ===== */
+    'logo_primary'    => 'frontend/img/p-logo-2.jpeg',
+    'logo_govt_kar'   => 'frontend/img/government_karnataka_110x110.jpg',
+    'logo_ksda'       => 'frontend/img/ksda.png',
+    'logo_secondary' => 'frontend/img/secondary.jpeg',
+    'logo_kssc'       => 'frontend/img/kssc1.png',
+    'logo_kappec'     => 'frontend/img/kappec.jpg',
+    'logo_nfsm'       => 'frontend/img/nfsm.png',
+    'logo_giz'        => 'frontend/img/giz.jpeg',
+
+
+
+    'bagalkote' => "ಬಾಗಲಕೋಟೆ",
+    'ballari' => "ಬಳ್ಳಾರಿ",
+    'belagavi' => "ಬೆಳಗಾವಿ",
+    'bengaluru_south' => "ಬೆಂಗಳೂರು ಗ್ರಾಮಾಂತರ",
+    'bengaluru_urban' => "ಬೆಂಗಳೂರು ನಗರ",
+    'bidar' => "ಬೀದರ್",
+    'chamarajanagar' => "ಚಾಮರಾಜನಗರ",
+    'chikkaballapura' => "ಚಿಕ್ಕಬಳ್ಳಾಪುರ",
+    'chikkamagaluru' => "ಚಿಕ್ಕಮಗಳೂರು",
+    'chitradurga' => "ಚಿತ್ರದುರ್ಗ",
+    'dakshina_kannada' => "ದಕ್ಷಿಣ ಕನ್ನಡ",
+    'davanagere' => "ದಾವಣಗೆರೆ",
+    'dharwad' => "ಧಾರವಾಡ",
+    'gadag' => "ಗದಗ",
+    'hassan' => "ಹಾಸನ",
+    'haveri' => "ಹಾವೇರಿ",
+    'kalaburagi' => "ಕಲಬುರಗಿ",
+    'kodagu' => "ಕೊಡಗು",
+    'kolar' => "ಕೋಲಾರ",
+    'koppal' => "ಕೊಪ್ಪಳ",
+    'mandya' => "ಮಂಡ್ಯ",
+    'mysuru' => "ಮೈಸೂರು",
+    'raichur' => "ರಾಯಚೂರು",
+    'ramanagara' => "ರಾಮನಗರ",
+    'shivamogga' => "ಶಿವಮೊಗ್ಗ",
+    'tumakuru' => "ತುಮಕೂರು",
+    'udupi' => "ಉಡುಪಿ",
+    'uttara_kannada' => "ಉತ್ತರ ಕನ್ನಡ",
+    'vijayapura' => "ವಿಜಯಪುರ",
+    'yadgir' => "ಯಾದಗಿರಿ"
+
+
 
 
 

@@ -15985,3 +15985,63 @@ p.sticky-label {
     align-items: center;
     gap: 6px;
 }
+
+/* MOBILE SCROLL */
+.brand-scroll {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.brand-track {
+    display: flex;
+    gap: 15px;
+    width: max-content;
+    padding-bottom: 10px;
+}
+
+.brand-item {
+    min-width: 70%;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+/* MOBILE SCROLLBAR */
+.brand-scroll::-webkit-scrollbar {
+    height: 6px;
+}
+.brand-scroll::-webkit-scrollbar-thumb {
+    background: #666;
+    border-radius: 10px;
+}
+
+/* DESKTOP SLIDE */
+.swiper-slide {
+    text-align: center;
+}
+
+/* Default (desktop): vertical list */
+.district-scroll .list-group {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Small screens: horizontal scroll */
+@media (max-width: 768px) {
+    .district-scroll {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .district-scroll .list-group {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 10px;
+        padding-bottom: 10px;
+    }
+
+    .district-scroll .tab-btn {
+        white-space: nowrap;
+        flex: 0 0 auto;
+        margin-bottom: 0 !important;
+    }
+}
