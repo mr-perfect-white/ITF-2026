@@ -4,7 +4,7 @@
 <!-- About Section Start -->
 <style>
     .section-journey{
-        background-color:#8b5a2b;
+        background-color:#b33a31;
         margin-top:15px !important;
     }
     .section-journey .section-title span,

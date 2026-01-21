@@ -1,97 +1,118 @@
 <?php require_once 'lang/lang.php'; ?>
 <?php require_once 'inc/header.php'; ?>
 
+<style>
+   .array-prev,
+.array-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.4);
+    border: none;
+    padding: 12px 16px;
+    cursor: pointer;
+    z-index: 10;
+    border-radius: 50px;
+    color: brown; 
+}
 
+.array-prev {
+    left: 30px;
+}
+
+.array-next {
+    right: 30px;
+}
+
+.array-prev:hover,
+.array-next:hover {
+    background: rgba(0,0,0,0.7);
+}
+
+.array-prev svg,
+.array-next svg {
+    display: block;
+    width: 30px;
+    height: 30px;
+    fill: currentColor;
+}
+
+
+@media (max-width: 768px) {
+    .array-prev,
+    .array-next {
+       background: rgba(0,0,0,0.4);          
+        padding: 6px;              
+        border-radius: 0;
+        color: brown;   
+         border-radius: 50px;            
+    }
+
+    .array-prev {
+        left: 10px;
+    }
+
+    .array-next {
+        right: 10px;
+    }
+
+    .array-prev svg,
+    .array-next svg {
+        width: 25px;
+        height: 20px;
+    }
+
+    .array-prev:hover,
+    .array-next:hover {
+        background: none;
+    }
+}
+
+
+</style>
 
 <!-- Hero Section Start -->
 <section class="hero-section hero-1 fix">
-    <div class="array-button">
-        <button class="array-prev">
-            <svg width="55" height="28" viewBox="0 0 55 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                    d="M0.363503 12.9368L12.8632 0.436946C13.3122 -0.087371 14.1013 -0.148493 14.6257 0.30063C15.15 0.749646 15.2111 1.53875 14.762 2.06307C14.7201 2.11195 14.6745 2.1576 14.6257 2.19939L4.26339 12.5742H53.7501C54.4403 12.5742 55 13.1339 55 13.8243C55 14.5147 54.4403 15.0742 53.7501 15.0742H4.26339L14.6257 25.4365C15.15 25.8855 15.2111 26.6746 14.762 27.1989C14.3129 27.7232 13.5238 27.7844 12.9995 27.3352C12.9507 27.2933 12.905 27.2478 12.8632 27.1989L0.363396 14.6991C-0.121178 14.2117 -0.121174 13.4243 0.363503 12.9368Z"
-                    fill="white" />
-            </svg>
-        </button>
-        <button class="array-next">
-            <svg width="55" height="28" viewBox="0 0 55 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                    d="M54.6365 12.9368L42.1368 0.436946C41.6878 -0.087371 40.8987 -0.148493 40.3743 0.30063C39.85 0.749646 39.7889 1.53875 40.238 2.06307C40.2799 2.11195 40.3255 2.1576 40.3743 2.19939L50.7366 12.5742H1.24994C0.559658 12.5742 0 13.1339 0 13.8243C0 14.5147 0.559658 15.0742 1.24994 15.0742H50.7366L40.3743 25.4365C39.85 25.8855 39.7889 26.6746 40.238 27.1989C40.6871 27.7232 41.4762 27.7844 42.0005 27.3352C42.0493 27.2933 42.095 27.2478 42.1368 27.1989L54.6366 14.6991C55.1212 14.2117 55.1212 13.4243 54.6365 12.9368Z"
-                    fill="white" />
-            </svg>
-        </button>
+   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+      class="active"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+  </div>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="<?= $MSG['banner_1']; ?>" class="d-block w-100" alt="">
     </div>
-    <div class="swiper banner-active">
-        <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-                <div class="hero-height">
-                    <div class="hero-bg bg-cover" style=""><img src="<?= $MSG['banner_1']; ?>" alt="Banner 1" width="100%">
-                    </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-12">
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="hero-height">
-                    <div class="hero-bg bg-cover" style=""><img src="<?= $MSG['banner_2']; ?>" alt="Banner 2" width="100%">
-                    </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-12">
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- <div class="swiper-slide">
-                <div class="hero-height">
-                    <div class="hero-bg bg-cover" style=""><img src="../ITF/frontend/img/ba3.jpeg" width="100%">
-                    </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-            <!-- <div class="swiper-slide">
-                <div class="hero-height">
-                    <div class="hero-bg bg-cover" style=""><img src="../ITF/frontend/img/006.jpg" width="100%">
-                    </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-            <!-- <div class="swiper-slide">
-                <div class="hero-height">
-                    <div class="hero-bg bg-cover" style=""><img src="../ITF/frontend/img/007.jpg" width="100%">
-                    </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-
-        </div>
+    <div class="carousel-item">
+      <img src="<?= $MSG['banner_2']; ?>" class="d-block w-100" alt="">
     </div>
+  </div>
+
+  <!-- PREV BUTTON -->
+  <button class="array-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+    <svg width="55" height="28" viewBox="0 0 55 28">
+      <path d="M0.36 12.93L12.86 0.43C13.31-0.08 14.1-0.14 14.62 0.3C15.15 0.75 15.21 1.53 14.76 2.06L4.26 12.57H53.75C54.44 12.57 55 13.13 55 13.82C55 14.51 54.44 15.07 53.75 15.07H4.26L14.62 25.43C15.15 25.88 15.21 26.67 14.76 27.19C14.31 27.72 13.52 27.78 13 27.33L0.36 14.69C-0.12 14.21 -0.12 13.42 0.36 12.93Z"
+            fill="white"/>
+    </svg>
+  </button>
+
+  <!-- NEXT BUTTON -->
+  <button class="array-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+    <svg width="55" height="28" viewBox="0 0 55 28">
+      <path d="M54.63 12.93L42.13 0.43C41.68-0.08 40.89-0.14 40.37 0.3C39.85 0.75 39.78 1.53 40.23 2.06L50.73 12.57H1.24C0.55 12.57 0 13.13 0 13.82C0 14.51 0.55 15.07 1.24 15.07H50.73L40.37 25.43C39.85 25.88 39.78 26.67 40.23 27.19C40.68 27.72 41.47 27.78 42 27.33L54.63 14.69C55.12 14.21 55.12 13.42 54.63 12.93Z"
+            fill="white"/>
+    </svg>
+  </button>
+
+</div>
 </section>
 <div class="announcement-banner">
     <div class="scrolling-text">
@@ -161,7 +182,7 @@
                 <!-- VIDEO 2 -->
                 <div class="col-lg-4 col-md-4">
                     <div class="video-wrapper-3 bg-cover equal-box"
-                        style="background-image: url('../ITF/frontend/img/sddefault1.jpg');">
+                        style="background-image: url('../ITF/frontend/img/sddefault1.png');">
                         <a href="https://www.youtube.com/watch?v=4C4_AlC0OR0" class="video-btn video-popup">
                             <i class="fas fa-play"></i>
                         </a>
@@ -448,7 +469,7 @@
                 <div class="swiper-slide">
                     <div class="service-box-items-4">
                         <div class="thumb">
-                            <img src="../ITF/frontend/img/walk.png" alt="img">
+                            <img src="<?= $MSG['walk']; ?>" alt="img">
                         </div>
                         <div class="service-content-area">
                             <div class="icon">
@@ -457,7 +478,7 @@
 
                             </div>
                             <div class="content">
-                                <h4><a href="service-details.html"><?= $MSG['pre_events4']; ?></a></h4>
+                                <h4><a href="https://itf2026.organics-millets.in/smartrun.php"><?= $MSG['pre_events4']; ?></a></h4>
                                 <!-- <p>
                                             Lorem ipsum dolor sit amet, porro quisquam est, qui dolorem ipsum quia dolor sit amet.
                                         </p> -->
@@ -470,7 +491,7 @@
                 <div class="swiper-slide">
                     <div class="service-box-items-4">
                         <div class="thumb">
-                            <img src="../ITF/frontend/img/internatinal.png" alt="img">
+                            <img src="<?= $MSG['international']; ?>" alt="img">
                         </div>
                         <div class="service-content-area">
                             <div class="icon">
@@ -479,7 +500,7 @@
 
                             </div>
                             <div class="content">
-                                <h4><a href="service-details.html"><?= $MSG['pre_events2']; ?></a></h4>
+                                <h4><a href="https://itf2026.organics-millets.in/smartrun.php"><?= $MSG['pre_events2']; ?></a></h4>
                                 <!-- <p>
                                             Lorem ipsum dolor sit amet, porro quisquam est, qui dolorem ipsum quia dolor sit amet.
                                         </p> -->
@@ -491,7 +512,7 @@
                  <div class="swiper-slide">
                     <div class="service-box-items-4">
                         <div class="thumb">
-                            <img src="../ITF/frontend/img/panel1.png" alt="img">
+                            <img src="<?= $MSG['panel']; ?>" alt="img">
                         </div>
                         <div class="service-content-area">
                             <div class="icon">
@@ -499,7 +520,7 @@
 
                             </div>
                             <div class="content">
-                                <h4><a href="service-details.html"><?= $MSG['pre_events1']; ?></a></h4>
+                                <h4><a href="https://itf2026.organics-millets.in/smartrun.php"><?= $MSG['pre_events1']; ?></a></h4>
                                 <!-- <p>
                                             Lorem ipsum dolor sit amet, porro quisquam est, qui dolorem ipsum quia dolor sit amet.
                                         </p> -->
@@ -653,11 +674,11 @@
             <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
                 <div class="news-box-items">
                     <div class="news-image">
-                        <img src="frontend/img/2.png" alt="img">
+                        <img src="<?= $MSG['news_2']; ?>" alt="img">
 
                     </div>
                     <div class="news-content">
-                        <h3><a href="news-details.html" class="text-white"><?= $MSG['pre_events5']; ?></a></h3>
+                        <h3><a href="culinarycompetition.php" class="text-white"><?= $MSG['pre_events5']; ?></a></h3>
                         <!-- <p class="text-white">
                             Celebration of World Soil Day on 5th December 2024 at Department of
                             Agriculture Bengaluru.
@@ -669,11 +690,11 @@
             <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                 <div class="news-box-items">
                     <div class="news-image">
-                        <img src="frontend/img/5.png" alt="img">
+                        <img src="<?= $MSG['news_5']; ?>" alt="img">
 
                     </div>
                     <div class="news-content text-white">
-                        <h3><a href="news-details.html" class="text-white"><?= $MSG['pre_events3']; ?></a></h3>
+                        <h3><a href="milletrun.php" class="text-white"><?= $MSG['pre_events3']; ?></a></h3>
                         <!-- <p class="text-white"> Participation in ISSF – 2024 on 10-11, November 2024 held at
                             Bhubaneshwar, Odisha.</p> -->
 
@@ -683,12 +704,12 @@
             <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
                 <div class="news-box-items">
                     <div class="news-image">
-                        <img src="frontend/img/3.png" alt="img">
+                        <img src="<?= $MSG['news_3']; ?>" alt="img">
 
                     </div>
                     <div class="news-content">
 
-                        <h3><a href="news-details.html" class="text-white"><?= $MSG['pre_events6']; ?></a></h3>
+                        <h3><a href="districtlevelfarmersfestival.php" class="text-white"><?= $MSG['pre_events6']; ?></a></h3>
                         <!-- <p class="text-white">
                             Organic World Congress held in Taiwan from November 29-December 4th 2024.
                         </p> -->
@@ -878,42 +899,42 @@
                 <div class="swiper-wrapper">
                      <div class="swiper-slide">
                         <div class="brand-image text-center">
-                            <img src="frontend/img/p-logo-2.jpeg" alt="img">
+                            <img src="<?= $MSG['logo_primary']; ?>" alt="img">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brand-image text-center">
-                            <img src="frontend/img/government_karnataka_110x110.jpg" alt="img">
+                            <img src="<?= $MSG['logo_govt_kar']; ?>" alt="img">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brand-image text-center">
-                            <img src="frontend/img/ksda.png" alt="img">
+                            <img src="<?= $MSG['logo_ksda']; ?>" alt="img">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brand-image text-center">
-                            <img src="frontend/img/secondary.jpeg" alt="img">
+                            <img src="<?= $MSG['logo_secondary']; ?>" alt="img">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brand-image text-center">
-                            <img src="frontend/img/kssc1.png" alt="img">
+                            <img src="<?= $MSG['logo_kssc']; ?>" alt="img">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brand-image text-center">
-                            <img src="frontend/img/kappec.jpg" alt="img">
+                            <img src="<?= $MSG['logo_kappec']; ?>" alt="img">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brand-image text-center">
-                            <img src="frontend/img/nfsm.png" alt="img">
+                            <img src="<?= $MSG['logo_nfsm']; ?>" alt="img">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brand-image text-center">
-                            <img src="frontend/img/giz.jpeg" alt="img">
+                            <img src="<?= $MSG['logo_giz']; ?>" alt="img">
                         </div>
                     </div>
                    

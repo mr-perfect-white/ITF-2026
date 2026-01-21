@@ -372,7 +372,7 @@
                                         </a>
                                     </li>
                                     <li class="has-dropdown active d-xl-none">
-                                        <a href="home.php" class="border-none">
+                                        <a href="index.php" class="border-none">
                                             <?= $MSG['home']; ?>
                                         </a>
                                     </li>

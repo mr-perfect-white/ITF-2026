@@ -136,6 +136,11 @@ The ensuing <strong>International Trade Fair 2026</strong> will be organized wit
 'pre_events4' => 'AgriWalk -for Farmers Empowerment',
 'pre_events5' => 'Culinary Competition',
 'pre_events6' => 'District-Level Farmers Festival',
+'pre_event'=> ' Farmers Festival',
+'internatinal_con'=>'International Conference',
+'layout'=>'Layout',
+'day1'=>'Day1',
+'day2'=>'Day2',
 
 
 
@@ -201,7 +206,7 @@ sector',
 
     'ab_promation_li_8' => 'The Karnataka Pavilion will showcase the State’s finest Farmer Producer Organizations, regional federations, start-ups and farmer groups, featuring unique and innovative processed and value-added products',
 
-    'ab_promation_last' => 'Overall, the objective of the Trade Fair is to provide an appropriate platform to transform the State’s farmers into entrepreneurs through the promotion of processing and value-addition initiatives.',
+    'ab_promation_last' => '<b>Overall, the objective of the Trade Fair is to provide an appropriate platform to transform the State’s farmers into entrepreneurs through the promotion of processing and value-addition initiatives.</b>',
 
     
     'agri_title1' => "<b>Empowering Karnataka's Agriculture</b>: Managing Diversity, Drought & Growth Potential",
@@ -311,13 +316,10 @@ sector',
   
 
     /* ===== BANNERS ===== */
-    'banner_1' => '../ITF/frontend/img/ba1.jpeg',
-    'banner_2' => '../ITF/frontend/img/ba2.jpeg',
+    'banner_1' => '../ITF/frontend/img/ba1.png',
+    'banner_2' => '../ITF/frontend/img/ba2.png',
     'banner_3' => '../ITF/frontend/img/ba3.jpeg',
-
-    /* ===== SECTION IMAGES ===== */
-    'section_006' => '../ITF/frontend/img/sddefault.webp',
-    'section_007' => '../ITF/frontend/img/sddefault1.jpg',
+    'common_banner'=>'frontend/img/commonbanner.jpeg',
 
 
    /* ===== AGRI / SERVICES ===== */
@@ -337,7 +339,7 @@ sector',
     'news_3' => 'frontend/img/3.png',
 
     /* ===== SERVICE / EVENTS ===== */
-    'walk'        => '../ITF/frontend/img/walk.png',
+    'walk'        => '../ITF/frontend/img/Agriwalk English.png',
     'international'=> '../ITF/frontend/img/internatinal.png',
     'panel'       => '../ITF/frontend/img/panel1.png',
 
@@ -349,6 +351,50 @@ sector',
     'nfsm'     => 'frontend/img/nfsm.png',
     'giz'      => 'frontend/img/giz.jpeg',
 
+
+
+    /* ===== PARTNER / LOGOS SLIDER ===== */
+    'logo_primary'      => 'frontend/img/p-logo-2.jpeg',
+    'logo_govt_kar'     => 'frontend/img/government_karnataka_110x110.jpg',
+    'logo_ksda'         => 'frontend/img/ksda.png',
+    'logo_secondary'   => 'frontend/img/secondary.jpeg',
+    'logo_kssc'         => 'frontend/img/kssc1.png',
+    'logo_kappec'       => 'frontend/img/kappec.jpg',
+    'logo_nfsm'         => 'frontend/img/nfsm.png',
+    'logo_giz'          => 'frontend/img/giz.jpeg',
+
+
+
+    'bagalkote' => "Bagalkote",
+    'ballari' => "Ballari",
+    'belagavi' => "Belagavi",
+    'bengaluru_south' => "Bengaluru South",
+    'bengaluru_urban' => "Bengaluru Urban",
+    'bidar' => "Bidar",
+    'chamarajanagar' => "Chamarajanagar",
+    'chikkaballapura' => "Chikkaballapura",
+    'chikkamagaluru' => "Chikkamagaluru",
+    'chitradurga' => "Chitradurga",
+    'dakshina_kannada' => "Dakshina Kannada",
+    'davanagere' => "Davanagere",
+    'dharwad' => "Dharwad",
+    'gadag' => "Gadag",
+    'hassan' => "Hassan",
+    'haveri' => "Haveri",
+    'kalaburagi' => "Kalaburagi",
+    'kodagu' => "Kodagu",
+    'kolar' => "Kolar",
+    'koppal' => "Koppal",
+    'mandya' => "Mandya",
+    'mysuru' => "Mysuru",
+    'raichur' => "Raichur",
+    'ramanagara' => "Ramanagara",
+    'shivamogga' => "Shivamogga",
+    'tumakuru' => "Tumakuru",
+    'udupi' => "Udupi",
+    'uttara_kannada' => "Uttara Kannada",
+    'vijayapura' => "Vijayapura",
+    'yadgir' => "Yadgir"
 
 
 
