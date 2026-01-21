@@ -81,7 +81,7 @@
 
 </head>
 
-<body>
+<body class="counter-scroll">
     <!-- Preloader Start -->
     <div id="preloader" class="preloader">
         <div class="animation-preloader">
