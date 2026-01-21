@@ -4,6 +4,9 @@
     .box-counter {
     color: #fff;
 }
+.box-counter p {
+    font-weight: 900 !important;
+}
     @media (max-width: 575px) {
     .mobile_res{
         width: 75px !important;
