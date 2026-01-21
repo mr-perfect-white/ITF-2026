@@ -1,6 +1,9 @@
 <!-- Footer Section Start -->
 
 <style>
+    .box-counter {
+    color: #fff;
+}
     @media (max-width: 575px) {
     .mobile_res{
         width: 75px !important;
@@ -178,6 +181,15 @@
                         </ul>
                     </div>
                 </div>
+                <div class="col-lg-2 page-counter-box ">
+                    <div class="box-counter">
+                                <!--<p>Visitor Counter <br> <span id="counterContainer">75</span></p>-->
+                                <p>Visitor Counter : <span id="visitorCount">Loading...</span></p>
+                        
+                    </div>
+               
+                </div>
+                
             </div>
         </div>
     </div>
@@ -192,6 +204,21 @@
         </div>
     </div>
 </footer>
+ <script>
+       document.addEventListener("DOMContentLoaded", () => {
+            const counterDisplay = document.getElementById("visitorCount");
+
+            // Fetch the visitor count from the server
+            fetch('counter.php')
+                .then(response => response.text())
+                .then(data => {
+                    counterDisplay.textContent = data; // Update the counter display
+                })
+                .catch(error => {
+                    console.error('Error fetching visitor count:', error);
+                });
+        });
+    </script>
 <!--<< All JS Plugins >>-->
 <script src="https://itf2025.organics-millets.in/itf-2026-dev/frontend/js/jquery-3.7.1.min.js"></script>
 <!--<< Bootstrap Js >>-->
