@@ -34,6 +34,49 @@
   color: #007bff;
   border: 2px solid #007bff;
 }
+/* PDF Modal */
+.pdf-modal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  inset: 0;
+  background: rgba(0,0,0,0.8);
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal Box */
+.pdf-modal-content {
+  position: relative;
+  width: 90%;
+  height: 90%;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* PDF Frame */
+.pdf-modal-content iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* Close Button */
+.pdf-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: red;
+  color: white;
+  border: none;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  font-size: 18px;
+  cursor: pointer;
+  z-index: 10;
+}
 
 
 </style>
@@ -59,10 +102,77 @@
 </section>
 
   <div class="btn-only-row">
-  <button class="btn">Hangar A</button>
-  <button class="btn ">Hangar B</button>
+
+  <button class="btn"
+    onclick="openPDF('frontend/img/pdf/HANGARA.pdf')">
+    Hangar A
+  </button>
+
+  <button class="btn"
+    onclick="openPDF('frontend/img/pdf/HANGARB.pdf')">
+    Hangar B
+  </button>
+
+</div>
+<!-- PDF Modal -->
+<div id="pdfModal" class="pdf-modal">
+
+  <div class="pdf-modal-content">
+
+    <button class="pdf-close" onclick="closePDF()">×</button>
+
+    <iframe id="pdfFrame"></iframe>
+
+  </div>
+
 </div>
 
+
+<script>
+
+/* Open PDF */
+function openPDF(file) {
+
+  let modal = document.getElementById('pdfModal');
+  let frame = document.getElementById('pdfFrame');
+
+  frame.src = file;
+  modal.style.display = 'flex';
+}
+
+
+/* Close PDF */
+function closePDF() {
+
+  let modal = document.getElementById('pdfModal');
+  let frame = document.getElementById('pdfFrame');
+
+  frame.src = '';
+  modal.style.display = 'none';
+}
+
+
+/* Close on background click */
+document.getElementById('pdfModal')
+  .addEventListener('click', function(e){
+
+    if(e.target === this){
+      closePDF();
+    }
+
+  });
+
+
+/* ESC key close */
+document.addEventListener('keydown', function(e){
+
+  if(e.key === 'Escape'){
+    closePDF();
+  }
+
+});
+
+</script>
 
 
 <?php require_once 'inc/footer.php'; ?>

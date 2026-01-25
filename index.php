@@ -2,121 +2,116 @@
 <?php require_once 'inc/header.php'; ?>
 
 <style>
-   .array-prev,
-.array-next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: rgba(0,0,0,0.4);
-    border: none;
-    padding: 12px 16px;
-    cursor: pointer;
-    z-index: 10;
-    border-radius: 50px;
-    color: brown; 
-}
-
-.array-prev {
-    left: 30px;
-}
-
-.array-next {
-    right: 30px;
-}
-
-.array-prev:hover,
-.array-next:hover {
-    background: rgba(0,0,0,0.7);
-}
-
-.array-prev svg,
-.array-next svg {
-    display: block;
-    width: 30px;
-    height: 30px;
-    fill: currentColor;
-}
-
-
-@media (max-width: 768px) {
     .array-prev,
     .array-next {
-       background: rgba(0,0,0,0.4);          
-        padding: 6px;              
-        border-radius: 0;
-        color: brown;   
-         border-radius: 50px;            
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: rgba(0, 0, 0, 0.4);
+        border: none;
+        padding: 12px 16px;
+        cursor: pointer;
+        z-index: 10;
+        border-radius: 50px;
+        color: brown;
     }
 
     .array-prev {
-        left: 10px;
+        left: 30px;
     }
 
     .array-next {
-        right: 10px;
-    }
-
-    .array-prev svg,
-    .array-next svg {
-        width: 25px;
-        height: 20px;
+        right: 30px;
     }
 
     .array-prev:hover,
     .array-next:hover {
-        background: none;
+        background: rgba(0, 0, 0, 0.7);
     }
-}
+
+    .array-prev svg,
+    .array-next svg {
+        display: block;
+        width: 30px;
+        height: 30px;
+        fill: currentColor;
+    }
 
 
+    @media (max-width: 768px) {
+
+        .array-prev,
+        .array-next {
+            background: rgba(0, 0, 0, 0.4);
+            padding: 6px;
+            border-radius: 0;
+            color: brown;
+            border-radius: 50px;
+        }
+
+        .array-prev {
+            left: 10px;
+        }
+
+        .array-next {
+            right: 10px;
+        }
+
+        .array-prev svg,
+        .array-next svg {
+            width: 25px;
+            height: 20px;
+        }
+
+        .array-prev:hover,
+        .array-next:hover {
+            background: none;
+        }
+    }
 </style>
 
 <!-- Hero Section Start -->
 <section class="hero-section hero-1 fix">
-   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-      class="active"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
-  </div>
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                class="active"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+        </div>
 
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="<?= $MSG['banner_1']; ?>" class="d-block w-100" alt="">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="<?= $MSG['banner_1']; ?>" class="d-block w-100" alt="">
+            </div>
+            <div class="carousel-item">
+                <img src="<?= $MSG['banner_2']; ?>" class="d-block w-100" alt="">
+            </div>
+        </div>
+
+        <!-- PREV BUTTON -->
+        <button class="array-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <svg width="55" height="28" viewBox="0 0 55 28">
+                <path
+                    d="M0.36 12.93L12.86 0.43C13.31-0.08 14.1-0.14 14.62 0.3C15.15 0.75 15.21 1.53 14.76 2.06L4.26 12.57H53.75C54.44 12.57 55 13.13 55 13.82C55 14.51 54.44 15.07 53.75 15.07H4.26L14.62 25.43C15.15 25.88 15.21 26.67 14.76 27.19C14.31 27.72 13.52 27.78 13 27.33L0.36 14.69C-0.12 14.21 -0.12 13.42 0.36 12.93Z"
+                    fill="white" />
+            </svg>
+        </button>
+
+        <!-- NEXT BUTTON -->
+        <button class="array-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <svg width="55" height="28" viewBox="0 0 55 28">
+                <path
+                    d="M54.63 12.93L42.13 0.43C41.68-0.08 40.89-0.14 40.37 0.3C39.85 0.75 39.78 1.53 40.23 2.06L50.73 12.57H1.24C0.55 12.57 0 13.13 0 13.82C0 14.51 0.55 15.07 1.24 15.07H50.73L40.37 25.43C39.85 25.88 39.78 26.67 40.23 27.19C40.68 27.72 41.47 27.78 42 27.33L54.63 14.69C55.12 14.21 55.12 13.42 54.63 12.93Z"
+                    fill="white" />
+            </svg>
+        </button>
+
     </div>
-    <div class="carousel-item">
-      <img src="<?= $MSG['banner_2']; ?>" class="d-block w-100" alt="">
-    </div>
-  </div>
-
-  <!-- PREV BUTTON -->
-  <button class="array-prev"
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="prev">
-    <svg width="55" height="28" viewBox="0 0 55 28">
-      <path d="M0.36 12.93L12.86 0.43C13.31-0.08 14.1-0.14 14.62 0.3C15.15 0.75 15.21 1.53 14.76 2.06L4.26 12.57H53.75C54.44 12.57 55 13.13 55 13.82C55 14.51 54.44 15.07 53.75 15.07H4.26L14.62 25.43C15.15 25.88 15.21 26.67 14.76 27.19C14.31 27.72 13.52 27.78 13 27.33L0.36 14.69C-0.12 14.21 -0.12 13.42 0.36 12.93Z"
-            fill="white"/>
-    </svg>
-  </button>
-
-  <!-- NEXT BUTTON -->
-  <button class="array-next"
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="next">
-    <svg width="55" height="28" viewBox="0 0 55 28">
-      <path d="M54.63 12.93L42.13 0.43C41.68-0.08 40.89-0.14 40.37 0.3C39.85 0.75 39.78 1.53 40.23 2.06L50.73 12.57H1.24C0.55 12.57 0 13.13 0 13.82C0 14.51 0.55 15.07 1.24 15.07H50.73L40.37 25.43C39.85 25.88 39.78 26.67 40.23 27.19C40.68 27.72 41.47 27.78 42 27.33L54.63 14.69C55.12 14.21 55.12 13.42 54.63 12.93Z"
-            fill="white"/>
-    </svg>
-  </button>
-
-</div>
 </section>
 <div class="announcement-banner">
     <div class="scrolling-text">
-        📢 Online registrations are open until 2nd February 
+        📢 Online registrations are open until 2nd February
     </div>
 </div>
 <!-- Brand Section Start -->
@@ -191,7 +186,7 @@
 
 
                 <!-- COUNTER -->
-                <div class="col-lg-4 col-md-4">
+                <!-- <div class="col-lg-4 col-md-4">
                     <div class="top-text mb-3 wow fadeInUp">
                         <h3><?= $MSG['agri_title']; ?></h3>
                     </div>
@@ -203,8 +198,15 @@
                             </h2>
                         </div>
                     </div>
+                </div> -->
+                <div class="col-lg-4 col-md-4">
+                    <div class="video-wrapper-3 bg-cover equal-box"
+                        style="background-image: url('../ITF/frontend/img/hqdefault.jpg');">
+                        <a href="https://www.youtube.com/watch?v=u45CQh8arlQ" class="video-btn video-popup">
+                            <i class="fas fa-play"></i>
+                        </a>
+                    </div>
                 </div>
-
             </div>
         </div>
     </div>
@@ -258,12 +260,12 @@
                             </div>
 
                         </div>
-                        </div>
+                    </div>
 
 
 
-                        <!-- Hidden Content -->
-                        <!-- <div class="more-content text-white" >
+                    <!-- Hidden Content -->
+                    <!-- <div class="more-content text-white" >
 
 
                             <p>
@@ -295,27 +297,27 @@
 
                         </div> -->
 
-                        <!-- Read More Button -->
-                        <!-- <div>
+                    <!-- Read More Button -->
+                    <!-- <div>
                             <button class="btn btn-sm btn-brown text-white" id="readMoreBtn" onclick="toggleContent()">
                                 <?= $MSG['read_more']; ?>
                             </button>
                         </div> -->
 
 
-                    </div>
                 </div>
+            </div>
 
-                <!-- LEFT SIDE IMAGE -->
-                <div class="col-lg-6">
-                    <!-- <div class=" choose-us-image white-style">
+            <!-- LEFT SIDE IMAGE -->
+            <div class="col-lg-6">
+                <!-- <div class=" choose-us-image white-style">
                         <img src="frontend/img/glimseseng.png" class="reduce-img-height" alt="Choose Us Image">
                     </div> -->
-                </div>
-
-
             </div>
+
+
         </div>
+    </div>
     </div>
 </section>
 <!-- Brand Section Start -->
@@ -334,7 +336,7 @@
                         <p class="brand-text"><?= $MSG['product_exhibition']; ?></p>
                     </div>
                 </div>
-               
+
 
                 <div class="swiper-slide1">
                     <div class="brand-image text-center">
@@ -343,7 +345,7 @@
                     </div>
 
                 </div>
-                 <div class="swiper-slide1">
+                <div class="swiper-slide1">
                     <div class="brand-image text-center">
                         <img src="<?= $MSG['value_addition1']; ?>" alt="img">
                         <p class="brand-text"><?= $MSG['value_addition']; ?></p>
@@ -465,7 +467,7 @@
     <div class="service-wrapper-4">
         <div class="swiper service-slide-4">
             <div class="swiper-wrapper">
-                
+
                 <div class="swiper-slide">
                     <div class="service-box-items-4">
                         <div class="thumb">
@@ -478,7 +480,9 @@
 
                             </div>
                             <div class="content">
-                                <h4><a href="https://itf2026.organics-millets.in/smartrun.php"><?= $MSG['pre_events4']; ?></a></h4>
+                                <h4><a
+                                        href="https://itf2026.organics-millets.in/smartrun.php"><?= $MSG['pre_events4']; ?></a>
+                                </h4>
                                 <!-- <p>
                                             Lorem ipsum dolor sit amet, porro quisquam est, qui dolorem ipsum quia dolor sit amet.
                                         </p> -->
@@ -487,7 +491,7 @@
                         </div>
                     </div>
                 </div>
-               
+
                 <div class="swiper-slide">
                     <div class="service-box-items-4">
                         <div class="thumb">
@@ -500,7 +504,9 @@
 
                             </div>
                             <div class="content">
-                                <h4><a href="https://itf2026.organics-millets.in/smartrun.php"><?= $MSG['pre_events2']; ?></a></h4>
+                                <h4><a
+                                        href="https://itf2026.organics-millets.in/smartrun.php"><?= $MSG['pre_events2']; ?></a>
+                                </h4>
                                 <!-- <p>
                                             Lorem ipsum dolor sit amet, porro quisquam est, qui dolorem ipsum quia dolor sit amet.
                                         </p> -->
@@ -509,7 +515,7 @@
                         </div>
                     </div>
                 </div>
-                 <div class="swiper-slide">
+                <div class="swiper-slide">
                     <div class="service-box-items-4">
                         <div class="thumb">
                             <img src="<?= $MSG['panel']; ?>" alt="img">
@@ -520,7 +526,9 @@
 
                             </div>
                             <div class="content">
-                                <h4><a href="https://itf2026.organics-millets.in/smartrun.php"><?= $MSG['pre_events1']; ?></a></h4>
+                                <h4><a
+                                        href="https://itf2026.organics-millets.in/smartrun.php"><?= $MSG['pre_events1']; ?></a>
+                                </h4>
                                 <!-- <p>
                                             Lorem ipsum dolor sit amet, porro quisquam est, qui dolorem ipsum quia dolor sit amet.
                                         </p> -->
@@ -580,7 +588,7 @@
     <div class="container">
         <div class="row g-4 justify-content-center " style="padding: 2.5rem 0 1.5rem 0;">
 
-          <div class="col-xl col-lg col-md-6 col-12 wow fadeInUp"data-wow-delay=".2s">
+            <div class="col-xl col-lg col-md-6 col-12 wow fadeInUp" data-wow-delay=".2s">
 
                 <div class="counter-box-items-area text-center">
                     <div class="icon"><i class="fa-solid fa-building section1"></i></div>
@@ -591,7 +599,7 @@
                 </div>
             </div>
 
-          <div class="col-xl col-lg col-md-6 col-12 wow fadeInUp" data-wow-delay=".4s">
+            <div class="col-xl col-lg col-md-6 col-12 wow fadeInUp" data-wow-delay=".4s">
 
                 <div class="counter-box-items-area text-center">
                     <div class="icon"><i class="fa-solid fa-industry section1"></i></i></div>
@@ -602,7 +610,7 @@
                 </div>
             </div>
 
-            <div class="col-xl col-lg col-md-6 col-12 wow fadeInUp"  data-wow-delay=".6s">
+            <div class="col-xl col-lg col-md-6 col-12 wow fadeInUp" data-wow-delay=".6s">
 
                 <div class="counter-box-items-area text-center">
                     <div class="icon"><i class="fa-solid fa-seedling section1"></i></div>
@@ -709,7 +717,8 @@
                     </div>
                     <div class="news-content">
 
-                        <h3><a href="districtlevelfarmersfestival.php" class="text-white"><?= $MSG['pre_events6']; ?></a></h3>
+                        <h3><a href="districtlevelfarmersfestival.php"
+                                class="text-white"><?= $MSG['pre_events6']; ?></a></h3>
                         <!-- <p class="text-white">
                             Organic World Congress held in Taiwan from November 29-December 4th 2024.
                         </p> -->
@@ -897,7 +906,7 @@
             </div>
             <div class="swiper brand-slide3">
                 <div class="swiper-wrapper">
-                     <div class="swiper-slide">
+                    <div class="swiper-slide">
                         <div class="brand-image text-center">
                             <img src="<?= $MSG['logo_primary']; ?>" alt="img">
                         </div>
@@ -937,75 +946,75 @@
                             <img src="<?= $MSG['logo_giz']; ?>" alt="img">
                         </div>
                     </div>
-                   
+
                 </div>
             </div>
         </div>
     </div>
 </div>
 <script>
-function toggleContent() {
-    const content = document.getElementById("moreContent");
-    const btn = document.getElementById("readMoreBtn");
+    function toggleContent() {
+        const content = document.getElementById("moreContent");
+        const btn = document.getElementById("readMoreBtn");
 
-    if (content.style.display === "none" || content.style.display === "") {
-        content.style.display = "block";
-        btn.innerText = "Read Less";
-    } else {
-        content.style.display = "none";
-        btn.innerText = "Read More";
+        if (content.style.display === "none" || content.style.display === "") {
+            content.style.display = "block";
+            btn.innerText = "Read Less";
+        } else {
+            content.style.display = "none";
+            btn.innerText = "Read More";
+        }
     }
-}
 </script>
 <script>
-$('.video-popup').magnificPopup({
-    type: 'iframe',
-    iframe: {
-        patterns: {
-            youtube: {
-                index: 'youtube.com/',
-                id: 'v=',
-                src: 'https://www.youtube.com/embed/%id%?autoplay=1'
+    $('.video-popup').magnificPopup({
+        type: 'iframe',
+        iframe: {
+            patterns: {
+                youtube: {
+                    index: 'youtube.com/',
+                    id: 'v=',
+                    src: 'https://www.youtube.com/embed/%id%?autoplay=1'
+                }
             }
         }
-    }
-});
+    });
 </script>
 
 <script>
-var swiper = new Swiper(".brand-slide", {
-    loop: true,
-    spaceBetween: 20,
+    var swiper = new Swiper(".brand-slide", {
+        loop: true,
+        spaceBetween: 20,
 
-    speed: 3000,                 
-    autoplay: {
-        delay: 0,                
-        disableOnInteraction: false,
-        pauseOnMouseEnter: false
-    },
+        speed: 3000,
+        autoplay: {
+            delay: 0,
+            disableOnInteraction: false,
+            pauseOnMouseEnter: false
+        },
 
-    allowTouchMove: true,        
-    freeMode: true,              
-    freeModeMomentum: false,
+        allowTouchMove: true,
+        freeMode: true,
+        freeModeMomentum: false,
 
-    breakpoints: {
-        320: {
-            slidesPerView: 1.5,
-            spaceBetween: 15,
-        },
-        576: {
-            slidesPerView: 2.5,
-        },
-        768: {
-            slidesPerView: 3.5,
-            autoplay: false      
-        },
-        992: {
-            slidesPerView: 5,
-            autoplay: false      
+        breakpoints: {
+            320: {
+                slidesPerView: 1.5,
+                spaceBetween: 15,
+            },
+            576: {
+                slidesPerView: 2.5,
+            },
+            768: {
+                slidesPerView: 3.5,
+                autoplay: false
+            },
+            992: {
+                slidesPerView: 5,
+                autoplay: false
+            }
         }
-    }
-});
+    });
 </script>
 
 

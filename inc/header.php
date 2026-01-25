@@ -140,10 +140,10 @@
 
     if ($currentLang === 'en') {
         $nextLang = 'ka';
-        $btnText  = 'ಕನ್ನಡ';
+        $btnText = 'ಕನ್ನಡ';
     } else {
         $nextLang = 'en';
-        $btnText  = 'English';
+        $btnText = 'English';
     }
     ?>
 
@@ -169,25 +169,29 @@
                     <p class="fw-bold" style="font-size: 22px;"> <?= $MSG['footer_title']; ?></p>
                     <div class="mobile-menu fix mt-15"></div>
                     <div class="social-icon d-flex align-items-center">
-                        <a href="javascript:void(0)">
+
+                        <a href="https://www.facebook.com/ITF2026/" target="_blank" rel="noopener noreferrer">
                             <i class="fab fa-facebook-f"></i>
                         </a>
-                        <a href="javascript:void(0)">
+
+                        <a href="https://x.com/ITF2026" target="_blank" rel="noopener noreferrer">
                             <i class="fa-brands fa-x-twitter"></i>
                         </a>
-                        <a href="javascript:void(0)">
+
+                        <a href="https://www.youtube.com/@ITF2026" target="_blank" rel="noopener noreferrer">
                             <i class="fab fa-youtube"></i>
                         </a>
-                        <a href="javascript:void(0)">
+
+                        <a href="https://www.instagram.com/itf_2026" target="_blank" rel="noopener noreferrer">
                             <i class="fa-brands fa-instagram"></i>
-
-
                         </a>
 
-                        <a href="javascript:void(0)">
+                        <a href="https://www.linkedin.com/company/itf2026/" target="_blank" rel="noopener noreferrer">
                             <i class="fab fa-linkedin-in"></i>
                         </a>
+
                     </div>
+
                     <div class="offcanvas__contact">
                         <h3><?= $MSG['contact']; ?></h3>
                         <ul class="contact-list">
@@ -274,18 +278,18 @@
                         <!--</select>-->
                         <form method="post" action="set-language.php" class="lang-form">
                             <?php
-    // Current language from session
-    $currentLang = $_SESSION['lang'] ?? 'en';
-    
-    // Determine which language to switch to
-    if ($currentLang == 'en') {
-        $toggleLang = 'ka';
-        $buttonText = 'ಕನ್ನಡ'; // Kannada text
-    } else {
-        $toggleLang = 'en';
-        $buttonText = 'English'; // English text
-    }
-    ?>
+                            // Current language from session
+                            $currentLang = $_SESSION['lang'] ?? 'en';
+
+                            // Determine which language to switch to
+                            if ($currentLang == 'en') {
+                                $toggleLang = 'ka';
+                                $buttonText = 'ಕನ್ನಡ'; // Kannada text
+                            } else {
+                                $toggleLang = 'en';
+                                $buttonText = 'English'; // English text
+                            }
+                            ?>
                             <button type="submit" name="lang" value="<?= $toggleLang ?>" class="lang-toggle-btn">
                                 <?= $buttonText ?>
                             </button>
@@ -295,22 +299,29 @@
                     </div>
                     <div class="line-shape"></div>
                     <div class="social-icon">
-                        <a href="https://www.facebook.com/MilletsOrganics">
+
+                        <a href="https://www.facebook.com/ITF2026/" target="_blank" rel="noopener noreferrer">
                             <i class="fab fa-facebook-f"></i>
                         </a>
-                        <a href="https://x.com/organicmillets">
+
+                        <a href="https://x.com/ITF2026" target="_blank" rel="noopener noreferrer">
                             <i class="fa-brands fa-x-twitter"></i>
                         </a>
-                        <a href="https://www.youtube.com/@organicmilletsitf">
+
+                        <a href="https://www.youtube.com/@ITF2026" target="_blank" rel="noopener noreferrer">
                             <i class="fab fa-youtube"></i>
                         </a>
-                        <a href="https://www.instagram.com/organicsmillets2023/">
+
+                        <a href="https://www.instagram.com/itf_2026" target="_blank" rel="noopener noreferrer">
                             <i class="fab fa-instagram"></i>
                         </a>
-                        <a href="javascript:void(0)">
+
+                        <a href="https://www.linkedin.com/company/itf2026/" target="_blank" rel="noopener noreferrer">
                             <i class="fab fa-linkedin-in"></i>
                         </a>
+
                     </div>
+
                 </div>
             </div>
         </div>
@@ -328,16 +339,16 @@
 
                     <form method="post" action="set-language.php" class="lang-sticky-btn">
                         <?php
-    $currentLang = $_SESSION['lang'] ?? 'en';
+                        $currentLang = $_SESSION['lang'] ?? 'en';
 
-    if ($currentLang === 'en') {
-        $nextLang = 'ka';
-        $btnText  = 'ಕನ್ನಡ';
-    } else {
-        $nextLang = 'en';
-        $btnText  = 'English';
-    }
-    ?>
+                        if ($currentLang === 'en') {
+                            $nextLang = 'ka';
+                            $btnText = 'ಕನ್ನಡ';
+                        } else {
+                            $nextLang = 'en';
+                            $btnText = 'English';
+                        }
+                        ?>
                         <button type="submit" name="lang" value="<?= $nextLang ?>">
                             <?= $btnText ?>
                         </button>
@@ -388,9 +399,10 @@
                                             <li>
                                                 <a href="journey.php"> <?= $MSG['journey']; ?></a>
                                             </li>
-                                            <!-- <li>
-                                                    <a href="#">Event Schedule</a>
-                                                </li> -->
+                                            <li>
+                                                <a
+                                                    href="internatinalconference.php"><?= $MSG['internatinal_con']; ?></a>
+                                            </li>
                                             <!-- <li>
                                                     <a href="#">Farmer Workshop</a>
                                                 </li> -->
@@ -431,15 +443,15 @@
                                             <!-- <li>
                                                     <a href="#">B2B Seller Registration</a>
                                                 </li> -->
-                                            <!--<li>-->
-                                            <!--    <a href="#"><?= $MSG['milletrunregistration']; ?></a>-->
-                                            <!--</li>-->
+                                            <li>
+                                                <a href="#"><?= $MSG['milletrunregistration']; ?></a>
+                                            </li>
                                             <!-- <li>
                                                     <a href="#">Farmer Workshop Registration</a>
                                                 </li> -->
-                                            <!--<li>-->
-                                            <!--    <a href="#"><?= $MSG['publicregistration']; ?></a></a>-->
-                                            <!--</li>-->
+                                            <li>
+                                                <a href="#"><?= $MSG['publicregistration']; ?></a></a>
+                                            </li>
                                             <li>
                                                 <a
                                                     href="https://itf2026.organics-millets.in/Exhibitionform.php"><?= $MSG['exhibitionstallbooking']; ?></a></a>
@@ -447,43 +459,44 @@
                                             <!--<li>-->
                                             <!--    <a href="#"><?= $MSG['internationalconference']; ?></a></a>-->
                                             <!--</li>-->
-                                            <!--<li>-->
-                                            <!--    <a href="#"><?= $MSG['paidfoodstallbooking']; ?></a></a>-->
-                                            <!--</li>-->
+                                            <li>
+                                                <a href="#"><?= $MSG['paidfoodstallbooking']; ?></a></a>
+                                            </li>
                                         </ul>
                                     </li>
 
                                     <li>
                                         <a href="javascript:void(0)">
                                             <?= $MSG['gallery']; ?>
-                                            <!-- <i class="fas fa-chevron-down"></i> -->
+                                            <i class="fas fa-chevron-down"></i>
                                         </a>
-                                        <!-- <ul class="submenu">
-                                                <li>
+                                        <ul class="submenu">
+                                            <!-- <li>
                                                     <a href="#">Images</a>
-                                                </li>
-                                                <li>
+                                                </li> -->
+                                            <!-- <li>
                                                     <a href="#">video</a>
-                                                </li>
-                                                <li>
+                                                </li> -->
+                                            <!-- <li>
                                                     <a href="#">Media Coverage</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">Culinary Competition</a>
-                                                </li>
-                                                <li>
+                                                </li> -->
+                                            <li>
+                                                <a href="milletrun.php"><?= $MSG['pre_events3']; ?></a>
+                                            </li>
+                                            <!-- <li>
                                                     <a href="#">Promotional Videos</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">District Activities</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">Publications</a>
-                                                </li>
-                                                <li>
+                                                </li> -->
+                                            <li>
+                                                <a href="culinarycompetition.php"><?= $MSG['pre_events5']; ?></a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="districtlevelfarmersfestival.php"><?= $MSG['pre_events6']; ?></a>
+                                            </li>
+                                            <!-- <li>
                                                     <a href="#">Event</a>
-                                                </li>
-                                            </ul> -->
+                                                </li> -->
+                                        </ul>
                                     </li>
                                     <li>
                                         <a href="contact.php">

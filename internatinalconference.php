@@ -135,6 +135,16 @@
 }
 
 
+@media (max-width: 768px) {
+  .section-one,
+  .section-two,
+  .content-left,
+  .section-two p,
+  .section-two li {
+    text-align: justify;
+  }
+}
+
 
 
 

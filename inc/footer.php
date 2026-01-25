@@ -1,17 +1,20 @@
 <!-- Footer Section Start -->
 
 <style>
-    .box-counter {
+.box-counter {
     color: #fff;
 }
+
 .box-counter p {
     font-weight: 900 !important;
 }
-    @media (max-width: 575px) {
-    .mobile_res{
+
+@media (max-width: 575px) {
+    .mobile_res {
         width: 75px !important;
     }
-    .mobile_loc{
+
+    .mobile_loc {
         width: 165px !important;
     }
 }
@@ -41,7 +44,7 @@
                     <div class="footer-widget-items">
                         <div class="widget-head">
                             <a href="index.html" class="footer-logo">
-                               <img class="brand-logo" src="<?= $MSG['itf_Banner']; ?>" alt="img">
+                                <img class="brand-logo" src="<?= $MSG['itf_Banner']; ?>" alt="img">
                             </a>
                         </div>
                         <div class="footer-content text-white fw-bold">
@@ -51,18 +54,34 @@
                                     <button class="icon-btn" type="submit"><i class="fas fa-paper-plane"></i></button>
                                 </form> -->
                             <div class="social-icon">
-                                <a href="https://www.facebook.com/MilletsOrganics" class="text-white"><i
-                                        class="fab fa-facebook-f"></i></a>
-                                <a href="https://x.com/organicmillets" class="text-white"><i
-                                        class="fa-brands fa-x-twitter"></i></i></a>
-                                <a href="https://www.youtube.com/@organicmilletsitf" class="text-white"> <i
-                                        class="fab fa-youtube"></i></a>
-                                <a href="https://www.instagram.com/organicsmillets2023/" class="text-white"><i
-                                        class="fab fa-instagram"></i></a>
-                                <a href="javascript:void(0)" class="text-white">
+
+                                <a href="https://www.facebook.com/ITF2026/" class="text-white" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+
+                                <a href="https://x.com/ITF2026" class="text-white" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="fa-brands fa-x-twitter"></i>
+                                </a>
+
+                                <a href="https://www.youtube.com/@ITF2026" class="text-white" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+
+                                <a href="https://www.instagram.com/itf_2026" class="text-white" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+
+                                <a href="https://www.linkedin.com/company/itf2026/" class="text-white" target="_blank"
+                                    rel="noopener noreferrer">
                                     <i class="fab fa-linkedin-in"></i>
                                 </a>
+
                             </div>
+
                         </div>
                     </div>
                 </div>
@@ -94,7 +113,7 @@
                                    <i class="fa-solid fa-angles-right theme2"></i> <?= $MSG['resources']; ?>
                                 </a>
                             </li> -->
-                            
+
                             <li>
                                 <a href="#" class="text-white">
                                     <i class="fa-solid fa-angles-right theme2"></i> <?= $MSG['gallery']; ?>
@@ -174,7 +193,7 @@
                             </li>
                             <li>
                                 <div class="icon">
-                                  <i class="fa-solid fa-phone"></i>
+                                    <i class="fa-solid fa-phone"></i>
                                 </div>
                                 <div class="content">
                                     <h5 class="text-white"><?= $MSG['foot_phone']; ?>:</h5>
@@ -186,13 +205,13 @@
                 </div>
                 <div class="col-lg-2 page-counter-box ">
                     <div class="box-counter">
-                                <!--<p>Visitor Counter <br> <span id="counterContainer">75</span></p>-->
-                                <p>Visitor Counter : <span id="visitorCount">Loading...</span></p>
-                        
+                        <!--<p>Visitor Counter <br> <span id="counterContainer">75</span></p>-->
+                        <p>Visitor Counter : <span id="visitorCount">Loading...</span></p>
+
                     </div>
-               
+
                 </div>
-                
+
             </div>
         </div>
     </div>
@@ -207,21 +226,21 @@
         </div>
     </div>
 </footer>
- <script>
-       document.addEventListener("DOMContentLoaded", () => {
-            const counterDisplay = document.getElementById("visitorCount");
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+    const counterDisplay = document.getElementById("visitorCount");
 
-            // Fetch the visitor count from the server
-            fetch('counter.php')
-                .then(response => response.text())
-                .then(data => {
-                    counterDisplay.textContent = data; // Update the counter display
-                })
-                .catch(error => {
-                    console.error('Error fetching visitor count:', error);
-                });
+    // Fetch the visitor count from the server
+    fetch('counter.php')
+        .then(response => response.text())
+        .then(data => {
+            counterDisplay.textContent = data; // Update the counter display
+        })
+        .catch(error => {
+            console.error('Error fetching visitor count:', error);
         });
-    </script>
+});
+</script>
 <!--<< All JS Plugins >>-->
 <script src="https://itf2025.organics-millets.in/itf-2026-dev/frontend/js/jquery-3.7.1.min.js"></script>
 <!--<< Bootstrap Js >>-->

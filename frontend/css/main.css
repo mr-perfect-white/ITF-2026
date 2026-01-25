@@ -14635,7 +14635,8 @@ p.sticky-label {
 .contact-wrapper-3 .contact-image {
   margin-left: 30px;
   position: absolute;
-  bottom: -176px;
+  bottom: -192px;
+  height: 462px;
 }
 @media (max-width: 1199px) {
   .contact-wrapper-3 .contact-image {
